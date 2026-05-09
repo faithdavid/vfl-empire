@@ -1,0 +1,280 @@
+{
+  "generated": "2026-05-08T21:31",
+  "engine": "VFL Model v2 (Poisson)",
+  "total_bets": 5249,
+  "avg_edge": 0.1642,
+  "bets_by_md": {
+    "1": 156,
+    "2": 158,
+    "3": 154,
+    "4": 150,
+    "5": 158,
+    "6": 140,
+    "7": 151,
+    "8": 151,
+    "9": 164,
+    "10": 137,
+    "11": 168,
+    "12": 171,
+    "13": 177,
+    "14": 178,
+    "15": 179,
+    "16": 183,
+    "17": 188,
+    "18": 182,
+    "19": 207,
+    "20": 211,
+    "21": 218,
+    "22": 216,
+    "23": 209,
+    "24": 174,
+    "25": 191,
+    "26": 190,
+    "27": 169,
+    "28": 166,
+    "29": 174,
+    "30": 179
+  },
+  "top_30": [
+    {
+      "md": 11,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.347
+    },
+    {
+      "md": 26,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.347
+    },
+    {
+      "md": 28,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.347
+    },
+    {
+      "md": 5,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.342
+    },
+    {
+      "md": 16,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.342
+    },
+    {
+      "md": 6,
+      "home": "Everton",
+      "away": "Brighton",
+      "bet": "HOME",
+      "odds": 2.1,
+      "edge": 0.338
+    },
+    {
+      "md": 11,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.9,
+      "edge": 0.333
+    },
+    {
+      "md": 16,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.9,
+      "edge": 0.333
+    },
+    {
+      "md": 14,
+      "home": "Everton",
+      "away": "Brighton",
+      "bet": "HOME",
+      "odds": 2.1,
+      "edge": 0.33
+    },
+    {
+      "md": 17,
+      "home": "Everton",
+      "away": "Brighton",
+      "bet": "HOME",
+      "odds": 2.1,
+      "edge": 0.33
+    },
+    {
+      "md": 20,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.9,
+      "edge": 0.329
+    },
+    {
+      "md": 26,
+      "home": "Everton",
+      "away": "Fulham",
+      "bet": "HOME",
+      "odds": 1.75,
+      "edge": 0.327
+    },
+    {
+      "md": 17,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.85,
+      "edge": 0.326
+    },
+    {
+      "md": 20,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.85,
+      "edge": 0.326
+    },
+    {
+      "md": 25,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.85,
+      "edge": 0.326
+    },
+    {
+      "md": 1,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.9,
+      "edge": 0.324
+    },
+    {
+      "md": 2,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.9,
+      "edge": 0.324
+    },
+    {
+      "md": 11,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.9,
+      "edge": 0.324
+    },
+    {
+      "md": 25,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.9,
+      "edge": 0.324
+    },
+    {
+      "md": 6,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.321
+    },
+    {
+      "md": 6,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.321
+    },
+    {
+      "md": 17,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.321
+    },
+    {
+      "md": 17,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.85,
+      "edge": 0.318
+    },
+    {
+      "md": 28,
+      "home": "Leeds",
+      "away": "Fulham",
+      "bet": "HOME",
+      "odds": 2.1,
+      "edge": 0.316
+    },
+    {
+      "md": 14,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.315
+    },
+    {
+      "md": 23,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.315
+    },
+    {
+      "md": 24,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.315
+    },
+    {
+      "md": 27,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "HOME",
+      "odds": 1.95,
+      "edge": 0.315
+    },
+    {
+      "md": 6,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.85,
+      "edge": 0.314
+    },
+    {
+      "md": 17,
+      "home": "Aston Villa",
+      "away": "Everton",
+      "bet": "HOME",
+      "odds": 1.85,
+      "edge": 0.314
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "engine": "VFL Engine Model v2 (Poisson + Edge Detection)",
+  "matchday": 30,
+  "total_matches": 232,
+  "profitable_bets": 179,
+  "avg_edge": 0.1622,
+  "timestamp": "2026-05-08T21:45",
+  "bets": [
+    {
+      "match": "Aston Villa vs Everton",
+      "odds": {
+        "home": 1.85,
+        "draw": 3.0,
+        "away": 4.8
+      },
+      "probs": {
+        "home": 0.71,
+        "draw": 0.188,
+        "away": 0.102
+      },
+      "prediction": "HOME",
+      "edge": 0.314,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Aston Villa vs Everton",
+      "odds": {
+        "home": 1.85,
+        "draw": 3.0,
+        "away": 4.7
+      },
+      "probs": {
+        "home": 0.705,
+        "draw": 0.19,
+        "away": 0.105
+      },
+      "prediction": "HOME",
+      "edge": 0.305,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Leeds vs Fulham",
+      "odds": {
+        "home": 2.05,
+        "draw": 2.95,
+        "away": 3.9
+      },
+      "probs": {
+        "home": 0.633,
+        "draw": 0.217,
+        "away": 0.15
+      },
+      "prediction": "HOME",
+      "edge": 0.298,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Aston Villa vs Brighton",
+      "odds": {
+        "home": 1.75,
+        "draw": 3.15,
+        "away": 5.25
+      },
+      "probs": {
+        "home": 0.741,
+        "draw": 0.174,
+        "away": 0.085
+      },
+      "prediction": "HOME",
+      "edge": 0.297,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Brighton vs Everton",
+      "odds": {
+        "home": 2.3,
+        "draw": 2.85,
+        "away": 3.35
+      },
+      "probs": {
+        "home": 0.556,
+        "draw": 0.239,
+        "away": 0.204
+      },
+      "prediction": "HOME",
+      "edge": 0.279,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Brighton vs Everton",
+      "odds": {
+        "home": 2.25,
+        "draw": 2.95,
+        "away": 3.4
+      },
+      "probs": {
+        "home": 0.567,
+        "draw": 0.237,
+        "away": 0.196
+      },
+      "prediction": "HOME",
+      "edge": 0.276,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Everton vs Brighton",
+      "odds": {
+        "home": 2.0,
+        "draw": 3.2,
+        "away": 3.8
+      },
+      "probs": {
+        "home": 0.633,
+        "draw": 0.217,
+        "away": 0.15
+      },
+      "prediction": "HOME",
+      "edge": 0.266,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Brighton vs Everton",
+      "odds": {
+        "home": 2.25,
+        "draw": 2.95,
+        "away": 3.35
+      },
+      "probs": {
+        "home": 0.563,
+        "draw": 0.238,
+        "away": 0.2
+      },
+      "prediction": "HOME",
+      "edge": 0.266,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Leeds vs Crystal Palace",
+      "odds": {
+        "home": 2.0,
+        "draw": 3.2,
+        "away": 3.8
+      },
+      "probs": {
+        "home": 0.633,
+        "draw": 0.217,
+        "away": 0.15
+      },
+      "prediction": "HOME",
+      "edge": 0.266,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Aston Villa vs Leeds",
+      "odds": {
+        "home": 1.6,
+        "draw": 3.35,
+        "away": 6.25
+      },
+      "probs": {
+        "home": 0.788,
+        "draw": 0.152,
+        "away": 0.06
+      },
+      "prediction": "HOME",
+      "edge": 0.261,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Leeds vs Crystal Palace",
+      "odds": {
+        "home": 2.05,
+        "draw": 3.2,
+        "away": 3.65
+      },
+      "probs": {
+        "home": 0.615,
+        "draw": 0.223,
+        "away": 0.162
+      },
+      "prediction": "HOME",
+      "edge": 0.261,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Fulham vs Bournemouth",
+      "odds": {
+        "home": 2.15,
+        "draw": 3.1,
+        "away": 3.45
+      },
+      "probs": {
+        "home": 0.585,
+        "draw": 0.232,
+        "away": 0.183
+      },
+      "prediction": "HOME",
+      "edge": 0.258,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Everton vs Newcastle",
+      "odds": {
+        "home": 1.7,
+        "draw": 3.5,
+        "away": 4.9
+      },
+      "probs": {
+        "home": 0.733,
+        "draw": 0.178,
+        "away": 0.089
+      },
+      "prediction": "HOME",
+      "edge": 0.246,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Brighton vs Fulham",
+      "odds": {
+        "home": 1.75,
+        "draw": 3.55,
+        "away": 4.55
+      },
+      "probs": {
+        "home": 0.711,
+        "draw": 0.188,
+        "away": 0.102
+      },
+      "prediction": "HOME",
+      "edge": 0.244,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "West Ham vs Fulham",
+      "odds": {
+        "home": 1.6,
+        "draw": 3.45,
+        "away": 5.75
+      },
+      "probs": {
+        "home": 0.774,
+        "draw": 0.159,
+        "away": 0.067
+      },
+      "prediction": "HOME",
+      "edge": 0.239,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Fulham vs Bournemouth",
+      "odds": {
+        "home": 2.15,
+        "draw": 3.2,
+        "away": 3.35
+      },
+      "probs": {
+        "home": 0.576,
+        "draw": 0.234,
+        "away": 0.19
+      },
+      "prediction": "HOME",
+      "edge": 0.239,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Tottenham vs Brighton",
+      "odds": {
+        "home": 1.6,
+        "draw": 3.6,
+        "away": 5.75
+      },
+      "probs": {
+        "home": 0.774,
+        "draw": 0.159,
+        "away": 0.067
+      },
+      "prediction": "HOME",
+      "edge": 0.239,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Brighton vs Everton",
+      "odds": {
+        "home": 2.35,
+        "draw": 3.0,
+        "away": 3.1
+      },
+      "probs": {
+        "home": 0.526,
+        "draw": 0.247,
+        "away": 0.228
+      },
+      "prediction": "HOME",
+      "edge": 0.236,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Chelsea vs Tottenham",
+      "odds": {
+        "home": 2.0,
+        "draw": 3.25,
+        "away": 3.6
+      },
+      "probs": {
+        "home": 0.618,
+        "draw": 0.222,
+        "away": 0.16
+      },
+      "prediction": "HOME",
+      "edge": 0.236,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Crystal Palace vs Bournemouth",
+      "odds": {
+        "home": 2.05,
+        "draw": 3.35,
+        "away": 3.5
+      },
+      "probs": {
+        "home": 0.603,
+        "draw": 0.226,
+        "away": 0.171
+      },
+      "prediction": "HOME",
+      "edge": 0.236,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Tottenham vs London Guns",
+      "odds": {
+        "home": 2.0,
+        "draw": 3.35,
+        "away": 3.6
+      },
+      "probs": {
+        "home": 0.618,
+        "draw": 0.222,
+        "away": 0.16
+      },
+      "prediction": "HOME",
+      "edge": 0.236,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Brighton vs Newcastle",
+      "odds": {
+        "home": 1.9,
+        "draw": 3.4,
+        "away": 3.8
+      },
+      "probs": {
+        "home": 0.647,
+        "draw": 0.212,
+        "away": 0.141
+      },
+      "prediction": "HOME",
+      "edge": 0.229,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "West Ham vs Leeds",
+      "odds": {
+        "home": 1.8,
+        "draw": 3.6,
+        "away": 4.15
+      },
+      "probs": {
+        "home": 0.683,
+        "draw": 0.199,
+        "away": 0.118
+      },
+      "prediction": "HOME",
+      "edge": 0.229,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "London Guns vs Aston Villa",
+      "odds": {
+        "home": 2.0,
+        "draw": 3.3,
+        "away": 3.55
+      },
+      "probs": {
+        "home": 0.614,
+        "draw": 0.223,
+        "away": 0.163
+      },
+      "prediction": "HOME",
+      "edge": 0.228,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Liverpool vs London Guns",
+      "odds": {
+        "home": 1.75,
+        "draw": 3.65,
+        "away": 4.35
+      },
+      "probs": {
+        "home": 0.7,
+        "draw": 0.192,
+        "away": 0.108
+      },
+      "prediction": "HOME",
+      "edge": 0.226,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "West Ham vs Everton",
+      "odds": {
+        "home": 2.2,
+        "draw": 3.2,
+        "away": 3.2
+      },
+      "probs": {
+        "home": 0.556,
+        "draw": 0.24,
+        "away": 0.205
+      },
+      "prediction": "HOME",
+      "edge": 0.223,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Manchester Red vs Brighton",
+      "odds": {
+        "home": 1.5,
+        "draw": 3.75,
+        "away": 7.0
+      },
+      "probs": {
+        "home": 0.814,
+        "draw": 0.138,
+        "away": 0.047
+      },
+      "prediction": "HOME",
+      "edge": 0.221,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Crystal Palace vs Fulham",
+      "odds": {
+        "home": 2.15,
+        "draw": 3.3,
+        "away": 3.25
+      },
+      "probs": {
+        "home": 0.567,
+        "draw": 0.236,
+        "away": 0.196
+      },
+      "prediction": "HOME",
+      "edge": 0.22,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Tottenham vs London Guns",
+      "odds": {
+        "home": 1.95,
+        "draw": 3.4,
+        "away": 3.6
+      },
+      "probs": {
+        "home": 0.625,
+        "draw": 0.219,
+        "away": 0.156
+      },
+      "prediction": "HOME",
+      "edge": 0.219,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Chelsea vs Aston Villa",
+      "odds": {
+        "home": 1.95,
+        "draw": 3.4,
+        "away": 3.6
+      },
+      "probs": {
+        "home": 0.625,
+        "draw": 0.219,
+        "away": 0.156
+      },
+      "prediction": "HOME",
+      "edge": 0.219,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "West Ham vs Brighton",
+      "odds": {
+        "home": 2.05,
+        "draw": 3.35,
+        "away": 3.4
+      },
+      "probs": {
+        "home": 0.595,
+        "draw": 0.229,
+        "away": 0.176
+      },
+      "prediction": "HOME",
+      "edge": 0.219,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Tottenham vs Everton",
+      "odds": {
+        "home": 1.8,
+        "draw": 3.55,
+        "away": 4.05
+      },
+      "probs": {
+        "home": 0.677,
+        "draw": 0.201,
+        "away": 0.122
+      },
+      "prediction": "HOME",
+      "edge": 0.218,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "West Ham vs Leeds",
+      "odds": {
+        "home": 1.85,
+        "draw": 3.55,
+        "away": 3.85
+      },
+      "probs": {
+        "home": 0.657,
+        "draw": 0.208,
+        "away": 0.135
+      },
+      "prediction": "HOME",
+      "edge": 0.215,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Crystal Palace vs Leeds",
+      "odds": {
+        "home": 2.2,
+        "draw": 3.25,
+        "away": 3.15
+      },
+      "probs": {
+        "home": 0.551,
+        "draw": 0.241,
+        "away": 0.208
+      },
+      "prediction": "HOME",
+      "edge": 0.212,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Wolverhampton vs Leeds",
+      "odds": {
+        "home": 1.85,
+        "draw": 3.55,
+        "away": 3.8
+      },
+      "probs": {
+        "home": 0.654,
+        "draw": 0.21,
+        "away": 0.137
+      },
+      "prediction": "HOME",
+      "edge": 0.209,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Everton vs Wolverhampton",
+      "odds": {
+        "home": 1.85,
+        "draw": 3.7,
+        "away": 3.8
+      },
+      "probs": {
+        "home": 0.654,
+        "draw": 0.21,
+        "away": 0.137
+      },
+      "prediction": "HOME",
+      "edge": 0.209,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Liverpool vs Aston Villa",
+      "odds": {
+        "home": 1.75,
+        "draw": 3.75,
+        "away": 4.15
+      },
+      "probs": {
+        "home": 0.689,
+        "draw": 0.196,
+        "away": 0.114
+      },
+      "prediction": "HOME",
+      "edge": 0.207,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Chelsea vs Aston Villa",
+      "odds": {
+        "home": 1.95,
+        "draw": 3.5,
+        "away": 3.5
+      },
+      "probs": {
+        "home": 0.617,
+        "draw": 0.222,
+        "away": 0.161
+      },
+      "prediction": "HOME",
+      "edge": 0.203,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Newcastle vs Bournemouth",
+      "odds": {
+        "home": 1.85,
+        "draw": 3.65,
+        "away": 3.75
+      },
+      "probs": {
+        "home": 0.65,
+        "draw": 0.211,
+        "away": 0.139
+      },
+      "prediction": "HOME",
+      "edge": 0.203,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Crystal Palace vs Bournemouth",
+      "odds": {
+        "home": 2.05,
+        "draw": 3.4,
+        "away": 3.3
+      },
+      "probs": {
+        "home": 0.586,
+        "draw": 0.231,
+        "away": 0.183
+      },
+      "prediction": "HOME",
+      "edge": 0.201,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Chelsea vs London Guns",
+      "odds": {
+        "home": 1.9,
+        "draw": 3.7,
+        "away": 3.6
+      },
+      "probs": {
+        "home": 0.632,
+        "draw": 0.217,
+        "away": 0.151
+      },
+      "prediction": "HOME",
+      "edge": 0.201,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Aston Villa vs London Guns",
+      "odds": {
+        "home": 2.2,
+        "draw": 3.3,
+        "away": 3.1
+      },
+      "probs": {
+        "home": 0.546,
+        "draw": 0.242,
+        "away": 0.212
+      },
+      "prediction": "HOME",
+      "edge": 0.201,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Wolverhampton vs Fulham",
+      "odds": {
+        "home": 1.7,
+        "draw": 3.9,
+        "away": 4.3
+      },
+      "probs": {
+        "home": 0.704,
+        "draw": 0.19,
+        "away": 0.105
+      },
+      "prediction": "HOME",
+      "edge": 0.198,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Tottenham vs Brighton",
+      "odds": {
+        "home": 1.6,
+        "draw": 4.0,
+        "away": 5.0
+      },
+      "probs": {
+        "home": 0.749,
+        "draw": 0.171,
+        "away": 0.08
+      },
+      "prediction": "HOME",
+      "edge": 0.198,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "London Guns vs Brighton",
+      "odds": {
+        "home": 1.55,
+        "draw": 4.05,
+        "away": 5.5
+      },
+      "probs": {
+        "home": 0.772,
+        "draw": 0.16,
+        "away": 0.068
+      },
+      "prediction": "HOME",
+      "edge": 0.197,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Wolverhampton vs Newcastle",
+      "odds": {
+        "home": 1.85,
+        "draw": 3.8,
+        "away": 3.7
+      },
+      "probs": {
+        "home": 0.647,
+        "draw": 0.212,
+        "away": 0.141
+      },
+      "prediction": "HOME",
+      "edge": 0.196,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Liverpool vs Leeds",
+      "odds": {
+        "home": 1.4,
+        "draw": 3.95,
+        "away": 9.25
+      },
+      "probs": {
+        "home": 0.854,
+        "draw": 0.116,
+        "away": 0.03
+      },
+      "prediction": "HOME",
+      "edge": 0.195,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Tottenham vs Brighton",
+      "odds": {
+        "home": 1.6,
+        "draw": 4.0,
+        "away": 4.95
+      },
+      "probs": {
+        "home": 0.747,
+        "draw": 0.172,
+        "away": 0.081
+      },
+      "prediction": "HOME",
+      "edge": 0.195,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "West Ham vs Bournemouth",
+      "odds": {
+        "home": 1.65,
+        "draw": 3.9,
+        "away": 4.55
+      },
+      "probs": {
+        "home": 0.724,
+        "draw": 0.182,
+        "away": 0.094
+      },
+      "prediction": "HOME",
+      "edge": 0.194,
+      "recommended_bet": "HOME"
+    },
+    {
+      "match": "Wolverhampton vs Fulham",
+      "odds": {
+        "home": 1.7,
+        "draw": 3.95,
+        "away": 4.25
+      },
+      "probs": {
+        "home": 0.702,
+        "draw": 0.191,
+        "away": 0.107
+      },
+      "prediction": "HOME",
+      "edge": 0.193,
+      "recommended_bet": "HOME"
+    }
+  ]
+}

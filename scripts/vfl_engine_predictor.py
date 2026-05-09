@@ -69,6 +69,40 @@ SIGNATURE_BIAS = {
     "WOLVERHAMPTON": 0.079, # Wolves bias: +0.079 (less significant)
 }
 
+# ─── SURVIVORSHIP BIAS FILTERS (Wald Patch 2026-05-08) ───
+# From analyzing 153 missed predictions — "bullet holes" where the engine is blind
+
+# Trap teams: predictions involving these teams miss at alarming rates
+TRAP_TEAMS = {
+    "MANCHESTER RED": 0.72,  # 72.2% miss rate — TRAP KING
+    "EVERTON": 0.70,         # 70.3%
+    "WEST HAM": 0.67,        # 66.7%
+    "TOTTENHAM": 0.64,       # 63.9%
+}
+
+# Reliable teams: predictions involving these are more trustworthy
+RELIABLE_TEAMS = {
+    "FULHAM": 0.33,          # 33.3% miss rate
+    "BOURNEMOUTH": 0.35,     # 35.1%
+    "LONDON GUNS": 0.38,     # 37.8%
+}
+
+# DRAW predictions miss 75.6% of the time — severely penalize
+DRAW_MISS_RATE = 0.756
+DRAW_PENALTY_FACTOR = 0.4  # Reduce draw probability by 60%
+
+# When DRAW prediction misses, 61.3% of the time it's actually HOME
+DRAW_TO_HOME_BIAS = 0.613
+
+# Confidence floor — sub-55% is essentially noise (55-73% miss rate)
+CONFIDENCE_FLOOR = 55
+
+# Long odds flag — odds > 3.5 have 75-100% miss rate
+LONG_ODDS_THRESHOLD = 3.5
+
+# Mid-tier mismatch flag (T1vT2, T2vT2, T2vT3 have 64-68% miss rate)
+MID_TIER_MISMATCH_PENALTY = 0.15  # Additional confidence penalty
+
 # Abnormal season calibration (from Phase 3-4)
 # When season τ < 0.60, apply distortion multipliers
 ABNORMAL_SEASON_MULTIPLIERS = {
@@ -225,6 +259,44 @@ def predict_match(home, away, elo, is_abnormal_season=False, intel=None):
     total = p_h + p_d + p_a
     p_h /= total; p_d /= total; p_a /= total
     
+    # ─── SURVIVORSHIP BIAS ADJUSTMENTS (Wald Patch) ───
+    # Penalize DRAW predictions heavily (75.6% miss rate)
+    if p_d > p_h and p_d > p_a:
+        # The engine wants to predict DRAW — penalize it based on the empirical miss rate
+        # Shift mass to HOME (61.3% of draw misses go to HOME) and AWAY
+        draw_penalty = DRAW_PENALTY_FACTOR
+        p_h += p_d * DRAW_TO_HOME_BIAS * (1 - draw_penalty)
+        p_a += p_d * (1 - DRAW_TO_HOME_BIAS) * (1 - draw_penalty)
+        p_d *= draw_penalty
+    
+    # Trap team penalty: if any trap team is involved, reduce confidence in extreme predictions
+    for team, miss_rate in TRAP_TEAMS.items():
+        if team in (h, a):
+            # The higher the miss rate, the more we dampen the dominant prediction
+            dampen = miss_rate * 0.15
+            if p_h > p_d and p_h > p_a:
+                # Shift away from aggressive home predictions
+                p_h -= dampen
+                p_d += dampen * 0.5
+                p_a += dampen * 0.5
+            elif p_a > p_d and p_a > p_h:
+                p_a -= dampen
+                p_d += dampen * 0.5
+                p_h += dampen * 0.5
+    
+    # Reliable team boost: if reliable teams are involved, slight confidence boost
+    for team, miss_rate in RELIABLE_TEAMS.items():
+        if team in (h, a):
+            boost = (1.0 - miss_rate) * 0.05
+            if p_h > p_d and p_h > p_a:
+                p_h += boost; p_d -= boost * 0.5; p_a -= boost * 0.5
+            elif p_a > p_d and p_a > p_h:
+                p_a += boost; p_d -= boost * 0.5; p_h -= boost * 0.5
+    
+    # Re-normalize after survivorship adjustments
+    total = p_h + p_d + p_a
+    p_h /= total; p_d /= total; p_a /= total
+    
     return p_h, p_d, p_a
 
 def detect_abnormal_season(table_data):
@@ -361,13 +433,32 @@ def main():
                 if imp_probs[i] > 0 and our_probs[i] > imp_probs[i] * 1.15:
                     value_bet += f" {labels[i]}(+{our_probs[i]-imp_probs[i]:.0f}% edge)"
             
-            # Confidence tier
-            if conf >= 55:
-                conf_tier = "⭐ HIGH"
-            elif conf >= 45:
-                conf_tier = "📊 MED"
+            # ─── SURVIVORSHIP TIER OVERRIDE ───
+            # Apply Wald bullet-hole filters to confidence tier
+            survivorship_flags = []
+            
+            # Flag: DRAW is penalized (75.6% miss rate)
+            if pred == "DRAW":
+                survivorship_flags.append("DRAW-PENALIZED")
+            
+            # Flag: Trap team involved
+            h_upper = home.upper(); a_upper = away.upper()
+            for trap_team in TRAP_TEAMS:
+                if trap_team in (h_upper, a_upper):
+                    survivorship_flags.append(f"TRAP:{trap_team}")
+            
+            # Flag: Long odds
+            pred_odds = {"HOME": odds_h, "DRAW": odds_d, "AWAY": odds_a}.get(pred, 0)
+            if pred_odds >= LONG_ODDS_THRESHOLD:
+                survivorship_flags.append("LONG-ODDS")
+            
+            # Confidence tier with survivorship filter
+            if conf >= 65:
+                conf_tier = "⭐⭐ HIGH" if not survivorship_flags else "⭐ HIGH"
+            elif conf >= CONFIDENCE_FLOOR:
+                conf_tier = "⭐ MED-HIGH" if not survivorship_flags else "📊 MED"
             else:
-                conf_tier = "🤞 LOW"
+                conf_tier = "🔻 SKIP"  # Below confidence floor, flagged by Wald filter
             
             print(f"  {home:<20} vs {away:<20}")
             print(f"    Our: H={p_h*100:.1f}% D={p_d*100:.1f}% A={p_a*100:.1f}% → {pred} ({conf_tier})")
@@ -386,6 +477,8 @@ def main():
                 "engine_probs": {"HOME": round(p_h*100,1), "DRAW": round(p_d*100,1), "AWAY": round(p_a*100,1)},
                 "odds_h": odds_h, "odds_d": odds_d, "odds_a": odds_a,
                 "value_edge": value_bet,
+                "survivorship_flags": survivorship_flags,
+                "wald_rating": conf_tier,
                 "created_at": datetime.now().isoformat(),
             })
     
@@ -414,12 +507,17 @@ def main():
     print()
     
     for p in predictions:
-        conf_tier = "⭐" if p['confidence'] >= 55 else ("📊" if p['confidence'] >= 45 else "🤞")
-        print(f"{conf_tier} {p['home']:<20} vs {p['away']:<20}")
-        print(f"   → {p['prediction']} ({p['confidence']:.0f}%)  |  H:{p['engine_probs']['HOME']:.0f}% D:{p['engine_probs']['DRAW']:.0f}% A:{p['engine_probs']['AWAY']:.0f}%")
+        conf_tier = p.get('wald_rating', '')
+        flags = p.get('survivorship_flags', [])
+        flag_str = f" [{' + '.join(flags)}]" if flags else ""
+        skip = "🔻" if 'SKIP' in conf_tier else "💰"
+        print(f"{skip} {p['home']:<20} vs {p['away']:<20}")
+        print(f"   → {p['prediction']} ({p['confidence']:.0f}%) {conf_tier}{flag_str}  |  H:{p['engine_probs']['HOME']:.0f}% D:{p['engine_probs']['DRAW']:.0f}% A:{p['engine_probs']['AWAY']:.0f}%")
         print(f"   Odds: {p['odds_h']:.2f}/{p['odds_d']:.2f}/{p['odds_a']:.2f}")
         if p['value_edge']:
             print(f"   💰 {p['value_edge']}")
+        if skip == "🔻":
+            print(f"   ⚠️ SKIP — below Wald confidence floor ({CONFIDENCE_FLOOR}%)")
     
     return 0
 
