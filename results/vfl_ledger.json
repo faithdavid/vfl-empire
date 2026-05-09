@@ -1,0 +1,232 @@
+{
+  "predictions": [
+    {
+      "season_id": "vf:season:3086721",
+      "season_name": "VFLM 4931",
+      "match_day": 6,
+      "home": "Brighton",
+      "away": "London Guns",
+      "prediction": "HOME",
+      "confidence": 48.0,
+      "odds_h": 3.05,
+      "odds_d": 3.6,
+      "odds_a": 2.1,
+      "ml_probs": {
+        "HOME": 48.0,
+        "DRAW": 18.2,
+        "AWAY": 33.8
+      },
+      "constraint_flags": [
+        "T2vT1"
+      ],
+      "constraint_adjustment": null,
+      "created_at": "2026-05-08T23:39:04.770784+00:00",
+      "settled": false,
+      "actual_outcome": null,
+      "full_time": null,
+      "correct": null,
+      "settled_at": null,
+      "settled_by": null
+    },
+    {
+      "season_id": "vf:season:3086721",
+      "season_name": "VFLM 4931",
+      "match_day": 6,
+      "home": "West Ham",
+      "away": "Everton",
+      "prediction": "HOME",
+      "confidence": 42.0,
+      "odds_h": 2.15,
+      "odds_d": 3.1,
+      "odds_a": 3.45,
+      "ml_probs": {
+        "HOME": 42.0,
+        "DRAW": 20.3,
+        "AWAY": 37.7
+      },
+      "constraint_flags": [
+        "T2vT2"
+      ],
+      "constraint_adjustment": "Everton unreliable - capped at 60%",
+      "created_at": "2026-05-08T23:39:04.770784+00:00",
+      "settled": false,
+      "actual_outcome": null,
+      "full_time": null,
+      "correct": null,
+      "settled_at": null,
+      "settled_by": null
+    },
+    {
+      "season_id": "vf:season:3086721",
+      "season_name": "VFLM 4931",
+      "match_day": 6,
+      "home": "Fulham",
+      "away": "Tottenham",
+      "prediction": "AWAY",
+      "confidence": 52.0,
+      "odds_h": 4.2,
+      "odds_d": 3.45,
+      "odds_a": 1.8,
+      "ml_probs": {
+        "HOME": 21.6,
+        "DRAW": 26.4,
+        "AWAY": 52.0
+      },
+      "constraint_flags": [
+        "NEVER_DRAW",
+        "T4vT1"
+      ],
+      "constraint_adjustment": "NEVER_DRAW flag overrides Tottenham draw_bias",
+      "created_at": "2026-05-08T23:39:04.770784+00:00",
+      "settled": false,
+      "actual_outcome": null,
+      "full_time": null,
+      "correct": null,
+      "settled_at": null,
+      "settled_by": null
+    },
+    {
+      "season_id": "vf:season:3086721",
+      "season_name": "VFLM 4931",
+      "match_day": 6,
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "prediction": "AWAY",
+      "confidence": 48.0,
+      "odds_h": 2.1,
+      "odds_d": 3.75,
+      "odds_a": 3.0,
+      "ml_probs": {
+        "HOME": 23.4,
+        "DRAW": 28.6,
+        "AWAY": 48.0
+      },
+      "constraint_flags": [
+        "T1vT1"
+      ],
+      "constraint_adjustment": null,
+      "created_at": "2026-05-08T23:39:04.770784+00:00",
+      "settled": false,
+      "actual_outcome": null,
+      "full_time": null,
+      "correct": null,
+      "settled_at": null,
+      "settled_by": null
+    },
+    {
+      "season_id": "vf:season:3086721",
+      "season_name": "VFLM 4931",
+      "match_day": 6,
+      "home": "Newcastle",
+      "away": "Manchester Red",
+      "prediction": "AWAY",
+      "confidence": 41.1,
+      "odds_h": 4.95,
+      "odds_d": 3.85,
+      "odds_a": 1.6,
+      "ml_probs": {
+        "HOME": 26.5,
+        "DRAW": 32.4,
+        "AWAY": 41.1
+      },
+      "constraint_flags": [
+        "T3vT1"
+      ],
+      "constraint_adjustment": "Calibrated -18.9pp (55-70% range)",
+      "created_at": "2026-05-08T23:39:04.770784+00:00",
+      "settled": false,
+      "actual_outcome": null,
+      "full_time": null,
+      "correct": null,
+      "settled_at": null,
+      "settled_by": null
+    },
+    {
+      "season_id": "vf:season:3086721",
+      "season_name": "VFLM 4931",
+      "match_day": 6,
+      "home": "Bournemouth",
+      "away": "Leeds",
+      "prediction": "HOME",
+      "confidence": 35.0,
+      "odds_h": 2.65,
+      "odds_d": 3.05,
+      "odds_a": 2.65,
+      "ml_probs": {
+        "HOME": 35.0,
+        "DRAW": 22.8,
+        "AWAY": 42.2
+      },
+      "constraint_flags": [
+        "T4vT3"
+      ],
+      "constraint_adjustment": null,
+      "created_at": "2026-05-08T23:39:04.770784+00:00",
+      "settled": false,
+      "actual_outcome": null,
+      "full_time": null,
+      "correct": null,
+      "settled_at": null,
+      "settled_by": null
+    },
+    {
+      "season_id": "vf:season:3086721",
+      "season_name": "VFLM 4931",
+      "match_day": 6,
+      "home": "Manchester Blue",
+      "away": "Wolverhampton",
+      "prediction": "HOME",
+      "confidence": 41.1,
+      "odds_h": 1.3,
+      "odds_d": 5.5,
+      "odds_a": 7.5,
+      "ml_probs": {
+        "HOME": 41.1,
+        "DRAW": 20.6,
+        "AWAY": 38.3
+      },
+      "constraint_flags": [
+        "STRONG_HOME",
+        "T1vT3"
+      ],
+      "constraint_adjustment": "STRONG_HOME flag (87.5% MD6). Calibrated -18.9pp (55-70% range)",
+      "created_at": "2026-05-08T23:39:04.770784+00:00",
+      "settled": false,
+      "actual_outcome": null,
+      "full_time": null,
+      "correct": null,
+      "settled_at": null,
+      "settled_by": null
+    },
+    {
+      "season_id": "vf:season:3086721",
+      "season_name": "VFLM 4931",
+      "match_day": 6,
+      "home": "Crystal Palace",
+      "away": "Aston Villa",
+      "prediction": "AWAY",
+      "confidence": 48.0,
+      "odds_h": 4.75,
+      "odds_d": 3.55,
+      "odds_a": 1.7,
+      "ml_probs": {
+        "HOME": 23.4,
+        "DRAW": 28.6,
+        "AWAY": 48.0
+      },
+      "constraint_flags": [
+        "T3vT2"
+      ],
+      "constraint_adjustment": "Aston Villa home_trap not applicable (away fixture)",
+      "created_at": "2026-05-08T23:39:04.770784+00:00",
+      "settled": false,
+      "actual_outcome": null,
+      "full_time": null,
+      "correct": null,
+      "settled_at": null,
+      "settled_by": null
+    }
+  ],
+  "updated_at": "2026-05-08T23:39:04.770784+00:00",
+  "total_predictions": 8
+}

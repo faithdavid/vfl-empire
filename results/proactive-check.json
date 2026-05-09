@@ -1,0 +1,22 @@
+{
+  "sn": "VFLM 4919",
+  "md": 11,
+  "time": "2026-05-07 21:33:04.170903",
+  "bets": [
+    {
+      "home": "EVERTON",
+      "away": "BOURNEMOUTH",
+      "pick": "AWAY",
+      "odds": 5.75,
+      "sf": 1.226
+    },
+    {
+      "home": "NEWCASTLE",
+      "away": "FULHAM",
+      "pick": "AWAY",
+      "odds": 3.7,
+      "sf": 1.184
+    }
+  ],
+  "bridge_updated": "2026-05-07 21:31:38.549176"
+}

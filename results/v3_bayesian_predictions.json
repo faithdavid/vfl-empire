@@ -1,0 +1,145 @@
+{
+  "timestamp": "now",
+  "matches": [
+    {
+      "md": 27,
+      "home": "Tottenham",
+      "away": "Leeds",
+      "bet": "AWAY",
+      "odds": 7.5,
+      "sf": 2.090291788113648,
+      "kelly": 0.14498062383165822,
+      "xG": "3.18-0.83"
+    },
+    {
+      "md": 26,
+      "home": "Leeds",
+      "away": "Chelsea",
+      "bet": "HOME",
+      "odds": 6.0,
+      "sf": 1.7750536261699883,
+      "kelly": 0.1269575817152018,
+      "xG": "1.25-1.63"
+    },
+    {
+      "md": 27,
+      "home": "Manchester Red",
+      "away": "West Ham",
+      "bet": "AWAY",
+      "odds": 6.5,
+      "sf": 1.5756711885678971,
+      "kelly": 0.08235412678878284,
+      "xG": "3.33-1.33"
+    },
+    {
+      "md": 26,
+      "home": "Manchester Blue",
+      "away": "Manchester Red",
+      "bet": "AWAY",
+      "odds": 3.35,
+      "sf": 1.4241101707641322,
+      "kelly": 0.13405447460434508,
+      "xG": "1.81-1.81"
+    },
+    {
+      "md": 26,
+      "home": "Aston Villa",
+      "away": "Wolverhampton",
+      "bet": "AWAY",
+      "odds": 4.95,
+      "sf": 1.4186757357710984,
+      "kelly": 0.07732079538273938,
+      "xG": "1.77-1.18"
+    },
+    {
+      "md": 27,
+      "home": "Wolverhampton",
+      "away": "Liverpool",
+      "bet": "HOME",
+      "odds": 4.1,
+      "sf": 1.360929637906494,
+      "kelly": 0.08071766123267687,
+      "xG": "1.77-1.81"
+    },
+    {
+      "md": 25,
+      "home": "Everton",
+      "away": "Leeds",
+      "bet": "AWAY",
+      "odds": 4.9,
+      "sf": 1.3472583076367328,
+      "kelly": 0.06405830283945778,
+      "xG": "2.12-0.67"
+    },
+    {
+      "md": 27,
+      "home": "Chelsea",
+      "away": "Bournemouth",
+      "bet": "DRAW",
+      "odds": 5.75,
+      "sf": 1.3012369522444238,
+      "kelly": 0.04043982061242524,
+      "xG": "4.00-0.60"
+    },
+    {
+      "md": 27,
+      "home": "Wolverhampton",
+      "away": "Liverpool",
+      "bet": "DRAW",
+      "odds": 3.9,
+      "sf": 1.238045085875433,
+      "kelly": 0.04735732679204176,
+      "xG": "1.77-1.81"
+    },
+    {
+      "md": 25,
+      "home": "Fulham",
+      "away": "London Guns",
+      "bet": "HOME",
+      "odds": 4.05,
+      "sf": 1.21098438860113,
+      "kelly": 0.04097977874897202,
+      "xG": "1.66-1.54"
+    },
+    {
+      "md": 26,
+      "home": "West Ham",
+      "away": "Crystal Palace",
+      "bet": "DRAW",
+      "odds": 3.85,
+      "sf": 1.2019991562544963,
+      "kelly": 0.037453008914782246,
+      "xG": "2.33-0.98"
+    },
+    {
+      "md": 27,
+      "home": "Newcastle",
+      "away": "London Guns",
+      "bet": "DRAW",
+      "odds": 3.95,
+      "sf": 1.1864719462844944,
+      "kelly": 0.031191510639361732,
+      "xG": "1.51-1.93"
+    },
+    {
+      "md": 25,
+      "home": "Manchester Red",
+      "away": "Bournemouth",
+      "bet": "AWAY",
+      "odds": 9.0,
+      "sf": 1.1851770120910368,
+      "kelly": 0.013244394165765144,
+      "xG": "3.65-0.67"
+    },
+    {
+      "md": 26,
+      "home": "Aston Villa",
+      "away": "Wolverhampton",
+      "bet": "DRAW",
+      "odds": 3.85,
+      "sf": 1.1846555675448591,
+      "kelly": 0.03160692823578349,
+      "xG": "1.77-1.18"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "overall_bias_factor": 0.9256,
+  "overall_vig": 0.0804,
+  "overall_vig_pct": "8.0%",
+  "total_matches": 3320,
+  "by_bracket": {
+    "Heavy Fav": {
+      "n": 562,
+      "vig": 0.08,
+      "bias": 0.9259,
+      "fair_implied": {
+        "HOME": 0.6917,
+        "DRAW": 0.1917,
+        "AWAY": 0.1167
+      },
+      "actual": {
+        "HOME": 0.68,
+        "DRAW": 0.18,
+        "AWAY": 0.126
+      },
+      "gap": {
+        "HOME": -0.0117,
+        "DRAW": -0.0117,
+        "AWAY": 0.0093
+      },
+      "distortions": [
+        "Market overprices HOME by 1.2% (actual 68.0% vs fair 69.2%)",
+        "Market overprices DRAW by 1.2% (actual 18.0% vs fair 19.2%)"
+      ]
+    },
+    "Mod Fav": {
+      "n": 897,
+      "vig": 0.081,
+      "bias": 0.9251,
+      "fair_implied": {
+        "HOME": 0.5412,
+        "DRAW": 0.247,
+        "AWAY": 0.2118
+      },
+      "actual": {
+        "HOME": 0.538,
+        "DRAW": 0.253,
+        "AWAY": 0.197
+      },
+      "gap": {
+        "HOME": -0.0032,
+        "DRAW": 0.006,
+        "AWAY": -0.0148
+      },
+      "distortions": [
+        "Market overprices AWAY by 1.5% (actual 19.7% vs fair 21.2%)"
+      ]
+    },
+    "Slight Fav": {
+      "n": 687,
+      "vig": 0.08,
+      "bias": 0.9259,
+      "fair_implied": {
+        "HOME": 0.4194,
+        "DRAW": 0.263,
+        "AWAY": 0.3167
+      },
+      "actual": {
+        "HOME": 0.424,
+        "DRAW": 0.242,
+        "AWAY": 0.313
+      },
+      "gap": {
+        "HOME": 0.0046,
+        "DRAW": -0.021,
+        "AWAY": -0.0037
+      },
+      "distortions": [
+        "Market overprices DRAW by 2.1% (actual 24.2% vs fair 26.3%)"
+      ]
+    },
+    "Balanced": {
+      "n": 261,
+      "vig": 0.08,
+      "bias": 0.9259,
+      "fair_implied": {
+        "HOME": 0.3398,
+        "DRAW": 0.2694,
+        "AWAY": 0.3907
+      },
+      "actual": {
+        "HOME": 0.322,
+        "DRAW": 0.287,
+        "AWAY": 0.379
+      },
+      "gap": {
+        "HOME": -0.0178,
+        "DRAW": 0.0176,
+        "AWAY": -0.0117
+      },
+      "distortions": [
+        "Market overprices HOME by 1.8% (actual 32.2% vs fair 34.0%)",
+        "Market underprices DRAW by 1.8% (actual 28.7% vs fair 26.9%)",
+        "Market overprices AWAY by 1.2% (actual 37.9% vs fair 39.1%)"
+      ]
+    },
+    "Slight Dog": {
+      "n": 467,
+      "vig": 0.08,
+      "bias": 0.9259,
+      "fair_implied": {
+        "HOME": 0.2741,
+        "DRAW": 0.2685,
+        "AWAY": 0.4574
+      },
+      "actual": {
+        "HOME": 0.287,
+        "DRAW": 0.259,
+        "AWAY": 0.435
+      },
+      "gap": {
+        "HOME": 0.0129,
+        "DRAW": -0.0095,
+        "AWAY": -0.0224
+      },
+      "distortions": [
+        "Market underprices HOME by 1.3% (actual 28.7% vs fair 27.4%)",
+        "Market overprices AWAY by 2.2% (actual 43.5% vs fair 45.7%)"
+      ]
+    },
+    "Mod Dog": {
+      "n": 222,
+      "vig": 0.081,
+      "bias": 0.9251,
+      "fair_implied": {
+        "HOME": 0.2109,
+        "DRAW": 0.2636,
+        "AWAY": 0.5254
+      },
+      "actual": {
+        "HOME": 0.189,
+        "DRAW": 0.248,
+        "AWAY": 0.563
+      },
+      "gap": {
+        "HOME": -0.0219,
+        "DRAW": -0.0156,
+        "AWAY": 0.0376
+      },
+      "distortions": [
+        "Market overprices HOME by 2.2% (actual 18.9% vs fair 21.1%)",
+        "Market overprices DRAW by 1.6% (actual 24.8% vs fair 26.4%)",
+        "Market underprices AWAY by 3.8% (actual 56.3% vs fair 52.5%)"
+      ]
+    },
+    "Heavy Dog": {
+      "n": 224,
+      "vig": 0.081,
+      "bias": 0.9251,
+      "fair_implied": {
+        "HOME": 0.1656,
+        "DRAW": 0.2387,
+        "AWAY": 0.5948
+      },
+      "actual": {
+        "HOME": 0.125,
+        "DRAW": 0.272,
+        "AWAY": 0.589
+      },
+      "gap": {
+        "HOME": -0.0406,
+        "DRAW": 0.0333,
+        "AWAY": -0.0058
+      },
+      "distortions": [
+        "Market overprices HOME by 4.1% (actual 12.5% vs fair 16.6%)",
+        "Market underprices DRAW by 3.3% (actual 27.2% vs fair 23.9%)"
+      ]
+    }
+  },
+  "top_distortions": [
+    {
+      "bracket": "Heavy Dog",
+      "outcome": "HOME",
+      "gap": -0.0406,
+      "gap_pct": "-4.1%",
+      "actual": 0.125,
+      "fair_implied": 0.1656,
+      "n": 224
+    },
+    {
+      "bracket": "Mod Dog",
+      "outcome": "AWAY",
+      "gap": 0.0376,
+      "gap_pct": "+3.8%",
+      "actual": 0.563,
+      "fair_implied": 0.5254,
+      "n": 222
+    },
+    {
+      "bracket": "Heavy Dog",
+      "outcome": "DRAW",
+      "gap": 0.0333,
+      "gap_pct": "+3.3%",
+      "actual": 0.272,
+      "fair_implied": 0.2387,
+      "n": 224
+    },
+    {
+      "bracket": "Slight Dog",
+      "outcome": "AWAY",
+      "gap": -0.0224,
+      "gap_pct": "-2.2%",
+      "actual": 0.435,
+      "fair_implied": 0.4574,
+      "n": 467
+    },
+    {
+      "bracket": "Mod Dog",
+      "outcome": "HOME",
+      "gap": -0.0219,
+      "gap_pct": "-2.2%",
+      "actual": 0.189,
+      "fair_implied": 0.2109,
+      "n": 222
+    }
+  ],
+  "biggest_distortion": "Heavy Dog \u2014 Market overprices HOME by 4.1% (actual 12.5% vs fair 16.6%)",
+  "verdict": "The vig is consistent at ~8% across all brackets (bias factor \u2248 0.926). Contrary to the initial ~20% hypothesis, MSport applies a modest ~8% margin uniformly. However, outcomes are NOT uniformly distorted within brackets. The most exploitable edge is in Heavy Dog: HOME is overpriced by 4.1%, but n=224 limits confidence. The most statistically reliable distortion is in Heavy Dog (HOME, gap=-4.1%, n=224), where sample size gives higher confidence."
+}

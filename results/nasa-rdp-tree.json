@@ -1,0 +1,506 @@
+{
+  "method": "NASA Recursive Domain Partitioning",
+  "baseline": {
+    "n": 45520,
+    "home_pct": 44.7,
+    "draw_pct": 23.9,
+    "away_pct": 31.3,
+    "entropy": 1.537096
+  },
+  "feature_ranking": {
+    "home_favorite": 0.072788,
+    "away_odds": 0.069405,
+    "home_odds": 0.068222,
+    "home_tier_2": 0.048191,
+    "away_tier_2": 0.04607,
+    "draw_odds": 0.017955,
+    "season_position": 6.3e-05
+  },
+  "key_insight": "Tier Matchup (specifically whether the home team is a favorite) dominates all other features. Home Favorite alone yields IG=0.073, nearly matching the best odds-based splits. When combined recursively with odds, the RDP tree achieves leaf nodes ranging from 77.1% HOME (T1 home vs T4, OH <= 1.30, early season) to 6.2% HOME (deep underdog, late season). Season position is statistically irrelevant for outcome prediction.",
+  "rdp_tree": {
+    "type": "split",
+    "feature": "home_favorite",
+    "value": true,
+    "description": "Home is Favorite",
+    "info_gain": 0.0728,
+    "n": 45520,
+    "entropy": 1.5371,
+    "left": {
+      "type": "split",
+      "feature": "home_odds",
+      "value": 1.6,
+      "description": "OH <= 1.60",
+      "info_gain": 0.018,
+      "n": 27494,
+      "entropy": 1.4259,
+      "left": {
+        "type": "split",
+        "feature": "home_odds",
+        "value": 1.35,
+        "description": "OH <= 1.35",
+        "info_gain": 0.0111,
+        "n": 832,
+        "entropy": 1.2384,
+        "left": {
+          "type": "split",
+          "feature": "away_odds",
+          "value": 10.0,
+          "description": "OA <= 10.00",
+          "info_gain": 0.0123,
+          "n": 360,
+          "entropy": 1.0929,
+          "left": {
+            "type": "leaf",
+            "n": 287,
+            "entropy": 1.1534,
+            "h": 70.0,
+            "d": 16.0,
+            "a": 12.2
+          },
+          "right": {
+            "type": "leaf",
+            "n": 73,
+            "entropy": 0.7941,
+            "h": 82.2,
+            "d": 12.3,
+            "a": 4.1
+          }
+        },
+        "right": {
+          "type": "split",
+          "feature": "draw_odds",
+          "value": 4.55,
+          "description": "OD <= 4.55",
+          "info_gain": 0.0072,
+          "n": 472,
+          "entropy": 1.3299,
+          "left": {
+            "type": "leaf",
+            "n": 341,
+            "entropy": 1.3189,
+            "h": 60.7,
+            "d": 24.3,
+            "a": 13.2
+          },
+          "right": {
+            "type": "leaf",
+            "n": 131,
+            "entropy": 1.3325,
+            "h": 61.8,
+            "d": 17.6,
+            "a": 19.8
+          }
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": "away_odds",
+        "value": 2.95,
+        "description": "OA <= 2.95",
+        "info_gain": 0.0132,
+        "n": 1174,
+        "entropy": 1.528,
+        "left": {
+          "type": "split",
+          "feature": "home_tier",
+          "value": 2,
+          "description": "HomeTier <= 2",
+          "info_gain": 0.0365,
+          "n": 243,
+          "entropy": 1.5593,
+          "left": {
+            "type": "leaf",
+            "n": 88,
+            "entropy": 1.4237,
+            "h": 43.2,
+            "d": 12.5,
+            "a": 42.0
+          },
+          "right": {
+            "type": "leaf",
+            "n": 155,
+            "entropy": 1.5789,
+            "h": 31.0,
+            "d": 31.6,
+            "a": 34.8
+          }
+        },
+        "right": {
+          "type": "split",
+          "feature": "away_odds",
+          "value": 4.1,
+          "description": "OA <= 4.10",
+          "info_gain": 0.0072,
+          "n": 931,
+          "entropy": 1.5031,
+          "left": {
+            "type": "leaf",
+            "n": 664,
+            "entropy": 1.5276,
+            "h": 46.1,
+            "d": 26.7,
+            "a": 25.8
+          },
+          "right": {
+            "type": "leaf",
+            "n": 267,
+            "entropy": 1.4171,
+            "h": 55.8,
+            "d": 26.2,
+            "a": 17.6
+          }
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": "away_odds",
+      "value": 1.9,
+      "description": "OA <= 1.90",
+      "info_gain": 0.0266,
+      "n": 18026,
+      "entropy": 1.5228,
+      "left": {
+        "type": "split",
+        "feature": "home_odds",
+        "value": 5.25,
+        "description": "OH <= 5.25",
+        "info_gain": 0.0114,
+        "n": 578,
+        "entropy": 1.406,
+        "left": {
+          "type": "split",
+          "feature": "home_odds",
+          "value": 5.0,
+          "description": "OH <= 5.00",
+          "info_gain": 0.0129,
+          "n": 449,
+          "entropy": 1.4164,
+          "left": {
+            "type": "leaf",
+            "n": 386,
+            "entropy": 1.4396,
+            "h": 21.8,
+            "d": 22.5,
+            "a": 54.7
+          },
+          "right": {
+            "type": "leaf",
+            "n": 63,
+            "entropy": 1.1822,
+            "h": 7.9,
+            "d": 25.4,
+            "a": 66.7
+          }
+        },
+        "right": {
+          "type": "split",
+          "feature": "season_position",
+          "value": 15,
+          "description": "Day <= 15",
+          "info_gain": 0.0075,
+          "n": 129,
+          "entropy": 1.3192,
+          "left": {
+            "type": "leaf",
+            "n": 72,
+            "entropy": 1.3561,
+            "h": 12.5,
+            "d": 29.2,
+            "a": 56.9
+          },
+          "right": {
+            "type": "leaf",
+            "n": 57,
+            "entropy": 1.2556,
+            "h": 7.0,
+            "d": 35.1,
+            "a": 57.9
+          }
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": "home_odds",
+        "value": 2.55,
+        "description": "OH <= 2.55",
+        "info_gain": 0.0138,
+        "n": 736,
+        "entropy": 1.5671,
+        "left": {
+          "type": "split",
+          "feature": "season_position",
+          "value": 20,
+          "description": "Day <= 20",
+          "info_gain": 0.0105,
+          "n": 225,
+          "entropy": 1.5261,
+          "left": {
+            "type": "leaf",
+            "n": 151,
+            "entropy": 1.5387,
+            "h": 39.7,
+            "d": 21.9,
+            "a": 35.1
+          },
+          "right": {
+            "type": "leaf",
+            "n": 74,
+            "entropy": 1.4684,
+            "h": 52.7,
+            "d": 21.6,
+            "a": 25.7
+          }
+        },
+        "right": {
+          "type": "split",
+          "feature": "season_position",
+          "value": 10,
+          "description": "Day <= 10",
+          "info_gain": 0.007,
+          "n": 511,
+          "entropy": 1.5652,
+          "left": {
+            "type": "leaf",
+            "n": 171,
+            "entropy": 1.5754,
+            "h": 28.1,
+            "d": 35.1,
+            "a": 36.8
+          },
+          "right": {
+            "type": "leaf",
+            "n": 340,
+            "entropy": 1.5496,
+            "h": 30.9,
+            "d": 25.0,
+            "a": 41.8
+          }
+        }
+      }
+    }
+  },
+  "leaf_nodes": [
+    {
+      "type": "leaf",
+      "n": 73,
+      "entropy": 0.7941,
+      "h": 82.2,
+      "d": 12.3,
+      "a": 4.1
+    },
+    {
+      "type": "leaf",
+      "n": 287,
+      "entropy": 1.1534,
+      "h": 70.0,
+      "d": 16.0,
+      "a": 12.2
+    },
+    {
+      "type": "leaf",
+      "n": 131,
+      "entropy": 1.3325,
+      "h": 61.8,
+      "d": 17.6,
+      "a": 19.8
+    },
+    {
+      "type": "leaf",
+      "n": 341,
+      "entropy": 1.3189,
+      "h": 60.7,
+      "d": 24.3,
+      "a": 13.2
+    },
+    {
+      "type": "leaf",
+      "n": 267,
+      "entropy": 1.4171,
+      "h": 55.8,
+      "d": 26.2,
+      "a": 17.6
+    },
+    {
+      "type": "leaf",
+      "n": 74,
+      "entropy": 1.4684,
+      "h": 52.7,
+      "d": 21.6,
+      "a": 25.7
+    },
+    {
+      "type": "leaf",
+      "n": 664,
+      "entropy": 1.5276,
+      "h": 46.1,
+      "d": 26.7,
+      "a": 25.8
+    },
+    {
+      "type": "leaf",
+      "n": 88,
+      "entropy": 1.4237,
+      "h": 43.2,
+      "d": 12.5,
+      "a": 42.0
+    },
+    {
+      "type": "leaf",
+      "n": 151,
+      "entropy": 1.5387,
+      "h": 39.7,
+      "d": 21.9,
+      "a": 35.1
+    },
+    {
+      "type": "leaf",
+      "n": 155,
+      "entropy": 1.5789,
+      "h": 31.0,
+      "d": 31.6,
+      "a": 34.8
+    },
+    {
+      "type": "leaf",
+      "n": 340,
+      "entropy": 1.5496,
+      "h": 30.9,
+      "d": 25.0,
+      "a": 41.8
+    },
+    {
+      "type": "leaf",
+      "n": 171,
+      "entropy": 1.5754,
+      "h": 28.1,
+      "d": 35.1,
+      "a": 36.8
+    },
+    {
+      "type": "leaf",
+      "n": 386,
+      "entropy": 1.4396,
+      "h": 21.8,
+      "d": 22.5,
+      "a": 54.7
+    },
+    {
+      "type": "leaf",
+      "n": 72,
+      "entropy": 1.3561,
+      "h": 12.5,
+      "d": 29.2,
+      "a": 56.9
+    },
+    {
+      "type": "leaf",
+      "n": 63,
+      "entropy": 1.1822,
+      "h": 7.9,
+      "d": 25.4,
+      "a": 66.7
+    },
+    {
+      "type": "leaf",
+      "n": 57,
+      "entropy": 1.2556,
+      "h": 7.0,
+      "d": 35.1,
+      "a": 57.9
+    }
+  ],
+  "tier_matchup_entropy": {
+    "T1_vs_T4": {
+      "n": 3789,
+      "H": 72.4,
+      "D": 17.4,
+      "A": 10.0,
+      "entropy": 1.108
+    },
+    "T2_vs_T4": {
+      "n": 2836,
+      "H": 68.3,
+      "D": 19.6,
+      "A": 12.0,
+      "entropy": 1.204
+    },
+    "T1_vs_T3": {
+      "n": 3041,
+      "H": 65.4,
+      "D": 19.7,
+      "A": 14.8,
+      "entropy": 1.271
+    },
+    "T4_vs_T1": {
+      "n": 3791,
+      "H": 17.6,
+      "D": 21.7,
+      "A": 60.6,
+      "entropy": 1.357
+    },
+    "T2_vs_T3": {
+      "n": 2272,
+      "H": 58.3,
+      "D": 23.7,
+      "A": 17.9,
+      "entropy": 1.39
+    },
+    "T3_vs_T4": {
+      "n": 3791,
+      "H": 55.2,
+      "D": 25.1,
+      "A": 19.5,
+      "entropy": 1.434
+    },
+    "T1_vs_T2": {
+      "n": 2279,
+      "H": 51.8,
+      "D": 24.1,
+      "A": 23.9,
+      "entropy": 1.48
+    },
+    "T4_vs_T2": {
+      "n": 2845,
+      "H": 22.7,
+      "D": 26.0,
+      "A": 51.2,
+      "entropy": 1.485
+    },
+    "T3_vs_T1": {
+      "n": 3034,
+      "H": 24.5,
+      "D": 26.5,
+      "A": 48.8,
+      "entropy": 1.51
+    },
+    "T1_vs_T1": {
+      "n": 2271,
+      "H": 45.8,
+      "D": 22.1,
+      "A": 31.9,
+      "entropy": 1.523
+    },
+    "T2_vs_T2": {
+      "n": 1139,
+      "H": 46.4,
+      "D": 24.4,
+      "A": 29.0,
+      "entropy": 1.529
+    },
+    "T3_vs_T3": {
+      "n": 2275,
+      "H": 44.4,
+      "D": 26.3,
+      "A": 29.2,
+      "entropy": 1.549
+    },
+    "T4_vs_T4": {
+      "n": 3801,
+      "H": 41.7,
+      "D": 28.5,
+      "A": 29.6,
+      "entropy": 1.563
+    }
+  }
+}

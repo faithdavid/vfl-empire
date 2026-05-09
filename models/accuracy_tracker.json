@@ -1,0 +1,49 @@
+{
+  "seasons": {
+    "VFLM 4924": {
+      "predicted": 32,
+      "correct": 17,
+      "accuracy": 53.1
+    },
+    "VFLM 4925": {
+      "predicted": 216,
+      "correct": 96,
+      "accuracy": 44.4
+    },
+    "VFLM 4926": {
+      "predicted": 225,
+      "correct": 108,
+      "accuracy": 48.0
+    },
+    "VFLM 4927": {
+      "predicted": 32,
+      "correct": 17,
+      "accuracy": 53.1
+    },
+    "VFLM 4928": {
+      "predicted": 40,
+      "correct": 21,
+      "accuracy": 52.5
+    },
+    "VFLM 4929": {
+      "predicted": 48,
+      "correct": 23,
+      "accuracy": 47.9
+    },
+    "VFLM 4930": {
+      "predicted": 112,
+      "correct": 62,
+      "accuracy": 55.4
+    },
+    "VFLM 4931": {
+      "predicted": 88,
+      "correct": 36,
+      "accuracy": 40.9
+    }
+  },
+  "overall": {
+    "predicted": 793,
+    "correct": 380,
+    "accuracy": 47.9
+  }
+}

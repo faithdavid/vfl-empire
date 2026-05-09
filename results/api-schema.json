@@ -1,0 +1,870 @@
+{
+  "meta": {
+    "source": "MSport Virtual Football League (VFL) API",
+    "base_url": "https://www.msport.com/api/ng/facts-center/query/frontend/virtual",
+    "extracted_from": [
+      "msport-responses.txt (1162 entries, match results)",
+      "responsesSat27betdata3.txt (67 entries, bet odds/event list)"
+    ],
+    "analysis_date": "2026-05-07",
+    "total_seasons_observed": 43,
+    "season_naming": "VFLM NNNN (e.g. VFLM 3137 through VFLM 3226)",
+    "virtual_teams": 16,
+    "team_id_prefix": "sr:competitor:",
+    "event_id_prefix": "vf:match:",
+    "season_id_prefix": "vf:season:",
+    "sport_id": "vf:sport:1",
+    "category_id": "sr:category:1111",
+    "tournament_id": "vf:tournament:46215"
+  },
+  "apis": {
+    "match_results": {
+      "endpoint": "/result",
+      "method": "GET",
+      "description": "Fetch completed match results for a given season and match day",
+      "query_params": {
+        "seasonId": {
+          "type": "string",
+          "format": "vf:season:{id}",
+          "example": "vf:season:3036422",
+          "required": true,
+          "description": "Season identifier"
+        },
+        "matchDay": {
+          "type": "integer",
+          "required": true,
+          "description": "Match day within the season (1-based)"
+        }
+      },
+      "response": {
+        "bizCode": {
+          "type": "integer",
+          "description": "Business code, 10000 = success",
+          "observed_values": [
+            10000
+          ]
+        },
+        "message": {
+          "type": "string",
+          "description": "Human-readable status message",
+          "observed_values": [
+            "success"
+          ]
+        },
+        "innerMsg": {
+          "type": "string",
+          "description": "Internal status message",
+          "observed_values": [
+            "success"
+          ]
+        },
+        "data": {
+          "type": "object",
+          "description": "Paginated results container",
+          "fields": {
+            "current": {
+              "type": "object",
+              "description": "Current page of results",
+              "fields": {
+                "matchDay": {
+                  "type": "integer",
+                  "description": "Match day number"
+                },
+                "seasonId": {
+                  "type": "string",
+                  "format": "vf:season:{id}"
+                },
+                "seasonName": {
+                  "type": "string",
+                  "format": "VFLM {number}"
+                },
+                "seasonStartTime": {
+                  "type": "integer",
+                  "format": "epoch_milliseconds",
+                  "description": "Season start timestamp"
+                }
+              }
+            },
+            "prev": {
+              "type": "object|null",
+              "description": "Previous page (null when matchDay=1, no previous results exist)",
+              "fields": "same as current"
+            },
+            "after": {
+              "type": "object|null",
+              "description": "Next page (null when at latest match day)",
+              "fields": "same as current"
+            },
+            "results": {
+              "type": "array",
+              "description": "List of match results (8 per match day, one per fixture)",
+              "items": {
+                "homeTeam": {
+                  "type": "string",
+                  "description": "Home team name"
+                },
+                "awayTeam": {
+                  "type": "string",
+                  "description": "Away team name"
+                },
+                "fullTime": {
+                  "type": "string",
+                  "format": "H:M",
+                  "description": "Full-time score"
+                },
+                "halfTime": {
+                  "type": "string",
+                  "format": "H:M",
+                  "description": "Half-time score"
+                },
+                "firstGoal": {
+                  "type": "string",
+                  "enum": [
+                    "Home",
+                    "Away",
+                    "None"
+                  ],
+                  "description": "Which team scored first"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "match_day_events": {
+      "endpoint": "/match/day/event/list",
+      "method": "GET",
+      "description": "Fetch upcoming/pending matches with full betting markets for a given season and match day. This is the richest data source — includes team ranks, rank changes, all betting markets with odds.",
+      "query_params": {
+        "seasonId": {
+          "type": "string",
+          "format": "vf:season:{id}",
+          "example": "vf:season:3037884",
+          "required": true
+        },
+        "matchDay": {
+          "type": "integer",
+          "required": true,
+          "description": "Match day within the season (1-based)"
+        }
+      },
+      "response": {
+        "bizCode": {
+          "type": "integer",
+          "description": "Business code, 10000 = success",
+          "observed_values": [
+            10000
+          ]
+        },
+        "message": {
+          "type": "string",
+          "observed_values": [
+            "success"
+          ]
+        },
+        "innerMsg": {
+          "type": "string",
+          "observed_values": [
+            "success"
+          ]
+        },
+        "data": {
+          "type": "object",
+          "description": "Season context + events array",
+          "fields": {
+            "seasonId": {
+              "type": "string",
+              "format": "vf:season:{id}"
+            },
+            "seasonName": {
+              "type": "string",
+              "format": "VFLM {number}"
+            },
+            "seasonStartTime": {
+              "type": "integer",
+              "format": "epoch_milliseconds"
+            },
+            "seasonEndTime": {
+              "type": "integer",
+              "format": "epoch_milliseconds"
+            },
+            "matchDay": {
+              "type": "integer",
+              "description": "Current match day"
+            },
+            "matchDayStartTime": {
+              "type": "integer",
+              "format": "epoch_milliseconds",
+              "description": "When this match day kicks off"
+            },
+            "reminderTime": {
+              "type": "integer",
+              "description": "Countdown/reminder in seconds (observed range: 439610-439795)"
+            },
+            "events": {
+              "type": "array",
+              "description": "8 fixtures per match day, each with full betting markets",
+              "items": {
+                "homeTeam": {
+                  "type": "string",
+                  "description": "Home team name"
+                },
+                "awayTeam": {
+                  "type": "string",
+                  "description": "Away team name"
+                },
+                "homeTeamId": {
+                  "type": "string",
+                  "format": "sr:competitor:{id}",
+                  "description": "Sportradar competitor ID"
+                },
+                "awayTeamId": {
+                  "type": "string",
+                  "format": "sr:competitor:{id}",
+                  "description": "Sportradar competitor ID"
+                },
+                "homeRank": {
+                  "type": "integer",
+                  "range": "1-16",
+                  "description": "Home team league rank"
+                },
+                "awayRank": {
+                  "type": "integer",
+                  "range": "1-16",
+                  "description": "Away team league rank"
+                },
+                "homeRankChange": {
+                  "type": "string",
+                  "enum": [
+                    "UP",
+                    "DOWN",
+                    "SAME"
+                  ],
+                  "description": "Rank movement since last match day"
+                },
+                "awayRankChange": {
+                  "type": "string",
+                  "enum": [
+                    "UP",
+                    "DOWN",
+                    "SAME"
+                  ],
+                  "description": "Rank movement since last match day"
+                },
+                "eventId": {
+                  "type": "string",
+                  "format": "vf:match:{id}",
+                  "description": "Unique match identifier"
+                },
+                "seasonId": {
+                  "type": "string",
+                  "format": "vf:season:{id}"
+                },
+                "seasonName": {
+                  "type": "string"
+                },
+                "tournament": {
+                  "type": "string",
+                  "observed_values": [
+                    "Virtual Football English League 2"
+                  ]
+                },
+                "tournamentId": {
+                  "type": "string",
+                  "format": "vf:tournament:{id}"
+                },
+                "sport": {
+                  "type": "string",
+                  "observed_values": [
+                    "Virtual Soccer"
+                  ]
+                },
+                "sportId": {
+                  "type": "string",
+                  "format": "vf:sport:{id}"
+                },
+                "category": {
+                  "type": "string",
+                  "observed_values": [
+                    "Virtual Football"
+                  ]
+                },
+                "categoryId": {
+                  "type": "string",
+                  "format": "sr:category:{id}"
+                },
+                "roundNumber": {
+                  "type": "integer",
+                  "description": "Round within the season (1-based)"
+                },
+                "roundType": {
+                  "type": "string",
+                  "observed_values": [
+                    "group"
+                  ]
+                },
+                "startTime": {
+                  "type": "integer",
+                  "format": "epoch_milliseconds",
+                  "description": "Scheduled kickoff time"
+                },
+                "reminderTime": {
+                  "type": "integer|null",
+                  "description": "Always null in pre-match data"
+                },
+                "playedTime": {
+                  "type": "integer|null",
+                  "description": "Time played in seconds (null = pre-match)"
+                },
+                "totalPlayedTime": {
+                  "type": "integer|null",
+                  "description": "null in pre-match"
+                },
+                "stoppageTime": {
+                  "type": "integer|null",
+                  "description": "null in pre-match"
+                },
+                "stoppagePlayedTime": {
+                  "type": "integer|null",
+                  "description": "null in pre-match"
+                },
+                "sectionRemainTime": {
+                  "type": "integer|null",
+                  "description": "null in pre-match"
+                },
+                "status": {
+                  "type": "integer",
+                  "observed_values": [
+                    0
+                  ],
+                  "description": "0 = not started/pre-match"
+                },
+                "statusDescription": {
+                  "type": "string|null",
+                  "description": "null in pre-match, descriptive during live"
+                },
+                "hasLive": {
+                  "type": "integer",
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "description": "Live broadcast available flag"
+                },
+                "hasLiveCoverage": {
+                  "type": "integer",
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "description": "Live coverage available flag"
+                },
+                "hasLiveWidget": {
+                  "type": "integer",
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "description": "Live widget available flag"
+                },
+                "liveAudioStreamUrl": {
+                  "type": "string|null",
+                  "description": "Always null in VFL data"
+                },
+                "scoreOfWholeMatch": {
+                  "type": "string",
+                  "format": "H:M",
+                  "description": "Current match score (0:0 = pre-match)"
+                },
+                "scoreInCurrentSection": {
+                  "type": "string|null",
+                  "description": "null in pre-match"
+                },
+                "scoreOfSection": {
+                  "type": "string|null",
+                  "description": "null in pre-match"
+                },
+                "isTopTeam": {
+                  "type": "integer",
+                  "observed_values": [
+                    0
+                  ],
+                  "description": "Top team flag (always 0 in VFL)"
+                },
+                "hasVoucher": {
+                  "type": "integer",
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "description": "Voucher availability flag"
+                },
+                "bookingStatus": {
+                  "type": "string|null",
+                  "description": "Always null in VFL"
+                },
+                "location": {
+                  "type": "string|null",
+                  "description": "Always null in VFL (virtual matches have no location)"
+                },
+                "server": {
+                  "type": "string|null",
+                  "description": "Always null"
+                },
+                "categoryIcon": {
+                  "type": "string|null",
+                  "description": "Always null"
+                },
+                "matchDayEventCount": {
+                  "type": "integer|null",
+                  "description": "Always null"
+                },
+                "marketsCount": {
+                  "type": "integer",
+                  "description": "Total markets available (31-33 in VFL)"
+                },
+                "markets": {
+                  "type": "array",
+                  "description": "Betting markets with odds for this match",
+                  "items": {
+                    "id": {
+                      "type": "integer",
+                      "description": "Market type ID (1=1X2, 18=O/U, 10=DC, 11=DNB, 29=GG/NG)"
+                    },
+                    "name": {
+                      "type": "string",
+                      "description": "Market name"
+                    },
+                    "description": {
+                      "type": "string",
+                      "description": "Short description"
+                    },
+                    "title": {
+                      "type": "string",
+                      "description": "Display title"
+                    },
+                    "group": {
+                      "type": "string",
+                      "observed_values": [
+                        "Main"
+                      ]
+                    },
+                    "specifiers": {
+                      "type": "string",
+                      "description": "Market parameters e.g. 'total=2.5' for O/U"
+                    },
+                    "status": {
+                      "type": "integer",
+                      "observed_values": [
+                        0
+                      ]
+                    },
+                    "isFavourite": {
+                      "type": "integer",
+                      "enum": [
+                        0,
+                        1
+                      ],
+                      "description": "Whether this is the featured market variant"
+                    },
+                    "isShown": {
+                      "type": "integer",
+                      "enum": [
+                        0,
+                        1
+                      ]
+                    },
+                    "expand": {
+                      "type": "integer",
+                      "observed_values": [
+                        1
+                      ]
+                    },
+                    "priority": {
+                      "type": "integer",
+                      "description": "Display ordering priority"
+                    },
+                    "product": {
+                      "type": "integer",
+                      "observed_values": [
+                        6
+                      ]
+                    },
+                    "presentationType": {
+                      "type": "integer",
+                      "description": "1=list, 5=3-column"
+                    },
+                    "relatedMarketId": {
+                      "type": "integer|null",
+                      "description": "Always null in VFL"
+                    },
+                    "relatedSpecifiers": {
+                      "type": "string|null",
+                      "description": "Always null in VFL"
+                    },
+                    "outcomes": {
+                      "type": "array",
+                      "description": "Betting selections for this market",
+                      "items": {
+                        "id": {
+                          "type": "string",
+                          "description": "Outcome identifier"
+                        },
+                        "description": {
+                          "type": "string",
+                          "description": "Human-readable outcome name"
+                        },
+                        "odds": {
+                          "type": "string",
+                          "format": "decimal",
+                          "description": "Decimal odds as string"
+                        },
+                        "isActive": {
+                          "type": "integer",
+                          "enum": [
+                            0,
+                            1
+                          ]
+                        },
+                        "probability": {
+                          "type": "string",
+                          "format": "decimal",
+                          "observed_values": [
+                            "0.0000"
+                          ],
+                          "description": "Always 0.0000 in VFL (unused)"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "markets_catalog": {
+    "description": "Complete inventory of betting markets available on MSport VFL",
+    "markets": [
+      {
+        "id": 1,
+        "name": "1x2",
+        "description": "Full-Time Result",
+        "title": "1,X,2",
+        "group": "Main",
+        "specifiers": "",
+        "priority": 1,
+        "presentationType": 5,
+        "isFavourite": 0,
+        "outcomes": [
+          {
+            "id": "1",
+            "description": "Home",
+            "odds_type": "decimal"
+          },
+          {
+            "id": "2",
+            "description": "Draw",
+            "odds_type": "decimal"
+          },
+          {
+            "id": "3",
+            "description": "Away",
+            "odds_type": "decimal"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Over/Under",
+        "description": "Total Goals",
+        "title": "Goals,Over,Under",
+        "group": "Main",
+        "priority": 2,
+        "presentationType": 1,
+        "variants": [
+          {
+            "specifiers": "total=1.5",
+            "isFavourite": 0,
+            "outcomes": [
+              {
+                "id": "12",
+                "description": "Over 1.5"
+              },
+              {
+                "id": "13",
+                "description": "Under 1.5"
+              }
+            ]
+          },
+          {
+            "specifiers": "total=2.5",
+            "isFavourite": 1,
+            "outcomes": [
+              {
+                "id": "12",
+                "description": "Over 2.5"
+              },
+              {
+                "id": "13",
+                "description": "Under 2.5"
+              }
+            ]
+          },
+          {
+            "specifiers": "total=3.5",
+            "isFavourite": 0,
+            "outcomes": [
+              {
+                "id": "12",
+                "description": "Over 3.5"
+              },
+              {
+                "id": "13",
+                "description": "Under 3.5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Double Chance",
+        "description": "Double Chance",
+        "title": "Double Chance",
+        "group": "Main",
+        "specifiers": "",
+        "priority": 3,
+        "presentationType": 5,
+        "isFavourite": 0,
+        "outcomes": [
+          {
+            "id": "1",
+            "description": "1 X",
+            "meaning": "Home or Draw"
+          },
+          {
+            "id": "2",
+            "description": "1 2",
+            "meaning": "Home or Away"
+          },
+          {
+            "id": "3",
+            "description": "X 2",
+            "meaning": "Draw or Away"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "GG/NG",
+        "description": "Both Teams to Score",
+        "title": "GG/NG",
+        "group": "Main",
+        "specifiers": "",
+        "priority": 4,
+        "presentationType": 5,
+        "isFavourite": 0,
+        "outcomes": [
+          {
+            "id": "1",
+            "description": "Yes",
+            "meaning": "Both teams score"
+          },
+          {
+            "id": "2",
+            "description": "No",
+            "meaning": "At least one team doesn't score"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "DNB",
+        "description": "Draw No Bet",
+        "title": "Draw No Bet",
+        "group": "Main",
+        "specifiers": "",
+        "priority": 5,
+        "presentationType": 5,
+        "isFavourite": 0,
+        "outcomes": [
+          {
+            "id": "1",
+            "description": "Home"
+          },
+          {
+            "id": "2",
+            "description": "Away"
+          }
+        ]
+      }
+    ]
+  },
+  "team_catalog": {
+    "description": "The 16 virtual teams in VFL (consistent across all observed seasons)",
+    "teams": {
+      "sr:competitor:1234713": {
+        "name": "Aston Villa",
+        "rank_range": "1-2"
+      },
+      "sr:competitor:1234715": {
+        "name": "Chelsea",
+        "rank_range": "11-?"
+      },
+      "sr:competitor:1234717": {
+        "name": "Brighton",
+        "rank_range": "13-?"
+      },
+      "sr:competitor:1234719": {
+        "name": "Fulham",
+        "rank_range": "14-?"
+      },
+      "sr:competitor:1234721": {
+        "name": "Tottenham",
+        "rank_range": "7-?"
+      },
+      "sr:competitor:1234723": {
+        "name": "Everton",
+        "rank_range": "15-?"
+      },
+      "sr:competitor:1234725": {
+        "name": "Manchester Red",
+        "rank_range": "6-?"
+      },
+      "sr:competitor:1234727": {
+        "name": "Leeds",
+        "rank_range": "12-?"
+      },
+      "sr:competitor:1234729": {
+        "name": "Manchester Blue",
+        "rank_range": "5-?"
+      },
+      "sr:competitor:1234731": {
+        "name": "Newcastle",
+        "rank_range": "9-?"
+      },
+      "sr:competitor:1234733": {
+        "name": "West Ham",
+        "rank_range": "3-5"
+      },
+      "sr:competitor:1234735": {
+        "name": "London Guns",
+        "rank_range": "8-?"
+      },
+      "sr:competitor:1234737": {
+        "name": "Wolverhampton",
+        "rank_range": "4-?"
+      },
+      "sr:competitor:1234739": {
+        "name": "Crystal Palace",
+        "rank_range": "16-?"
+      },
+      "sr:competitor:1234741": {
+        "name": "Bournemouth",
+        "rank_range": "10-13"
+      },
+      "sr:competitor:1234743": {
+        "name": "Liverpool",
+        "rank_range": "1-?"
+      }
+    }
+  },
+  "unused_fields": {
+    "description": "Fields present in the API response that are NOT used in the old prediction system (and likely unused for any prediction model)",
+    "always_null_pre_match": [
+      "data.events[].playedTime",
+      "data.events[].totalPlayedTime",
+      "data.events[].stoppageTime",
+      "data.events[].stoppagePlayedTime",
+      "data.events[].sectionRemainTime",
+      "data.events[].statusDescription",
+      "data.events[].bookingStatus",
+      "data.events[].location",
+      "data.events[].liveAudioStreamUrl",
+      "data.events[].server",
+      "data.events[].categoryIcon",
+      "data.events[].matchDayEventCount",
+      "data.events[].reminderTime",
+      "data.events[].scoreInCurrentSection",
+      "data.events[].scoreOfSection",
+      "data.events[].markets[].relatedMarketId",
+      "data.events[].markets[].relatedSpecifiers"
+    ],
+    "ui_metadata_not_predictive": [
+      "data.events[].hasLive",
+      "data.events[].hasLiveCoverage",
+      "data.events[].hasLiveWidget",
+      "data.events[].hasVoucher",
+      "data.events[].isTopTeam",
+      "data.events[].markets[].expand",
+      "data.events[].markets[].presentationType",
+      "data.events[].markets[].product",
+      "data.events[].markets[].isFavourite",
+      "data.events[].markets[].isShown",
+      "data.events[].markets[].status",
+      "data.events[].marketsCount",
+      "data.events[].markets[].outcomes[].probability"
+    ],
+    "category_metadata": [
+      "data.events[].category",
+      "data.events[].categoryId",
+      "data.events[].sport",
+      "data.events[].sportId"
+    ],
+    "always_constant_in_vfl": [
+      {
+        "field": "data.events[].category",
+        "value": "Virtual Football"
+      },
+      {
+        "field": "data.events[].categoryId",
+        "value": "sr:category:1111"
+      },
+      {
+        "field": "data.events[].sport",
+        "value": "Virtual Soccer"
+      },
+      {
+        "field": "data.events[].sportId",
+        "value": "vf:sport:1"
+      },
+      {
+        "field": "data.events[].tournament",
+        "value": "Virtual Football English League 2"
+      },
+      {
+        "field": "data.events[].tournamentId",
+        "value": "vf:tournament:46215"
+      },
+      {
+        "field": "data.events[].roundType",
+        "value": "group"
+      },
+      {
+        "field": "data.events[].isTopTeam",
+        "value": 0
+      },
+      {
+        "field": "data.events[].markets[].group",
+        "value": "Main"
+      },
+      {
+        "field": "data.events[].markets[].product",
+        "value": 6
+      }
+    ]
+  },
+  "key_insights": {
+    "pagination": "The results API uses a prev/current/after triple for pagination. prev is null when matchDay=1. after is null when at the latest completed match day.",
+    "season_structure": "Each season spans ~3.7 hours of real time. matchDayStartTime advances ~220 seconds per match day. Each season has 18 match days × 8 fixtures.",
+    "id_scheme": "All IDs use namespaced prefixes: vf:season:, vf:match:, vf:tournament:, vf:sport:, sr:competitor:, sr:category:",
+    "odds_format": "All odds are decimal odds stored as strings (not floats). Probability field is always '0.0000'.",
+    "rank_changes": "Ranks change between match days (UP/DOWN/SAME). 54% of teams keep the same rank, ~25% move up, ~24% move down.",
+    "pre_match_data": "All captured events are pre-match (status=0, hasLive=0, scoreOfWholeMatch=0:0). Live fields would populate during match execution.",
+    "market_id_system": "Market IDs are Sportradar standard: 1=1X2, 10=Double Chance, 11=DNB, 18=Over/Under, 29=GG/NG"
+  }
+}

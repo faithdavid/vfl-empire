@@ -1,0 +1,294 @@
+{
+  "accuracy": 46.0,
+  "baseline": 52.5,
+  "correct": 20947,
+  "total": 45520,
+  "beats_market": false,
+  "margin_pp": 6.5,
+  "ratings": [
+    {
+      "team": "ASTON VILLA",
+      "bayes_h": 54.0,
+      "bayes_a": 38.9,
+      "tier": 2
+    },
+    {
+      "team": "Aston Villa",
+      "bayes_h": 37.1,
+      "bayes_a": 24.7,
+      "tier": 3
+    },
+    {
+      "team": "BOURNEMOUTH",
+      "bayes_h": 27.1,
+      "bayes_a": 16.4,
+      "tier": 4
+    },
+    {
+      "team": "BRIGHTON",
+      "bayes_h": 38.6,
+      "bayes_a": 25.6,
+      "tier": 3
+    },
+    {
+      "team": "Bournemouth",
+      "bayes_h": 36.6,
+      "bayes_a": 23.8,
+      "tier": 3
+    },
+    {
+      "team": "Brighton",
+      "bayes_h": 36.0,
+      "bayes_a": 24.3,
+      "tier": 3
+    },
+    {
+      "team": "CHELSEA",
+      "bayes_h": 57.7,
+      "bayes_a": 45.0,
+      "tier": 1
+    },
+    {
+      "team": "CRYSTAL PALACE",
+      "bayes_h": 30.6,
+      "bayes_a": 18.6,
+      "tier": 4
+    },
+    {
+      "team": "Chelsea",
+      "bayes_h": 36.0,
+      "bayes_a": 24.3,
+      "tier": 3
+    },
+    {
+      "team": "Crystal Palace",
+      "bayes_h": 36.0,
+      "bayes_a": 24.3,
+      "tier": 3
+    },
+    {
+      "team": "EVERTON",
+      "bayes_h": 41.9,
+      "bayes_a": 27.0,
+      "tier": 3
+    },
+    {
+      "team": "Everton",
+      "bayes_h": 36.6,
+      "bayes_a": 23.8,
+      "tier": 3
+    },
+    {
+      "team": "FULHAM",
+      "bayes_h": 27.6,
+      "bayes_a": 16.3,
+      "tier": 4
+    },
+    {
+      "team": "Fulham",
+      "bayes_h": 36.6,
+      "bayes_a": 23.8,
+      "tier": 3
+    },
+    {
+      "team": "LEEDS",
+      "bayes_h": 30.2,
+      "bayes_a": 19.9,
+      "tier": 4
+    },
+    {
+      "team": "LIVERPOOL",
+      "bayes_h": 62.4,
+      "bayes_a": 46.3,
+      "tier": 1
+    },
+    {
+      "team": "LONDON GUNS",
+      "bayes_h": 55.6,
+      "bayes_a": 39.0,
+      "tier": 2
+    },
+    {
+      "team": "Leeds",
+      "bayes_h": 36.6,
+      "bayes_a": 23.8,
+      "tier": 3
+    },
+    {
+      "team": "Liverpool",
+      "bayes_h": 36.0,
+      "bayes_a": 24.3,
+      "tier": 3
+    },
+    {
+      "team": "London Guns",
+      "bayes_h": 37.1,
+      "bayes_a": 24.7,
+      "tier": 3
+    },
+    {
+      "team": "MANCHESTER BLUE",
+      "bayes_h": 64.4,
+      "bayes_a": 49.6,
+      "tier": 1
+    },
+    {
+      "team": "MANCHESTER RED",
+      "bayes_h": 60.3,
+      "bayes_a": 46.5,
+      "tier": 1
+    },
+    {
+      "team": "Manchester Blue",
+      "bayes_h": 37.3,
+      "bayes_a": 23.4,
+      "tier": 3
+    },
+    {
+      "team": "Manchester Red",
+      "bayes_h": 39.1,
+      "bayes_a": 23.4,
+      "tier": 3
+    },
+    {
+      "team": "NEWCASTLE",
+      "bayes_h": 30.5,
+      "bayes_a": 19.9,
+      "tier": 4
+    },
+    {
+      "team": "Newcastle",
+      "bayes_h": 35.3,
+      "bayes_a": 24.7,
+      "tier": 3
+    },
+    {
+      "team": "TOTTENHAM",
+      "bayes_h": 54.5,
+      "bayes_a": 38.4,
+      "tier": 2
+    },
+    {
+      "team": "Tottenham",
+      "bayes_h": 38.4,
+      "bayes_a": 23.8,
+      "tier": 3
+    },
+    {
+      "team": "WEST HAM",
+      "bayes_h": 41.8,
+      "bayes_a": 28.5,
+      "tier": 3
+    },
+    {
+      "team": "WOLVERHAMPTON",
+      "bayes_h": 38.8,
+      "bayes_a": 25.7,
+      "tier": 3
+    },
+    {
+      "team": "West Ham",
+      "bayes_h": 36.0,
+      "bayes_a": 24.3,
+      "tier": 3
+    },
+    {
+      "team": "Wolverhampton",
+      "bayes_h": 37.3,
+      "bayes_a": 25.2,
+      "tier": 3
+    }
+  ],
+  "tier_priors": {
+    "T1": {
+      "home_pct": 61.2,
+      "away_pct": 46.8
+    },
+    "T2": {
+      "home_pct": 54.7,
+      "away_pct": 38.8
+    },
+    "T3": {
+      "home_pct": 40.3,
+      "away_pct": 26.7
+    },
+    "T4": {
+      "home_pct": 29.2,
+      "away_pct": 18.2
+    }
+  },
+  "top_shrinkage": [
+    {
+      "team": "CHELSEA",
+      "shrink_h": 0.1,
+      "shrink_a": 0.0,
+      "tier": 1
+    },
+    {
+      "team": "MANCHESTER BLUE",
+      "shrink_h": 0.1,
+      "shrink_a": 0.0,
+      "tier": 1
+    },
+    {
+      "team": "ASTON VILLA",
+      "shrink_h": 0.0,
+      "shrink_a": 0.0,
+      "tier": 2
+    },
+    {
+      "team": "Aston Villa",
+      "shrink_h": 0,
+      "shrink_a": 0,
+      "tier": 3
+    },
+    {
+      "team": "BOURNEMOUTH",
+      "shrink_h": 0.0,
+      "shrink_a": 0.0,
+      "tier": 4
+    }
+  ],
+  "top_divergent": [
+    {
+      "team": "MANCHESTER BLUE",
+      "div_h": 3.2,
+      "div_a": 2.8,
+      "raw_h": 64.4,
+      "raw_a": 49.6,
+      "tier": 1
+    },
+    {
+      "team": "CHELSEA",
+      "div_h": 3.5,
+      "div_a": 1.9,
+      "raw_h": 57.7,
+      "raw_a": 44.9,
+      "tier": 1
+    },
+    {
+      "team": "BOURNEMOUTH",
+      "div_h": 2.1,
+      "div_a": 1.9,
+      "raw_h": 27.1,
+      "raw_a": 16.4,
+      "tier": 4
+    },
+    {
+      "team": "FULHAM",
+      "div_h": 1.7,
+      "div_a": 2.0,
+      "raw_h": 27.6,
+      "raw_a": 16.2,
+      "tier": 4
+    },
+    {
+      "team": "WEST HAM",
+      "div_h": 1.6,
+      "div_a": 1.8,
+      "raw_h": 41.8,
+      "raw_a": 28.5,
+      "tier": 3
+    }
+  ]
+}

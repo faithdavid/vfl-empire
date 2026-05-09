@@ -1,0 +1,388 @@
+{
+  "method": "Fellenius",
+  "full_dataset_slices": 16,
+  "merged_slices": 16,
+  "bettable_slices": 5,
+  "full_dataset": {
+    "T1_vs_T1": {
+      "n": 2267,
+      "home_actual": 45.9,
+      "draw_actual": 22.1,
+      "away_actual": 32.0
+    },
+    "T1_vs_T2": {
+      "n": 2274,
+      "home_actual": 51.9,
+      "draw_actual": 24.1,
+      "away_actual": 24.0
+    },
+    "T1_vs_T3": {
+      "n": 3036,
+      "home_actual": 65.4,
+      "draw_actual": 19.7,
+      "away_actual": 14.8
+    },
+    "T1_vs_T4": {
+      "n": 3783,
+      "home_actual": 72.5,
+      "draw_actual": 17.5,
+      "away_actual": 10.0
+    },
+    "T2_vs_T1": {
+      "n": 2277,
+      "home_actual": 38.2,
+      "draw_actual": 25.8,
+      "away_actual": 36.0
+    },
+    "T2_vs_T2": {
+      "n": 1136,
+      "home_actual": 46.5,
+      "draw_actual": 24.5,
+      "away_actual": 29.0
+    },
+    "T2_vs_T3": {
+      "n": 2268,
+      "home_actual": 58.4,
+      "draw_actual": 23.7,
+      "away_actual": 17.9
+    },
+    "T2_vs_T4": {
+      "n": 2831,
+      "home_actual": 68.3,
+      "draw_actual": 19.6,
+      "away_actual": 12.0
+    },
+    "T3_vs_T1": {
+      "n": 3027,
+      "home_actual": 24.5,
+      "draw_actual": 26.6,
+      "away_actual": 48.9
+    },
+    "T3_vs_T2": {
+      "n": 2273,
+      "home_actual": 32.0,
+      "draw_actual": 25.2,
+      "away_actual": 42.8
+    },
+    "T3_vs_T3": {
+      "n": 2279,
+      "home_actual": 44.4,
+      "draw_actual": 26.4,
+      "away_actual": 29.2
+    },
+    "T3_vs_T4": {
+      "n": 3784,
+      "home_actual": 55.3,
+      "draw_actual": 25.1,
+      "away_actual": 19.6
+    },
+    "T4_vs_T1": {
+      "n": 3785,
+      "home_actual": 17.6,
+      "draw_actual": 21.7,
+      "away_actual": 60.7
+    },
+    "T4_vs_T2": {
+      "n": 2842,
+      "home_actual": 22.7,
+      "draw_actual": 26.0,
+      "away_actual": 51.3
+    },
+    "T4_vs_T3": {
+      "n": 3786,
+      "home_actual": 33.1,
+      "draw_actual": 26.9,
+      "away_actual": 40.0
+    },
+    "T4_vs_T4": {
+      "n": 3792,
+      "home_actual": 41.8,
+      "draw_actual": 28.5,
+      "away_actual": 29.7
+    }
+  },
+  "merged_dataset": {
+    "T1_vs_T1": {
+      "n": 168,
+      "home_actual": 46.4,
+      "home_implied": 44.7,
+      "home_sf": 1.038,
+      "draw_actual": 17.3,
+      "draw_implied": 24.5,
+      "draw_sf": 0.704,
+      "away_actual": 36.3,
+      "away_implied": 30.7,
+      "away_sf": 1.181,
+      "best_bet": "AWAY",
+      "best_sf": 1.181,
+      "action": "BET"
+    },
+    "T1_vs_T2": {
+      "n": 158,
+      "home_actual": 50.0,
+      "home_implied": 52.0,
+      "home_sf": 0.961,
+      "draw_actual": 28.5,
+      "draw_implied": 24.1,
+      "draw_sf": 1.181,
+      "away_actual": 21.5,
+      "away_implied": 23.8,
+      "away_sf": 0.903,
+      "best_bet": "DRAW",
+      "best_sf": 1.181,
+      "action": "BET"
+    },
+    "T1_vs_T3": {
+      "n": 213,
+      "home_actual": 62.4,
+      "home_implied": 62.9,
+      "home_sf": 0.992,
+      "draw_actual": 20.7,
+      "draw_implied": 21.3,
+      "draw_sf": 0.971,
+      "away_actual": 16.9,
+      "away_implied": 15.8,
+      "away_sf": 1.07,
+      "best_bet": "AWAY",
+      "best_sf": 1.07,
+      "action": "WATCH"
+    },
+    "T1_vs_T4": {
+      "n": 280,
+      "home_actual": 72.5,
+      "home_implied": 71.6,
+      "home_sf": 1.012,
+      "draw_actual": 17.5,
+      "draw_implied": 18.3,
+      "draw_sf": 0.954,
+      "away_actual": 10.0,
+      "away_implied": 10.0,
+      "away_sf": 0.999,
+      "best_bet": "HOME",
+      "best_sf": 1.012,
+      "action": "WATCH"
+    },
+    "T2_vs_T1": {
+      "n": 165,
+      "home_actual": 42.4,
+      "home_implied": 39.0,
+      "home_sf": 1.087,
+      "draw_actual": 23.0,
+      "draw_implied": 24.9,
+      "draw_sf": 0.924,
+      "away_actual": 34.5,
+      "away_implied": 36.0,
+      "away_sf": 0.958,
+      "best_bet": "HOME",
+      "best_sf": 1.087,
+      "action": "WATCH"
+    },
+    "T2_vs_T2": {
+      "n": 85,
+      "home_actual": 43.5,
+      "home_implied": 44.9,
+      "home_sf": 0.968,
+      "draw_actual": 28.2,
+      "draw_implied": 26.9,
+      "draw_sf": 1.049,
+      "away_actual": 28.2,
+      "away_implied": 28.1,
+      "away_sf": 1.003,
+      "best_bet": "DRAW",
+      "best_sf": 1.049,
+      "action": "WATCH"
+    },
+    "T2_vs_T3": {
+      "n": 164,
+      "home_actual": 56.7,
+      "home_implied": 56.7,
+      "home_sf": 1.001,
+      "draw_actual": 27.4,
+      "draw_implied": 24.1,
+      "draw_sf": 1.14,
+      "away_actual": 15.9,
+      "away_implied": 19.2,
+      "away_sf": 0.824,
+      "best_bet": "DRAW",
+      "best_sf": 1.14,
+      "action": "WATCH"
+    },
+    "T2_vs_T4": {
+      "n": 201,
+      "home_actual": 67.2,
+      "home_implied": 65.5,
+      "home_sf": 1.025,
+      "draw_actual": 19.4,
+      "draw_implied": 21.6,
+      "draw_sf": 0.897,
+      "away_actual": 13.4,
+      "away_implied": 12.8,
+      "away_sf": 1.048,
+      "best_bet": "AWAY",
+      "best_sf": 1.048,
+      "action": "WATCH"
+    },
+    "T3_vs_T1": {
+      "n": 220,
+      "home_actual": 24.1,
+      "home_implied": 25.6,
+      "home_sf": 0.943,
+      "draw_actual": 29.5,
+      "draw_implied": 25.1,
+      "draw_sf": 1.175,
+      "away_actual": 46.4,
+      "away_implied": 49.3,
+      "away_sf": 0.94,
+      "best_bet": "DRAW",
+      "best_sf": 1.175,
+      "action": "BET"
+    },
+    "T3_vs_T2": {
+      "n": 167,
+      "home_actual": 34.7,
+      "home_implied": 31.2,
+      "home_sf": 1.115,
+      "draw_actual": 25.1,
+      "draw_implied": 26.9,
+      "draw_sf": 0.935,
+      "away_actual": 40.1,
+      "away_implied": 41.9,
+      "away_sf": 0.957,
+      "best_bet": "HOME",
+      "best_sf": 1.115,
+      "action": "WATCH"
+    },
+    "T3_vs_T3": {
+      "n": 218,
+      "home_actual": 31.2,
+      "home_implied": 44.8,
+      "home_sf": 0.697,
+      "draw_actual": 23.9,
+      "draw_implied": 25.9,
+      "draw_sf": 0.919,
+      "away_actual": 45.0,
+      "away_implied": 29.3,
+      "away_sf": 1.535,
+      "best_bet": "AWAY",
+      "best_sf": 1.535,
+      "action": "BET"
+    },
+    "T3_vs_T4": {
+      "n": 261,
+      "home_actual": 57.5,
+      "home_implied": 53.8,
+      "home_sf": 1.069,
+      "draw_actual": 21.8,
+      "draw_implied": 25.4,
+      "draw_sf": 0.86,
+      "away_actual": 20.7,
+      "away_implied": 20.8,
+      "away_sf": 0.993,
+      "best_bet": "HOME",
+      "best_sf": 1.069,
+      "action": "WATCH"
+    },
+    "T4_vs_T1": {
+      "n": 260,
+      "home_actual": 12.7,
+      "home_implied": 17.0,
+      "home_sf": 0.747,
+      "draw_actual": 27.7,
+      "draw_implied": 23.7,
+      "draw_sf": 1.166,
+      "away_actual": 59.6,
+      "away_implied": 59.3,
+      "away_sf": 1.006,
+      "best_bet": "DRAW",
+      "best_sf": 1.166,
+      "action": "BET"
+    },
+    "T4_vs_T2": {
+      "n": 199,
+      "home_actual": 24.1,
+      "home_implied": 22.5,
+      "home_sf": 1.073,
+      "draw_actual": 22.1,
+      "draw_implied": 26.2,
+      "draw_sf": 0.843,
+      "away_actual": 53.8,
+      "away_implied": 51.3,
+      "away_sf": 1.048,
+      "best_bet": "HOME",
+      "best_sf": 1.073,
+      "action": "WATCH"
+    },
+    "T4_vs_T3": {
+      "n": 283,
+      "home_actual": 32.5,
+      "home_implied": 32.0,
+      "home_sf": 1.017,
+      "draw_actual": 26.9,
+      "draw_implied": 27.8,
+      "draw_sf": 0.965,
+      "away_actual": 40.6,
+      "away_implied": 40.2,
+      "away_sf": 1.011,
+      "best_bet": "HOME",
+      "best_sf": 1.017,
+      "action": "WATCH"
+    },
+    "T4_vs_T4": {
+      "n": 278,
+      "home_actual": 41.0,
+      "home_implied": 42.6,
+      "home_sf": 0.963,
+      "draw_actual": 30.6,
+      "draw_implied": 28.4,
+      "draw_sf": 1.078,
+      "away_actual": 28.4,
+      "away_implied": 29.0,
+      "away_sf": 0.979,
+      "best_bet": "DRAW",
+      "best_sf": 1.078,
+      "action": "WATCH"
+    }
+  },
+  "bets": [
+    {
+      "slice": "T3_vs_T3",
+      "bet": "AWAY",
+      "sf": 1.535,
+      "actual_rate": 45.0,
+      "implied_rate": 29.3,
+      "n": 218
+    },
+    {
+      "slice": "T1_vs_T1",
+      "bet": "AWAY",
+      "sf": 1.181,
+      "actual_rate": 36.3,
+      "implied_rate": 30.7,
+      "n": 168
+    },
+    {
+      "slice": "T1_vs_T2",
+      "bet": "DRAW",
+      "sf": 1.181,
+      "actual_rate": 28.5,
+      "implied_rate": 24.1,
+      "n": 158
+    },
+    {
+      "slice": "T3_vs_T1",
+      "bet": "DRAW",
+      "sf": 1.175,
+      "actual_rate": 29.5,
+      "implied_rate": 25.1,
+      "n": 220
+    },
+    {
+      "slice": "T4_vs_T1",
+      "bet": "DRAW",
+      "sf": 1.166,
+      "actual_rate": 27.7,
+      "implied_rate": 23.7,
+      "n": 260
+    }
+  ]
+}

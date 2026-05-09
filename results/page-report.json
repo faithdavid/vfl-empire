@@ -1,0 +1,147 @@
+{
+  "report_title": "VFL Data Science Report",
+  "analyst": "Page (Data Scientist, Trillions Empire)",
+  "date": "2026-05-07",
+  "data_sources": {
+    "history_db_matches": 50520,
+    "history_db_with_odds": 8344,
+    "history_db_with_odds_and_outcomes": 3320,
+    "response_file_matches": 40624,
+    "bet_odds_entries": 2944,
+    "sovereign_ledger_total": 51751,
+    "sovereign_settled": 553,
+    "sovereign_predicted": 665,
+    "sovereign_pending": 50533
+  },
+
+  "section_1_data_overview": {
+    "teams": ["ASTON VILLA", "BOURNEMOUTH", "BRIGHTON", "CHELSEA", "CRYSTAL PALACE", "EVERTON", "FULHAM", "LEEDS", "LIVERPOOL", "LONDON GUNS", "MANCHESTER BLUE", "MANCHESTER RED", "NEWCASTLE", "TOTTENHAM", "WEST HAM", "WOLVERHAMPTON"],
+    "seasons": "200+ virtual seasons tracked",
+    "matches_per_season": "Typically 240 matches (15 matchdays x 8 fixtures)",
+    "columns_kind": "season, day, home, away, oh/od/oa (odds), h/a (goals), total, gg, o25, half_time, first_goal, outcome"
+  },
+
+  "section_2_outcome_distribution": {
+    "overall_rates": {
+      "home_win": {"actual_pct": 44.2, "implied_pct": 44.1},
+      "draw": {"actual_pct": 24.6, "implied_pct": 24.6},
+      "away_win": {"actual_pct": 31.2, "implied_pct": 31.3}
+    },
+    "key_insight": "The odds market is highly efficient. Actual and implied probabilities align within 0.1%, meaning no systematic edge exists in the overall market."
+  },
+
+  "section_3_odds_efficiency": {
+    "favorite_prediction_accuracy": 52.2,
+    "by_confidence_threshold": {
+      "prob_ge_50": {"accuracy_pct": 60.7, "n": 1750},
+      "prob_ge_55": {"accuracy_pct": 63.5, "n": 1215},
+      "prob_ge_60": {"accuracy_pct": 67.1, "n": 787},
+      "prob_ge_65": {"accuracy_pct": 70.2, "n": 503},
+      "prob_ge_70": {"accuracy_pct": 74.6, "n": 240}
+    },
+    "simulated_flat_bet_roi": -6.8,
+    "key_insight": "Higher confidence = higher accuracy, but the market prices this in. Even at 70%+ confidence, ROI is negative due to odds adjusting down."
+  },
+
+  "section_4_edge_patterns": {
+    "home_odds_1_2_to_1_5": {"actual_h_win_pct": 67.7, "implied_pct": 67.9, "edge": -0.003},
+    "home_odds_1_5_to_1_8": {"actual_h_win_pct": 55.4, "implied_pct": 55.5, "edge": -0.001},
+    "home_odds_1_8_to_2_0": {"actual_h_win_pct": 48.9, "implied_pct": 48.4, "edge": 0.005},
+    "home_odds_2_0_to_2_5": {"actual_h_win_pct": 43.4, "implied_pct": 41.4, "edge": 0.020},
+    "home_odds_2_5_to_3_0": {"actual_h_win_pct": 46.7, "implied_pct": 35.8, "edge": 0.109},
+    "key_insight": "Smallest edges found in mid-odds ranges (1.8-3.0). Strong favorites (1.2-1.5) return actual close to implied. Weak favorites (2.0-3.0) slightly outperform market expectations."
+  },
+
+  "section_5_team_ratings": {
+    "power_rankings": [
+      {"rank": 1, "team": "MANCHESTER BLUE", "home_win_pct": 63.4, "away_win_pct": 44.7},
+      {"rank": 2, "team": "MANCHESTER RED", "home_win_pct": 60.6, "away_win_pct": 44.9},
+      {"rank": 3, "team": "CHELSEA", "home_win_pct": 59.2, "away_win_pct": 45.5},
+      {"rank": 4, "team": "LIVERPOOL", "home_win_pct": 57.7, "away_win_pct": 49.5},
+      {"rank": 5, "team": "LONDON GUNS", "home_win_pct": 57.5, "away_win_pct": 35.3},
+      {"rank": 6, "team": "ASTON VILLA", "home_win_pct": 55.9, "away_win_pct": 38.3},
+      {"rank": 7, "team": "TOTTENHAM", "home_win_pct": 50.0, "away_win_pct": 40.6},
+      {"rank": 8, "team": "EVERTON", "home_win_pct": 43.6, "away_win_pct": 28.9},
+      {"rank": 9, "team": "WEST HAM", "home_win_pct": 40.9, "away_win_pct": 28.1},
+      {"rank": 10, "team": "BRIGHTON", "home_win_pct": 40.3, "away_win_pct": 26.4},
+      {"rank": 11, "team": "WOLVERHAMPTON", "home_win_pct": 35.5, "away_win_pct": 26.5},
+      {"rank": 12, "team": "NEWCASTLE", "home_win_pct": 31.8, "away_win_pct": 22.8},
+      {"rank": 13, "team": "CRYSTAL PALACE", "home_win_pct": 29.6, "away_win_pct": 20.1},
+      {"rank": 14, "team": "LEEDS", "home_win_pct": 28.9, "away_win_pct": 17.9},
+      {"rank": 15, "team": "FULHAM", "home_win_pct": 24.5, "away_win_pct": 18.1},
+      {"rank": 16, "team": "BOURNEMOUTH", "home_win_pct": 25.9, "away_win_pct": 13.3}
+    ],
+    "outlier_insight": "MANCHESTER BLUE dominates at home (63.4%) but LIVERPOOL has the best away record (49.5%). FULHAM (24.5% home) and BOURNEMOUTH (13.3% away) are the weakest."
+  },
+
+  "section_6_half_time_full_time": {
+    "ht_home_to_ft_home": {"pct": 82.2, "n": 16513},
+    "ht_home_to_ft_draw": {"pct": 13.6, "n": 16513},
+    "ht_home_to_ft_away": {"pct": 4.2, "n": 16513},
+    "ht_away_to_ft_away": {"pct": 75.0, "n": 12003},
+    "ht_away_to_ft_draw": {"pct": 17.7, "n": 12003},
+    "ht_away_to_ft_home": {"pct": 7.3, "n": 12003},
+    "ht_draw_to_ft_home": {"pct": 34.7, "n": 16916},
+    "ht_draw_to_ft_draw": {"pct": 38.4, "n": 16916},
+    "ht_draw_to_ft_away": {"pct": 26.9, "n": 16916},
+    "key_insight": "HT lead is highly predictive. Home teams leading at HT win 82.2% of the time. Away teams leading at HT win 75.0%. A HT draw is the most uncertain state."
+  },
+
+  "section_7_first_goal": {
+    "first_goal_home_to_ft_home": {"pct": 75.9, "n": 23553},
+    "first_goal_home_to_ft_draw": {"pct": 16.2, "n": 23553},
+    "first_goal_home_to_ft_loss": {"pct": 7.9, "n": 23553},
+    "first_goal_away_to_ft_away": {"pct": 66.5, "n": 18596},
+    "first_goal_away_to_ft_draw": {"pct": 20.2, "n": 18596},
+    "first_goal_away_to_ft_loss": {"pct": 13.3, "n": 18596},
+    "first_goal_none_to_ft_draw": {"pct": 100.0, "n": 3281},
+    "key_insight": "First goal is the strongest predictor. Home scoring first → 75.9% win rate. Away scoring first → 66.5% win rate. 0-0 is the only guaranteed draw."
+  },
+
+  "section_8_goal_analysis": {
+    "avg_home_goals": 1.44,
+    "avg_away_goals": 1.14,
+    "avg_total_goals": 2.58,
+    "both_teams_to_score_pct": 48.6,
+    "over_2_5_goals_pct": 48.4,
+    "home_goal_distribution": {"0": 25.9, "1": 32.9, "2": 23.2, "3": 11.7, "4_plus": 6.4},
+    "away_goal_distribution": {"0": 34.2, "1": 34.8, "2": 19.4, "3": 8.3, "4_plus": 3.3}
+  },
+
+  "section_9_sovereign_ledger_audit": {
+    "total_predictions_tracked": 51751,
+    "settled_bets": 553,
+    "predicted_bets": 665,
+    "pending_predictions": 50533,
+    "overall_settled_accuracy_pct": 41.4,
+    "overall_settled_roi_pct": -82.2,
+    "total_pnl": -4825.2,
+    "total_stake": 5870.0,
+    "accuracy_by_tier": {
+      "LOCK": {"accuracy_pct": 46.4, "n": 28, "roi_pct": -99.9},
+      "SIGNAL": {"accuracy_pct": 43.7, "n": 87, "roi_pct": -99.96},
+      "WEAK": {"accuracy_pct": 51.6, "n": 283, "roi_pct": 0.0},
+      "WALL": {"accuracy_pct": 20.8, "n": 130, "roi_pct": -51.6},
+      "STRATA": {"accuracy_pct": 20.8, "n": 24, "roi_pct": 0.0}
+    },
+    "accuracy_by_predicted_outcome": {
+      "HOME": {"accuracy_pct": 49.8, "n": 259},
+      "AWAY": {"accuracy_pct": 50.0, "n": 144},
+      "DRAW": {"accuracy_pct": 19.9, "n": 141}
+    },
+    "worst_strategy": "GLOBAL DRAW SURGE — only 15-20% accurate across all variants",
+    "draw_prediction_performance": "19.9% — dramatically worse than natural draw rate of ~25%",
+    "zero_stake_bets": "283 WEAK bets had 0 stake (no real P&L impact; used for monitoring)",
+    "key_insight": "The sovereign model is a significant net loser at -82% ROI. The odds-favored prediction (52.2%) outperforms sovereign predictions (41.4%) by ~10 percentage points. Draw predictions are the weakest link — only 19.9% accurate vs natural rate of ~25%."
+  },
+
+  "section_10_recommendations": {
+    "do_not_use_sovereign_draw_predictions": "The GLOBAL DRAW SURGE strategy and draw predictions perform at 15-20% accuracy - far below the natural draw rate. Avoid.",
+    "favorite_betting_is_negative_roi": "Flat-betting all favorites yields -6.8% ROI long-term (as expected in a market with vigorish).",
+    "leverage_ht_ft_correlation": "Teams leading at HT have 75-82% win rates — the strongest in-play signal available.",
+    "value_in_mid_range_favorites": "Smallest negative edges in odds 1.8-3.0 range. Weak favorites (odds 2.0-3.0) show the closest-to-breakeven performance.",
+    "monitor_sovereign_SIGNAL_LOCK": "SIGNAL and LOCK tiers have small sample sizes (115 total) but significant negative ROI. Either the model needs retraining or the staking strategy needs adjustment.",
+    "model_recalibration_needed": "The sovereign model's 41.4% overall accuracy suggests a fundamental flaw. A simple 'favorite wins' model (52.2%) dramatically outperforms it. Re-examine prediction methodology.",
+    "best_approach": "Use odds-favored predictions as baseline (52.2% accuracy). Filter by probability threshold ≥ 60% for higher confidence (67.1% accuracy). Use first-goal and HT-lead signals for in-play decisions."
+  }
+}

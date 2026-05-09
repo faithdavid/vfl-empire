@@ -1,0 +1,30 @@
+{
+  "query": "Win quota analysis — per-team avg wins per season",
+  "result": [
+    {"team": "MANCHESTER BLUE",  "tier": "Tier 1", "avg_wins": 16.3, "seasons": 199, "min": 0.0, "max": 24.0},
+    {"team": "LIVERPOOL",        "tier": "Tier 1", "avg_wins": 15.5, "seasons": 199, "min": 0.0, "max": 24.0},
+    {"team": "MANCHESTER RED",   "tier": "Tier 1", "avg_wins": 15.2, "seasons": 199, "min": 0.0, "max": 23.0},
+    {"team": "CHELSEA",          "tier": "Tier 1", "avg_wins": 14.6, "seasons": 199, "min": 0.0, "max": 24.0},
+    {"team": "LONDON GUNS",     "tier": "Tier 2", "avg_wins": 13.5, "seasons": 199, "min": 0.0, "max": 21.0},
+    {"team": "TOTTENHAM",        "tier": "Tier 2", "avg_wins": 13.2, "seasons": 199, "min": 0.0, "max": 20.0},
+    {"team": "ASTON VILLA",     "tier": "Tier 2", "avg_wins": 13.2, "seasons": 199, "min": 0.0, "max": 21.0},
+    {"team": "WEST HAM",         "tier": "Tier 3", "avg_wins": 10.0, "seasons": 199, "min": 0.0, "max": 17.0},
+    {"team": "EVERTON",          "tier": "Tier 3", "avg_wins": 9.8,  "seasons": 199, "min": 0.0, "max": 16.0},
+    {"team": "WOLVERHAMPTON",    "tier": "Tier 3", "avg_wins": 9.2,  "seasons": 199, "min": 0.0, "max": 17.0},
+    {"team": "BRIGHTON",         "tier": "Tier 3", "avg_wins": 9.1,  "seasons": 199, "min": 0.0, "max": 15.0},
+    {"team": "NEWCASTLE",        "tier": "Tier 4", "avg_wins": 7.2,  "seasons": 199, "min": 0.0, "max": 14.0},
+    {"team": "LEEDS",            "tier": "Tier 4", "avg_wins": 7.2,  "seasons": 199, "min": 0.0, "max": 15.0},
+    {"team": "CRYSTAL PALACE",  "tier": "Tier 4", "avg_wins": 7.0,  "seasons": 199, "min": 0.0, "max": 15.0},
+    {"team": "FULHAM",           "tier": "Tier 4", "avg_wins": 6.3,  "seasons": 199, "min": 0.0, "max": 12.0},
+    {"team": "BOURNEMOUTH",      "tier": "Tier 4", "avg_wins": 6.2,  "seasons": 199, "min": 0.0, "max": 14.0}
+  ],
+  "hypothesis": {
+    "Tier 1 (Man Blue, Liverpool, Man Red, Chelsea)": {"predicted": 17, "actual_avg": 15.4, "range": "14.6-16.3"},
+    "Tier 2 (Ldn Guns, Tottenham, Aston Villa)":      {"predicted": 13, "actual_avg": 13.3, "range": "13.2-13.5"},
+    "Tier 3 (West Ham, Everton, Wolves, Brighton)":   {"predicted": 10, "actual_avg": 9.5,  "range": "9.1-10.0"},
+    "Tier 4 (Newcastle, Leeds, C.Palace, Fulham, Bournemouth)": {"predicted": 7, "actual_avg": 6.8, "range": "6.2-7.2"}
+  },
+  "verdict": "WIN QUOTA CONFIRMED: yes — The tier structure is validated. Each tier's actual average win count lands within 0.5-1.6 wins of the predicted quota. Tier boundaries are clean with no overlap between adjacent tiers.",
+  "raw_output": "MANCHESTER BLUE|16.3|199|0.0|24.0\nLIVERPOOL|15.5|199|0.0|24.0\nMANCHESTER RED|15.2|199|0.0|23.0\nCHELSEA|14.6|199|0.0|24.0\nLONDON GUNS|13.5|199|0.0|21.0\nTOTTENHAM|13.2|199|0.0|20.0\nASTON VILLA|13.2|199|0.0|21.0\nWEST HAM|10.0|199|0.0|17.0\nEVERTON|9.8|199|0.0|16.0\nWOLVERHAMPTON|9.2|199|0.0|17.0\nBRIGHTON|9.1|199|0.0|15.0\nNEWCASTLE|7.2|199|0.0|14.0\nLEEDS|7.2|199|0.0|15.0\nCRYSTAL PALACE|7.0|199|0.0|15.0\nFULHAM|6.3|199|0.0|12.0\nBOURNEMOUTH|6.2|199|0.0|14.0",
+  "queried_at": "2026-05-07T23:02:00Z"
+}

@@ -1,0 +1,8 @@
+{
+  "poisson_accuracy": 0.515,
+  "market_accuracy": 0.5254,
+  "verdict": "Poisson loses to market by 1.0pp",
+  "poisson_correct": 1685,
+  "market_correct": 1719,
+  "total": 3272
+}

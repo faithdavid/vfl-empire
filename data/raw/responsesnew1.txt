@@ -1,0 +1,3766 @@
+===== MATCH #1 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=10
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=10
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:03.712Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 11,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 10,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 9,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "4:3",
+        "halfTime": "3:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:3",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "0:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Away",
+        "fullTime": "2:1",
+        "halfTime": "0:1",
+        "homeTeam": "Chelsea"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #2 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=1
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=1
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:06.650Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 2,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 1,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 30,
+      "seasonId": "vf:season:3037940",
+      "seasonName": "VFLM 3228",
+      "seasonStartTime": 1766856650000
+    },
+    "results": [
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "1:0",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "3:4",
+        "halfTime": "1:2",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Home",
+        "fullTime": "4:0",
+        "halfTime": "2:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "1:3",
+        "halfTime": "1:2",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #3 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=2
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=2
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:10.637Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 3,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 2,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 1,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "4:0",
+        "halfTime": "1:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "1:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "4:1",
+        "halfTime": "2:1",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "2:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Newcastle"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #4 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=3
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=3
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:12.892Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 4,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 3,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 2,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "2:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "2:3",
+        "halfTime": "0:2",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Away",
+        "fullTime": "2:5",
+        "halfTime": "0:3",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "1:1",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "London Guns"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #5 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=4
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=4
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:13.857Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 5,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 4,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 3,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "2:2",
+        "halfTime": "2:1",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Away",
+        "fullTime": "2:1",
+        "halfTime": "0:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:1",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Away",
+        "fullTime": "2:1",
+        "halfTime": "0:1",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "3:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "5:0",
+        "halfTime": "2:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "homeTeam": "Tottenham"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #6 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=5
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=5
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:14.558Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 6,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 5,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 4,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "3:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "2:2",
+        "halfTime": "0:1",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "2:2",
+        "halfTime": "1:1",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:2",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "2:3",
+        "halfTime": "2:2",
+        "homeTeam": "Newcastle"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #7 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=6
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=6
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:15.280Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 7,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 6,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 5,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "1:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "3:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:1",
+        "homeTeam": "Everton"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #8 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=7
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=7
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:15.921Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 8,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 7,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 6,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "2:2",
+        "halfTime": "1:1",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "3:3",
+        "halfTime": "0:2",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "6:0",
+        "halfTime": "2:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:0",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "0:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "1:1",
+        "homeTeam": "Manchester Red"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #9 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=8
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=8
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:16.401Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 9,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 8,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 7,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "2:0",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Home",
+        "fullTime": "2:2",
+        "halfTime": "1:1",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "Tottenham"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #10 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=9
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=9
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:16.853Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 10,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 9,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 8,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "3:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "3:3",
+        "halfTime": "1:2",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Home",
+        "fullTime": "4:0",
+        "halfTime": "2:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Home",
+        "fullTime": "3:3",
+        "halfTime": "1:1",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Away",
+        "fullTime": "3:1",
+        "halfTime": "1:1",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Away",
+        "fullTime": "0:3",
+        "halfTime": "0:1",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:0",
+        "homeTeam": "Aston Villa"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #11 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=10
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=10
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:17.283Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 11,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 10,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 9,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "4:3",
+        "halfTime": "3:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:3",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "0:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Away",
+        "fullTime": "2:1",
+        "halfTime": "0:1",
+        "homeTeam": "Chelsea"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #12 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=11
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=11
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:17.667Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 12,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 11,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 10,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "1:3",
+        "halfTime": "1:1",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "2:1",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "2:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Liverpool"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #13 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=12
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=12
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:18.046Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 13,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 12,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 11,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "0:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:2",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "3:2",
+        "halfTime": "2:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "4:1",
+        "halfTime": "0:1",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Away",
+        "fullTime": "2:2",
+        "halfTime": "1:1",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:2",
+        "homeTeam": "Leeds"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #14 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=13
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=13
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:18.416Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 14,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 13,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 12,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Away",
+        "fullTime": "2:1",
+        "halfTime": "0:1",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "2:3",
+        "halfTime": "1:1",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "1:2",
+        "halfTime": "1:1",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "6:0",
+        "halfTime": "4:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "0:0",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Away",
+        "fullTime": "1:3",
+        "halfTime": "0:3",
+        "homeTeam": "Liverpool"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #15 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=14
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=14
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:18.788Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 15,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 14,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 13,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "2:3",
+        "halfTime": "2:1",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "1:3",
+        "halfTime": "0:2",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:1",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "2:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "2:2",
+        "halfTime": "2:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Fulham"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #16 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=15
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=15
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:19.182Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 16,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 15,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 14,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Away",
+        "fullTime": "1:3",
+        "halfTime": "1:2",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "2:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "2:2",
+        "halfTime": "1:1",
+        "homeTeam": "Everton"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #17 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=16
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=16
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:19.595Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 17,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 16,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 15,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "3:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Away",
+        "fullTime": "1:2",
+        "halfTime": "0:1",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Away",
+        "fullTime": "2:1",
+        "halfTime": "0:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "0:4",
+        "halfTime": "0:3",
+        "homeTeam": "Fulham"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #18 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=17
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=17
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:19.982Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 18,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 17,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 16,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:1",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "1:4",
+        "halfTime": "0:1",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Away",
+        "fullTime": "1:2",
+        "halfTime": "0:1",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "0:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Away",
+        "fullTime": "0:5",
+        "halfTime": "0:2",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Home",
+        "fullTime": "2:3",
+        "halfTime": "1:2",
+        "homeTeam": "West Ham"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #19 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=18
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=18
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:20.850Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 19,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 18,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 17,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "2:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "2:0",
+        "homeTeam": "Manchester Red"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #20 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=19
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=19
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:21.711Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 20,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 19,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 18,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "1:0",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "0:5",
+        "halfTime": "0:3",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "0:4",
+        "halfTime": "0:2",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "3:2",
+        "halfTime": "0:2",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "3:3",
+        "halfTime": "1:1",
+        "homeTeam": "London Guns"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #21 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=20
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=20
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:22.112Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 21,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 20,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 19,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "2:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Away",
+        "fullTime": "1:2",
+        "halfTime": "1:2",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "homeTeam": "Chelsea"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #22 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=21
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=21
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:22.579Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 22,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 21,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 20,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "1:1",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Away",
+        "fullTime": "0:3",
+        "halfTime": "0:1",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "4:2",
+        "halfTime": "3:1",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "4:1",
+        "halfTime": "0:1",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "1:1",
+        "homeTeam": "Leeds"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #23 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=22
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=22
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:22.988Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 23,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 22,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 21,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Home",
+        "fullTime": "1:3",
+        "halfTime": "1:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "3:1",
+        "halfTime": "0:1",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "2:2",
+        "halfTime": "1:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Away",
+        "fullTime": "2:2",
+        "halfTime": "1:1",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:3",
+        "halfTime": "0:2",
+        "homeTeam": "Everton"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #24 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=23
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=23
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:23.386Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 24,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 23,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 22,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "1:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "3:1",
+        "halfTime": "0:1",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "2:2",
+        "halfTime": "2:1",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "2:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Home",
+        "fullTime": "4:1",
+        "halfTime": "3:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Home",
+        "fullTime": "1:2",
+        "halfTime": "1:1",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "3:2",
+        "halfTime": "1:1",
+        "homeTeam": "Leeds"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #25 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=24
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=24
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:23.790Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 25,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 24,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 23,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Home",
+        "fullTime": "5:0",
+        "halfTime": "3:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "1:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Away",
+        "fullTime": "1:3",
+        "halfTime": "1:1",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "1:3",
+        "halfTime": "0:2",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "0:0",
+        "homeTeam": "Leeds"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #26 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=25
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=25
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:24.191Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 26,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 25,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 24,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "1:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "0:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "2:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "3:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Brighton"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #27 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=26
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=26
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:24.583Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 27,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 26,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 25,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "1:4",
+        "halfTime": "0:2",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "1:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "2:0",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "1:5",
+        "halfTime": "1:2",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "1:0",
+        "homeTeam": "Fulham"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #28 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=27
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=27
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:24.926Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 28,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 27,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 26,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "2:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "2:1",
+        "halfTime": "0:1",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "0:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "4:0",
+        "halfTime": "2:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "West Ham"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #29 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=28
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=28
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:25.289Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 29,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 28,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 27,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "2:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "1:2",
+        "halfTime": "1:1",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "2:2",
+        "halfTime": "0:1",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Away",
+        "fullTime": "0:3",
+        "halfTime": "0:2",
+        "homeTeam": "Brighton"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #30 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=29
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=29
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:25.631Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 30,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "current": {
+      "matchDay": 29,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 28,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "1:2",
+        "halfTime": "1:1",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "2:2",
+        "halfTime": "1:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "1:1",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Away",
+        "fullTime": "3:1",
+        "halfTime": "0:1",
+        "homeTeam": "Manchester Red"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #31 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037968&matchDay=30
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037968&matchDay=30
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:26.005Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 1,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 30,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "prev": {
+      "matchDay": 29,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "1:0",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "3:2",
+        "halfTime": "3:0",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:2",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "1:3",
+        "halfTime": "0:2",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "1:3",
+        "halfTime": "0:0",
+        "homeTeam": "London Guns"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #32 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=1
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=1
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:26.341Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 2,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 1,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 30,
+      "seasonId": "vf:season:3037968",
+      "seasonName": "VFLM 3229",
+      "seasonStartTime": 1766863370000
+    },
+    "results": [
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "2:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "4:1",
+        "halfTime": "3:1",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Home",
+        "fullTime": "1:2",
+        "halfTime": "1:0",
+        "homeTeam": "Wolverhampton"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #33 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=2
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=2
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:26.764Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 3,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 2,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 1,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "results": [
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "1:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "1:2",
+        "halfTime": "0:1",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "1:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "2:1",
+        "homeTeam": "London Guns"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #34 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=3
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=3
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:27.062Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 4,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 3,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 2,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "results": [
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "2:2",
+        "halfTime": "2:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "5:1",
+        "halfTime": "3:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "3:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "2:4",
+        "halfTime": "1:3",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "2:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Away",
+        "fullTime": "1:2",
+        "halfTime": "1:1",
+        "homeTeam": "Leeds"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #35 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=4
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=4
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:27.371Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 5,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 4,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 3,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "results": [
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Home",
+        "fullTime": "1:1",
+        "halfTime": "1:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "5:1",
+        "halfTime": "2:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Home",
+        "fullTime": "4:0",
+        "halfTime": "2:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #36 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=5
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=5
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:27.930Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 6,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 5,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 4,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "results": [
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Home",
+        "fullTime": "4:2",
+        "halfTime": "2:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "3:2",
+        "halfTime": "1:1",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "2:1",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Home",
+        "fullTime": "1:2",
+        "halfTime": "1:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "West Ham"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #37 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=6
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=6
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:28.160Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 7,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 6,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 5,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "results": [
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Home",
+        "fullTime": "4:1",
+        "halfTime": "1:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "1:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Away",
+        "fullTime": "0:2",
+        "halfTime": "0:1",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Home",
+        "fullTime": "4:0",
+        "halfTime": "2:0",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "1:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "3:0",
+        "halfTime": "2:0",
+        "homeTeam": "Aston Villa"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #38 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=7
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=7
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:28.411Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 8,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 7,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 6,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "results": [
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Away",
+        "fullTime": "3:1",
+        "halfTime": "2:1",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Away",
+        "fullTime": "4:1",
+        "halfTime": "2:1",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "None",
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "0:0",
+        "homeTeam": "Manchester Red"
+      },
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "1:1",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "2:1",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Home",
+        "fullTime": "2:2",
+        "halfTime": "1:0",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Away",
+        "fullTime": "2:3",
+        "halfTime": "1:1",
+        "homeTeam": "Crystal Palace"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #39 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=8
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=8
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:28.673Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 9,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 8,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 7,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "results": [
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Home",
+        "fullTime": "1:2",
+        "halfTime": "1:1",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "2:1",
+        "halfTime": "1:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Chelsea"
+      },
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "4:1",
+        "halfTime": "2:1",
+        "homeTeam": "Manchester Blue"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #40 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=9
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=9
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:28.938Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": {
+      "matchDay": 10,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "current": {
+      "matchDay": 9,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 8,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "results": [
+      {
+        "awayTeam": "Aston Villa",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "London Guns"
+      },
+      {
+        "awayTeam": "Leeds",
+        "firstGoal": "Away",
+        "fullTime": "3:2",
+        "halfTime": "2:1",
+        "homeTeam": "West Ham"
+      },
+      {
+        "awayTeam": "Fulham",
+        "firstGoal": "Home",
+        "fullTime": "1:0",
+        "halfTime": "0:0",
+        "homeTeam": "Tottenham"
+      },
+      {
+        "awayTeam": "Wolverhampton",
+        "firstGoal": "Home",
+        "fullTime": "3:3",
+        "halfTime": "1:1",
+        "homeTeam": "Crystal Palace"
+      },
+      {
+        "awayTeam": "Brighton",
+        "firstGoal": "Away",
+        "fullTime": "1:1",
+        "halfTime": "0:1",
+        "homeTeam": "Everton"
+      },
+      {
+        "awayTeam": "Bournemouth",
+        "firstGoal": "Home",
+        "fullTime": "3:1",
+        "halfTime": "1:0",
+        "homeTeam": "Liverpool"
+      },
+      {
+        "awayTeam": "Chelsea",
+        "firstGoal": "Away",
+        "fullTime": "2:3",
+        "halfTime": "1:2",
+        "homeTeam": "Newcastle"
+      },
+      {
+        "awayTeam": "Manchester Blue",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "homeTeam": "Manchester Red"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}
+
+===== MATCH #41 =====
+BASE: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result
+QUERY: seasonId=vf%3Aseason%3A3037996&matchDay=10
+FULL URL: https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3037996&matchDay=10
+STATUS: 200
+MIME: application/json
+TIMESTAMP: 2025-12-27T21:54:29.206Z
+
+{
+  "bizCode": 10000,
+  "data": {
+    "after": null,
+    "current": {
+      "matchDay": 10,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "prev": {
+      "matchDay": 9,
+      "seasonId": "vf:season:3037996",
+      "seasonName": "VFLM 3230",
+      "seasonStartTime": 1766870090000
+    },
+    "results": [
+      {
+        "awayTeam": "Liverpool",
+        "firstGoal": "Home",
+        "fullTime": "2:2",
+        "halfTime": "2:2",
+        "homeTeam": "Manchester Blue"
+      },
+      {
+        "awayTeam": "Everton",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Fulham"
+      },
+      {
+        "awayTeam": "Tottenham",
+        "firstGoal": "Away",
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "homeTeam": "Bournemouth"
+      },
+      {
+        "awayTeam": "West Ham",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "2:0",
+        "homeTeam": "Aston Villa"
+      },
+      {
+        "awayTeam": "Newcastle",
+        "firstGoal": "Home",
+        "fullTime": "2:0",
+        "halfTime": "0:0",
+        "homeTeam": "Brighton"
+      },
+      {
+        "awayTeam": "Crystal Palace",
+        "firstGoal": "Home",
+        "fullTime": "4:0",
+        "halfTime": "3:0",
+        "homeTeam": "Leeds"
+      },
+      {
+        "awayTeam": "Manchester Red",
+        "firstGoal": "Away",
+        "fullTime": "1:2",
+        "halfTime": "0:1",
+        "homeTeam": "Wolverhampton"
+      },
+      {
+        "awayTeam": "London Guns",
+        "firstGoal": "Away",
+        "fullTime": "2:1",
+        "halfTime": "1:1",
+        "homeTeam": "Chelsea"
+      }
+    ]
+  },
+  "innerMsg": "success",
+  "message": "success"
+}

@@ -1,0 +1,26 @@
+{
+  "season": "VFLM 4919",
+  "match_day": 6,
+  "timestamp": "2026-05-07T21:15:00-04:00",
+  "bets": [
+    {
+      "home": "BOURNEMOUTH",
+      "away": "WEST HAM",
+      "pick": "HOME",
+      "odds": 3.4,
+      "sf": 1.218,
+      "engine": 33.1,
+      "market": 27.2
+    },
+    {
+      "home": "LEEDS",
+      "away": "FULHAM",
+      "pick": "AWAY",
+      "odds": 3.9,
+      "sf": 1.255,
+      "engine": 29.7,
+      "market": 23.7
+    }
+  ],
+  "location": "/home/faith/Documents/Projects/vfl-data/analysis/live-predictions.json"
+}

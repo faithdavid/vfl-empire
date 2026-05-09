@@ -1,0 +1,275 @@
+{
+  "version": "2.0",
+  "generated": "2026-05-08T21:04:25.239855",
+  "streams": {
+    "clara_misses": 10,
+    "pattern_rules": 8,
+    "h2h_matchups": 0
+  },
+  "team_constraints": {
+    "BRIGHTON": {
+      "draw_bias": true,
+      "draw_surprise_pct": 100,
+      "home_trap": false,
+      "home_fav_loss_pct": 0,
+      "away_strong": false,
+      "upset_specialist": false,
+      "unreliable": false,
+      "draw_boost": 10
+    },
+    "WEST HAM": {
+      "draw_bias": true,
+      "draw_surprise_pct": 100,
+      "home_trap": false,
+      "home_fav_loss_pct": 0,
+      "away_strong": false,
+      "upset_specialist": false,
+      "unreliable": false,
+      "draw_boost": 10
+    },
+    "MANCHESTER RED": {
+      "draw_bias": true,
+      "draw_surprise_pct": 0,
+      "home_trap": true,
+      "home_fav_loss_pct": 80,
+      "away_strong": true,
+      "upset_specialist": false,
+      "unreliable": false,
+      "home_confidence_penalty": -20,
+      "draw_boost": 10
+    },
+    "ASTON VILLA": {
+      "draw_bias": false,
+      "draw_surprise_pct": 0,
+      "home_trap": true,
+      "home_fav_loss_pct": 83,
+      "away_strong": false,
+      "upset_specialist": false,
+      "unreliable": false,
+      "home_confidence_penalty": -20
+    },
+    "EVERTON": {
+      "draw_bias": true,
+      "draw_surprise_pct": 43,
+      "home_trap": false,
+      "home_fav_loss_pct": 29,
+      "away_strong": false,
+      "upset_specialist": false,
+      "unreliable": true,
+      "draw_boost": 10
+    },
+    "TOTTENHAM": {
+      "draw_bias": true,
+      "draw_surprise_pct": 63,
+      "home_trap": false,
+      "home_fav_loss_pct": 0,
+      "away_strong": false,
+      "upset_specialist": false,
+      "unreliable": false,
+      "draw_boost": 10
+    },
+    "NEWCASTLE": {
+      "draw_bias": true,
+      "draw_surprise_pct": 0,
+      "home_trap": false,
+      "home_fav_loss_pct": 0,
+      "away_strong": false,
+      "upset_specialist": false,
+      "unreliable": false,
+      "draw_boost": 10
+    },
+    "CRYSTAL PALACE": {
+      "draw_bias": false,
+      "draw_surprise_pct": 0,
+      "home_trap": false,
+      "home_fav_loss_pct": 0,
+      "away_strong": false,
+      "upset_specialist": true,
+      "unreliable": false,
+      "t1_discount": 15
+    }
+  },
+  "confidence_calibration": {
+    "30-45": {
+      "actual_accuracy": 45.5,
+      "penalty": 8.0
+    },
+    "45-55": {
+      "actual_accuracy": 57.1,
+      "penalty": 7.1
+    },
+    "55-70": {
+      "actual_accuracy": 43.6,
+      "penalty": -18.9
+    },
+    "70-85": {
+      "actual_accuracy": 84.2,
+      "penalty": 6.7
+    },
+    "85-100": {
+      "actual_accuracy": 100.0,
+      "penalty": 7.5
+    }
+  },
+  "value_edges": [
+    {
+      "fixture": "Aston Villa vs London Guns",
+      "edge_pct": 40.78,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Wolverhampton vs Aston Villa (home)",
+      "edge_pct": 40.6,
+      "type": "ODDS_ADJUSTED",
+      "actual": 69.23,
+      "implied": 28.68,
+      "matches": 13
+    },
+    {
+      "fixture": "Aston Villa vs Tottenham",
+      "edge_pct": 39.91,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Wolverhampton vs West Ham (home)",
+      "edge_pct": -37.4,
+      "type": "ODDS_ADJUSTED",
+      "actual": 6.25,
+      "implied": 43.61,
+      "matches": 16
+    },
+    {
+      "fixture": "Wolverhampton at West Ham (away)",
+      "edge_pct": 37.4,
+      "type": "ODDS_ADJUSTED",
+      "actual": 66.67,
+      "implied": 29.24,
+      "matches": 12
+    },
+    {
+      "fixture": "Fulham vs Newcastle",
+      "edge_pct": 36.36,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Wolverhampton vs Brighton",
+      "edge_pct": 35.95,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Bournemouth vs Crystal Palace",
+      "edge_pct": 33.98,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Wolverhampton vs Everton",
+      "edge_pct": 33.84,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Wolverhampton vs West Ham",
+      "edge_pct": 33.33,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Aston Villa vs Chelsea",
+      "edge_pct": 33.12,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Fulham vs Crystal Palace",
+      "edge_pct": 33.12,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Aston Villa at Wolverhampton (away)",
+      "edge_pct": -31.3,
+      "type": "ODDS_ADJUSTED",
+      "actual": 15.38,
+      "implied": 46.69,
+      "matches": 13
+    },
+    {
+      "fixture": "Crystal Palace vs Brighton",
+      "edge_pct": 30.67,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "T4 vs vs vs T3",
+      "edge_pct": 30.6,
+      "type": "TIER_UPSET",
+      "matches": 3695
+    },
+    {
+      "fixture": "Fulham at Aston Villa (away)",
+      "edge_pct": 30.4,
+      "type": "ODDS_ADJUSTED",
+      "actual": 41.67,
+      "implied": 11.32,
+      "matches": 12
+    },
+    {
+      "fixture": "Bournemouth vs Newcastle",
+      "edge_pct": 29.96,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Manchester Blue at London Guns (away)",
+      "edge_pct": -29.8,
+      "type": "ODDS_ADJUSTED",
+      "actual": 8.33,
+      "implied": 38.11,
+      "matches": 12
+    },
+    {
+      "fixture": "Fulham vs Wolverhampton",
+      "edge_pct": 29.59,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    },
+    {
+      "fixture": "Everton vs London Guns",
+      "edge_pct": 29.54,
+      "type": "SPECIFIC_UPSET",
+      "matches": 0
+    }
+  ],
+  "miss_type_distribution": {
+    "draw_surprise": {
+      "count": 21,
+      "pct": 42
+    },
+    "home_favorite_loss": {
+      "count": 16,
+      "pct": 32
+    },
+    "away_favorite_loss": {
+      "count": 7,
+      "pct": 14
+    },
+    "draw_broken": {
+      "count": 6,
+      "pct": 12
+    }
+  },
+  "actionable_constraints": [
+    "NEVER predict HOME for Man Red when they are home favourite at odds <1.5 (80% loss rate in miss scenarios)",
+    "ADD draw_surprise flag for ALL Brighton and West Ham matches regardless of odds",
+    "REDUCE confidence by 18% for any prediction in the 55-70% confidence range (actual accuracy is 43.6%)",
+    "LIMIT DRAW predictions to max 3 per matchday (statistically abnormal beyond that)",
+    "SKIP predictions where confidence <30%",
+    "When H2H heavily favours HOME (>50%) but odds suggest DRAW, trust H2H not odds \u2014 H2H HOME override is correct 67% of the time"
+  ],
+  "top_h2h_edges": []
+}

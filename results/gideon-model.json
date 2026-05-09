@@ -1,0 +1,112 @@
+{
+  "model": "gideon-v2",
+  "description": "Baseline favorite + win quota regression-to-mean + bracket edge boost. In-play HT confirmation.",
+  "matches_analyzed": 3272,
+  "steps": {
+    "baseline": {
+      "accuracy_pct": 52.66,
+      "correct": 1723,
+      "total": 3272,
+      "method": "Pick lowest odds (highest implied probability after vig removal)"
+    },
+    "plus_quota": {
+      "accuracy_pct": 52.11,
+      "correct": 1705,
+      "total": 3272,
+      "method": "Regression-to-mean: teams above tier win pace get faded, below pace get backed. 0.5pp adjustment per win off pace. Applied from matchday 8 with 5+ game history.",
+      "tiers_used": {
+        "1": 15,
+        "2": 13,
+        "3": 10,
+        "4": 7
+      },
+      "adjustments": 96,
+      "adjustment_win_rate_pct": 28.1
+    },
+    "plus_bracket": {
+      "accuracy_pct": 52.75,
+      "correct": 1726,
+      "total": 3272,
+      "method": "Heavy Dog (odds>4.0) \u2192 DRAW +4pp. Slight Dog HOME (odds 2.5-4.0, home underdog) \u2192 HOME +2pp.",
+      "adjustments": 13,
+      "adjustment_win_rate_pct": 46.2
+    },
+    "ht_lead_signal": {
+      "accuracy_pct": 80.0,
+      "matches_with_ht_data": 3264,
+      "ht_leader_ft_wins": 1637,
+      "ht_leader_total": 2047,
+      "method": "In-play: HT leader wins FT. Pre-match ensemble cannot use this.",
+      "by_lead": {
+        "1": {
+          "wins": 1018,
+          "draws": 264,
+          "losses": 104,
+          "total": 1386,
+          "win_rate_pct": 73.4
+        },
+        "2": {
+          "wins": 471,
+          "draws": 35,
+          "losses": 7,
+          "total": 513,
+          "win_rate_pct": 91.8
+        },
+        "3": {
+          "wins": 128,
+          "draws": 0,
+          "losses": 0,
+          "total": 128,
+          "win_rate_pct": 100.0
+        },
+        "4": {
+          "wins": 20,
+          "draws": 0,
+          "losses": 0,
+          "total": 20,
+          "win_rate_pct": 100.0
+        }
+      }
+    },
+    "first_goal_signal": {
+      "home_first_home_win_pct": 75.6,
+      "away_first_away_win_pct": 68.7,
+      "method": "In-play: First scorer wins FT at high rate"
+    },
+    "ensemble": {
+      "accuracy_pct": 52.2,
+      "correct": 1708,
+      "total": 3272,
+      "method": "Baseline \u2192 Quota regression adjustment \u2192 Bracket edge boost (sequential)",
+      "quota_adjustments": 96,
+      "bracket_adjustments": 18
+    }
+  },
+  "betting_simulation": {
+    "strategy_1_flat_1pct": {
+      "final_bankroll": 849.19,
+      "roi_pct": -91.51,
+      "bets": 3272,
+      "won": 1708,
+      "win_rate_pct": 52.2
+    },
+    "strategy_2_agree_baseline": {
+      "final_bankroll": 84.78,
+      "roi_pct": -99.15,
+      "bets": 3158,
+      "won": 1673,
+      "win_rate_pct": 53.0
+    },
+    "strategy_3_kelly": {
+      "final_bankroll": 9780.99,
+      "roi_pct": -2.19,
+      "bets": 58,
+      "won": 21,
+      "win_rate_pct": 36.2
+    },
+    "best_strategy": "Kelly",
+    "best_roi_pct": -2.19,
+    "starting_bankroll": 10000
+  },
+  "summary": "BASELINE: 52.7% \u2192 +QUOTA: 52.1% \u2192 +BRACKET: 52.8% \u2192 +HT: 80.0% \u2192 ENSEMBLE: 52.2% \u2192 BEST ROI: -2.2%"
+}

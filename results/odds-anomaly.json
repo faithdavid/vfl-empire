@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "total_matches": 3320,
+    "dropped_zero_oh": 24,
+    "anomaly_threshold": "1 std dev from tier matchup mean"
+  },
+  "tier_matchup_norms": {
+    "T1vT1": {
+      "avg_oh": 2.0857,
+      "std_oh": 0.1785,
+      "avg_oa": 3.0491,
+      "std_oa": 0.3329,
+      "avg_od": 3.8018,
+      "std_od": 0.3171,
+      "n": 168
+    },
+    "T1vT2": {
+      "avg_oh": 1.7839,
+      "std_oh": 0.1063,
+      "avg_oa": 3.9009,
+      "std_oa": 0.2794,
+      "avg_od": 3.8706,
+      "std_od": 0.361,
+      "n": 158
+    },
+    "T1vT3": {
+      "avg_oh": 1.4756,
+      "std_oh": 0.0985,
+      "avg_oa": 5.9723,
+      "std_oa": 0.8347,
+      "avg_od": 4.431,
+      "std_od": 0.6202,
+      "n": 213
+    },
+    "T1vT4": {
+      "avg_oh": 1.2959,
+      "std_oh": 0.0483,
+      "avg_oa": 9.3973,
+      "std_oa": 1.0881,
+      "avg_od": 5.1498,
+      "std_od": 0.7193,
+      "n": 280
+    },
+    "T2vT1": {
+      "avg_oh": 2.3794,
+      "std_oh": 0.1074,
+      "avg_oa": 2.5758,
+      "std_oa": 0.1084,
+      "avg_od": 3.7385,
+      "std_od": 0.2784,
+      "n": 165
+    },
+    "T2vT2": {
+      "avg_oh": 2.0659,
+      "std_oh": 0.1049,
+      "avg_oa": 3.3053,
+      "std_oa": 0.2177,
+      "avg_od": 3.4559,
+      "std_od": 0.2219,
+      "n": 85
+    },
+    "T2vT3": {
+      "avg_oh": 1.6378,
+      "std_oh": 0.1158,
+      "avg_oa": 4.8454,
+      "std_oa": 0.4719,
+      "avg_od": 3.9079,
+      "std_od": 0.5179,
+      "n": 164
+    },
+    "T2vT4": {
+      "avg_oh": 1.4157,
+      "std_oh": 0.0696,
+      "avg_oa": 7.3831,
+      "std_oa": 1.1066,
+      "avg_od": 4.3348,
+      "std_od": 0.4838,
+      "n": 201
+    },
+    "T3vT1": {
+      "avg_oh": 3.6477,
+      "std_oh": 0.3105,
+      "avg_oa": 1.8868,
+      "std_oa": 0.1389,
+      "avg_od": 3.7275,
+      "std_od": 0.4238,
+      "n": 220
+    },
+    "T3vT2": {
+      "avg_oh": 2.9811,
+      "std_oh": 0.1824,
+      "avg_oa": 2.2216,
+      "std_oa": 0.187,
+      "avg_od": 3.479,
+      "std_od": 0.3693,
+      "n": 167
+    },
+    "T3vT3": {
+      "avg_oh": 2.0972,
+      "std_oh": 0.1806,
+      "avg_oa": 3.2154,
+      "std_oa": 0.3747,
+      "avg_od": 3.5593,
+      "std_od": 0.4239,
+      "n": 162
+    },
+    "T3vT4": {
+      "avg_oh": 1.7284,
+      "std_oh": 0.1131,
+      "avg_oa": 4.531,
+      "std_oa": 0.6448,
+      "avg_od": 3.6939,
+      "std_od": 0.4419,
+      "n": 261
+    },
+    "T4vT1": {
+      "avg_oh": 5.4952,
+      "std_oh": 0.5418,
+      "avg_oa": 1.5646,
+      "std_oa": 0.071,
+      "avg_od": 3.9338,
+      "std_od": 0.3797,
+      "n": 260
+    },
+    "T4vT2": {
+      "avg_oh": 4.1585,
+      "std_oh": 0.4156,
+      "avg_oa": 1.8095,
+      "std_oa": 0.1013,
+      "avg_od": 3.5477,
+      "std_od": 0.2639,
+      "n": 199
+    },
+    "T4vT3": {
+      "avg_oh": 2.9648,
+      "std_oh": 0.4799,
+      "avg_oa": 2.324,
+      "std_oa": 0.2157,
+      "avg_od": 3.379,
+      "std_od": 0.4149,
+      "n": 283
+    },
+    "T4vT4": {
+      "avg_oh": 2.2269,
+      "std_oh": 0.4818,
+      "avg_oa": 3.3918,
+      "std_oa": 1.1174,
+      "avg_od": 3.3793,
+      "std_od": 0.4335,
+      "n": 334
+    }
+  },
+  "t1_home_vs_t4": {
+    "normal_oh_range": "1.25-1.34",
+    "avg_oh": 1.2959,
+    "std_oh": 0.0483,
+    "anomalies_found_high": 65,
+    "anomalies_found_low": 38,
+    "anomaly_accuracy_high": "Home win%: 66.2% vs baseline 72.5%",
+    "anomaly_accuracy_low": "Home win%: 73.7% vs baseline 72.5%"
+  },
+  "oh_high_anomalies": {
+    "description": "OH >1\u03c3 above tier norm (market pessimistic on home)",
+    "total": 521,
+    "weighted_delta_vs_baseline_pp": 0.0,
+    "by_matchup": {
+      "T1vT1": {
+        "n": 26,
+        "actual_h%": 38.5,
+        "baseline_h%": 46.4,
+        "diff_pp": -8.0
+      },
+      "T1vT2": {
+        "n": 25,
+        "actual_h%": 60.0,
+        "baseline_h%": 50.0,
+        "diff_pp": 10.0
+      },
+      "T1vT3": {
+        "n": 42,
+        "actual_h%": 64.3,
+        "baseline_h%": 62.4,
+        "diff_pp": 1.8
+      },
+      "T1vT4": {
+        "n": 65,
+        "actual_h%": 66.2,
+        "baseline_h%": 72.5,
+        "diff_pp": -6.3
+      },
+      "T2vT1": {
+        "n": 21,
+        "actual_h%": 57.1,
+        "baseline_h%": 42.4,
+        "diff_pp": 14.7
+      },
+      "T2vT2": {
+        "n": 19,
+        "actual_h%": 52.6,
+        "baseline_h%": 43.5,
+        "diff_pp": 9.1
+      },
+      "T2vT3": {
+        "n": 19,
+        "actual_h%": 63.2,
+        "baseline_h%": 56.7,
+        "diff_pp": 6.5
+      },
+      "T2vT4": {
+        "n": 52,
+        "actual_h%": 67.3,
+        "baseline_h%": 67.2,
+        "diff_pp": 0.1
+      },
+      "T3vT1": {
+        "n": 31,
+        "actual_h%": 16.1,
+        "baseline_h%": 24.1,
+        "diff_pp": -8.0
+      },
+      "T3vT2": {
+        "n": 16,
+        "actual_h%": 37.5,
+        "baseline_h%": 34.7,
+        "diff_pp": 2.8
+      },
+      "T3vT3": {
+        "n": 22,
+        "actual_h%": 50.0,
+        "baseline_h%": 39.5,
+        "diff_pp": 10.5
+      },
+      "T3vT4": {
+        "n": 58,
+        "actual_h%": 56.9,
+        "baseline_h%": 57.5,
+        "diff_pp": -0.6
+      },
+      "T4vT1": {
+        "n": 39,
+        "actual_h%": 15.4,
+        "baseline_h%": 12.7,
+        "diff_pp": 2.7
+      },
+      "T4vT2": {
+        "n": 30,
+        "actual_h%": 33.3,
+        "baseline_h%": 24.1,
+        "diff_pp": 9.2
+      },
+      "T4vT3": {
+        "n": 29,
+        "actual_h%": 27.6,
+        "baseline_h%": 32.5,
+        "diff_pp": -4.9
+      },
+      "T4vT4": {
+        "n": 27,
+        "actual_h%": 22.2,
+        "baseline_h%": 41.9,
+        "diff_pp": -19.7
+      }
+    }
+  },
+  "oh_low_anomalies": {
+    "description": "OH <1\u03c3 below tier norm (market optimistic on home)",
+    "total": 476,
+    "weighted_delta_vs_baseline_pp": 5.2,
+    "by_matchup": {
+      "T1vT1": {
+        "n": 32,
+        "actual_h%": 50.0,
+        "baseline_h%": 46.4,
+        "diff_pp": 3.6
+      },
+      "T1vT2": {
+        "n": 26,
+        "actual_h%": 61.5,
+        "baseline_h%": 50.0,
+        "diff_pp": 11.5
+      },
+      "T1vT3": {
+        "n": 26,
+        "actual_h%": 69.2,
+        "baseline_h%": 62.4,
+        "diff_pp": 6.8
+      },
+      "T1vT4": {
+        "n": 38,
+        "actual_h%": 73.7,
+        "baseline_h%": 72.5,
+        "diff_pp": 1.2
+      },
+      "T2vT1": {
+        "n": 18,
+        "actual_h%": 44.4,
+        "baseline_h%": 42.4,
+        "diff_pp": 2.0
+      },
+      "T2vT2": {
+        "n": 21,
+        "actual_h%": 28.6,
+        "baseline_h%": 43.5,
+        "diff_pp": -15.0
+      },
+      "T2vT3": {
+        "n": 31,
+        "actual_h%": 67.7,
+        "baseline_h%": 56.7,
+        "diff_pp": 11.0
+      },
+      "T2vT4": {
+        "n": 14,
+        "actual_h%": 71.4,
+        "baseline_h%": 67.2,
+        "diff_pp": 4.3
+      },
+      "T3vT1": {
+        "n": 37,
+        "actual_h%": 29.7,
+        "baseline_h%": 24.1,
+        "diff_pp": 5.6
+      },
+      "T3vT2": {
+        "n": 21,
+        "actual_h%": 47.6,
+        "baseline_h%": 34.7,
+        "diff_pp": 12.9
+      },
+      "T3vT3": {
+        "n": 30,
+        "actual_h%": 43.3,
+        "baseline_h%": 39.5,
+        "diff_pp": 3.8
+      },
+      "T3vT4": {
+        "n": 53,
+        "actual_h%": 56.6,
+        "baseline_h%": 57.5,
+        "diff_pp": -0.9
+      },
+      "T4vT1": {
+        "n": 42,
+        "actual_h%": 11.9,
+        "baseline_h%": 12.7,
+        "diff_pp": -0.8
+      },
+      "T4vT2": {
+        "n": 26,
+        "actual_h%": 15.4,
+        "baseline_h%": 24.1,
+        "diff_pp": -8.7
+      },
+      "T4vT3": {
+        "n": 42,
+        "actual_h%": 57.1,
+        "baseline_h%": 32.5,
+        "diff_pp": 24.6
+      },
+      "T4vT4": {
+        "n": 19,
+        "actual_h%": 63.2,
+        "baseline_h%": 41.9,
+        "diff_pp": 21.2
+      }
+    }
+  },
+  "verdict": "Odds deviation from tier norm is NOT a reliable value signal for betting against the market. OH LOW (<1\u03c3): market optimism is justified (home win% runs +5.2pp above tier baseline), confirming genuine strength \u2014 do NOT fade low odds. OH HIGH (>1\u03c3): market pessimism is unfounded (home win% equals tier baseline, 0.0pp delta), but the edge vs implied odds is only +2.1pp \u2014 too small to bet on systematically. The market overreacts slightly on pessimism but not enough to exploit. Best use: OH deviation works as a 'trust the market' signal on the low side, not a 'fade the market' signal on either side."
+}

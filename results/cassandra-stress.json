@@ -1,0 +1,86 @@
+{
+  "mod_dog_away": {
+    "FIRST HALF": {
+      "matches": 111,
+      "seasons": "vf:season:3037884-vf:season:3072270",
+      "AWAY_WINS": 67,
+      "AWAY_RATE": 0.6036,
+      "AVG_IMPLIED_RATE": 0.5265,
+      "EDGE": 0.0771,
+      "EDGE_PCT": "+7.71%"
+    },
+    "SECOND HALF": {
+      "matches": 111,
+      "seasons": "vf:season:3072270-vf:season:3073974",
+      "AWAY_WINS": 58,
+      "AWAY_RATE": 0.5225,
+      "AVG_IMPLIED_RATE": 0.525,
+      "EDGE": -0.0025,
+      "EDGE_PCT": "-0.25%"
+    }
+  },
+  "mod_dog_away_verdict": "EDGE IS NOISE \u274c \u2014 positive in only ONE half",
+  "heavy_dog_draw": {
+    "FIRST HALF": {
+      "matches": 112,
+      "seasons": "vf:season:3037884-vf:season:3072270",
+      "DRAW_WINS": 32,
+      "DRAW_RATE": 0.2857,
+      "AVG_IMPLIED_RATE": 0.2408,
+      "EDGE": 0.045,
+      "EDGE_PCT": "+4.50%"
+    },
+    "SECOND HALF": {
+      "matches": 112,
+      "seasons": "vf:season:3072270-vf:season:3075244",
+      "DRAW_WINS": 31,
+      "DRAW_RATE": 0.2768,
+      "AVG_IMPLIED_RATE": 0.2365,
+      "EDGE": 0.0403,
+      "EDGE_PCT": "+4.03%"
+    }
+  },
+  "heavy_dog_draw_verdict": "EDGE IS REAL \u2705 \u2014 positive in BOTH halves",
+  "slight_dog_home": {
+    "FIRST HALF": {
+      "matches": 233,
+      "seasons": "3074000-vf:season:3072270",
+      "HOME_WINS": 67,
+      "HOME_RATE": 0.2876,
+      "AVG_IMPLIED_RATE": 0.2746,
+      "EDGE": 0.013,
+      "EDGE_PCT": "+1.30%"
+    },
+    "SECOND HALF": {
+      "matches": 234,
+      "seasons": "vf:season:3072270-vf:season:3075244",
+      "HOME_WINS": 69,
+      "HOME_RATE": 0.2949,
+      "AVG_IMPLIED_RATE": 0.274,
+      "EDGE": 0.0209,
+      "EDGE_PCT": "+2.09%"
+    }
+  },
+  "slight_dog_home_verdict": "EDGE IS REAL \u2705 \u2014 positive in BOTH halves",
+  "mod_dog_draw": {
+    "FIRST HALF": {
+      "matches": 111,
+      "seasons": "vf:season:3037884-vf:season:3072270",
+      "DRAW_WINS": 27,
+      "DRAW_RATE": 0.2432,
+      "AVG_IMPLIED_RATE": 0.2636,
+      "EDGE": -0.0204,
+      "EDGE_PCT": "-2.04%"
+    },
+    "SECOND HALF": {
+      "matches": 111,
+      "seasons": "vf:season:3072270-vf:season:3073974",
+      "DRAW_WINS": 28,
+      "DRAW_RATE": 0.2523,
+      "AVG_IMPLIED_RATE": 0.2637,
+      "EDGE": -0.0114,
+      "EDGE_PCT": "-1.14%"
+    }
+  },
+  "mod_dog_draw_verdict": "EDGE IS INVERTED \ud83d\udd04 \u2014 negative in BOTH halves (might be anti-value)"
+}

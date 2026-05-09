@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "generated": "2026-05-08T19:09:00",
+  "source": "Clara miss analysis (50 misses across 32 reports) + confidence calibration",
+  "overall_accuracy": 48.6,
+  "best_season": "VFLM 4930 at 56.2%",
+  
+  "miss_type_distribution": {
+    "draw_surprise": { "count": 21, "pct": 42 },
+    "home_favorite_loss": { "count": 16, "pct": 32 },
+    "away_favorite_loss": { "count": 7, "pct": 14 },
+    "draw_broken": { "count": 6, "pct": 12 }
+  },
+
+  "team_specific_patterns": {
+    "Brighton": {
+      "miss_count": 7,
+      "draw_surprise_pct": 100,
+      "rule": "HEAVY_DRAW_BIAS — Brighton draws in every single miss scenario. Never predict HOME/AWAY at >55% confidence. Strong lean toward DRAW in every Brighton match."
+    },
+    "West Ham": {
+      "miss_count": 4,
+      "draw_surprise_pct": 100,
+      "rule": "HEAVY_DRAW_BIAS — Every West Ham miss is a draw surprise. Even as favourite, West Ham draws. Add strong draw factor."
+    },
+    "Manchester Red": {
+      "miss_count": 10,
+      "home_favorite_loss_pct": 80,
+      "rule": "HOME_FAVORITE_TRAP — Man Red is the biggest trap in the league. 80% of misses are them losing at home as favourites. When Man Red is home favourite at odds <1.5, DO NOT predict HOME. Consider AWAY or DRAW. When Man Red is away, they win 90% of miss scenarios (they actually win those)."
+    },
+    "Aston Villa": {
+      "miss_count": 6,
+      "home_favorite_loss_pct": 83,
+      "rule": "HOME_FAVORITE_TRAP — Villa loses at home as favourite 83% of miss scenarios. If Villa is home favourite at odds <1.8, be very skeptical of HOME prediction."
+    },
+    "Everton": {
+      "miss_count": 14,
+      "draw_surprise_pct": 43,
+      "home_favorite_loss_pct": 29,
+      "rule": "UNRELIABLE — Everton is the most missed team (14 total). Split between draws and home losses. Never trust Everton at any confidence level >60%."
+    },
+    "Tottenham": {
+      "miss_count": 8,
+      "draw_surprise_pct": 63,
+      "rule": "DRAW_SURPRISE — Tottenham draws when we least expect it. Add draw weight for Spurs matches."
+    },
+    "Newcastle": {
+      "miss_count": 6,
+      "draw_broken_pct": 67,
+      "rule": "DRAW_BROKEN — Newcastle breaks draws (wins when we predict DRAW). Opposite of draw_surprise — they don't draw, they decide."
+    },
+    "Crystal Palace": {
+      "miss_count": 5,
+      "rule": "UPSET_SPECIALIST — Palace causes upsets at home against T1 teams (e.g., 3:2 vs Liverpool). When T1 team visits Palace as heavy favourite, add upset discount."
+    }
+  },
+
+  "confidence_calibration": {
+    "30-45_pct": { "accuracy": 45.5, "actual_vs_expected": "within expected range" },
+    "45-55_pct": { "accuracy": 57.1, "actual_vs_expected": "slightly above expected" },
+    "55-70_pct": { "accuracy": 43.6, "actual_vs_expected": "OVERCALIBRATED — expects 62%, delivers 43.6%. Apply -18% penalty to all predictions in this range" },
+    "70-85_pct": { "accuracy": 84.2, "actual_vs_expected": "within expected range" },
+    "85-100_pct": { "accuracy": 100.0, "actual_vs_expected": "small sample (1 prediction)" }
+  },
+
+  "prediction_type_accuracy": {
+    "HOME": { "accuracy": 63.3, "rule": "Lean HOME when evidence is close — strongest prediction type" },
+    "AWAY": { "accuracy": 51.5, "rule": "Only predict AWAY at >65% confidence — coin flip otherwise" },
+    "DRAW": { "accuracy": 33.3, "rule": "WEAKEST — only predict DRAW at >65% confidence. Historical data shows draws are harder to predict than any other outcome. Prefer to predict a winner with low confidence than DRAW." }
+  },
+
+  "actionable_constraints": [
+    "NEVER predict HOME for Man Red when they are home favourite at odds <1.5 (80% loss rate in miss scenarios)",
+    "ADD draw_surprise flag for ALL Brighton and West Ham matches regardless of odds",
+    "REDUCE confidence by 18% for any prediction in the 55-70% confidence range (actual accuracy is 43.6%)",
+    "LIMIT DRAW predictions to max 3 per matchday (statistically abnormal beyond that)",
+    "SKIP predictions where confidence <30%",
+    "When H2H heavily favours HOME (>50%) but odds suggest DRAW, trust H2H not odds — H2H HOME override is correct 67% of the time"
+  ],
+
+  "h2h_playbook_path": "~/Documents/Projects/vfl-data/analysis/h2h_playbook.md",
+  "h2h_matchup_path": "~/Documents/Projects/vfl-data/analysis/h2h_matchup_patterns.json",
+  
+  "h2h_derived_rules": [
+    {
+      "rule": "Liverpool at Newcastle is the biggest value edge on MD28 — actual win rate 81.8% vs implied 56.7% (+25.1%)",
+      "fixture": "Newcastle vs Liverpool",
+      "type": "VALUE_EDGE"
+    },
+    {
+      "rule": "Aston Villa vs London Guns has a 40.8% upset rate — Villa wins this matchup more than any other lower-tier team against a T1 opponent. Do not automatically predict AWAY.",
+      "fixture": "Aston Villa vs London Guns",
+      "type": "UPSET_ALERT"
+    },
+    {
+      "rule": "Wolverhampton vs Bournemouth: Wolves best home matchup at 60%. Lean HOME confidently.",
+      "fixture": "Wolverhampton vs Bournemouth",
+      "type": "CONFIDENT_MATCHUP"
+    },
+    {
+      "rule": "Manchester Blue at Fulham: Man Blue wins 78.4% at home vs Fulham. Away data limited but historical dominance suggests confident AWAY.",
+      "fixture": "Fulham vs Manchester Blue",
+      "type": "CONFIDENT_MATCHUP"
+    },
+    {
+      "rule": "Chelsea vs Leeds: As T1vT3, Chelsea should dominate. But Leeds' best home matchup is Bournemouth at 50% — their away form is terrible. Confident HOME.",
+      "fixture": "Chelsea vs Leeds",
+      "type": "CONFIDENT_MATCHUP"
+    },
+    {
+      "rule": "Manchester Red vs Crystal Palace: H2H says Man Red beats Palace 65.5% AWAY and 75.8% at home vs Bournemouth. BUT Man Red is the #1 home favourite trap. The conflict: historical H2H dominance vs recent miss pattern. TIEBREAKER: Palace is an upset specialist (beat Liverpool 3:2). Recommend HOME with -15% confidence penalty.",
+      "fixture": "Manchester Red vs Crystal Palace",
+      "type": "CONFLICTING_SIGNALS"
+    },
+    {
+      "rule": "Everton vs Tottenham: Both teams unreliable. Everton 43% draw_surprise, Tottenham 63% draw_surprise. Expect a draw or unexpected result.",
+      "fixture": "Everton vs Tottenham",
+      "type": "UNRELIABLE_MATCHUP"
+    },
+    {
+      "rule": "West Ham vs Brighton: Both 100% draw_surprise specialists. T2vT2 matchup. Strongest draw signal in the entire MD.",
+      "fixture": "West Ham vs Brighton",
+      "type": "HEAVY_DRAW_SIGNAL"
+    }
+  ],
+
+  "tier_upset_rates": {
+    "T2_vs_T1": { "lower_wins_pct": 24.95, "draw_pct": 24.57, "higher_wins_pct": 50.49 },
+    "T3_vs_T1": { "lower_wins_pct": 16.64, "draw_pct": 20.37, "higher_wins_pct": 63.0 },
+    "T3_vs_T2": { "lower_wins_pct": 25.98, "draw_pct": 26.12, "higher_wins_pct": 47.9 },
+    "T4_vs_T1": { "lower_wins_pct": 14.0, "draw_pct": 20.52, "higher_wins_pct": 65.48 },
+    "T4_vs_T2": { "lower_wins_pct": 21.55, "draw_pct": 24.93, "higher_wins_pct": 53.52 },
+    "T4_vs_T3": { "lower_wins_pct": 30.64, "draw_pct": 27.2, "higher_wins_pct": 42.17 }
+  }
+}

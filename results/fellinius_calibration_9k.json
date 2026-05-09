@@ -1,0 +1,48 @@
+{
+  "calibration_date": "2026-05-07T21:40:15.251459",
+  "total_matches": 9192,
+  "first_goal_to_outcome": {
+    "Home": {
+      "HOME": 3648,
+      "DRAW": 795,
+      "AWAY": 363
+    },
+    "Away": {
+      "HOME": 539,
+      "DRAW": 750,
+      "AWAY": 2451
+    },
+    "None": {
+      "HOME": 0,
+      "DRAW": 646,
+      "AWAY": 0
+    }
+  },
+  "ht_to_outcome": {
+    "Home leads": {
+      "HOME": 2783,
+      "DRAW": 464,
+      "AWAY": 136
+    },
+    "HT Draw": {
+      "HOME": 1221,
+      "DRAW": 1295,
+      "AWAY": 928
+    },
+    "Away leads": {
+      "HOME": 183,
+      "DRAW": 434,
+      "AWAY": 1748
+    }
+  },
+  "outcome_pcts": {
+    "HOME": 45.550478677110526,
+    "DRAW": 23.857702349869452,
+    "AWAY": 30.59181897302002
+  },
+  "chi_square": {
+    "statistic": 679.92,
+    "df": 2,
+    "critical_001": 9.21
+  }
+}

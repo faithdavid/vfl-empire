@@ -1,0 +1,3365 @@
+{
+  "metadata": {
+    "analyzed_by": "Gideon - Quantitative Analyst, Trillions Empire",
+    "total_clean_matches": 3272,
+    "total_seasons": 25,
+    "total_teams": 16,
+    "method": "Vig-free probabilities from decimal odds. Walk-forward Kelly for Q1. Wilson 95% CI for proportions.",
+    "date": "2026-05-07"
+  },
+  "question_1_kelly_thresholds": {
+    "description": "For each confidence threshold 50-95%, bet on the outcome with highest vig-free probability using walk-forward Kelly (empirical win rate per odds bucket from prior seasons). Initial bankroll: $10,000.",
+    "pure_kelly_reference": {
+      "description": "Kelly betting on any outcome where vig-free prob \u00d7 odds > 1 (market's own estimate). Should produce ~zero edge.",
+      "total_bets": 0,
+      "wins": 0,
+      "win_rate": 0,
+      "final_bankroll": 10000.0,
+      "total_profit": 0.0,
+      "roi_pct": 0.0,
+      "sharpe_ratio": 0,
+      "max_drawdown_pct": 0.0
+    },
+    "threshold_results": {
+      "50": {
+        "threshold_pct": 50.0,
+        "total_bets": 396,
+        "wins": 219,
+        "losses": 177,
+        "win_rate": 0.553,
+        "final_bankroll": 1.25,
+        "total_profit": -9998.75,
+        "roi_pct": -99.99,
+        "sharpe_ratio": -0.8754,
+        "max_drawdown_pct": 99.99
+      },
+      "51": {
+        "threshold_pct": 51.0,
+        "total_bets": 348,
+        "wins": 192,
+        "losses": 156,
+        "win_rate": 0.5517,
+        "final_bankroll": 2.38,
+        "total_profit": -9997.62,
+        "roi_pct": -99.98,
+        "sharpe_ratio": -0.9339,
+        "max_drawdown_pct": 99.99
+      },
+      "52": {
+        "threshold_pct": 52.0,
+        "total_bets": 277,
+        "wins": 158,
+        "losses": 119,
+        "win_rate": 0.5704,
+        "final_bankroll": 18.64,
+        "total_profit": -9981.36,
+        "roi_pct": -99.81,
+        "sharpe_ratio": -1.0214,
+        "max_drawdown_pct": 99.9
+      },
+      "53": {
+        "threshold_pct": 53.0,
+        "total_bets": 263,
+        "wins": 151,
+        "losses": 112,
+        "win_rate": 0.5741,
+        "final_bankroll": 25.99,
+        "total_profit": -9974.01,
+        "roi_pct": -99.74,
+        "sharpe_ratio": -1.0275,
+        "max_drawdown_pct": 99.86
+      },
+      "54": {
+        "threshold_pct": 54.0,
+        "total_bets": 256,
+        "wins": 148,
+        "losses": 108,
+        "win_rate": 0.5781,
+        "final_bankroll": 24.11,
+        "total_profit": -9975.89,
+        "roi_pct": -99.76,
+        "sharpe_ratio": -1.0436,
+        "max_drawdown_pct": 99.87
+      },
+      "55": {
+        "threshold_pct": 55.0,
+        "total_bets": 237,
+        "wins": 134,
+        "losses": 103,
+        "win_rate": 0.5654,
+        "final_bankroll": 20.61,
+        "total_profit": -9979.39,
+        "roi_pct": -99.79,
+        "sharpe_ratio": -1.0851,
+        "max_drawdown_pct": 99.89
+      },
+      "56": {
+        "threshold_pct": 57.0,
+        "total_bets": 197,
+        "wins": 115,
+        "losses": 82,
+        "win_rate": 0.5838,
+        "final_bankroll": 79.02,
+        "total_profit": -9920.98,
+        "roi_pct": -99.21,
+        "sharpe_ratio": -1.2511,
+        "max_drawdown_pct": 99.58
+      },
+      "57": {
+        "threshold_pct": 58.0,
+        "total_bets": 153,
+        "wins": 90,
+        "losses": 63,
+        "win_rate": 0.5882,
+        "final_bankroll": 296.31,
+        "total_profit": -9703.69,
+        "roi_pct": -97.04,
+        "sharpe_ratio": -1.858,
+        "max_drawdown_pct": 97.74
+      },
+      "59": {
+        "threshold_pct": 59.0,
+        "total_bets": 146,
+        "wins": 84,
+        "losses": 62,
+        "win_rate": 0.5753,
+        "final_bankroll": 207.06,
+        "total_profit": -9792.94,
+        "roi_pct": -97.93,
+        "sharpe_ratio": -2.6198,
+        "max_drawdown_pct": 98.0
+      },
+      "60": {
+        "threshold_pct": 60.0,
+        "total_bets": 118,
+        "wins": 70,
+        "losses": 48,
+        "win_rate": 0.5932,
+        "final_bankroll": 513.44,
+        "total_profit": -9486.56,
+        "roi_pct": -94.87,
+        "sharpe_ratio": -2.5774,
+        "max_drawdown_pct": 95.04
+      },
+      "61": {
+        "threshold_pct": 61.0,
+        "total_bets": 101,
+        "wins": 60,
+        "losses": 41,
+        "win_rate": 0.5941,
+        "final_bankroll": 721.63,
+        "total_profit": -9278.37,
+        "roi_pct": -92.78,
+        "sharpe_ratio": -3.0342,
+        "max_drawdown_pct": 92.86
+      },
+      "62": {
+        "threshold_pct": 62.0,
+        "total_bets": 57,
+        "wins": 36,
+        "losses": 21,
+        "win_rate": 0.6316,
+        "final_bankroll": 4694.62,
+        "total_profit": -5305.38,
+        "roi_pct": -53.05,
+        "sharpe_ratio": -3.8712,
+        "max_drawdown_pct": 55.11
+      },
+      "63": {
+        "threshold_pct": 63.0,
+        "total_bets": 48,
+        "wins": 32,
+        "losses": 16,
+        "win_rate": 0.6667,
+        "final_bankroll": 6374.97,
+        "total_profit": -3625.03,
+        "roi_pct": -36.25,
+        "sharpe_ratio": -2.9849,
+        "max_drawdown_pct": 42.26
+      },
+      "64": {
+        "threshold_pct": 64.0,
+        "total_bets": 48,
+        "wins": 32,
+        "losses": 16,
+        "win_rate": 0.6667,
+        "final_bankroll": 6374.97,
+        "total_profit": -3625.03,
+        "roi_pct": -36.25,
+        "sharpe_ratio": -2.9849,
+        "max_drawdown_pct": 42.26
+      },
+      "65": {
+        "threshold_pct": 65.0,
+        "total_bets": 48,
+        "wins": 32,
+        "losses": 16,
+        "win_rate": 0.6667,
+        "final_bankroll": 6374.97,
+        "total_profit": -3625.03,
+        "roi_pct": -36.25,
+        "sharpe_ratio": -2.9849,
+        "max_drawdown_pct": 42.26
+      },
+      "66": {
+        "threshold_pct": 66.0,
+        "total_bets": 48,
+        "wins": 32,
+        "losses": 16,
+        "win_rate": 0.6667,
+        "final_bankroll": 6374.97,
+        "total_profit": -3625.03,
+        "roi_pct": -36.25,
+        "sharpe_ratio": -2.9849,
+        "max_drawdown_pct": 42.26
+      },
+      "67": {
+        "threshold_pct": 67.0,
+        "total_bets": 48,
+        "wins": 32,
+        "losses": 16,
+        "win_rate": 0.6667,
+        "final_bankroll": 6374.97,
+        "total_profit": -3625.03,
+        "roi_pct": -36.25,
+        "sharpe_ratio": -2.9849,
+        "max_drawdown_pct": 42.26
+      },
+      "68": {
+        "threshold_pct": 68.0,
+        "total_bets": 42,
+        "wins": 27,
+        "losses": 15,
+        "win_rate": 0.6429,
+        "final_bankroll": 6150.34,
+        "total_profit": -3849.66,
+        "roi_pct": -38.5,
+        "sharpe_ratio": -3.4584,
+        "max_drawdown_pct": 44.18
+      },
+      "69": {
+        "threshold_pct": 69.0,
+        "total_bets": 18,
+        "wins": 12,
+        "losses": 6,
+        "win_rate": 0.6667,
+        "final_bankroll": 7497.84,
+        "total_profit": -2502.16,
+        "roi_pct": -25.02,
+        "sharpe_ratio": -5.3605,
+        "max_drawdown_pct": 27.04
+      },
+      "70": {
+        "threshold_pct": 70.0,
+        "total_bets": 12,
+        "wins": 8,
+        "losses": 4,
+        "win_rate": 0.6667,
+        "final_bankroll": 8487.2,
+        "total_profit": -1512.8,
+        "roi_pct": -15.13,
+        "sharpe_ratio": -5.0165,
+        "max_drawdown_pct": 16.06
+      },
+      "71": {
+        "threshold_pct": 71.0,
+        "total_bets": 9,
+        "wins": 6,
+        "losses": 3,
+        "win_rate": 0.6667,
+        "final_bankroll": 8620.99,
+        "total_profit": -1379.01,
+        "roi_pct": -13.79,
+        "sharpe_ratio": -5.3949,
+        "max_drawdown_pct": 14.74
+      },
+      "72": {
+        "threshold_pct": 72.0,
+        "total_bets": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 0.6667,
+        "final_bankroll": 8894.93,
+        "total_profit": -1105.07,
+        "roi_pct": -11.05,
+        "sharpe_ratio": -7.5345,
+        "max_drawdown_pct": 12.44
+      },
+      "73": {
+        "threshold_pct": 73.0,
+        "total_bets": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 0.5,
+        "final_bankroll": 8797.19,
+        "total_profit": -1202.81,
+        "roi_pct": -12.03,
+        "sharpe_ratio": -10.4104,
+        "max_drawdown_pct": 12.44
+      },
+      "74": {
+        "threshold_pct": 74.0,
+        "total_bets": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 0.5,
+        "final_bankroll": 8797.19,
+        "total_profit": -1202.81,
+        "roi_pct": -12.03,
+        "sharpe_ratio": -10.4104,
+        "max_drawdown_pct": 12.44
+      },
+      "75": {
+        "threshold_pct": 75.0,
+        "total_bets": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 0.5,
+        "final_bankroll": 8797.19,
+        "total_profit": -1202.81,
+        "roi_pct": -12.03,
+        "sharpe_ratio": -10.4104,
+        "max_drawdown_pct": 12.44
+      },
+      "76": {
+        "threshold_pct": 76.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "77": {
+        "threshold_pct": 77.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "78": {
+        "threshold_pct": 78.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "79": {
+        "threshold_pct": 79.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "80": {
+        "threshold_pct": 80.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "81": {
+        "threshold_pct": 81.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "82": {
+        "threshold_pct": 82.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "83": {
+        "threshold_pct": 83.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "84": {
+        "threshold_pct": 84.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "85": {
+        "threshold_pct": 85.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "86": {
+        "threshold_pct": 86.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "87": {
+        "threshold_pct": 87.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "88": {
+        "threshold_pct": 88.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "89": {
+        "threshold_pct": 89.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "90": {
+        "threshold_pct": 90.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "91": {
+        "threshold_pct": 91.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "92": {
+        "threshold_pct": 92.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "93": {
+        "threshold_pct": 93.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "94": {
+        "threshold_pct": 94.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      },
+      "95": {
+        "threshold_pct": 95.0,
+        "total_bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "final_bankroll": 10000.0,
+        "total_profit": 0.0,
+        "roi_pct": 0.0,
+        "sharpe_ratio": 0,
+        "max_drawdown_pct": 0.0
+      }
+    },
+    "best_by_sharpe": {
+      "threshold_pct": 76.0,
+      "total_bets": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0,
+      "final_bankroll": 10000.0,
+      "total_profit": 0.0,
+      "roi_pct": 0.0,
+      "sharpe_ratio": 0,
+      "max_drawdown_pct": 0.0
+    },
+    "best_by_profit": {
+      "threshold_pct": 76.0,
+      "total_bets": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0,
+      "final_bankroll": 10000.0,
+      "total_profit": 0.0,
+      "roi_pct": 0.0,
+      "sharpe_ratio": 0,
+      "max_drawdown_pct": 0.0
+    },
+    "best_by_win_rate": {
+      "threshold_pct": 63.0,
+      "total_bets": 48,
+      "wins": 32,
+      "losses": 16,
+      "win_rate": 0.6667,
+      "final_bankroll": 6374.97,
+      "total_profit": -3625.03,
+      "roi_pct": -36.25,
+      "sharpe_ratio": -2.9849,
+      "max_drawdown_pct": 42.26
+    }
+  },
+  "question_2_stability": {
+    "season_count": 25,
+    "early": {
+      "label": "early_half_12_seasons",
+      "match_count": 1568,
+      "outcome_rates": {
+        "HOME": 0.442,
+        "DRAW": 0.2449,
+        "AWAY": 0.3131
+      },
+      "home_win_rate": 0.442,
+      "avg_margin": 0.0805
+    },
+    "late": {
+      "label": "late_half_13_seasons",
+      "match_count": 1704,
+      "outcome_rates": {
+        "HOME": 0.4407,
+        "DRAW": 0.2477,
+        "AWAY": 0.3116
+      },
+      "home_win_rate": 0.4407,
+      "avg_margin": 0.08
+    },
+    "edges_early": {
+      "HOME@1.90": {
+        "n": 35,
+        "empirical_p": 0.5429,
+        "breakeven_p": 0.5263,
+        "edge": 0.0165
+      },
+      "DRAW@3.70": {
+        "n": 57,
+        "empirical_p": 0.2281,
+        "breakeven_p": 0.2703,
+        "edge": -0.0422
+      },
+      "AWAY@3.60": {
+        "n": 11,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.2778,
+        "edge": -0.096
+      },
+      "HOME@1.30": {
+        "n": 92,
+        "empirical_p": 0.75,
+        "breakeven_p": 0.7692,
+        "edge": -0.0192
+      },
+      "DRAW@5.75": {
+        "n": 18,
+        "empirical_p": 0.1111,
+        "breakeven_p": 0.1739,
+        "edge": -0.0628
+      },
+      "AWAY@7.00": {
+        "n": 17,
+        "empirical_p": 0.1176,
+        "breakeven_p": 0.1429,
+        "edge": -0.0252
+      },
+      "HOME@2.10": {
+        "n": 33,
+        "empirical_p": 0.3333,
+        "breakeven_p": 0.4762,
+        "edge": -0.1429
+      },
+      "DRAW@4.05": {
+        "n": 33,
+        "empirical_p": 0.2424,
+        "breakeven_p": 0.2469,
+        "edge": -0.0045
+      },
+      "AWAY@2.85": {
+        "n": 31,
+        "empirical_p": 0.3226,
+        "breakeven_p": 0.3509,
+        "edge": -0.0283
+      },
+      "DRAW@3.45": {
+        "n": 62,
+        "empirical_p": 0.2581,
+        "breakeven_p": 0.2899,
+        "edge": -0.0318
+      },
+      "AWAY@1.70": {
+        "n": 27,
+        "empirical_p": 0.4815,
+        "breakeven_p": 0.5882,
+        "edge": -0.1068
+      },
+      "HOME@3.80": {
+        "n": 14,
+        "empirical_p": 0.3571,
+        "breakeven_p": 0.2632,
+        "edge": 0.094
+      },
+      "DRAW@3.80": {
+        "n": 52,
+        "empirical_p": 0.3269,
+        "breakeven_p": 0.2632,
+        "edge": 0.0638
+      },
+      "AWAY@1.80": {
+        "n": 29,
+        "empirical_p": 0.5172,
+        "breakeven_p": 0.5556,
+        "edge": -0.0383
+      },
+      "AWAY@2.50": {
+        "n": 38,
+        "empirical_p": 0.3684,
+        "breakeven_p": 0.4,
+        "edge": -0.0316
+      },
+      "DRAW@3.00": {
+        "n": 28,
+        "empirical_p": 0.2857,
+        "breakeven_p": 0.3333,
+        "edge": -0.0476
+      },
+      "AWAY@4.55": {
+        "n": 11,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.2198,
+        "edge": -0.038
+      },
+      "HOME@3.50": {
+        "n": 15,
+        "empirical_p": 0.2,
+        "breakeven_p": 0.2857,
+        "edge": -0.0857
+      },
+      "DRAW@3.40": {
+        "n": 41,
+        "empirical_p": 0.3902,
+        "breakeven_p": 0.2941,
+        "edge": 0.0961
+      },
+      "AWAY@2.00": {
+        "n": 22,
+        "empirical_p": 0.2727,
+        "breakeven_p": 0.5,
+        "edge": -0.2273
+      },
+      "HOME@3.05": {
+        "n": 16,
+        "empirical_p": 0.5625,
+        "breakeven_p": 0.3279,
+        "edge": 0.2346
+      },
+      "HOME@1.60": {
+        "n": 48,
+        "empirical_p": 0.625,
+        "breakeven_p": 0.625,
+        "edge": 0.0
+      },
+      "DRAW@3.75": {
+        "n": 51,
+        "empirical_p": 0.1961,
+        "breakeven_p": 0.2667,
+        "edge": -0.0706
+      },
+      "AWAY@5.00": {
+        "n": 21,
+        "empirical_p": 0.2857,
+        "breakeven_p": 0.2,
+        "edge": 0.0857
+      },
+      "HOME@1.65": {
+        "n": 51,
+        "empirical_p": 0.5686,
+        "breakeven_p": 0.6061,
+        "edge": -0.0374
+      },
+      "DRAW@3.65": {
+        "n": 101,
+        "empirical_p": 0.2376,
+        "breakeven_p": 0.274,
+        "edge": -0.0363
+      },
+      "AWAY@4.85": {
+        "n": 16,
+        "empirical_p": 0.1875,
+        "breakeven_p": 0.2062,
+        "edge": -0.0187
+      },
+      "HOME@2.35": {
+        "n": 34,
+        "empirical_p": 0.3824,
+        "breakeven_p": 0.4255,
+        "edge": -0.0432
+      },
+      "DRAW@3.90": {
+        "n": 52,
+        "empirical_p": 0.1923,
+        "breakeven_p": 0.2564,
+        "edge": -0.0641
+      },
+      "HOME@1.40": {
+        "n": 67,
+        "empirical_p": 0.5821,
+        "breakeven_p": 0.7143,
+        "edge": -0.1322
+      },
+      "AWAY@8.00": {
+        "n": 25,
+        "empirical_p": 0.12,
+        "breakeven_p": 0.125,
+        "edge": -0.005
+      },
+      "HOME@2.15": {
+        "n": 48,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.4651,
+        "edge": 0.0349
+      },
+      "DRAW@3.20": {
+        "n": 32,
+        "empirical_p": 0.3125,
+        "breakeven_p": 0.3125,
+        "edge": 0.0
+      },
+      "AWAY@3.30": {
+        "n": 24,
+        "empirical_p": 0.2917,
+        "breakeven_p": 0.303,
+        "edge": -0.0114
+      },
+      "AWAY@1.75": {
+        "n": 41,
+        "empirical_p": 0.5854,
+        "breakeven_p": 0.5714,
+        "edge": 0.0139
+      },
+      "DRAW@4.90": {
+        "n": 11,
+        "empirical_p": 0.2727,
+        "breakeven_p": 0.2041,
+        "edge": 0.0686
+      },
+      "AWAY@9.25": {
+        "n": 17,
+        "empirical_p": 0.1765,
+        "breakeven_p": 0.1081,
+        "edge": 0.0684
+      },
+      "DRAW@2.95": {
+        "n": 19,
+        "empirical_p": 0.6316,
+        "breakeven_p": 0.339,
+        "edge": 0.2926
+      },
+      "AWAY@3.35": {
+        "n": 20,
+        "empirical_p": 0.25,
+        "breakeven_p": 0.2985,
+        "edge": -0.0485
+      },
+      "DRAW@3.60": {
+        "n": 61,
+        "empirical_p": 0.2623,
+        "breakeven_p": 0.2778,
+        "edge": -0.0155
+      },
+      "AWAY@1.55": {
+        "n": 27,
+        "empirical_p": 0.6296,
+        "breakeven_p": 0.6452,
+        "edge": -0.0155
+      },
+      "DRAW@3.95": {
+        "n": 51,
+        "empirical_p": 0.2157,
+        "breakeven_p": 0.2532,
+        "edge": -0.0375
+      },
+      "AWAY@2.60": {
+        "n": 31,
+        "empirical_p": 0.2903,
+        "breakeven_p": 0.3846,
+        "edge": -0.0943
+      },
+      "HOME@2.45": {
+        "n": 25,
+        "empirical_p": 0.36,
+        "breakeven_p": 0.4082,
+        "edge": -0.0482
+      },
+      "HOME@1.55": {
+        "n": 42,
+        "empirical_p": 0.6667,
+        "breakeven_p": 0.6452,
+        "edge": 0.0215
+      },
+      "AWAY@5.75": {
+        "n": 32,
+        "empirical_p": 0.1875,
+        "breakeven_p": 0.1739,
+        "edge": 0.0136
+      },
+      "DRAW@4.55": {
+        "n": 26,
+        "empirical_p": 0.2692,
+        "breakeven_p": 0.2198,
+        "edge": 0.0495
+      },
+      "DRAW@4.85": {
+        "n": 11,
+        "empirical_p": 0.0,
+        "breakeven_p": 0.2062,
+        "edge": -0.2062
+      },
+      "AWAY@9.50": {
+        "n": 21,
+        "empirical_p": 0.0952,
+        "breakeven_p": 0.1053,
+        "edge": -0.01
+      },
+      "HOME@2.30": {
+        "n": 46,
+        "empirical_p": 0.4565,
+        "breakeven_p": 0.4348,
+        "edge": 0.0217
+      },
+      "AWAY@2.70": {
+        "n": 18,
+        "empirical_p": 0.5556,
+        "breakeven_p": 0.3704,
+        "edge": 0.1852
+      },
+      "HOME@3.20": {
+        "n": 15,
+        "empirical_p": 0.3333,
+        "breakeven_p": 0.3125,
+        "edge": 0.0208
+      },
+      "DRAW@3.15": {
+        "n": 32,
+        "empirical_p": 0.2188,
+        "breakeven_p": 0.3175,
+        "edge": -0.0987
+      },
+      "AWAY@2.20": {
+        "n": 15,
+        "empirical_p": 0.5333,
+        "breakeven_p": 0.4545,
+        "edge": 0.0788
+      },
+      "AWAY@2.80": {
+        "n": 34,
+        "empirical_p": 0.4118,
+        "breakeven_p": 0.3571,
+        "edge": 0.0546
+      },
+      "HOME@2.95": {
+        "n": 22,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.339,
+        "edge": -0.1572
+      },
+      "AWAY@2.65": {
+        "n": 21,
+        "empirical_p": 0.2381,
+        "breakeven_p": 0.3774,
+        "edge": -0.1393
+      },
+      "DRAW@3.35": {
+        "n": 57,
+        "empirical_p": 0.193,
+        "breakeven_p": 0.2985,
+        "edge": -0.1055
+      },
+      "AWAY@5.50": {
+        "n": 14,
+        "empirical_p": 0.2857,
+        "breakeven_p": 0.1818,
+        "edge": 0.1039
+      },
+      "HOME@1.20": {
+        "n": 20,
+        "empirical_p": 0.8,
+        "breakeven_p": 0.8333,
+        "edge": -0.0333
+      },
+      "AWAY@2.75": {
+        "n": 14,
+        "empirical_p": 0.2857,
+        "breakeven_p": 0.3636,
+        "edge": -0.0779
+      },
+      "HOME@1.70": {
+        "n": 58,
+        "empirical_p": 0.5172,
+        "breakeven_p": 0.5882,
+        "edge": -0.071
+      },
+      "DRAW@4.20": {
+        "n": 25,
+        "empirical_p": 0.28,
+        "breakeven_p": 0.2381,
+        "edge": 0.0419
+      },
+      "AWAY@4.00": {
+        "n": 23,
+        "empirical_p": 0.1739,
+        "breakeven_p": 0.25,
+        "edge": -0.0761
+      },
+      "AWAY@6.00": {
+        "n": 29,
+        "empirical_p": 0.0345,
+        "breakeven_p": 0.1667,
+        "edge": -0.1322
+      },
+      "DRAW@4.75": {
+        "n": 15,
+        "empirical_p": 0.1333,
+        "breakeven_p": 0.2105,
+        "edge": -0.0772
+      },
+      "AWAY@10.25": {
+        "n": 17,
+        "empirical_p": 0.1176,
+        "breakeven_p": 0.0976,
+        "edge": 0.0201
+      },
+      "HOME@2.55": {
+        "n": 17,
+        "empirical_p": 0.3529,
+        "breakeven_p": 0.3922,
+        "edge": -0.0392
+      },
+      "DRAW@3.55": {
+        "n": 52,
+        "empirical_p": 0.1538,
+        "breakeven_p": 0.2817,
+        "edge": -0.1278
+      },
+      "AWAY@2.45": {
+        "n": 21,
+        "empirical_p": 0.4762,
+        "breakeven_p": 0.4082,
+        "edge": 0.068
+      },
+      "DRAW@3.30": {
+        "n": 44,
+        "empirical_p": 0.25,
+        "breakeven_p": 0.303,
+        "edge": -0.053
+      },
+      "AWAY@2.05": {
+        "n": 20,
+        "empirical_p": 0.4,
+        "breakeven_p": 0.4878,
+        "edge": -0.0878
+      },
+      "HOME@5.75": {
+        "n": 14,
+        "empirical_p": 0.0714,
+        "breakeven_p": 0.1739,
+        "edge": -0.1025
+      },
+      "AWAY@1.65": {
+        "n": 32,
+        "empirical_p": 0.6562,
+        "breakeven_p": 0.6061,
+        "edge": 0.0502
+      },
+      "HOME@3.90": {
+        "n": 11,
+        "empirical_p": 0.3636,
+        "breakeven_p": 0.2564,
+        "edge": 0.1072
+      },
+      "DRAW@4.00": {
+        "n": 53,
+        "empirical_p": 0.2642,
+        "breakeven_p": 0.25,
+        "edge": 0.0142
+      },
+      "HOME@1.35": {
+        "n": 52,
+        "empirical_p": 0.7692,
+        "breakeven_p": 0.7407,
+        "edge": 0.0285
+      },
+      "DRAW@4.80": {
+        "n": 11,
+        "empirical_p": 0.2727,
+        "breakeven_p": 0.2083,
+        "edge": 0.0644
+      },
+      "AWAY@1.60": {
+        "n": 29,
+        "empirical_p": 0.5172,
+        "breakeven_p": 0.625,
+        "edge": -0.1078
+      },
+      "AWAY@6.25": {
+        "n": 19,
+        "empirical_p": 0.1053,
+        "breakeven_p": 0.16,
+        "edge": -0.0547
+      },
+      "HOME@2.70": {
+        "n": 15,
+        "empirical_p": 0.4,
+        "breakeven_p": 0.3704,
+        "edge": 0.0296
+      },
+      "DRAW@4.35": {
+        "n": 22,
+        "empirical_p": 0.2727,
+        "breakeven_p": 0.2299,
+        "edge": 0.0428
+      },
+      "AWAY@2.10": {
+        "n": 26,
+        "empirical_p": 0.4231,
+        "breakeven_p": 0.4762,
+        "edge": -0.0531
+      },
+      "AWAY@3.75": {
+        "n": 14,
+        "empirical_p": 0.2857,
+        "breakeven_p": 0.2667,
+        "edge": 0.019
+      },
+      "HOME@3.15": {
+        "n": 17,
+        "empirical_p": 0.2941,
+        "breakeven_p": 0.3175,
+        "edge": -0.0233
+      },
+      "DRAW@2.90": {
+        "n": 11,
+        "empirical_p": 0.3636,
+        "breakeven_p": 0.3448,
+        "edge": 0.0188
+      },
+      "AWAY@2.40": {
+        "n": 13,
+        "empirical_p": 0.2308,
+        "breakeven_p": 0.4167,
+        "edge": -0.1859
+      },
+      "HOME@2.05": {
+        "n": 31,
+        "empirical_p": 0.5161,
+        "breakeven_p": 0.4878,
+        "edge": 0.0283
+      },
+      "HOME@1.85": {
+        "n": 39,
+        "empirical_p": 0.4872,
+        "breakeven_p": 0.5405,
+        "edge": -0.0534
+      },
+      "AWAY@3.50": {
+        "n": 15,
+        "empirical_p": 0.3333,
+        "breakeven_p": 0.2857,
+        "edge": 0.0476
+      },
+      "HOME@1.75": {
+        "n": 32,
+        "empirical_p": 0.4688,
+        "breakeven_p": 0.5714,
+        "edge": -0.1027
+      },
+      "AWAY@5.25": {
+        "n": 22,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.1905,
+        "edge": -0.0087
+      },
+      "DRAW@4.45": {
+        "n": 16,
+        "empirical_p": 0.4375,
+        "breakeven_p": 0.2247,
+        "edge": 0.2128
+      },
+      "AWAY@3.15": {
+        "n": 15,
+        "empirical_p": 0.4667,
+        "breakeven_p": 0.3175,
+        "edge": 0.1492
+      },
+      "HOME@1.95": {
+        "n": 50,
+        "empirical_p": 0.44,
+        "breakeven_p": 0.5128,
+        "edge": -0.0728
+      },
+      "DRAW@3.25": {
+        "n": 46,
+        "empirical_p": 0.3478,
+        "breakeven_p": 0.3077,
+        "edge": 0.0401
+      },
+      "AWAY@3.90": {
+        "n": 15,
+        "empirical_p": 0.2667,
+        "breakeven_p": 0.2564,
+        "edge": 0.0103
+      },
+      "HOME@5.50": {
+        "n": 12,
+        "empirical_p": 0.0833,
+        "breakeven_p": 0.1818,
+        "edge": -0.0985
+      },
+      "DRAW@4.15": {
+        "n": 31,
+        "empirical_p": 0.2581,
+        "breakeven_p": 0.241,
+        "edge": 0.0171
+      },
+      "AWAY@1.50": {
+        "n": 24,
+        "empirical_p": 0.7083,
+        "breakeven_p": 0.6667,
+        "edge": 0.0417
+      },
+      "HOME@1.80": {
+        "n": 38,
+        "empirical_p": 0.5789,
+        "breakeven_p": 0.5556,
+        "edge": 0.0234
+      },
+      "DRAW@3.50": {
+        "n": 46,
+        "empirical_p": 0.2391,
+        "breakeven_p": 0.2857,
+        "edge": -0.0466
+      },
+      "HOME@1.45": {
+        "n": 30,
+        "empirical_p": 0.5667,
+        "breakeven_p": 0.6897,
+        "edge": -0.123
+      },
+      "DRAW@5.25": {
+        "n": 20,
+        "empirical_p": 0.35,
+        "breakeven_p": 0.1905,
+        "edge": 0.1595
+      },
+      "DRAW@3.05": {
+        "n": 33,
+        "empirical_p": 0.2121,
+        "breakeven_p": 0.3279,
+        "edge": -0.1157
+      },
+      "HOME@3.00": {
+        "n": 26,
+        "empirical_p": 0.2692,
+        "breakeven_p": 0.3333,
+        "edge": -0.0641
+      },
+      "AWAY@2.15": {
+        "n": 36,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.4651,
+        "edge": 0.0349
+      },
+      "DRAW@4.70": {
+        "n": 13,
+        "empirical_p": 0.1538,
+        "breakeven_p": 0.2128,
+        "edge": -0.0589
+      },
+      "AWAY@7.75": {
+        "n": 21,
+        "empirical_p": 0.0952,
+        "breakeven_p": 0.129,
+        "edge": -0.0338
+      },
+      "AWAY@3.70": {
+        "n": 27,
+        "empirical_p": 0.2222,
+        "breakeven_p": 0.2703,
+        "edge": -0.048
+      },
+      "HOME@2.85": {
+        "n": 16,
+        "empirical_p": 0.375,
+        "breakeven_p": 0.3509,
+        "edge": 0.0241
+      },
+      "DRAW@3.85": {
+        "n": 50,
+        "empirical_p": 0.3,
+        "breakeven_p": 0.2597,
+        "edge": 0.0403
+      },
+      "AWAY@1.90": {
+        "n": 25,
+        "empirical_p": 0.68,
+        "breakeven_p": 0.5263,
+        "edge": 0.1537
+      },
+      "DRAW@2.80": {
+        "n": 11,
+        "empirical_p": 0.2727,
+        "breakeven_p": 0.3571,
+        "edge": -0.0844
+      },
+      "HOME@1.50": {
+        "n": 35,
+        "empirical_p": 0.6286,
+        "breakeven_p": 0.6667,
+        "edge": -0.0381
+      },
+      "AWAY@6.50": {
+        "n": 25,
+        "empirical_p": 0.08,
+        "breakeven_p": 0.1538,
+        "edge": -0.0738
+      },
+      "AWAY@1.95": {
+        "n": 27,
+        "empirical_p": 0.4444,
+        "breakeven_p": 0.5128,
+        "edge": -0.0684
+      },
+      "AWAY@3.40": {
+        "n": 14,
+        "empirical_p": 0.2857,
+        "breakeven_p": 0.2941,
+        "edge": -0.0084
+      },
+      "AWAY@3.65": {
+        "n": 12,
+        "empirical_p": 0.25,
+        "breakeven_p": 0.274,
+        "edge": -0.024
+      },
+      "AWAY@4.25": {
+        "n": 14,
+        "empirical_p": 0.1429,
+        "breakeven_p": 0.2353,
+        "edge": -0.0924
+      },
+      "AWAY@4.05": {
+        "n": 14,
+        "empirical_p": 0.1429,
+        "breakeven_p": 0.2469,
+        "edge": -0.1041
+      },
+      "DRAW@5.00": {
+        "n": 31,
+        "empirical_p": 0.129,
+        "breakeven_p": 0.2,
+        "edge": -0.071
+      },
+      "HOME@2.40": {
+        "n": 36,
+        "empirical_p": 0.3056,
+        "breakeven_p": 0.4167,
+        "edge": -0.1111
+      },
+      "AWAY@2.55": {
+        "n": 27,
+        "empirical_p": 0.4815,
+        "breakeven_p": 0.3922,
+        "edge": 0.0893
+      },
+      "HOME@5.25": {
+        "n": 28,
+        "empirical_p": 0.1071,
+        "breakeven_p": 0.1905,
+        "edge": -0.0833
+      },
+      "AWAY@4.45": {
+        "n": 10,
+        "empirical_p": 0.2,
+        "breakeven_p": 0.2247,
+        "edge": -0.0247
+      },
+      "HOME@2.20": {
+        "n": 20,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.4545,
+        "edge": 0.0455
+      },
+      "DRAW@5.50": {
+        "n": 22,
+        "empirical_p": 0.3182,
+        "breakeven_p": 0.1818,
+        "edge": 0.1364
+      },
+      "HOME@2.00": {
+        "n": 32,
+        "empirical_p": 0.4688,
+        "breakeven_p": 0.5,
+        "edge": -0.0312
+      },
+      "HOME@2.50": {
+        "n": 15,
+        "empirical_p": 0.5333,
+        "breakeven_p": 0.4,
+        "edge": 0.1333
+      },
+      "HOME@3.95": {
+        "n": 10,
+        "empirical_p": 0.2,
+        "breakeven_p": 0.2532,
+        "edge": -0.0532
+      },
+      "HOME@3.85": {
+        "n": 15,
+        "empirical_p": 0.1333,
+        "breakeven_p": 0.2597,
+        "edge": -0.1264
+      },
+      "AWAY@1.85": {
+        "n": 24,
+        "empirical_p": 0.5833,
+        "breakeven_p": 0.5405,
+        "edge": 0.0428
+      },
+      "DRAW@4.10": {
+        "n": 26,
+        "empirical_p": 0.1538,
+        "breakeven_p": 0.2439,
+        "edge": -0.0901
+      },
+      "AWAY@2.95": {
+        "n": 12,
+        "empirical_p": 0.4167,
+        "breakeven_p": 0.339,
+        "edge": 0.0777
+      },
+      "AWAY@2.30": {
+        "n": 19,
+        "empirical_p": 0.4211,
+        "breakeven_p": 0.4348,
+        "edge": -0.0137
+      },
+      "DRAW@4.60": {
+        "n": 21,
+        "empirical_p": 0.0952,
+        "breakeven_p": 0.2174,
+        "edge": -0.1222
+      },
+      "AWAY@4.10": {
+        "n": 10,
+        "empirical_p": 0.2,
+        "breakeven_p": 0.2439,
+        "edge": -0.0439
+      },
+      "DRAW@4.25": {
+        "n": 22,
+        "empirical_p": 0.3182,
+        "breakeven_p": 0.2353,
+        "edge": 0.0829
+      },
+      "AWAY@3.20": {
+        "n": 20,
+        "empirical_p": 0.3,
+        "breakeven_p": 0.3125,
+        "edge": -0.0125
+      },
+      "AWAY@3.05": {
+        "n": 19,
+        "empirical_p": 0.1053,
+        "breakeven_p": 0.3279,
+        "edge": -0.2226
+      },
+      "DRAW@4.65": {
+        "n": 12,
+        "empirical_p": 0.0833,
+        "breakeven_p": 0.2151,
+        "edge": -0.1317
+      },
+      "HOME@5.00": {
+        "n": 16,
+        "empirical_p": 0.25,
+        "breakeven_p": 0.2,
+        "edge": 0.05
+      },
+      "HOME@6.00": {
+        "n": 10,
+        "empirical_p": 0.0,
+        "breakeven_p": 0.1667,
+        "edge": -0.1667
+      },
+      "AWAY@1.45": {
+        "n": 13,
+        "empirical_p": 0.5385,
+        "breakeven_p": 0.6897,
+        "edge": -0.1512
+      },
+      "HOME@1.25": {
+        "n": 14,
+        "empirical_p": 0.7857,
+        "breakeven_p": 0.8,
+        "edge": -0.0143
+      },
+      "AWAY@2.35": {
+        "n": 17,
+        "empirical_p": 0.3529,
+        "breakeven_p": 0.4255,
+        "edge": -0.0726
+      },
+      "AWAY@8.75": {
+        "n": 14,
+        "empirical_p": 0.0,
+        "breakeven_p": 0.1143,
+        "edge": -0.1143
+      },
+      "HOME@4.10": {
+        "n": 10,
+        "empirical_p": 0.2,
+        "breakeven_p": 0.2439,
+        "edge": -0.0439
+      },
+      "AWAY@8.50": {
+        "n": 14,
+        "empirical_p": 0.1429,
+        "breakeven_p": 0.1176,
+        "edge": 0.0252
+      },
+      "HOME@6.25": {
+        "n": 11,
+        "empirical_p": 0.0909,
+        "breakeven_p": 0.16,
+        "edge": -0.0691
+      },
+      "DRAW@4.50": {
+        "n": 16,
+        "empirical_p": 0.3125,
+        "breakeven_p": 0.2222,
+        "edge": 0.0903
+      },
+      "AWAY@6.75": {
+        "n": 14,
+        "empirical_p": 0.2143,
+        "breakeven_p": 0.1481,
+        "edge": 0.0661
+      },
+      "HOME@2.75": {
+        "n": 13,
+        "empirical_p": 0.3077,
+        "breakeven_p": 0.3636,
+        "edge": -0.0559
+      },
+      "DRAW@3.10": {
+        "n": 31,
+        "empirical_p": 0.2903,
+        "breakeven_p": 0.3226,
+        "edge": -0.0323
+      },
+      "DRAW@4.40": {
+        "n": 24,
+        "empirical_p": 0.0833,
+        "breakeven_p": 0.2273,
+        "edge": -0.1439
+      },
+      "AWAY@4.15": {
+        "n": 14,
+        "empirical_p": 0.2143,
+        "breakeven_p": 0.241,
+        "edge": -0.0267
+      },
+      "AWAY@9.75": {
+        "n": 13,
+        "empirical_p": 0.1538,
+        "breakeven_p": 0.1026,
+        "edge": 0.0513
+      },
+      "DRAW@4.30": {
+        "n": 18,
+        "empirical_p": 0.2222,
+        "breakeven_p": 0.2326,
+        "edge": -0.0103
+      },
+      "HOME@3.10": {
+        "n": 20,
+        "empirical_p": 0.25,
+        "breakeven_p": 0.3226,
+        "edge": -0.0726
+      },
+      "HOME@4.90": {
+        "n": 11,
+        "empirical_p": 0.2727,
+        "breakeven_p": 0.2041,
+        "edge": 0.0686
+      },
+      "AWAY@3.95": {
+        "n": 18,
+        "empirical_p": 0.2222,
+        "breakeven_p": 0.2532,
+        "edge": -0.0309
+      },
+      "AWAY@4.20": {
+        "n": 12,
+        "empirical_p": 0.1667,
+        "breakeven_p": 0.2381,
+        "edge": -0.0714
+      },
+      "HOME@2.90": {
+        "n": 10,
+        "empirical_p": 0.2,
+        "breakeven_p": 0.3448,
+        "edge": -0.1448
+      },
+      "HOME@3.35": {
+        "n": 11,
+        "empirical_p": 0.3636,
+        "breakeven_p": 0.2985,
+        "edge": 0.0651
+      }
+    },
+    "edges_late": {
+      "HOME@1.95": {
+        "n": 41,
+        "empirical_p": 0.3415,
+        "breakeven_p": 0.5128,
+        "edge": -0.1714
+      },
+      "DRAW@3.05": {
+        "n": 24,
+        "empirical_p": 0.4167,
+        "breakeven_p": 0.3279,
+        "edge": 0.0888
+      },
+      "HOME@2.30": {
+        "n": 32,
+        "empirical_p": 0.4375,
+        "breakeven_p": 0.4348,
+        "edge": 0.0027
+      },
+      "DRAW@3.90": {
+        "n": 56,
+        "empirical_p": 0.3214,
+        "breakeven_p": 0.2564,
+        "edge": 0.065
+      },
+      "AWAY@2.60": {
+        "n": 25,
+        "empirical_p": 0.32,
+        "breakeven_p": 0.3846,
+        "edge": -0.0646
+      },
+      "DRAW@3.85": {
+        "n": 54,
+        "empirical_p": 0.2593,
+        "breakeven_p": 0.2597,
+        "edge": -0.0005
+      },
+      "AWAY@1.70": {
+        "n": 27,
+        "empirical_p": 0.8148,
+        "breakeven_p": 0.5882,
+        "edge": 0.2266
+      },
+      "HOME@1.40": {
+        "n": 74,
+        "empirical_p": 0.6486,
+        "breakeven_p": 0.7143,
+        "edge": -0.0656
+      },
+      "DRAW@5.75": {
+        "n": 18,
+        "empirical_p": 0.1667,
+        "breakeven_p": 0.1739,
+        "edge": -0.0072
+      },
+      "AWAY@5.25": {
+        "n": 30,
+        "empirical_p": 0.2667,
+        "breakeven_p": 0.1905,
+        "edge": 0.0762
+      },
+      "HOME@1.75": {
+        "n": 31,
+        "empirical_p": 0.4194,
+        "breakeven_p": 0.5714,
+        "edge": -0.1521
+      },
+      "DRAW@3.60": {
+        "n": 74,
+        "empirical_p": 0.2703,
+        "breakeven_p": 0.2778,
+        "edge": -0.0075
+      },
+      "HOME@2.45": {
+        "n": 36,
+        "empirical_p": 0.5833,
+        "breakeven_p": 0.4082,
+        "edge": 0.1752
+      },
+      "DRAW@3.35": {
+        "n": 52,
+        "empirical_p": 0.3654,
+        "breakeven_p": 0.2985,
+        "edge": 0.0669
+      },
+      "AWAY@2.70": {
+        "n": 28,
+        "empirical_p": 0.3571,
+        "breakeven_p": 0.3704,
+        "edge": -0.0132
+      },
+      "HOME@1.25": {
+        "n": 25,
+        "empirical_p": 0.72,
+        "breakeven_p": 0.8,
+        "edge": -0.08
+      },
+      "DRAW@5.50": {
+        "n": 25,
+        "empirical_p": 0.12,
+        "breakeven_p": 0.1818,
+        "edge": -0.0618
+      },
+      "HOME@1.90": {
+        "n": 39,
+        "empirical_p": 0.5385,
+        "breakeven_p": 0.5263,
+        "edge": 0.0121
+      },
+      "DRAW@3.50": {
+        "n": 72,
+        "empirical_p": 0.25,
+        "breakeven_p": 0.2857,
+        "edge": -0.0357
+      },
+      "AWAY@3.65": {
+        "n": 15,
+        "empirical_p": 0.2,
+        "breakeven_p": 0.274,
+        "edge": -0.074
+      },
+      "DRAW@4.00": {
+        "n": 32,
+        "empirical_p": 0.25,
+        "breakeven_p": 0.25,
+        "edge": 0.0
+      },
+      "HOME@5.75": {
+        "n": 21,
+        "empirical_p": 0.1429,
+        "breakeven_p": 0.1739,
+        "edge": -0.0311
+      },
+      "DRAW@4.05": {
+        "n": 49,
+        "empirical_p": 0.2245,
+        "breakeven_p": 0.2469,
+        "edge": -0.0224
+      },
+      "AWAY@1.50": {
+        "n": 48,
+        "empirical_p": 0.625,
+        "breakeven_p": 0.6667,
+        "edge": -0.0417
+      },
+      "HOME@6.00": {
+        "n": 15,
+        "empirical_p": 0.0667,
+        "breakeven_p": 0.1667,
+        "edge": -0.1
+      },
+      "DRAW@3.40": {
+        "n": 58,
+        "empirical_p": 0.2931,
+        "breakeven_p": 0.2941,
+        "edge": -0.001
+      },
+      "AWAY@1.60": {
+        "n": 30,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.625,
+        "edge": -0.125
+      },
+      "DRAW@3.00": {
+        "n": 16,
+        "empirical_p": 0.0625,
+        "breakeven_p": 0.3333,
+        "edge": -0.2708
+      },
+      "AWAY@4.65": {
+        "n": 16,
+        "empirical_p": 0.0625,
+        "breakeven_p": 0.2151,
+        "edge": -0.1526
+      },
+      "HOME@2.00": {
+        "n": 22,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.5,
+        "edge": 0.0
+      },
+      "AWAY@3.50": {
+        "n": 17,
+        "empirical_p": 0.2941,
+        "breakeven_p": 0.2857,
+        "edge": 0.0084
+      },
+      "HOME@1.45": {
+        "n": 29,
+        "empirical_p": 0.5862,
+        "breakeven_p": 0.6897,
+        "edge": -0.1034
+      },
+      "DRAW@4.10": {
+        "n": 43,
+        "empirical_p": 0.3256,
+        "breakeven_p": 0.2439,
+        "edge": 0.0817
+      },
+      "AWAY@6.50": {
+        "n": 26,
+        "empirical_p": 0.1538,
+        "breakeven_p": 0.1538,
+        "edge": 0.0
+      },
+      "HOME@2.35": {
+        "n": 41,
+        "empirical_p": 0.3902,
+        "breakeven_p": 0.4255,
+        "edge": -0.0353
+      },
+      "AWAY@2.75": {
+        "n": 20,
+        "empirical_p": 0.45,
+        "breakeven_p": 0.3636,
+        "edge": 0.0864
+      },
+      "HOME@1.60": {
+        "n": 50,
+        "empirical_p": 0.68,
+        "breakeven_p": 0.625,
+        "edge": 0.055
+      },
+      "DRAW@4.20": {
+        "n": 30,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.2381,
+        "edge": 0.2619
+      },
+      "DRAW@3.55": {
+        "n": 59,
+        "empirical_p": 0.1695,
+        "breakeven_p": 0.2817,
+        "edge": -0.1122
+      },
+      "AWAY@4.50": {
+        "n": 11,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.2222,
+        "edge": -0.0404
+      },
+      "HOME@1.70": {
+        "n": 53,
+        "empirical_p": 0.5849,
+        "breakeven_p": 0.5882,
+        "edge": -0.0033
+      },
+      "HOME@1.20": {
+        "n": 18,
+        "empirical_p": 0.6667,
+        "breakeven_p": 0.8333,
+        "edge": -0.1667
+      },
+      "AWAY@9.25": {
+        "n": 22,
+        "empirical_p": 0.0,
+        "breakeven_p": 0.1081,
+        "edge": -0.1081
+      },
+      "HOME@2.95": {
+        "n": 22,
+        "empirical_p": 0.3182,
+        "breakeven_p": 0.339,
+        "edge": -0.0208
+      },
+      "DRAW@3.25": {
+        "n": 64,
+        "empirical_p": 0.3125,
+        "breakeven_p": 0.3077,
+        "edge": 0.0048
+      },
+      "AWAY@2.35": {
+        "n": 30,
+        "empirical_p": 0.4667,
+        "breakeven_p": 0.4255,
+        "edge": 0.0411
+      },
+      "AWAY@2.45": {
+        "n": 22,
+        "empirical_p": 0.3636,
+        "breakeven_p": 0.4082,
+        "edge": -0.0445
+      },
+      "DRAW@4.25": {
+        "n": 29,
+        "empirical_p": 0.1724,
+        "breakeven_p": 0.2353,
+        "edge": -0.0629
+      },
+      "HOME@2.40": {
+        "n": 27,
+        "empirical_p": 0.4444,
+        "breakeven_p": 0.4167,
+        "edge": 0.0278
+      },
+      "AWAY@2.80": {
+        "n": 24,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.3571,
+        "edge": 0.1429
+      },
+      "HOME@2.15": {
+        "n": 42,
+        "empirical_p": 0.3571,
+        "breakeven_p": 0.4651,
+        "edge": -0.108
+      },
+      "DRAW@3.45": {
+        "n": 68,
+        "empirical_p": 0.2059,
+        "breakeven_p": 0.2899,
+        "edge": -0.084
+      },
+      "AWAY@3.15": {
+        "n": 25,
+        "empirical_p": 0.32,
+        "breakeven_p": 0.3175,
+        "edge": 0.0025
+      },
+      "HOME@3.15": {
+        "n": 22,
+        "empirical_p": 0.3636,
+        "breakeven_p": 0.3175,
+        "edge": 0.0462
+      },
+      "DRAW@3.80": {
+        "n": 41,
+        "empirical_p": 0.2927,
+        "breakeven_p": 0.2632,
+        "edge": 0.0295
+      },
+      "AWAY@2.00": {
+        "n": 22,
+        "empirical_p": 0.2727,
+        "breakeven_p": 0.5,
+        "edge": -0.2273
+      },
+      "HOME@2.85": {
+        "n": 10,
+        "empirical_p": 0.4,
+        "breakeven_p": 0.3509,
+        "edge": 0.0491
+      },
+      "AWAY@2.20": {
+        "n": 14,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.4545,
+        "edge": 0.0455
+      },
+      "HOME@5.25": {
+        "n": 35,
+        "empirical_p": 0.0571,
+        "breakeven_p": 0.1905,
+        "edge": -0.1333
+      },
+      "HOME@2.50": {
+        "n": 14,
+        "empirical_p": 0.2857,
+        "breakeven_p": 0.4,
+        "edge": -0.1143
+      },
+      "AWAY@2.65": {
+        "n": 25,
+        "empirical_p": 0.24,
+        "breakeven_p": 0.3774,
+        "edge": -0.1374
+      },
+      "HOME@5.00": {
+        "n": 14,
+        "empirical_p": 0.4286,
+        "breakeven_p": 0.2,
+        "edge": 0.2286
+      },
+      "AWAY@1.65": {
+        "n": 43,
+        "empirical_p": 0.5116,
+        "breakeven_p": 0.6061,
+        "edge": -0.0944
+      },
+      "DRAW@4.90": {
+        "n": 13,
+        "empirical_p": 0.2308,
+        "breakeven_p": 0.2041,
+        "edge": 0.0267
+      },
+      "AWAY@5.75": {
+        "n": 25,
+        "empirical_p": 0.08,
+        "breakeven_p": 0.1739,
+        "edge": -0.0939
+      },
+      "AWAY@3.70": {
+        "n": 12,
+        "empirical_p": 0.1667,
+        "breakeven_p": 0.2703,
+        "edge": -0.1036
+      },
+      "HOME@1.80": {
+        "n": 43,
+        "empirical_p": 0.4884,
+        "breakeven_p": 0.5556,
+        "edge": -0.0672
+      },
+      "HOME@3.20": {
+        "n": 16,
+        "empirical_p": 0.1875,
+        "breakeven_p": 0.3125,
+        "edge": -0.125
+      },
+      "AWAY@2.15": {
+        "n": 25,
+        "empirical_p": 0.44,
+        "breakeven_p": 0.4651,
+        "edge": -0.0251
+      },
+      "DRAW@2.85": {
+        "n": 15,
+        "empirical_p": 0.2667,
+        "breakeven_p": 0.3509,
+        "edge": -0.0842
+      },
+      "HOME@1.35": {
+        "n": 65,
+        "empirical_p": 0.6769,
+        "breakeven_p": 0.7407,
+        "edge": -0.0638
+      },
+      "DRAW@4.60": {
+        "n": 19,
+        "empirical_p": 0.3158,
+        "breakeven_p": 0.2174,
+        "edge": 0.0984
+      },
+      "AWAY@7.75": {
+        "n": 12,
+        "empirical_p": 0.3333,
+        "breakeven_p": 0.129,
+        "edge": 0.2043
+      },
+      "DRAW@4.55": {
+        "n": 31,
+        "empirical_p": 0.2581,
+        "breakeven_p": 0.2198,
+        "edge": 0.0383
+      },
+      "HOME@3.90": {
+        "n": 13,
+        "empirical_p": 0.4615,
+        "breakeven_p": 0.2564,
+        "edge": 0.2051
+      },
+      "AWAY@1.90": {
+        "n": 32,
+        "empirical_p": 0.4688,
+        "breakeven_p": 0.5263,
+        "edge": -0.0576
+      },
+      "DRAW@3.75": {
+        "n": 74,
+        "empirical_p": 0.1622,
+        "breakeven_p": 0.2667,
+        "edge": -0.1045
+      },
+      "AWAY@5.00": {
+        "n": 12,
+        "empirical_p": 0.1667,
+        "breakeven_p": 0.2,
+        "edge": -0.0333
+      },
+      "HOME@4.05": {
+        "n": 12,
+        "empirical_p": 0.1667,
+        "breakeven_p": 0.2469,
+        "edge": -0.0802
+      },
+      "DRAW@3.15": {
+        "n": 28,
+        "empirical_p": 0.2857,
+        "breakeven_p": 0.3175,
+        "edge": -0.0317
+      },
+      "AWAY@1.95": {
+        "n": 35,
+        "empirical_p": 0.4286,
+        "breakeven_p": 0.5128,
+        "edge": -0.0842
+      },
+      "AWAY@3.00": {
+        "n": 17,
+        "empirical_p": 0.2353,
+        "breakeven_p": 0.3333,
+        "edge": -0.098
+      },
+      "DRAW@4.40": {
+        "n": 19,
+        "empirical_p": 0.4211,
+        "breakeven_p": 0.2273,
+        "edge": 0.1938
+      },
+      "AWAY@1.45": {
+        "n": 10,
+        "empirical_p": 0.8,
+        "breakeven_p": 0.6897,
+        "edge": 0.1103
+      },
+      "AWAY@8.25": {
+        "n": 14,
+        "empirical_p": 0.0714,
+        "breakeven_p": 0.1212,
+        "edge": -0.0498
+      },
+      "DRAW@3.70": {
+        "n": 57,
+        "empirical_p": 0.1754,
+        "breakeven_p": 0.2703,
+        "edge": -0.0948
+      },
+      "HOME@2.10": {
+        "n": 48,
+        "empirical_p": 0.4167,
+        "breakeven_p": 0.4762,
+        "edge": -0.0595
+      },
+      "AWAY@3.05": {
+        "n": 13,
+        "empirical_p": 0.5385,
+        "breakeven_p": 0.3279,
+        "edge": 0.2106
+      },
+      "HOME@1.30": {
+        "n": 68,
+        "empirical_p": 0.75,
+        "breakeven_p": 0.7692,
+        "edge": -0.0192
+      },
+      "HOME@1.65": {
+        "n": 53,
+        "empirical_p": 0.4717,
+        "breakeven_p": 0.6061,
+        "edge": -0.1344
+      },
+      "DRAW@3.10": {
+        "n": 37,
+        "empirical_p": 0.2703,
+        "breakeven_p": 0.3226,
+        "edge": -0.0523
+      },
+      "AWAY@2.90": {
+        "n": 11,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.3448,
+        "edge": -0.163
+      },
+      "HOME@1.50": {
+        "n": 56,
+        "empirical_p": 0.6071,
+        "breakeven_p": 0.6667,
+        "edge": -0.0595
+      },
+      "AWAY@7.00": {
+        "n": 18,
+        "empirical_p": 0.0556,
+        "breakeven_p": 0.1429,
+        "edge": -0.0873
+      },
+      "HOME@5.50": {
+        "n": 17,
+        "empirical_p": 0.0588,
+        "breakeven_p": 0.1818,
+        "edge": -0.123
+      },
+      "HOME@3.65": {
+        "n": 11,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.274,
+        "edge": -0.0922
+      },
+      "HOME@2.05": {
+        "n": 62,
+        "empirical_p": 0.5323,
+        "breakeven_p": 0.4878,
+        "edge": 0.0445
+      },
+      "AWAY@3.75": {
+        "n": 12,
+        "empirical_p": 0.1667,
+        "breakeven_p": 0.2667,
+        "edge": -0.1
+      },
+      "HOME@3.95": {
+        "n": 15,
+        "empirical_p": 0.1333,
+        "breakeven_p": 0.2532,
+        "edge": -0.1198
+      },
+      "AWAY@1.85": {
+        "n": 38,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.5405,
+        "edge": -0.0405
+      },
+      "AWAY@5.50": {
+        "n": 33,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.1818,
+        "edge": 0.0
+      },
+      "AWAY@2.30": {
+        "n": 23,
+        "empirical_p": 0.2609,
+        "breakeven_p": 0.4348,
+        "edge": -0.1739
+      },
+      "DRAW@4.70": {
+        "n": 16,
+        "empirical_p": 0.0625,
+        "breakeven_p": 0.2128,
+        "edge": -0.1503
+      },
+      "AWAY@4.80": {
+        "n": 13,
+        "empirical_p": 0.3846,
+        "breakeven_p": 0.2083,
+        "edge": 0.1763
+      },
+      "AWAY@2.85": {
+        "n": 20,
+        "empirical_p": 0.35,
+        "breakeven_p": 0.3509,
+        "edge": -0.0009
+      },
+      "DRAW@4.30": {
+        "n": 29,
+        "empirical_p": 0.2414,
+        "breakeven_p": 0.2326,
+        "edge": 0.0088
+      },
+      "DRAW@3.95": {
+        "n": 49,
+        "empirical_p": 0.2245,
+        "breakeven_p": 0.2532,
+        "edge": -0.0287
+      },
+      "AWAY@8.75": {
+        "n": 23,
+        "empirical_p": 0.2174,
+        "breakeven_p": 0.1143,
+        "edge": 0.1031
+      },
+      "DRAW@4.75": {
+        "n": 17,
+        "empirical_p": 0.1765,
+        "breakeven_p": 0.2105,
+        "edge": -0.0341
+      },
+      "DRAW@4.80": {
+        "n": 11,
+        "empirical_p": 0.3636,
+        "breakeven_p": 0.2083,
+        "edge": 0.1553
+      },
+      "DRAW@3.20": {
+        "n": 54,
+        "empirical_p": 0.3704,
+        "breakeven_p": 0.3125,
+        "edge": 0.0579
+      },
+      "AWAY@4.25": {
+        "n": 10,
+        "empirical_p": 0.4,
+        "breakeven_p": 0.2353,
+        "edge": 0.1647
+      },
+      "HOME@1.85": {
+        "n": 59,
+        "empirical_p": 0.5932,
+        "breakeven_p": 0.5405,
+        "edge": 0.0527
+      },
+      "DRAW@4.45": {
+        "n": 19,
+        "empirical_p": 0.2632,
+        "breakeven_p": 0.2247,
+        "edge": 0.0384
+      },
+      "AWAY@10.00": {
+        "n": 13,
+        "empirical_p": 0.1538,
+        "breakeven_p": 0.1,
+        "edge": 0.0538
+      },
+      "DRAW@3.30": {
+        "n": 78,
+        "empirical_p": 0.2051,
+        "breakeven_p": 0.303,
+        "edge": -0.0979
+      },
+      "HOME@3.00": {
+        "n": 17,
+        "empirical_p": 0.2353,
+        "breakeven_p": 0.3333,
+        "edge": -0.098
+      },
+      "AWAY@2.95": {
+        "n": 27,
+        "empirical_p": 0.3333,
+        "breakeven_p": 0.339,
+        "edge": -0.0056
+      },
+      "AWAY@1.75": {
+        "n": 24,
+        "empirical_p": 0.4167,
+        "breakeven_p": 0.5714,
+        "edge": -0.1548
+      },
+      "DRAW@3.65": {
+        "n": 68,
+        "empirical_p": 0.2794,
+        "breakeven_p": 0.274,
+        "edge": 0.0054
+      },
+      "HOME@6.25": {
+        "n": 11,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.16,
+        "edge": 0.0218
+      },
+      "AWAY@4.85": {
+        "n": 15,
+        "empirical_p": 0.1333,
+        "breakeven_p": 0.2062,
+        "edge": -0.0729
+      },
+      "AWAY@2.40": {
+        "n": 22,
+        "empirical_p": 0.4091,
+        "breakeven_p": 0.4167,
+        "edge": -0.0076
+      },
+      "AWAY@3.95": {
+        "n": 15,
+        "empirical_p": 0.1333,
+        "breakeven_p": 0.2532,
+        "edge": -0.1198
+      },
+      "HOME@1.55": {
+        "n": 34,
+        "empirical_p": 0.5588,
+        "breakeven_p": 0.6452,
+        "edge": -0.0863
+      },
+      "AWAY@6.75": {
+        "n": 22,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.1481,
+        "edge": 0.0337
+      },
+      "HOME@2.20": {
+        "n": 32,
+        "empirical_p": 0.2812,
+        "breakeven_p": 0.4545,
+        "edge": -0.1733
+      },
+      "HOME@2.80": {
+        "n": 18,
+        "empirical_p": 0.1111,
+        "breakeven_p": 0.3571,
+        "edge": -0.246
+      },
+      "AWAY@2.50": {
+        "n": 22,
+        "empirical_p": 0.3182,
+        "breakeven_p": 0.4,
+        "edge": -0.0818
+      },
+      "AWAY@3.85": {
+        "n": 18,
+        "empirical_p": 0.2222,
+        "breakeven_p": 0.2597,
+        "edge": -0.0375
+      },
+      "HOME@2.25": {
+        "n": 16,
+        "empirical_p": 0.4375,
+        "breakeven_p": 0.4444,
+        "edge": -0.0069
+      },
+      "DRAW@4.65": {
+        "n": 30,
+        "empirical_p": 0.1,
+        "breakeven_p": 0.2151,
+        "edge": -0.1151
+      },
+      "AWAY@3.20": {
+        "n": 16,
+        "empirical_p": 0.375,
+        "breakeven_p": 0.3125,
+        "edge": 0.0625
+      },
+      "AWAY@6.00": {
+        "n": 15,
+        "empirical_p": 0.0,
+        "breakeven_p": 0.1667,
+        "edge": -0.1667
+      },
+      "HOME@3.50": {
+        "n": 14,
+        "empirical_p": 0.3571,
+        "breakeven_p": 0.2857,
+        "edge": 0.0714
+      },
+      "AWAY@1.80": {
+        "n": 31,
+        "empirical_p": 0.5484,
+        "breakeven_p": 0.5556,
+        "edge": -0.0072
+      },
+      "DRAW@2.95": {
+        "n": 15,
+        "empirical_p": 0.2667,
+        "breakeven_p": 0.339,
+        "edge": -0.0723
+      },
+      "AWAY@3.80": {
+        "n": 19,
+        "empirical_p": 0.3158,
+        "breakeven_p": 0.2632,
+        "edge": 0.0526
+      },
+      "AWAY@8.00": {
+        "n": 12,
+        "empirical_p": 0.25,
+        "breakeven_p": 0.125,
+        "edge": 0.125
+      },
+      "AWAY@9.50": {
+        "n": 16,
+        "empirical_p": 0.125,
+        "breakeven_p": 0.1053,
+        "edge": 0.0197
+      },
+      "HOME@4.00": {
+        "n": 11,
+        "empirical_p": 0.1818,
+        "breakeven_p": 0.25,
+        "edge": -0.0682
+      },
+      "AWAY@4.05": {
+        "n": 10,
+        "empirical_p": 0.3,
+        "breakeven_p": 0.2469,
+        "edge": 0.0531
+      },
+      "AWAY@1.55": {
+        "n": 19,
+        "empirical_p": 0.4737,
+        "breakeven_p": 0.6452,
+        "edge": -0.1715
+      },
+      "HOME@3.30": {
+        "n": 18,
+        "empirical_p": 0.3333,
+        "breakeven_p": 0.303,
+        "edge": 0.0303
+      },
+      "AWAY@2.55": {
+        "n": 26,
+        "empirical_p": 0.3077,
+        "breakeven_p": 0.3922,
+        "edge": -0.0845
+      },
+      "HOME@2.70": {
+        "n": 19,
+        "empirical_p": 0.1579,
+        "breakeven_p": 0.3704,
+        "edge": -0.2125
+      },
+      "HOME@3.05": {
+        "n": 15,
+        "empirical_p": 0.2667,
+        "breakeven_p": 0.3279,
+        "edge": -0.0612
+      },
+      "AWAY@3.25": {
+        "n": 17,
+        "empirical_p": 0.1176,
+        "breakeven_p": 0.3077,
+        "edge": -0.19
+      },
+      "HOME@4.20": {
+        "n": 12,
+        "empirical_p": 0.25,
+        "breakeven_p": 0.2381,
+        "edge": 0.0119
+      },
+      "AWAY@2.10": {
+        "n": 25,
+        "empirical_p": 0.24,
+        "breakeven_p": 0.4762,
+        "edge": -0.2362
+      },
+      "HOME@3.60": {
+        "n": 14,
+        "empirical_p": 0.2143,
+        "breakeven_p": 0.2778,
+        "edge": -0.0635
+      },
+      "DRAW@4.50": {
+        "n": 28,
+        "empirical_p": 0.0714,
+        "breakeven_p": 0.2222,
+        "edge": -0.1508
+      },
+      "DRAW@5.00": {
+        "n": 19,
+        "empirical_p": 0.0526,
+        "breakeven_p": 0.2,
+        "edge": -0.1474
+      },
+      "AWAY@2.25": {
+        "n": 18,
+        "empirical_p": 0.5556,
+        "breakeven_p": 0.4444,
+        "edge": 0.1111
+      },
+      "AWAY@6.25": {
+        "n": 24,
+        "empirical_p": 0.2083,
+        "breakeven_p": 0.16,
+        "edge": 0.0483
+      },
+      "AWAY@3.30": {
+        "n": 19,
+        "empirical_p": 0.1579,
+        "breakeven_p": 0.303,
+        "edge": -0.1451
+      },
+      "AWAY@9.75": {
+        "n": 13,
+        "empirical_p": 0.2308,
+        "breakeven_p": 0.1026,
+        "edge": 0.1282
+      },
+      "DRAW@4.35": {
+        "n": 24,
+        "empirical_p": 0.125,
+        "breakeven_p": 0.2299,
+        "edge": -0.1049
+      },
+      "AWAY@2.05": {
+        "n": 37,
+        "empirical_p": 0.4324,
+        "breakeven_p": 0.4878,
+        "edge": -0.0554
+      },
+      "AWAY@4.15": {
+        "n": 15,
+        "empirical_p": 0.2,
+        "breakeven_p": 0.241,
+        "edge": -0.041
+      },
+      "HOME@3.25": {
+        "n": 11,
+        "empirical_p": 0.4545,
+        "breakeven_p": 0.3077,
+        "edge": 0.1469
+      },
+      "DRAW@5.25": {
+        "n": 15,
+        "empirical_p": 0.0667,
+        "breakeven_p": 0.1905,
+        "edge": -0.1238
+      },
+      "HOME@2.60": {
+        "n": 10,
+        "empirical_p": 0.3,
+        "breakeven_p": 0.3846,
+        "edge": -0.0846
+      },
+      "DRAW@4.15": {
+        "n": 17,
+        "empirical_p": 0.2941,
+        "breakeven_p": 0.241,
+        "edge": 0.0532
+      },
+      "AWAY@4.70": {
+        "n": 13,
+        "empirical_p": 0.1538,
+        "breakeven_p": 0.2128,
+        "edge": -0.0589
+      },
+      "HOME@3.80": {
+        "n": 10,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.2632,
+        "edge": 0.2368
+      },
+      "AWAY@3.35": {
+        "n": 17,
+        "empirical_p": 0.2353,
+        "breakeven_p": 0.2985,
+        "edge": -0.0632
+      },
+      "AWAY@9.00": {
+        "n": 19,
+        "empirical_p": 0.0526,
+        "breakeven_p": 0.1111,
+        "edge": -0.0585
+      },
+      "AWAY@4.10": {
+        "n": 12,
+        "empirical_p": 0.5,
+        "breakeven_p": 0.2439,
+        "edge": 0.2561
+      },
+      "AWAY@3.55": {
+        "n": 15,
+        "empirical_p": 0.2,
+        "breakeven_p": 0.2817,
+        "edge": -0.0817
+      },
+      "AWAY@4.35": {
+        "n": 10,
+        "empirical_p": 0.1,
+        "breakeven_p": 0.2299,
+        "edge": -0.1299
+      },
+      "HOME@3.35": {
+        "n": 14,
+        "empirical_p": 0.3571,
+        "breakeven_p": 0.2985,
+        "edge": 0.0586
+      },
+      "HOME@2.55": {
+        "n": 14,
+        "empirical_p": 0.6429,
+        "breakeven_p": 0.3922,
+        "edge": 0.2507
+      },
+      "HOME@3.10": {
+        "n": 19,
+        "empirical_p": 0.4211,
+        "breakeven_p": 0.3226,
+        "edge": 0.0985
+      },
+      "AWAY@3.90": {
+        "n": 11,
+        "empirical_p": 0.4545,
+        "breakeven_p": 0.2564,
+        "edge": 0.1981
+      },
+      "AWAY@3.10": {
+        "n": 19,
+        "empirical_p": 0.1053,
+        "breakeven_p": 0.3226,
+        "edge": -0.2173
+      },
+      "AWAY@3.60": {
+        "n": 19,
+        "empirical_p": 0.3158,
+        "breakeven_p": 0.2778,
+        "edge": 0.038
+      }
+    },
+    "edge_direction_counts": {
+      "early": {
+        "positive_edges": 60,
+        "negative_edges": 103
+      },
+      "late": {
+        "positive_edges": 64,
+        "negative_edges": 109
+      }
+    }
+  },
+  "question_3_calibration": {
+    "description": "Pooled calibration across all 3 outcomes. Each match contributes 3 observations (predicted prob vs actual occurrence). Bins 0-5%, 5-10%, ..., 95-100%.",
+    "pooled_calibration_bins": [
+      {
+        "bin_mid": 0.075,
+        "bin_range": "0.05-0.10",
+        "n_observations": 179,
+        "predicted_prob": 0.075,
+        "actual_frequency": 0.1006,
+        "error": 0.0256,
+        "ci_95": [
+          0.0646,
+          0.1533
+        ]
+      },
+      {
+        "bin_mid": 0.125,
+        "bin_range": "0.10-0.15",
+        "n_observations": 447,
+        "predicted_prob": 0.125,
+        "actual_frequency": 0.1342,
+        "error": 0.0092,
+        "ci_95": [
+          0.1057,
+          0.169
+        ]
+      },
+      {
+        "bin_mid": 0.175,
+        "bin_range": "0.15-0.20",
+        "n_observations": 961,
+        "predicted_prob": 0.175,
+        "actual_frequency": 0.1561,
+        "error": -0.0189,
+        "ci_95": [
+          0.1345,
+          0.1804
+        ]
+      },
+      {
+        "bin_mid": 0.225,
+        "bin_range": "0.20-0.25",
+        "n_observations": 1934,
+        "predicted_prob": 0.225,
+        "actual_frequency": 0.2389,
+        "error": 0.0139,
+        "ci_95": [
+          0.2204,
+          0.2584
+        ]
+      },
+      {
+        "bin_mid": 0.275,
+        "bin_range": "0.25-0.30",
+        "n_observations": 2037,
+        "predicted_prob": 0.275,
+        "actual_frequency": 0.2631,
+        "error": -0.0119,
+        "ci_95": [
+          0.2445,
+          0.2827
+        ]
+      },
+      {
+        "bin_mid": 0.325,
+        "bin_range": "0.30-0.35",
+        "n_observations": 796,
+        "predicted_prob": 0.325,
+        "actual_frequency": 0.3266,
+        "error": 0.0016,
+        "ci_95": [
+          0.295,
+          0.36
+        ]
+      },
+      {
+        "bin_mid": 0.375,
+        "bin_range": "0.35-0.40",
+        "n_observations": 603,
+        "predicted_prob": 0.375,
+        "actual_frequency": 0.3864,
+        "error": 0.0114,
+        "ci_95": [
+          0.3484,
+          0.4259
+        ]
+      },
+      {
+        "bin_mid": 0.425,
+        "bin_range": "0.40-0.45",
+        "n_observations": 563,
+        "predicted_prob": 0.425,
+        "actual_frequency": 0.4174,
+        "error": -0.0076,
+        "ci_95": [
+          0.3774,
+          0.4586
+        ]
+      },
+      {
+        "bin_mid": 0.475,
+        "bin_range": "0.45-0.50",
+        "n_observations": 568,
+        "predicted_prob": 0.475,
+        "actual_frequency": 0.4683,
+        "error": -0.0067,
+        "ci_95": [
+          0.4276,
+          0.5094
+        ]
+      },
+      {
+        "bin_mid": 0.525,
+        "bin_range": "0.50-0.55",
+        "n_observations": 530,
+        "predicted_prob": 0.525,
+        "actual_frequency": 0.5434,
+        "error": 0.0184,
+        "ci_95": [
+          0.5008,
+          0.5853
+        ]
+      },
+      {
+        "bin_mid": 0.575,
+        "bin_range": "0.55-0.60",
+        "n_observations": 422,
+        "predicted_prob": 0.575,
+        "actual_frequency": 0.5758,
+        "error": 0.0008,
+        "ci_95": [
+          0.5282,
+          0.6221
+        ]
+      },
+      {
+        "bin_mid": 0.625,
+        "bin_range": "0.60-0.65",
+        "n_observations": 281,
+        "predicted_prob": 0.625,
+        "actual_frequency": 0.6157,
+        "error": -0.0093,
+        "ci_95": [
+          0.5576,
+          0.6706
+        ]
+      },
+      {
+        "bin_mid": 0.675,
+        "bin_range": "0.65-0.70",
+        "n_observations": 258,
+        "predicted_prob": 0.675,
+        "actual_frequency": 0.6628,
+        "error": -0.0122,
+        "ci_95": [
+          0.6031,
+          0.7177
+        ]
+      },
+      {
+        "bin_mid": 0.725,
+        "bin_range": "0.70-0.75",
+        "n_observations": 199,
+        "predicted_prob": 0.725,
+        "actual_frequency": 0.7487,
+        "error": 0.0237,
+        "ci_95": [
+          0.6842,
+          0.8039
+        ]
+      },
+      {
+        "bin_mid": 0.775,
+        "bin_range": "0.75-0.80",
+        "n_observations": 38,
+        "predicted_prob": 0.775,
+        "actual_frequency": 0.7368,
+        "error": -0.0382,
+        "ci_95": [
+          0.5799,
+          0.8503
+        ]
+      }
+    ],
+    "mean_absolute_error": 0.0118,
+    "interpretation": "MAE measures avg deviation between predicted probability and actual frequency. Lower = better calibrated."
+  },
+  "question_4_correlations": {
+    "team_home_away": {
+      "description": "Pearson r between each team's home win rate and away win rate. Independent performance would give r \u2248 0; r > 0 means quality persists across venue.",
+      "correlation": 0.9551,
+      "teams_analyzed": 16,
+      "team_details": [
+        {
+          "team": "BRIGHTON",
+          "home_n": 212,
+          "away_n": 197,
+          "home_win_rate": 0.4009,
+          "away_win_rate": 0.264
+        },
+        {
+          "team": "NEWCASTLE",
+          "home_n": 211,
+          "away_n": 198,
+          "home_win_rate": 0.3175,
+          "away_win_rate": 0.2273
+        },
+        {
+          "team": "LIVERPOOL",
+          "home_n": 209,
+          "away_n": 200,
+          "home_win_rate": 0.5742,
+          "away_win_rate": 0.495
+        },
+        {
+          "team": "LONDON GUNS",
+          "home_n": 208,
+          "away_n": 201,
+          "home_win_rate": 0.5769,
+          "away_win_rate": 0.3532
+        },
+        {
+          "team": "TOTTENHAM",
+          "home_n": 207,
+          "away_n": 202,
+          "home_win_rate": 0.5024,
+          "away_win_rate": 0.4059
+        },
+        {
+          "team": "CHELSEA",
+          "home_n": 206,
+          "away_n": 203,
+          "home_win_rate": 0.5922,
+          "away_win_rate": 0.4532
+        },
+        {
+          "team": "BOURNEMOUTH",
+          "home_n": 205,
+          "away_n": 204,
+          "home_win_rate": 0.2585,
+          "away_win_rate": 0.1324
+        },
+        {
+          "team": "FULHAM",
+          "home_n": 204,
+          "away_n": 205,
+          "home_win_rate": 0.2451,
+          "away_win_rate": 0.1805
+        },
+        {
+          "team": "EVERTON",
+          "home_n": 204,
+          "away_n": 205,
+          "home_win_rate": 0.4363,
+          "away_win_rate": 0.2878
+        },
+        {
+          "team": "MANCHESTER RED",
+          "home_n": 204,
+          "away_n": 205,
+          "home_win_rate": 0.6078,
+          "away_win_rate": 0.4488
+        },
+        {
+          "team": "ASTON VILLA",
+          "home_n": 203,
+          "away_n": 206,
+          "home_win_rate": 0.5616,
+          "away_win_rate": 0.3835
+        },
+        {
+          "team": "MANCHESTER BLUE",
+          "home_n": 202,
+          "away_n": 207,
+          "home_win_rate": 0.6337,
+          "away_win_rate": 0.4444
+        },
+        {
+          "team": "LEEDS",
+          "home_n": 202,
+          "away_n": 207,
+          "home_win_rate": 0.2871,
+          "away_win_rate": 0.1787
+        },
+        {
+          "team": "CRYSTAL PALACE",
+          "home_n": 200,
+          "away_n": 209,
+          "home_win_rate": 0.295,
+          "away_win_rate": 0.201
+        },
+        {
+          "team": "WEST HAM",
+          "home_n": 198,
+          "away_n": 211,
+          "home_win_rate": 0.4091,
+          "away_win_rate": 0.2796
+        },
+        {
+          "team": "WOLVERHAMPTON",
+          "home_n": 197,
+          "away_n": 212,
+          "home_win_rate": 0.3553,
+          "away_win_rate": 0.2689
+        }
+      ]
+    },
+    "odds_correlations": {
+      "home_vs_away_odds": -0.707,
+      "home_vs_draw_odds": -0.3165,
+      "draw_vs_away_odds": 0.6129,
+      "n": 3272
+    },
+    "time_segment_pattern": {
+      "description": "Outcome rates by normalized season position (0-10%, 10-20%, ..., 90-100%)",
+      "segments": [
+        {
+          "position_range": "0-10%",
+          "n": 176,
+          "home": 0.4545,
+          "draw": 0.2727,
+          "away": 0.2727
+        },
+        {
+          "position_range": "10-20%",
+          "n": 224,
+          "home": 0.3929,
+          "draw": 0.2634,
+          "away": 0.3438
+        },
+        {
+          "position_range": "20-30%",
+          "n": 232,
+          "home": 0.4741,
+          "draw": 0.2198,
+          "away": 0.306
+        },
+        {
+          "position_range": "30-40%",
+          "n": 304,
+          "home": 0.4441,
+          "draw": 0.2401,
+          "away": 0.3158
+        },
+        {
+          "position_range": "40-50%",
+          "n": 312,
+          "home": 0.4071,
+          "draw": 0.2468,
+          "away": 0.3462
+        },
+        {
+          "position_range": "50-60%",
+          "n": 304,
+          "home": 0.4375,
+          "draw": 0.2401,
+          "away": 0.3224
+        },
+        {
+          "position_range": "60-70%",
+          "n": 344,
+          "home": 0.4244,
+          "draw": 0.2791,
+          "away": 0.2965
+        },
+        {
+          "position_range": "70-80%",
+          "n": 352,
+          "home": 0.5114,
+          "draw": 0.2216,
+          "away": 0.267
+        },
+        {
+          "position_range": "80-90%",
+          "n": 416,
+          "home": 0.4159,
+          "draw": 0.262,
+          "away": 0.3221
+        },
+        {
+          "position_range": "90-100%",
+          "n": 608,
+          "home": 0.4474,
+          "draw": 0.2336,
+          "away": 0.3191
+        }
+      ]
+    }
+  },
+  "question_5_sample_size": {
+    "description": "Confidence intervals for home win rates. CI width shrinks as sample size grows.",
+    "team_ci_results": [
+      {
+        "team": "BRIGHTON",
+        "home_n": 212,
+        "away_n": 197,
+        "home_win_rate": 0.4009,
+        "away_win_rate": 0.264,
+        "ci_95": [
+          0.3328,
+          0.4634
+        ],
+        "ci_90": [
+          0.3426,
+          0.4525
+        ],
+        "ci_95_width": 0.1306
+      },
+      {
+        "team": "NEWCASTLE",
+        "home_n": 211,
+        "away_n": 198,
+        "home_win_rate": 0.3175,
+        "away_win_rate": 0.2273,
+        "ci_95": [
+          0.2541,
+          0.3782
+        ],
+        "ci_90": [
+          0.2629,
+          0.3674
+        ],
+        "ci_95_width": 0.1242
+      },
+      {
+        "team": "LIVERPOOL",
+        "home_n": 209,
+        "away_n": 200,
+        "home_win_rate": 0.5742,
+        "away_win_rate": 0.495,
+        "ci_95": [
+          0.5064,
+          0.6393
+        ],
+        "ci_90": [
+          0.5173,
+          0.6291
+        ],
+        "ci_95_width": 0.1329
+      },
+      {
+        "team": "LONDON GUNS",
+        "home_n": 208,
+        "away_n": 201,
+        "home_win_rate": 0.5769,
+        "away_win_rate": 0.3532,
+        "ci_95": [
+          0.5042,
+          0.6374
+        ],
+        "ci_90": [
+          0.5151,
+          0.6273
+        ],
+        "ci_95_width": 0.1333
+      },
+      {
+        "team": "TOTTENHAM",
+        "home_n": 207,
+        "away_n": 202,
+        "home_win_rate": 0.5024,
+        "away_win_rate": 0.4059,
+        "ci_95": [
+          0.4301,
+          0.5651
+        ],
+        "ci_90": [
+          0.4408,
+          0.5544
+        ],
+        "ci_95_width": 0.135
+      },
+      {
+        "team": "CHELSEA",
+        "home_n": 206,
+        "away_n": 203,
+        "home_win_rate": 0.5922,
+        "away_win_rate": 0.4532,
+        "ci_95": [
+          0.5191,
+          0.6524
+        ],
+        "ci_90": [
+          0.5302,
+          0.6423
+        ],
+        "ci_95_width": 0.1333
+      },
+      {
+        "team": "BOURNEMOUTH",
+        "home_n": 205,
+        "away_n": 204,
+        "home_win_rate": 0.2585,
+        "away_win_rate": 0.1324,
+        "ci_95": [
+          0.199,
+          0.3174
+        ],
+        "ci_90": [
+          0.2071,
+          0.3066
+        ],
+        "ci_95_width": 0.1184
+      },
+      {
+        "team": "FULHAM",
+        "home_n": 204,
+        "away_n": 205,
+        "home_win_rate": 0.2451,
+        "away_win_rate": 0.1805,
+        "ci_95": [
+          0.1911,
+          0.3085
+        ],
+        "ci_90": [
+          0.1991,
+          0.2978
+        ],
+        "ci_95_width": 0.1173
+      },
+      {
+        "team": "EVERTON",
+        "home_n": 204,
+        "away_n": 205,
+        "home_win_rate": 0.4363,
+        "away_win_rate": 0.2878,
+        "ci_95": [
+          0.37,
+          0.5049
+        ],
+        "ci_90": [
+          0.3804,
+          0.4939
+        ],
+        "ci_95_width": 0.1349
+      },
+      {
+        "team": "MANCHESTER RED",
+        "home_n": 204,
+        "away_n": 205,
+        "home_win_rate": 0.6078,
+        "away_win_rate": 0.4488,
+        "ci_95": [
+          0.5345,
+          0.6676
+        ],
+        "ci_90": [
+          0.5456,
+          0.6576
+        ],
+        "ci_95_width": 0.1331
+      },
+      {
+        "team": "ASTON VILLA",
+        "home_n": 203,
+        "away_n": 206,
+        "home_win_rate": 0.5616,
+        "away_win_rate": 0.3835,
+        "ci_95": [
+          0.4928,
+          0.6281
+        ],
+        "ci_90": [
+          0.5038,
+          0.6177
+        ],
+        "ci_95_width": 0.1353
+      },
+      {
+        "team": "MANCHESTER BLUE",
+        "home_n": 202,
+        "away_n": 207,
+        "home_win_rate": 0.6337,
+        "away_win_rate": 0.4444,
+        "ci_95": [
+          0.5653,
+          0.697
+        ],
+        "ci_90": [
+          0.5765,
+          0.6873
+        ],
+        "ci_95_width": 0.1317
+      },
+      {
+        "team": "LEEDS",
+        "home_n": 202,
+        "away_n": 207,
+        "home_win_rate": 0.2871,
+        "away_win_rate": 0.1787,
+        "ci_95": [
+          0.2246,
+          0.3479
+        ],
+        "ci_90": [
+          0.2332,
+          0.3369
+        ],
+        "ci_95_width": 0.1232
+      },
+      {
+        "team": "CRYSTAL PALACE",
+        "home_n": 200,
+        "away_n": 209,
+        "home_win_rate": 0.295,
+        "away_win_rate": 0.201,
+        "ci_95": [
+          0.2361,
+          0.3616
+        ],
+        "ci_90": [
+          0.245,
+          0.3505
+        ],
+        "ci_95_width": 0.1254
+      },
+      {
+        "team": "WEST HAM",
+        "home_n": 198,
+        "away_n": 211,
+        "home_win_rate": 0.4091,
+        "away_win_rate": 0.2796,
+        "ci_95": [
+          0.343,
+          0.4787
+        ],
+        "ci_90": [
+          0.3532,
+          0.4674
+        ],
+        "ci_95_width": 0.1357
+      },
+      {
+        "team": "WOLVERHAMPTON",
+        "home_n": 197,
+        "away_n": 212,
+        "home_win_rate": 0.3553,
+        "away_win_rate": 0.2689,
+        "ci_95": [
+          0.2871,
+          0.4192
+        ],
+        "ci_90": [
+          0.2967,
+          0.4079
+        ],
+        "ci_95_width": 0.1321
+      }
+    ],
+    "ci_width_by_sample_size": [
+      {
+        "n_range": "101-9999",
+        "team_count": 16,
+        "avg_ci_95_width": 0.1298
+      }
+    ],
+    "sample_size_recommendations": {
+      "p=0.35_prec=0.03": 972,
+      "p=0.35_prec=0.05": 350,
+      "p=0.35_prec=0.10": 88,
+      "p=0.40_prec=0.03": 1025,
+      "p=0.40_prec=0.05": 369,
+      "p=0.40_prec=0.10": 93,
+      "p=0.45_prec=0.03": 1057,
+      "p=0.45_prec=0.05": 381,
+      "p=0.45_prec=0.10": 96,
+      "p=0.50_prec=0.03": 1068,
+      "p=0.50_prec=0.05": 385,
+      "p=0.50_prec=0.10": 97
+    },
+    "interpretation": "To estimate a ~45% win rate within \u00b15% at 95% confidence, need ~380 matches. For \u00b110%, need ~95 matches."
+  }
+}
