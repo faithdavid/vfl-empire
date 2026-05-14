@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-05-14T23:55:02.338549+00:00",
+  "data_sources": {
+    "canonical": {
+      "files": 6,
+      "size_mb": 43.08,
+      "size_human": "43.08MB"
+    },
+    "raw": {
+      "files": 50,
+      "size_mb": 6.24,
+      "size_human": "6.24MB"
+    },
+    "live-extraction": {
+      "files": 56,
+      "size_mb": 52.6,
+      "size_human": "52.60MB"
+    }
+  },
+  "total_size_mb": 101.92
+}

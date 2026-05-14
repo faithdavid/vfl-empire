@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-05-14T23:52:43.646003+00:00",
+  "matchday": 29,
+  "parlays": [
+    {
+      "n_legs": 2,
+      "legs": [
+        {
+          "home": "Leeds",
+          "away": "Everton",
+          "odds": 1.04,
+          "win_prob": 89.66799999999999,
+          "reason": ""
+        },
+        {
+          "home": "Fulham",
+          "away": "Aston Villa",
+          "odds": 1.12,
+          "win_prob": 89.52857142857142,
+          "reason": ""
+        }
+      ],
+      "combined_odds": 1.165,
+      "survival_probability": 80.28,
+      "expected_value": 0.9351,
+      "kelly_fraction": 0,
+      "min_leg_confidence": 89.5,
+      "variance_risk": 0.010819,
+      "score": 93.4
+    },
+    {
+      "n_legs": 2,
+      "legs": [
+        {
+          "home": "Fulham",
+          "away": "Aston Villa",
+          "odds": 1.12,
+          "win_prob": 89.52857142857142,
+          "reason": ""
+        },
+        {
+          "home": "Bournemouth",
+          "away": "Crystal Palace",
+          "odds": 1.2,
+          "win_prob": 76.68233333333333,
+          "reason": ""
+        }
+      ],
+      "combined_odds": 1.344,
+      "survival_probability": 68.65,
+      "expected_value": 0.9227,
+      "kelly_fraction": 0,
+      "min_leg_confidence": 76.7,
+      "variance_risk": 0.024417,
+      "score": 92.02
+    },
+    {
+      "n_legs": 3,
+      "legs": [
+        {
+          "home": "Leeds",
+          "away": "Everton",
+          "odds": 1.04,
+          "win_prob": 89.66799999999999,
+          "reason": ""
+        },
+        {
+          "home": "Fulham",
+          "away": "Aston Villa",
+          "odds": 1.12,
+          "win_prob": 89.52857142857142,
+          "reason": ""
+        },
+        {
+          "home": "Bournemouth",
+          "away": "Crystal Palace",
+          "odds": 1.2,
+          "win_prob": 76.68233333333333,
+          "reason": ""
+        }
+      ],
+      "combined_odds": 1.398,
+      "survival_probability": 61.56,
+      "expected_value": 0.8605,
+      "kelly_fraction": 0,
+      "min_leg_confidence": 76.7,
+      "variance_risk": 0.002523,
+      "score": 86.02
+    },
+    {
+      "n_legs": 2,
+      "legs": [
+        {
+          "home": "Leeds",
+          "away": "Everton",
+          "odds": 1.04,
+          "win_prob": 89.66799999999999,
+          "reason": ""
+        },
+        {
+          "home": "Bournemouth",
+          "away": "Crystal Palace",
+          "odds": 1.2,
+          "win_prob": 76.68233333333333,
+          "reason": ""
+        }
+      ],
+      "combined_odds": 1.248,
+      "survival_probability": 68.76,
+      "expected_value": 0.8581,
+      "kelly_fraction": 0,
+      "min_leg_confidence": 76.7,
+      "variance_risk": 0.024092,
+      "score": 85.57
+    }
+  ]
+}

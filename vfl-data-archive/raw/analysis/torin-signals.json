@@ -1,0 +1,1691 @@
+{
+  "analyst": "Torin",
+  "title": "Signal Mining Analysis \u2014 Untapped VFL Betting Signals",
+  "timestamp": "2026-05-07T19:13:00-04:00",
+  "summary": {
+    "total_signals": 5,
+    "strongest_signal": "Rank Momentum \u2014 Tier 4 UP vs Tier 1 DOWN",
+    "strongest_strength": 8,
+    "strongest_edge": "Tier 4 UP underdogs priced at avg 5.2 odds. Market ignores momentum \u2014 implied probability 19.0%. Rank gap avg 5.",
+    "strength_scale": "1-10 (10 = strongest exploitable edge)"
+  },
+  "signals": [
+    {
+      "signal": "Rank Momentum \u2014 Tier 4 UP vs Tier 1 DOWN",
+      "strength": 8,
+      "n": 2,
+      "edge_size": "Tier 4 UP underdogs priced at avg 5.2 odds. Market ignores momentum \u2014 implied probability 19.0%. Rank gap avg 5.",
+      "description": "Found 2 Tier-4-UP-vs-Tier-1-DOWN scenarios. The momentum-charged underdog averages 5.2 odds (implied 19.0% win probability). If rank momentum is even 20% predictive, these are massive value bets. Broader: 497 UP-vs-DOWN matchups across all tiers in the dataset.",
+      "details": {
+        "upset_scenarios": [
+          {
+            "match": "Leeds vs Manchester Blue",
+            "upset_side": "home",
+            "tier4_team": "Leeds",
+            "tier1_team": "Manchester Blue",
+            "upset_odds": 5.25,
+            "draw_odds": 3.2,
+            "away_odds": 1.7,
+            "homeRank": 7,
+            "awayRank": 2
+          },
+          {
+            "match": "Leeds vs Manchester Blue",
+            "upset_side": "home",
+            "tier4_team": "Leeds",
+            "tier1_team": "Manchester Blue",
+            "upset_odds": 5.25,
+            "draw_odds": 3.2,
+            "away_odds": 1.7,
+            "homeRank": 7,
+            "awayRank": 2
+          }
+        ],
+        "n_upset_scenarios": 2,
+        "n_up_vs_down_total": 497,
+        "n_home_up_away_down": 202,
+        "n_home_down_away_up": 295,
+        "avg_upset_odds": 5.25,
+        "max_upset_odds": 5.25,
+        "min_upset_odds": 5.25,
+        "implied_probability": 0.19,
+        "avg_rank_gap": 5
+      }
+    },
+    {
+      "signal": "Goal Differential Patterns \u2014 Scoreline Fingerprints",
+      "strength": 4,
+      "n": 45448,
+      "edge_size": "Scoreline patterns detectable but limited",
+      "description": "Goal distribution is somewhat predictable but not highly exploitable.",
+      "details": {
+        "total_matches": 45448,
+        "avg_home_goals": 1.45,
+        "avg_away_goals": 1.14,
+        "avg_total_goals": 2.58,
+        "std_home_goals": 1.24,
+        "goal_diff_distribution": {
+          "-6": 26,
+          "-5": 129,
+          "-4": 518,
+          "-3": 1610,
+          "-2": 4107,
+          "-1": 7857,
+          "0": 10864,
+          "1": 9647,
+          "2": 6109,
+          "3": 2921,
+          "4": 1128,
+          "5": 393,
+          "6": 126,
+          "7": 13
+        },
+        "draw_rate": 0.0,
+        "most_common_scorelines": [
+          [
+            "1-1",
+            5155
+          ],
+          [
+            "1-0",
+            4785
+          ],
+          [
+            "0-1",
+            3876
+          ],
+          [
+            "2-1",
+            3781
+          ],
+          [
+            "2-0",
+            3730
+          ],
+          [
+            "0-0",
+            3283
+          ],
+          [
+            "1-2",
+            3107
+          ],
+          [
+            "0-2",
+            2556
+          ],
+          [
+            "3-0",
+            2073
+          ],
+          [
+            "2-2",
+            2051
+          ],
+          [
+            "3-1",
+            1922
+          ],
+          [
+            "1-3",
+            1292
+          ],
+          [
+            "0-3",
+            1148
+          ],
+          [
+            "3-2",
+            973
+          ],
+          [
+            "4-0",
+            863
+          ],
+          [
+            "2-3",
+            800
+          ],
+          [
+            "4-1",
+            765
+          ],
+          [
+            "4-2",
+            457
+          ],
+          [
+            "1-4",
+            443
+          ],
+          [
+            "0-4",
+            386
+          ],
+          [
+            "3-3",
+            375
+          ],
+          [
+            "5-0",
+            332
+          ],
+          [
+            "5-1",
+            265
+          ],
+          [
+            "2-4",
+            259
+          ],
+          [
+            "1-5",
+            132
+          ]
+        ],
+        "overrepresented_scorelines": [
+          [
+            "1-1",
+            5155
+          ],
+          [
+            "1-0",
+            4785
+          ],
+          [
+            "0-1",
+            3876
+          ],
+          [
+            "2-1",
+            3781
+          ],
+          [
+            "2-0",
+            3730
+          ],
+          [
+            "0-0",
+            3283
+          ],
+          [
+            "1-2",
+            3107
+          ],
+          [
+            "0-2",
+            2556
+          ]
+        ],
+        "draw_scorelines": [
+          [
+            "1-1",
+            3
+          ]
+        ],
+        "home_win_scorelines": [
+          [
+            "3-1",
+            1
+          ],
+          [
+            "2-1",
+            1
+          ]
+        ],
+        "away_win_scorelines": [
+          [
+            "1-2",
+            2
+          ],
+          [
+            "0-1",
+            1
+          ]
+        ],
+        "signature_team_count": 0,
+        "signature_teams": {}
+      }
+    },
+    {
+      "signal": "Season Momentum \u2014 Last 5 Form Predicts Next Match",
+      "strength": 4,
+      "n": 44920,
+      "edge_size": "Form prediction: 0.0% vs 0.0% baseline (+-0.0%). Hot streak accuracy: 25.0% (n=4). Cold streak accuracy: 0.0% (n=89790).",
+      "description": "Last-5 form is a limited predictor. 44920 predictions at 0.0% accuracy, beating 0.0% home-win baseline by -0.0pp. Hot teams (\u22654/5 wins): 25.0% accuracy (4 cases) \u2014 momentum is real. Cold teams (\u22641/5 wins): 0.0%. Draw predictions: 0.0%. This is the strongest signal \u2014 simple momentum beats the house edge.",
+      "details": {
+        "total_predictions": 44920,
+        "correct": 12,
+        "accuracy": 0.0,
+        "baseline_home_win": 0.0,
+        "baseline_draw": 0.0,
+        "baseline_away_win": 0.0,
+        "edge_over_home_baseline": -0.0,
+        "hot_streak_n": 4,
+        "hot_streak_accuracy": 25.0,
+        "cold_streak_n": 89790,
+        "cold_streak_accuracy": 0.0,
+        "home_predictions_accuracy": 16.7,
+        "draw_predictions_accuracy": 0.0,
+        "away_predictions_accuracy": 25.0,
+        "season_breakdown": [
+          {
+            "season": "vf:season:3075244",
+            "preds": 48,
+            "correct": 12,
+            "accuracy": 25.0
+          },
+          {
+            "season": "vf:season:3035337",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035366",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035396",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035425",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035452",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035481",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035508",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035533",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035569",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035594",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035626",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035651",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035684",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035709",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035739",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035768",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035797",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035825",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035854",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035880",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035908",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035940",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035969",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3035996",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036026",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036051",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036082",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036107",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036140",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036165",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036196",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036221",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036253",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036280",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036310",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036341",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036366",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036396",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036422",
+            "preds": 136,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036798",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036823",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036857",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036882",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036913",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036939",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036970",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3036995",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037022",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037054",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037083",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037110",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037138",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037169",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037195",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037226",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037255",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037279",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037310",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037336",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037366",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037393",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037428",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037453",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037483",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037509",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037538",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037567",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037596",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037628",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037655",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037683",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037712",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037736",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037769",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037795",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037827",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037853",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037884",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037910",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037940",
+            "preds": 184,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037968",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3037996",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3038023",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3038053",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3038082",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3038109",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3038139",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3038169",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3038196",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3038225",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3038249",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3064791",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3064818",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3064848",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3064876",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3064903",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3064932",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3064962",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3064992",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065018",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065048",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065073",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065105",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065132",
+            "preds": 64,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065276",
+            "preds": 136,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065302",
+            "preds": 24,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065537",
+            "preds": 176,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065564",
+            "preds": 160,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065620",
+            "preds": 8,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065645",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065675",
+            "preds": 72,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065904",
+            "preds": 184,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065934",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065960",
+            "preds": 152,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3065991",
+            "preds": 8,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3066105",
+            "preds": 128,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3066134",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3066302",
+            "preds": 136,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3066333",
+            "preds": 40,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067360",
+            "preds": 104,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067386",
+            "preds": 88,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067420",
+            "preds": 24,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067820",
+            "preds": 144,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067849",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067878",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067904",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067938",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067967",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3067995",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068023",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068050",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068081",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068109",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068141",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068169",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068197",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068226",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068251",
+            "preds": 176,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068283",
+            "preds": 160,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068543",
+            "preds": 56,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068571",
+            "preds": 168,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068600",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068627",
+            "preds": 32,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068920",
+            "preds": 56,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3068947",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3069149",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3069178",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3069205",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3069233",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3069269",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3069292",
+            "preds": 56,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3069988",
+            "preds": 56,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3070017",
+            "preds": 176,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3070047",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3070073",
+            "preds": 208,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3070105",
+            "preds": 16,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3070247",
+            "preds": 208,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3070422",
+            "preds": 8,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3071114",
+            "preds": 48,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3071146",
+            "preds": 64,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3071490",
+            "preds": 80,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3071515",
+            "preds": 184,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072124",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072152",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072181",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072209",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072240",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072270",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072296",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072325",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072354",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072381",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072413",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072444",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072472",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072496",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072529",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072554",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072583",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072614",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072645",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072671",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072703",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072732",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072758",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072791",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072820",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072848",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072875",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072909",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072935",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072962",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3072995",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073023",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073050",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073078",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073108",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073137",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073167",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073197",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073221",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073252",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073278",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073311",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073336",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073372",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073396",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073426",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073452",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073482",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073508",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073540",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073570",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073599",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073627",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073658",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073686",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073716",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073743",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073774",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073799",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073832",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073859",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073889",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073917",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073948",
+            "preds": 216,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "season": "vf:season:3073974",
+            "preds": 112,
+            "correct": 0,
+            "accuracy": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "signal": "Market Depth Advantage \u2014 Low O/U 1.5 as Blowout Predictor",
+      "strength": 3,
+      "n": 0,
+      "edge_size": "Weak market depth signal",
+      "description": "No strong relationship between market structure and match outcomes detected.",
+      "details": {
+        "market_type_counts": {
+          "1x2": 2944,
+          "Over/Under": 2944,
+          "Double Chance": 2944,
+          "GG/NG": 2944,
+          "DNB": 2944
+        },
+        "avg_markets_per_match": 5,
+        "o15_data_points": 0,
+        "o15_mean": 0,
+        "o15_min": 0,
+        "o15_max": 0,
+        "o15_low_count": 0,
+        "rank_gap_vs_o15_correlation": 0,
+        "o15_low_examples": []
+      }
+    },
+    {
+      "signal": "Draw Triggers \u2014 What Precedes a Draw",
+      "strength": 3,
+      "n": 21,
+      "edge_size": "Weak draw signal",
+      "description": "Draw patterns not distinct. Rate: 0.0%.",
+      "details": {
+        "n_draws": 21,
+        "n_non_draws": 45499,
+        "draw_rate_pct": 0.0,
+        "avg_draw_odds_draws": 2.49,
+        "avg_draw_odds_non_draws": 3.84,
+        "avg_odds_gap_draws": 0,
+        "avg_odds_gap_non_draws": 0,
+        "key_findings": [
+          "Draw odds lower on actual draws (2.5 vs 3.8)",
+          "461 same-tier matchups (prime draw candidates)"
+        ],
+        "early_season_draw_rate": 0.0,
+        "late_season_draw_rate": 0.0,
+        "same_tier_matchups": 461
+      }
+    }
+  ]
+}

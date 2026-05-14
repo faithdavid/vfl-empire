@@ -1,0 +1,101 @@
+{
+  "seen_mds": {
+    "vf:season:3088921_MD20": {
+      "predicted_at": "2026-05-14T22:17:20.435460+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088921_MD21": {
+      "predicted_at": "2026-05-14T22:21:47.564664+00:00",
+      "num_picks": 3
+    },
+    "vf:season:3088921_MD22": {
+      "predicted_at": "2026-05-14T22:25:35.550713+00:00",
+      "num_picks": 3
+    },
+    "vf:season:3088921_MD23": {
+      "predicted_at": "2026-05-14T22:29:10.069785+00:00",
+      "num_picks": 3
+    },
+    "vf:season:3088921_MD24": {
+      "predicted_at": "2026-05-14T22:32:58.947185+00:00",
+      "num_picks": 3
+    },
+    "vf:season:3088921_MD25": {
+      "predicted_at": "2026-05-14T22:37:54.551456+00:00",
+      "num_picks": 2
+    },
+    "vf:season:3088921_MD26": {
+      "predicted_at": "2026-05-14T22:40:04.641850+00:00",
+      "num_picks": 2
+    },
+    "vf:season:3088921_MD27": {
+      "predicted_at": "2026-05-14T22:43:57.166990+00:00",
+      "num_picks": 3
+    },
+    "vf:season:3088921_MD28": {
+      "predicted_at": "2026-05-14T22:46:58.470214+00:00",
+      "num_picks": 1
+    },
+    "vf:season:3088921_MD29": {
+      "predicted_at": "2026-05-14T22:51:13.632312+00:00",
+      "num_picks": 3
+    },
+    "vf:season:3088947_MD1": {
+      "predicted_at": "2026-05-14T23:01:50.542542+00:00",
+      "num_picks": 1
+    },
+    "vf:season:3088947_MD2": {
+      "predicted_at": "2026-05-14T23:03:46.957439+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD3": {
+      "predicted_at": "2026-05-14T23:07:38.342753+00:00",
+      "num_picks": 2
+    },
+    "vf:season:3088947_MD4": {
+      "predicted_at": "2026-05-14T23:11:31.131878+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD5": {
+      "predicted_at": "2026-05-14T23:14:43.243971+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD6": {
+      "predicted_at": "2026-05-14T23:17:56.731896+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD7": {
+      "predicted_at": "2026-05-14T23:21:49.161351+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD8": {
+      "predicted_at": "2026-05-14T23:25:00.350753+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD9": {
+      "predicted_at": "2026-05-14T23:29:17.150191+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD10": {
+      "predicted_at": "2026-05-14T23:32:29.366116+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD11": {
+      "predicted_at": "2026-05-14T23:36:48.555700+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD12": {
+      "predicted_at": "2026-05-14T23:39:59.083550+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD13": {
+      "predicted_at": "2026-05-14T23:43:15.553450+00:00",
+      "num_picks": 0
+    },
+    "vf:season:3088947_MD14": {
+      "predicted_at": "2026-05-14T23:47:31.449170+00:00",
+      "num_picks": 0
+    }
+  },
+  "last_predicted_md": "vf:season:3088947_MD14"
+}

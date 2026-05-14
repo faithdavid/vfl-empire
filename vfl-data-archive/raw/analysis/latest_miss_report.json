@@ -1,0 +1,179 @@
+{
+  "timestamp": "2026-05-09T10:37:53.237619",
+  "total_misses_analyzed": 265,
+  "misses": [
+    {
+      "match": "Bournemouth vs Brighton",
+      "score": "1:0",
+      "predicted": "AWAY",
+      "actual": "HOME",
+      "analysis": {
+        "miss_type": "away_favorite_loss",
+        "historical_h2h": {
+          "AWAY": "42%",
+          "HOME": "30%",
+          "DRAW": "28%"
+        },
+        "scoreline_frequency": "10.51% of all matches"
+      }
+    },
+    {
+      "match": "London Guns vs Tottenham",
+      "score": "1:1",
+      "predicted": "HOME",
+      "actual": "DRAW",
+      "analysis": {
+        "miss_type": "draw_surprise",
+        "historical_h2h": {
+          "HOME": "55%",
+          "DRAW": "24%",
+          "AWAY": "21%"
+        },
+        "scoreline_frequency": "11.37% of all matches",
+        "pi_home_adj": "49.3%"
+      }
+    },
+    {
+      "match": "Wolverhampton vs Everton",
+      "score": "0:1",
+      "predicted": "DRAW",
+      "actual": "AWAY",
+      "analysis": {
+        "miss_type": "draw_broken",
+        "historical_h2h": {
+          "HOME": "44%",
+          "AWAY": "30%",
+          "DRAW": "26%"
+        },
+        "scoreline_frequency": "8.54% of all matches"
+      }
+    },
+    {
+      "match": "Crystal Palace vs West Ham",
+      "score": "1:2",
+      "predicted": "HOME",
+      "actual": "AWAY",
+      "analysis": {
+        "miss_type": "home_favorite_loss",
+        "historical_h2h": {
+          "HOME": "37%",
+          "AWAY": "36%",
+          "DRAW": "27%"
+        },
+        "h2h_insight": "AWAY happens 36% of the time in this fixture \u2014 model underestimated it",
+        "scoreline_frequency": "6.84% of all matches",
+        "pi_home_adj": "49.3%"
+      }
+    },
+    {
+      "match": "Leeds vs Newcastle",
+      "score": "3:1",
+      "predicted": "DRAW",
+      "actual": "HOME",
+      "analysis": {
+        "miss_type": "draw_broken",
+        "historical_h2h": {
+          "HOME": "40%",
+          "AWAY": "32%",
+          "DRAW": "28%"
+        },
+        "h2h_insight": "HOME happens 40% of the time in this fixture \u2014 model underestimated it",
+        "scoreline_frequency": "4.26% of all matches"
+      }
+    },
+    {
+      "match": "Liverpool vs Tottenham",
+      "score": "1:0",
+      "predicted": "AWAY",
+      "actual": "HOME",
+      "analysis": {
+        "miss_type": "away_favorite_loss",
+        "historical_h2h": {
+          "HOME": "62%",
+          "AWAY": "22%",
+          "DRAW": "16%"
+        },
+        "h2h_insight": "HOME happens 62% of the time in this fixture \u2014 model underestimated it",
+        "scoreline_frequency": "10.51% of all matches"
+      }
+    },
+    {
+      "match": "Leeds vs Brighton",
+      "score": "1:2",
+      "predicted": "HOME",
+      "actual": "AWAY",
+      "analysis": {
+        "miss_type": "home_favorite_loss",
+        "historical_h2h": {
+          "AWAY": "37%",
+          "DRAW": "33%",
+          "HOME": "31%"
+        },
+        "h2h_insight": "AWAY happens 37% of the time in this fixture \u2014 model underestimated it",
+        "scoreline_frequency": "6.84% of all matches",
+        "pi_home_adj": "49.3%"
+      }
+    },
+    {
+      "match": "Manchester Red vs West Ham",
+      "score": "3:0",
+      "predicted": "DRAW",
+      "actual": "HOME",
+      "analysis": {
+        "miss_type": "draw_broken",
+        "historical_h2h": {
+          "HOME": "66%",
+          "DRAW": "17%",
+          "AWAY": "17%"
+        },
+        "h2h_insight": "HOME happens 66% of the time in this fixture \u2014 model underestimated it",
+        "scoreline_frequency": "4.57% of all matches"
+      }
+    },
+    {
+      "match": "Fulham vs Crystal Palace",
+      "score": "0:0",
+      "predicted": "HOME",
+      "actual": "DRAW",
+      "analysis": {
+        "miss_type": "draw_surprise",
+        "historical_h2h": {
+          "HOME": "41%",
+          "AWAY": "33%",
+          "DRAW": "26%"
+        },
+        "scoreline_frequency": "7.19% of all matches",
+        "pi_home_adj": "49.3%"
+      }
+    },
+    {
+      "match": "Wolverhampton vs Aston Villa",
+      "score": "1:1",
+      "predicted": "HOME",
+      "actual": "DRAW",
+      "analysis": {
+        "miss_type": "draw_surprise",
+        "historical_h2h": {
+          "AWAY": "48%",
+          "HOME": "27%",
+          "DRAW": "25%"
+        },
+        "scoreline_frequency": "11.37% of all matches",
+        "pi_home_adj": "49.3%"
+      }
+    }
+  ],
+  "patterns": {
+    "away_favorite_loss": 2,
+    "draw_surprise": 3,
+    "draw_broken": 3,
+    "home_favorite_loss": 2
+  },
+  "similar_historicals": [],
+  "pattern_summary": [
+    "draw_surprise: 3 misses (1%)",
+    "draw_broken: 3 misses (1%)",
+    "away_favorite_loss: 2 misses (1%)",
+    "home_favorite_loss: 2 misses (1%)"
+  ]
+}

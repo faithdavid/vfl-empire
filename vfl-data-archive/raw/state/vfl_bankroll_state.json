@@ -1,0 +1,17 @@
+{
+  "phase": 1,
+  "phase_name": "\u20a6100 \u2192 \u20a61,000",
+  "base_stake": 100,
+  "cycle_target": 1000,
+  "current_cycle": 1,
+  "cycles_completed": 0,
+  "current_balance": 100,
+  "bank_total": 0,
+  "grand_total_target": 100000,
+  "total_profit": 0,
+  "total_bets": 10,
+  "total_wins": 0,
+  "total_losses": 0,
+  "last_bet_matchday": "29",
+  "updated_at": "2026-05-14T23:18:39.962366+00:00"
+}

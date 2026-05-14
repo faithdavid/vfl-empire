@@ -1,0 +1,1405 @@
+{
+  "meta": {
+    "total_matches": 45520,
+    "matches_with_odds": 3320,
+    "total_seasons": 202,
+    "total_matchdays": 5690,
+    "tier_method": "Odds-based proxy: T1 (\u22641.80), T2 (1.81-2.50), T3 (2.51-3.50), T4 (3.51+)",
+    "median_matchday_draws": 2.0
+  },
+  "baseline": {
+    "draw_rate": 0.2391,
+    "draw_rate_pct": "23.91%",
+    "median_draw_rate": 0.25,
+    "total_matchdays": 5690
+  },
+  "after_cross_tier_draw": {
+    "next_md_draw_rate": 0.2463,
+    "next_md_draw_rate_pct": "24.63%",
+    "baseline_draw_rate": 0.2391,
+    "diff": 0.0073,
+    "diff_pct": "+0.73%",
+    "same_md_draw_rate": 0.2784,
+    "sample_size": 342,
+    "note": "Cross-tier derived from odds subset (3,320 matches). Small sample limits statistical power.",
+    "verdict": "NO_EFFECT"
+  },
+  "after_draw_count": {
+    "0_draws": {
+      "curr_draw_threshold": 0,
+      "n_occurrences": 588,
+      "next_draw_rate": 0.2304,
+      "next_avg_draw_count": 1.84,
+      "next_median_draw_rate": 0.25
+    },
+    "1_draw": {
+      "curr_draw_threshold": 1,
+      "n_occurrences": 1536,
+      "next_draw_rate": 0.2422,
+      "next_avg_draw_count": 1.94,
+      "next_median_draw_rate": 0.25
+    },
+    "2_draws": {
+      "curr_draw_threshold": 2,
+      "n_occurrences": 1763,
+      "next_draw_rate": 0.2403,
+      "next_avg_draw_count": 1.92,
+      "next_median_draw_rate": 0.25
+    },
+    "3_draws": {
+      "curr_draw_threshold": 3,
+      "n_occurrences": 1078,
+      "next_draw_rate": 0.2396,
+      "next_avg_draw_count": 1.92,
+      "next_median_draw_rate": 0.25
+    },
+    "4_plus_draws": {
+      "curr_draw_threshold": 4,
+      "n_occurrences": 523,
+      "next_draw_rate": 0.2306,
+      "next_avg_draw_count": 1.85,
+      "next_median_draw_rate": 0.25
+    },
+    "z_test_2plus_vs_0": {
+      "z": 1.2067,
+      "p": 0.2276,
+      "verdict": "NOT_SIGNIFICANT"
+    },
+    "note_2plus_vs_0": "Next MD draw rate after 2+ draws: 23.86% vs after 0 draws: 23.04%"
+  },
+  "after_4plus_draws": {
+    "next_draw_rate": 0.2306,
+    "next_draw_rate_pct": "23.06%",
+    "sample_size": 523,
+    "z_vs_baseline": -1.2232,
+    "p_vs_baseline": 0.2213,
+    "verdict": "NO_MOMENTUM"
+  },
+  "season_autocorrelation": {
+    "mean_lag1_corr": -0.0395,
+    "median_lag1_corr": -0.0335,
+    "seasons_positive": 84,
+    "seasons_negative": 109,
+    "total_seasons_analyzed": 194,
+    "by_season": [
+      {
+        "season": "vf:season:3035337",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1752
+      },
+      {
+        "season": "vf:season:3035366",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0757
+      },
+      {
+        "season": "vf:season:3035396",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1886
+      },
+      {
+        "season": "vf:season:3035425",
+        "n_matchdays": 30,
+        "lag1_corr": -0.039
+      },
+      {
+        "season": "vf:season:3035452",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1008
+      },
+      {
+        "season": "vf:season:3035481",
+        "n_matchdays": 30,
+        "lag1_corr": -0.181
+      },
+      {
+        "season": "vf:season:3035508",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2294
+      },
+      {
+        "season": "vf:season:3035533",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2122
+      },
+      {
+        "season": "vf:season:3035569",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0813
+      },
+      {
+        "season": "vf:season:3035594",
+        "n_matchdays": 30,
+        "lag1_corr": -0.195
+      },
+      {
+        "season": "vf:season:3035626",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1339
+      },
+      {
+        "season": "vf:season:3035651",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0865
+      },
+      {
+        "season": "vf:season:3035684",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1656
+      },
+      {
+        "season": "vf:season:3035709",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0162
+      },
+      {
+        "season": "vf:season:3035739",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1374
+      },
+      {
+        "season": "vf:season:3035768",
+        "n_matchdays": 30,
+        "lag1_corr": 0.2252
+      },
+      {
+        "season": "vf:season:3035797",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0885
+      },
+      {
+        "season": "vf:season:3035825",
+        "n_matchdays": 30,
+        "lag1_corr": 0.3543
+      },
+      {
+        "season": "vf:season:3035854",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1831
+      },
+      {
+        "season": "vf:season:3035880",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0107
+      },
+      {
+        "season": "vf:season:3035908",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2689
+      },
+      {
+        "season": "vf:season:3035940",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0878
+      },
+      {
+        "season": "vf:season:3035969",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2661
+      },
+      {
+        "season": "vf:season:3035996",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0875
+      },
+      {
+        "season": "vf:season:3036026",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1071
+      },
+      {
+        "season": "vf:season:3036051",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1664
+      },
+      {
+        "season": "vf:season:3036082",
+        "n_matchdays": 30,
+        "lag1_corr": 0.2214
+      },
+      {
+        "season": "vf:season:3036107",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1353
+      },
+      {
+        "season": "vf:season:3036140",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1783
+      },
+      {
+        "season": "vf:season:3036165",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1975
+      },
+      {
+        "season": "vf:season:3036196",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0831
+      },
+      {
+        "season": "vf:season:3036221",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1727
+      },
+      {
+        "season": "vf:season:3036253",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1011
+      },
+      {
+        "season": "vf:season:3036280",
+        "n_matchdays": 30,
+        "lag1_corr": -0.206
+      },
+      {
+        "season": "vf:season:3036310",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0872
+      },
+      {
+        "season": "vf:season:3036341",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1095
+      },
+      {
+        "season": "vf:season:3036366",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0379
+      },
+      {
+        "season": "vf:season:3036396",
+        "n_matchdays": 30,
+        "lag1_corr": -0.372
+      },
+      {
+        "season": "vf:season:3036422",
+        "n_matchdays": 20,
+        "lag1_corr": 0.0076
+      },
+      {
+        "season": "vf:season:3036798",
+        "n_matchdays": 30,
+        "lag1_corr": -0.168
+      },
+      {
+        "season": "vf:season:3036823",
+        "n_matchdays": 30,
+        "lag1_corr": -0.3747
+      },
+      {
+        "season": "vf:season:3036857",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0466
+      },
+      {
+        "season": "vf:season:3036882",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1312
+      },
+      {
+        "season": "vf:season:3036913",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1366
+      },
+      {
+        "season": "vf:season:3036939",
+        "n_matchdays": 30,
+        "lag1_corr": -0.288
+      },
+      {
+        "season": "vf:season:3036970",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0082
+      },
+      {
+        "season": "vf:season:3036995",
+        "n_matchdays": 30,
+        "lag1_corr": 0.043
+      },
+      {
+        "season": "vf:season:3037022",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0206
+      },
+      {
+        "season": "vf:season:3037054",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0964
+      },
+      {
+        "season": "vf:season:3037083",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1589
+      },
+      {
+        "season": "vf:season:3037110",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0638
+      },
+      {
+        "season": "vf:season:3037138",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1647
+      },
+      {
+        "season": "vf:season:3037169",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2745
+      },
+      {
+        "season": "vf:season:3037195",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0679
+      },
+      {
+        "season": "vf:season:3037226",
+        "n_matchdays": 30,
+        "lag1_corr": -0.086
+      },
+      {
+        "season": "vf:season:3037255",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1384
+      },
+      {
+        "season": "vf:season:3037279",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0524
+      },
+      {
+        "season": "vf:season:3037310",
+        "n_matchdays": 30,
+        "lag1_corr": 0.3147
+      },
+      {
+        "season": "vf:season:3037336",
+        "n_matchdays": 30,
+        "lag1_corr": 0.2252
+      },
+      {
+        "season": "vf:season:3037366",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0773
+      },
+      {
+        "season": "vf:season:3037393",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0249
+      },
+      {
+        "season": "vf:season:3037428",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0284
+      },
+      {
+        "season": "vf:season:3037453",
+        "n_matchdays": 30,
+        "lag1_corr": 0.2201
+      },
+      {
+        "season": "vf:season:3037483",
+        "n_matchdays": 30,
+        "lag1_corr": 0.2844
+      },
+      {
+        "season": "vf:season:3037509",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0721
+      },
+      {
+        "season": "vf:season:3037538",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1006
+      },
+      {
+        "season": "vf:season:3037567",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0827
+      },
+      {
+        "season": "vf:season:3037596",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0059
+      },
+      {
+        "season": "vf:season:3037628",
+        "n_matchdays": 30,
+        "lag1_corr": 0.039
+      },
+      {
+        "season": "vf:season:3037655",
+        "n_matchdays": 30,
+        "lag1_corr": -0.092
+      },
+      {
+        "season": "vf:season:3037683",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2965
+      },
+      {
+        "season": "vf:season:3037712",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1095
+      },
+      {
+        "season": "vf:season:3037736",
+        "n_matchdays": 30,
+        "lag1_corr": 0.049
+      },
+      {
+        "season": "vf:season:3037769",
+        "n_matchdays": 30,
+        "lag1_corr": -0.3188
+      },
+      {
+        "season": "vf:season:3037795",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0985
+      },
+      {
+        "season": "vf:season:3037827",
+        "n_matchdays": 30,
+        "lag1_corr": -0.4295
+      },
+      {
+        "season": "vf:season:3037853",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2944
+      },
+      {
+        "season": "vf:season:3037884",
+        "n_matchdays": 18,
+        "lag1_corr": 0.0699
+      },
+      {
+        "season": "vf:season:3037910",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0715
+      },
+      {
+        "season": "vf:season:3037940",
+        "n_matchdays": 22,
+        "lag1_corr": 0.0627
+      },
+      {
+        "season": "vf:season:3037968",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0454
+      },
+      {
+        "season": "vf:season:3037996",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0198
+      },
+      {
+        "season": "vf:season:3038023",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1648
+      },
+      {
+        "season": "vf:season:3038053",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1523
+      },
+      {
+        "season": "vf:season:3038082",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0499
+      },
+      {
+        "season": "vf:season:3038109",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2328
+      },
+      {
+        "season": "vf:season:3038139",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0917
+      },
+      {
+        "season": "vf:season:3038169",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0395
+      },
+      {
+        "season": "vf:season:3038196",
+        "n_matchdays": 30,
+        "lag1_corr": 0.092
+      },
+      {
+        "season": "vf:season:3038225",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0402
+      },
+      {
+        "season": "vf:season:3038249",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0865
+      },
+      {
+        "season": "vf:season:3064791",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0321
+      },
+      {
+        "season": "vf:season:3064818",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0011
+      },
+      {
+        "season": "vf:season:3064848",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0194
+      },
+      {
+        "season": "vf:season:3064876",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2204
+      },
+      {
+        "season": "vf:season:3064903",
+        "n_matchdays": 30,
+        "lag1_corr": -0.195
+      },
+      {
+        "season": "vf:season:3064932",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0142
+      },
+      {
+        "season": "vf:season:3064962",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2347
+      },
+      {
+        "season": "vf:season:3064992",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1928
+      },
+      {
+        "season": "vf:season:3065018",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0967
+      },
+      {
+        "season": "vf:season:3065048",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2524
+      },
+      {
+        "season": "vf:season:3065073",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1129
+      },
+      {
+        "season": "vf:season:3065105",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2761
+      },
+      {
+        "season": "vf:season:3065132",
+        "n_matchdays": 11,
+        "lag1_corr": 0.2809
+      },
+      {
+        "season": "vf:season:3067820",
+        "n_matchdays": 21,
+        "lag1_corr": 0.2564
+      },
+      {
+        "season": "vf:season:3067849",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0123
+      },
+      {
+        "season": "vf:season:3067878",
+        "n_matchdays": 30,
+        "lag1_corr": 0.3093
+      },
+      {
+        "season": "vf:season:3067904",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0365
+      },
+      {
+        "season": "vf:season:3067938",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0072
+      },
+      {
+        "season": "vf:season:3067967",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2545
+      },
+      {
+        "season": "vf:season:3067995",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0019
+      },
+      {
+        "season": "vf:season:3068023",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0348
+      },
+      {
+        "season": "vf:season:3068050",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0654
+      },
+      {
+        "season": "vf:season:3068081",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1
+      },
+      {
+        "season": "vf:season:3068109",
+        "n_matchdays": 30,
+        "lag1_corr": -0.3228
+      },
+      {
+        "season": "vf:season:3068141",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1029
+      },
+      {
+        "season": "vf:season:3068169",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2846
+      },
+      {
+        "season": "vf:season:3068197",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0899
+      },
+      {
+        "season": "vf:season:3068226",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0999
+      },
+      {
+        "season": "vf:season:3068251",
+        "n_matchdays": 24,
+        "lag1_corr": 0.1237
+      },
+      {
+        "season": "vf:season:3068600",
+        "n_matchdays": 30,
+        "lag1_corr": 0.223
+      },
+      {
+        "season": "vf:season:3068627",
+        "n_matchdays": 7,
+        "lag1_corr": 0.0803
+      },
+      {
+        "season": "vf:season:3069149",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0358
+      },
+      {
+        "season": "vf:season:3069178",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2063
+      },
+      {
+        "season": "vf:season:3069205",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2393
+      },
+      {
+        "season": "vf:season:3069233",
+        "n_matchdays": 30,
+        "lag1_corr": 0.2759
+      },
+      {
+        "season": "vf:season:3069269",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1008
+      },
+      {
+        "season": "vf:season:3069292",
+        "n_matchdays": 10,
+        "lag1_corr": 0.0889
+      },
+      {
+        "season": "vf:season:3072124",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1219
+      },
+      {
+        "season": "vf:season:3072152",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1668
+      },
+      {
+        "season": "vf:season:3072181",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1956
+      },
+      {
+        "season": "vf:season:3072209",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0645
+      },
+      {
+        "season": "vf:season:3072240",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2985
+      },
+      {
+        "season": "vf:season:3072270",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0159
+      },
+      {
+        "season": "vf:season:3072296",
+        "n_matchdays": 30,
+        "lag1_corr": -0.3
+      },
+      {
+        "season": "vf:season:3072325",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2795
+      },
+      {
+        "season": "vf:season:3072354",
+        "n_matchdays": 30,
+        "lag1_corr": 0.2031
+      },
+      {
+        "season": "vf:season:3072381",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0573
+      },
+      {
+        "season": "vf:season:3072413",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2075
+      },
+      {
+        "season": "vf:season:3072444",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0634
+      },
+      {
+        "season": "vf:season:3072472",
+        "n_matchdays": 30,
+        "lag1_corr": -0.205
+      },
+      {
+        "season": "vf:season:3072496",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1649
+      },
+      {
+        "season": "vf:season:3072529",
+        "n_matchdays": 30,
+        "lag1_corr": 0.188
+      },
+      {
+        "season": "vf:season:3072554",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0114
+      },
+      {
+        "season": "vf:season:3072583",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0724
+      },
+      {
+        "season": "vf:season:3072614",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1388
+      },
+      {
+        "season": "vf:season:3072645",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0915
+      },
+      {
+        "season": "vf:season:3072671",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0012
+      },
+      {
+        "season": "vf:season:3072703",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1039
+      },
+      {
+        "season": "vf:season:3072732",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0341
+      },
+      {
+        "season": "vf:season:3072758",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1946
+      },
+      {
+        "season": "vf:season:3072791",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1044
+      },
+      {
+        "season": "vf:season:3072820",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2613
+      },
+      {
+        "season": "vf:season:3072848",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0511
+      },
+      {
+        "season": "vf:season:3072875",
+        "n_matchdays": 30,
+        "lag1_corr": 0.223
+      },
+      {
+        "season": "vf:season:3072909",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1812
+      },
+      {
+        "season": "vf:season:3072935",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2467
+      },
+      {
+        "season": "vf:season:3072962",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1695
+      },
+      {
+        "season": "vf:season:3072995",
+        "n_matchdays": 30,
+        "lag1_corr": -0.3054
+      },
+      {
+        "season": "vf:season:3073023",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1232
+      },
+      {
+        "season": "vf:season:3073050",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0973
+      },
+      {
+        "season": "vf:season:3073078",
+        "n_matchdays": 30,
+        "lag1_corr": -0.3743
+      },
+      {
+        "season": "vf:season:3073108",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0987
+      },
+      {
+        "season": "vf:season:3073137",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0204
+      },
+      {
+        "season": "vf:season:3073167",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0925
+      },
+      {
+        "season": "vf:season:3073197",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0471
+      },
+      {
+        "season": "vf:season:3073221",
+        "n_matchdays": 30,
+        "lag1_corr": 0.2127
+      },
+      {
+        "season": "vf:season:3073252",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1114
+      },
+      {
+        "season": "vf:season:3073278",
+        "n_matchdays": 30,
+        "lag1_corr": -0.3034
+      },
+      {
+        "season": "vf:season:3073311",
+        "n_matchdays": 30,
+        "lag1_corr": 0.159
+      },
+      {
+        "season": "vf:season:3073336",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0542
+      },
+      {
+        "season": "vf:season:3073372",
+        "n_matchdays": 30,
+        "lag1_corr": -0.331
+      },
+      {
+        "season": "vf:season:3073396",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0873
+      },
+      {
+        "season": "vf:season:3073426",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0657
+      },
+      {
+        "season": "vf:season:3073452",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0521
+      },
+      {
+        "season": "vf:season:3073482",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1397
+      },
+      {
+        "season": "vf:season:3073508",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0011
+      },
+      {
+        "season": "vf:season:3073540",
+        "n_matchdays": 30,
+        "lag1_corr": -0.519
+      },
+      {
+        "season": "vf:season:3073570",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0797
+      },
+      {
+        "season": "vf:season:3073599",
+        "n_matchdays": 30,
+        "lag1_corr": -0.4524
+      },
+      {
+        "season": "vf:season:3073627",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1789
+      },
+      {
+        "season": "vf:season:3073658",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0638
+      },
+      {
+        "season": "vf:season:3073686",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0116
+      },
+      {
+        "season": "vf:season:3073716",
+        "n_matchdays": 30,
+        "lag1_corr": 0.0312
+      },
+      {
+        "season": "vf:season:3073743",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0819
+      },
+      {
+        "season": "vf:season:3073774",
+        "n_matchdays": 30,
+        "lag1_corr": 0.2503
+      },
+      {
+        "season": "vf:season:3073799",
+        "n_matchdays": 30,
+        "lag1_corr": -0.4493
+      },
+      {
+        "season": "vf:season:3073832",
+        "n_matchdays": 30,
+        "lag1_corr": -0.2027
+      },
+      {
+        "season": "vf:season:3073859",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1568
+      },
+      {
+        "season": "vf:season:3073889",
+        "n_matchdays": 30,
+        "lag1_corr": -0.0752
+      },
+      {
+        "season": "vf:season:3073917",
+        "n_matchdays": 30,
+        "lag1_corr": -0.1066
+      },
+      {
+        "season": "vf:season:3073948",
+        "n_matchdays": 30,
+        "lag1_corr": 0.1013
+      },
+      {
+        "season": "vf:season:3073974",
+        "n_matchdays": 17,
+        "lag1_corr": -0.1585
+      },
+      {
+        "season": "vf:season:3075244",
+        "n_matchdays": 9,
+        "lag1_corr": 0.0
+      }
+    ],
+    "verdict": "NO_CASCADE"
+  },
+  "chi_squared_test": {
+    "description": "Does a high-draw matchday (4+ draws) predict a high-draw next matchday?",
+    "contingency": {
+      "curr_high_next_high": 46,
+      "curr_high_next_low": 477,
+      "curr_low_next_high": 468,
+      "curr_low_next_low": 4497
+    },
+    "chi2": 0.2216,
+    "p_value": 0.6378,
+    "verdict": "NOT_SIGNIFICANT"
+  },
+  "run_analysis": {
+    "description": "Do above-median-draw matchdays cluster in consecutive runs?",
+    "median_matchday_draws": 2.0,
+    "observed_runs_of_2plus_consecutive_above_median": 325,
+    "expected_runs_under_independence": 711.2,
+    "run_lengths": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      5,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      4,
+      3,
+      3,
+      4,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      5,
+      2,
+      2,
+      4,
+      2,
+      3,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      2,
+      6,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      4,
+      2,
+      4,
+      2,
+      2,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      5,
+      2,
+      2,
+      2,
+      5,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      4,
+      2,
+      5,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      3,
+      3,
+      3,
+      5,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      3,
+      2,
+      4,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      4,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      5,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      4,
+      2,
+      2,
+      2,
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      3,
+      2,
+      4,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      4,
+      2,
+      2,
+      3,
+      2,
+      2,
+      4,
+      2,
+      2,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "verdict": "RANDOM"
+  },
+  "verdict": "Draw cascade does NOT exist \u2014 draws are independent across matchdays"
+}

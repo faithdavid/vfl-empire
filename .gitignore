@@ -1,0 +1,15 @@
+# Ignore HAR files and raw browser captures (too large)
+*.har
+HarFiles/
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore large SQLite databases if they exist elsewhere
+*.db
+*.sqlite
+
+# Ignore local lock files
+*.lock

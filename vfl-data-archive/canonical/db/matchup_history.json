@@ -1,0 +1,3842 @@
+[
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "TOTTENHAM",
+    "played": 194,
+    "overs": 52,
+    "over_pct": 26.8,
+    "avg_goals": 2.73
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "LONDON GUNS",
+    "played": 193,
+    "overs": 68,
+    "over_pct": 35.2,
+    "avg_goals": 2.87
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "WOLVERHAMPTON",
+    "played": 192,
+    "overs": 59,
+    "over_pct": 30.7,
+    "avg_goals": 2.72
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "LONDON GUNS",
+    "played": 192,
+    "overs": 41,
+    "over_pct": 21.4,
+    "avg_goals": 2.59
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "ASTON VILLA",
+    "played": 192,
+    "overs": 49,
+    "over_pct": 25.5,
+    "avg_goals": 2.71
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "MANCHESTER BLUE",
+    "played": 192,
+    "overs": 88,
+    "over_pct": 45.8,
+    "avg_goals": 3.15
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "MANCHESTER RED",
+    "played": 192,
+    "overs": 50,
+    "over_pct": 26.0,
+    "avg_goals": 2.54
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "TOTTENHAM",
+    "played": 192,
+    "overs": 78,
+    "over_pct": 40.6,
+    "avg_goals": 3.18
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "ASTON VILLA",
+    "played": 192,
+    "overs": 38,
+    "over_pct": 19.8,
+    "avg_goals": 2.31
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "BOURNEMOUTH",
+    "played": 192,
+    "overs": 50,
+    "over_pct": 26.0,
+    "avg_goals": 2.42
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "ASTON VILLA",
+    "played": 192,
+    "overs": 35,
+    "over_pct": 18.2,
+    "avg_goals": 2.24
+  },
+  {
+    "home": "WEST HAM",
+    "away": "CRYSTAL PALACE",
+    "played": 192,
+    "overs": 63,
+    "over_pct": 32.8,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "CHELSEA",
+    "played": 191,
+    "overs": 45,
+    "over_pct": 23.6,
+    "avg_goals": 2.47
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "LIVERPOOL",
+    "played": 191,
+    "overs": 47,
+    "over_pct": 24.6,
+    "avg_goals": 2.47
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "WEST HAM",
+    "played": 191,
+    "overs": 48,
+    "over_pct": 25.1,
+    "avg_goals": 2.53
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "EVERTON",
+    "played": 191,
+    "overs": 24,
+    "over_pct": 12.6,
+    "avg_goals": 1.94
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "LEEDS",
+    "played": 191,
+    "overs": 25,
+    "over_pct": 13.1,
+    "avg_goals": 1.97
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "LIVERPOOL",
+    "played": 191,
+    "overs": 42,
+    "over_pct": 22.0,
+    "avg_goals": 2.41
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "TOTTENHAM",
+    "played": 191,
+    "overs": 51,
+    "over_pct": 26.7,
+    "avg_goals": 2.47
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "CRYSTAL PALACE",
+    "played": 191,
+    "overs": 47,
+    "over_pct": 24.6,
+    "avg_goals": 2.58
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "LEEDS",
+    "played": 191,
+    "overs": 30,
+    "over_pct": 15.7,
+    "avg_goals": 2.01
+  },
+  {
+    "home": "CHELSEA",
+    "away": "BRIGHTON",
+    "played": 191,
+    "overs": 68,
+    "over_pct": 35.6,
+    "avg_goals": 2.8
+  },
+  {
+    "home": "CHELSEA",
+    "away": "WOLVERHAMPTON",
+    "played": 191,
+    "overs": 79,
+    "over_pct": 41.4,
+    "avg_goals": 3.26
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "BOURNEMOUTH",
+    "played": 191,
+    "overs": 40,
+    "over_pct": 20.9,
+    "avg_goals": 2.38
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "NEWCASTLE",
+    "played": 191,
+    "overs": 46,
+    "over_pct": 24.1,
+    "avg_goals": 2.42
+  },
+  {
+    "home": "EVERTON",
+    "away": "ASTON VILLA",
+    "played": 191,
+    "overs": 23,
+    "over_pct": 12.0,
+    "avg_goals": 1.99
+  },
+  {
+    "home": "EVERTON",
+    "away": "LEEDS",
+    "played": 191,
+    "overs": 18,
+    "over_pct": 9.4,
+    "avg_goals": 1.69
+  },
+  {
+    "home": "EVERTON",
+    "away": "MANCHESTER RED",
+    "played": 191,
+    "overs": 23,
+    "over_pct": 12.0,
+    "avg_goals": 2.09
+  },
+  {
+    "home": "FULHAM",
+    "away": "WEST HAM",
+    "played": 191,
+    "overs": 36,
+    "over_pct": 18.8,
+    "avg_goals": 2.31
+  },
+  {
+    "home": "LEEDS",
+    "away": "MANCHESTER RED",
+    "played": 191,
+    "overs": 29,
+    "over_pct": 15.2,
+    "avg_goals": 2.12
+  },
+  {
+    "home": "LEEDS",
+    "away": "NEWCASTLE",
+    "played": 191,
+    "overs": 33,
+    "over_pct": 17.3,
+    "avg_goals": 2.08
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "BRIGHTON",
+    "played": 191,
+    "overs": 58,
+    "over_pct": 30.4,
+    "avg_goals": 2.74
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "LEEDS",
+    "played": 191,
+    "overs": 35,
+    "over_pct": 18.3,
+    "avg_goals": 2.25
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "TOTTENHAM",
+    "played": 191,
+    "overs": 54,
+    "over_pct": 28.3,
+    "avg_goals": 2.76
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "WOLVERHAMPTON",
+    "played": 191,
+    "overs": 80,
+    "over_pct": 41.9,
+    "avg_goals": 3.25
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "NEWCASTLE",
+    "played": 191,
+    "overs": 62,
+    "over_pct": 32.5,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "WEST HAM",
+    "played": 191,
+    "overs": 93,
+    "over_pct": 48.7,
+    "avg_goals": 3.53
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "CHELSEA",
+    "played": 191,
+    "overs": 65,
+    "over_pct": 34.0,
+    "avg_goals": 2.96
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "FULHAM",
+    "played": 191,
+    "overs": 49,
+    "over_pct": 25.7,
+    "avg_goals": 2.57
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "WEST HAM",
+    "played": 191,
+    "overs": 68,
+    "over_pct": 35.6,
+    "avg_goals": 3.05
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "LIVERPOOL",
+    "played": 191,
+    "overs": 50,
+    "over_pct": 26.2,
+    "avg_goals": 2.58
+  },
+  {
+    "home": "WEST HAM",
+    "away": "BRIGHTON",
+    "played": 191,
+    "overs": 51,
+    "over_pct": 26.7,
+    "avg_goals": 2.46
+  },
+  {
+    "home": "WEST HAM",
+    "away": "CHELSEA",
+    "played": 191,
+    "overs": 77,
+    "over_pct": 40.3,
+    "avg_goals": 3.04
+  },
+  {
+    "home": "WEST HAM",
+    "away": "LONDON GUNS",
+    "played": 191,
+    "overs": 66,
+    "over_pct": 34.6,
+    "avg_goals": 2.96
+  },
+  {
+    "home": "WEST HAM",
+    "away": "TOTTENHAM",
+    "played": 191,
+    "overs": 56,
+    "over_pct": 29.3,
+    "avg_goals": 2.7
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "EVERTON",
+    "played": 191,
+    "overs": 39,
+    "over_pct": 20.4,
+    "avg_goals": 2.26
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "FULHAM",
+    "played": 191,
+    "overs": 52,
+    "over_pct": 27.2,
+    "avg_goals": 2.58
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "MANCHESTER RED",
+    "played": 191,
+    "overs": 67,
+    "over_pct": 35.1,
+    "avg_goals": 2.95
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "FULHAM",
+    "played": 190,
+    "overs": 37,
+    "over_pct": 19.5,
+    "avg_goals": 2.34
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "MANCHESTER BLUE",
+    "played": 190,
+    "overs": 57,
+    "over_pct": 30.0,
+    "avg_goals": 2.78
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "WOLVERHAMPTON",
+    "played": 190,
+    "overs": 46,
+    "over_pct": 24.2,
+    "avg_goals": 2.53
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "BRIGHTON",
+    "played": 190,
+    "overs": 30,
+    "over_pct": 15.8,
+    "avg_goals": 2.1
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "CRYSTAL PALACE",
+    "played": 190,
+    "overs": 45,
+    "over_pct": 23.7,
+    "avg_goals": 2.46
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "LONDON GUNS",
+    "played": 190,
+    "overs": 47,
+    "over_pct": 24.7,
+    "avg_goals": 2.48
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "MANCHESTER RED",
+    "played": 190,
+    "overs": 34,
+    "over_pct": 17.9,
+    "avg_goals": 2.3
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "NEWCASTLE",
+    "played": 190,
+    "overs": 31,
+    "over_pct": 16.3,
+    "avg_goals": 2.19
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "CHELSEA",
+    "played": 190,
+    "overs": 47,
+    "over_pct": 24.7,
+    "avg_goals": 2.62
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "EVERTON",
+    "played": 190,
+    "overs": 28,
+    "over_pct": 14.7,
+    "avg_goals": 1.98
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "FULHAM",
+    "played": 190,
+    "overs": 31,
+    "over_pct": 16.3,
+    "avg_goals": 2.24
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "MANCHESTER BLUE",
+    "played": 190,
+    "overs": 62,
+    "over_pct": 32.6,
+    "avg_goals": 2.91
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "MANCHESTER RED",
+    "played": 190,
+    "overs": 47,
+    "over_pct": 24.7,
+    "avg_goals": 2.57
+  },
+  {
+    "home": "CHELSEA",
+    "away": "BOURNEMOUTH",
+    "played": 190,
+    "overs": 65,
+    "over_pct": 34.2,
+    "avg_goals": 2.89
+  },
+  {
+    "home": "CHELSEA",
+    "away": "LONDON GUNS",
+    "played": 190,
+    "overs": 72,
+    "over_pct": 37.9,
+    "avg_goals": 2.99
+  },
+  {
+    "home": "CHELSEA",
+    "away": "MANCHESTER BLUE",
+    "played": 190,
+    "overs": 64,
+    "over_pct": 33.7,
+    "avg_goals": 3.02
+  },
+  {
+    "home": "CHELSEA",
+    "away": "MANCHESTER RED",
+    "played": 190,
+    "overs": 54,
+    "over_pct": 28.4,
+    "avg_goals": 2.7
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "ASTON VILLA",
+    "played": 190,
+    "overs": 52,
+    "over_pct": 27.4,
+    "avg_goals": 2.71
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "BRIGHTON",
+    "played": 190,
+    "overs": 50,
+    "over_pct": 26.3,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "MANCHESTER BLUE",
+    "played": 190,
+    "overs": 58,
+    "over_pct": 30.5,
+    "avg_goals": 2.78
+  },
+  {
+    "home": "EVERTON",
+    "away": "BRIGHTON",
+    "played": 190,
+    "overs": 20,
+    "over_pct": 10.5,
+    "avg_goals": 1.9
+  },
+  {
+    "home": "EVERTON",
+    "away": "CRYSTAL PALACE",
+    "played": 190,
+    "overs": 38,
+    "over_pct": 20.0,
+    "avg_goals": 2.25
+  },
+  {
+    "home": "EVERTON",
+    "away": "LIVERPOOL",
+    "played": 190,
+    "overs": 33,
+    "over_pct": 17.4,
+    "avg_goals": 2.29
+  },
+  {
+    "home": "FULHAM",
+    "away": "BRIGHTON",
+    "played": 190,
+    "overs": 19,
+    "over_pct": 10.0,
+    "avg_goals": 1.82
+  },
+  {
+    "home": "FULHAM",
+    "away": "LEEDS",
+    "played": 190,
+    "overs": 29,
+    "over_pct": 15.3,
+    "avg_goals": 1.99
+  },
+  {
+    "home": "FULHAM",
+    "away": "LIVERPOOL",
+    "played": 190,
+    "overs": 36,
+    "over_pct": 18.9,
+    "avg_goals": 2.16
+  },
+  {
+    "home": "FULHAM",
+    "away": "LONDON GUNS",
+    "played": 190,
+    "overs": 36,
+    "over_pct": 18.9,
+    "avg_goals": 2.3
+  },
+  {
+    "home": "FULHAM",
+    "away": "NEWCASTLE",
+    "played": 190,
+    "overs": 37,
+    "over_pct": 19.5,
+    "avg_goals": 2.29
+  },
+  {
+    "home": "FULHAM",
+    "away": "TOTTENHAM",
+    "played": 190,
+    "overs": 40,
+    "over_pct": 21.1,
+    "avg_goals": 2.23
+  },
+  {
+    "home": "FULHAM",
+    "away": "WOLVERHAMPTON",
+    "played": 190,
+    "overs": 43,
+    "over_pct": 22.6,
+    "avg_goals": 2.46
+  },
+  {
+    "home": "LEEDS",
+    "away": "CRYSTAL PALACE",
+    "played": 190,
+    "overs": 26,
+    "over_pct": 13.7,
+    "avg_goals": 2.13
+  },
+  {
+    "home": "LEEDS",
+    "away": "EVERTON",
+    "played": 190,
+    "overs": 14,
+    "over_pct": 7.4,
+    "avg_goals": 1.61
+  },
+  {
+    "home": "LEEDS",
+    "away": "FULHAM",
+    "played": 190,
+    "overs": 17,
+    "over_pct": 8.9,
+    "avg_goals": 1.66
+  },
+  {
+    "home": "LEEDS",
+    "away": "LIVERPOOL",
+    "played": 190,
+    "overs": 27,
+    "over_pct": 14.2,
+    "avg_goals": 2.07
+  },
+  {
+    "home": "LEEDS",
+    "away": "MANCHESTER BLUE",
+    "played": 190,
+    "overs": 42,
+    "over_pct": 22.1,
+    "avg_goals": 2.47
+  },
+  {
+    "home": "LEEDS",
+    "away": "TOTTENHAM",
+    "played": 190,
+    "overs": 29,
+    "over_pct": 15.3,
+    "avg_goals": 2.03
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "ASTON VILLA",
+    "played": 190,
+    "overs": 51,
+    "over_pct": 26.8,
+    "avg_goals": 2.54
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "BOURNEMOUTH",
+    "played": 190,
+    "overs": 55,
+    "over_pct": 28.9,
+    "avg_goals": 2.87
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "CRYSTAL PALACE",
+    "played": 190,
+    "overs": 63,
+    "over_pct": 33.2,
+    "avg_goals": 2.74
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "EVERTON",
+    "played": 190,
+    "overs": 30,
+    "over_pct": 15.8,
+    "avg_goals": 2.16
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "WEST HAM",
+    "played": 190,
+    "overs": 54,
+    "over_pct": 28.4,
+    "avg_goals": 2.72
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "CHELSEA",
+    "played": 190,
+    "overs": 68,
+    "over_pct": 35.8,
+    "avg_goals": 3.06
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "LEEDS",
+    "played": 190,
+    "overs": 50,
+    "over_pct": 26.3,
+    "avg_goals": 2.56
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "LIVERPOOL",
+    "played": 190,
+    "overs": 63,
+    "over_pct": 33.2,
+    "avg_goals": 2.87
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "WEST HAM",
+    "played": 190,
+    "overs": 77,
+    "over_pct": 40.5,
+    "avg_goals": 3.21
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "BOURNEMOUTH",
+    "played": 190,
+    "overs": 75,
+    "over_pct": 39.5,
+    "avg_goals": 3.09
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "FULHAM",
+    "played": 190,
+    "overs": 72,
+    "over_pct": 37.9,
+    "avg_goals": 3.05
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "LIVERPOOL",
+    "played": 190,
+    "overs": 76,
+    "over_pct": 40.0,
+    "avg_goals": 3.12
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "BOURNEMOUTH",
+    "played": 190,
+    "overs": 56,
+    "over_pct": 29.5,
+    "avg_goals": 2.77
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "MANCHESTER BLUE",
+    "played": 190,
+    "overs": 57,
+    "over_pct": 30.0,
+    "avg_goals": 2.78
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "BRIGHTON",
+    "played": 190,
+    "overs": 48,
+    "over_pct": 25.3,
+    "avg_goals": 2.44
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "CHELSEA",
+    "played": 190,
+    "overs": 55,
+    "over_pct": 28.9,
+    "avg_goals": 2.81
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "FULHAM",
+    "played": 190,
+    "overs": 41,
+    "over_pct": 21.6,
+    "avg_goals": 2.27
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "MANCHESTER BLUE",
+    "played": 190,
+    "overs": 64,
+    "over_pct": 33.7,
+    "avg_goals": 2.99
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "TOTTENHAM",
+    "played": 190,
+    "overs": 62,
+    "over_pct": 32.6,
+    "avg_goals": 2.82
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "WEST HAM",
+    "played": 190,
+    "overs": 69,
+    "over_pct": 36.3,
+    "avg_goals": 2.94
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "WOLVERHAMPTON",
+    "played": 190,
+    "overs": 61,
+    "over_pct": 32.1,
+    "avg_goals": 2.99
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "NEWCASTLE",
+    "played": 190,
+    "overs": 63,
+    "over_pct": 33.2,
+    "avg_goals": 2.88
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "WEST HAM",
+    "played": 190,
+    "overs": 65,
+    "over_pct": 34.2,
+    "avg_goals": 2.91
+  },
+  {
+    "home": "WEST HAM",
+    "away": "EVERTON",
+    "played": 190,
+    "overs": 37,
+    "over_pct": 19.5,
+    "avg_goals": 2.32
+  },
+  {
+    "home": "WEST HAM",
+    "away": "WOLVERHAMPTON",
+    "played": 190,
+    "overs": 75,
+    "over_pct": 39.5,
+    "avg_goals": 3.15
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "LIVERPOOL",
+    "played": 190,
+    "overs": 65,
+    "over_pct": 34.2,
+    "avg_goals": 2.86
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "LONDON GUNS",
+    "played": 190,
+    "overs": 83,
+    "over_pct": 43.7,
+    "avg_goals": 3.24
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "WEST HAM",
+    "played": 190,
+    "overs": 74,
+    "over_pct": 38.9,
+    "avg_goals": 3.15
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "EVERTON",
+    "played": 189,
+    "overs": 23,
+    "over_pct": 12.2,
+    "avg_goals": 1.94
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "LEEDS",
+    "played": 189,
+    "overs": 15,
+    "over_pct": 7.9,
+    "avg_goals": 1.92
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "MANCHESTER RED",
+    "played": 189,
+    "overs": 42,
+    "over_pct": 22.2,
+    "avg_goals": 2.35
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "NEWCASTLE",
+    "played": 189,
+    "overs": 41,
+    "over_pct": 21.7,
+    "avg_goals": 2.6
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "ASTON VILLA",
+    "played": 189,
+    "overs": 34,
+    "over_pct": 18.0,
+    "avg_goals": 2.3
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "TOTTENHAM",
+    "played": 189,
+    "overs": 44,
+    "over_pct": 23.3,
+    "avg_goals": 2.39
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "WOLVERHAMPTON",
+    "played": 189,
+    "overs": 54,
+    "over_pct": 28.6,
+    "avg_goals": 2.78
+  },
+  {
+    "home": "CHELSEA",
+    "away": "ASTON VILLA",
+    "played": 189,
+    "overs": 52,
+    "over_pct": 27.5,
+    "avg_goals": 2.56
+  },
+  {
+    "home": "CHELSEA",
+    "away": "CRYSTAL PALACE",
+    "played": 189,
+    "overs": 68,
+    "over_pct": 36.0,
+    "avg_goals": 3.05
+  },
+  {
+    "home": "CHELSEA",
+    "away": "EVERTON",
+    "played": 189,
+    "overs": 32,
+    "over_pct": 16.9,
+    "avg_goals": 2.17
+  },
+  {
+    "home": "CHELSEA",
+    "away": "LEEDS",
+    "played": 189,
+    "overs": 35,
+    "over_pct": 18.5,
+    "avg_goals": 2.31
+  },
+  {
+    "home": "CHELSEA",
+    "away": "NEWCASTLE",
+    "played": 189,
+    "overs": 69,
+    "over_pct": 36.5,
+    "avg_goals": 2.95
+  },
+  {
+    "home": "CHELSEA",
+    "away": "WEST HAM",
+    "played": 189,
+    "overs": 72,
+    "over_pct": 38.1,
+    "avg_goals": 2.95
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "FULHAM",
+    "played": 189,
+    "overs": 37,
+    "over_pct": 19.6,
+    "avg_goals": 2.16
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "LEEDS",
+    "played": 189,
+    "overs": 30,
+    "over_pct": 15.9,
+    "avg_goals": 2.14
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "LIVERPOOL",
+    "played": 189,
+    "overs": 61,
+    "over_pct": 32.3,
+    "avg_goals": 2.76
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "MANCHESTER RED",
+    "played": 189,
+    "overs": 47,
+    "over_pct": 24.9,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "WOLVERHAMPTON",
+    "played": 189,
+    "overs": 75,
+    "over_pct": 39.7,
+    "avg_goals": 3.2
+  },
+  {
+    "home": "EVERTON",
+    "away": "FULHAM",
+    "played": 189,
+    "overs": 34,
+    "over_pct": 18.0,
+    "avg_goals": 2.15
+  },
+  {
+    "home": "EVERTON",
+    "away": "MANCHESTER BLUE",
+    "played": 189,
+    "overs": 43,
+    "over_pct": 22.8,
+    "avg_goals": 2.45
+  },
+  {
+    "home": "EVERTON",
+    "away": "NEWCASTLE",
+    "played": 189,
+    "overs": 31,
+    "over_pct": 16.4,
+    "avg_goals": 2.22
+  },
+  {
+    "home": "EVERTON",
+    "away": "TOTTENHAM",
+    "played": 189,
+    "overs": 32,
+    "over_pct": 16.9,
+    "avg_goals": 2.09
+  },
+  {
+    "home": "EVERTON",
+    "away": "WOLVERHAMPTON",
+    "played": 189,
+    "overs": 47,
+    "over_pct": 24.9,
+    "avg_goals": 2.51
+  },
+  {
+    "home": "FULHAM",
+    "away": "ASTON VILLA",
+    "played": 189,
+    "overs": 33,
+    "over_pct": 17.5,
+    "avg_goals": 2.13
+  },
+  {
+    "home": "FULHAM",
+    "away": "BOURNEMOUTH",
+    "played": 189,
+    "overs": 34,
+    "over_pct": 18.0,
+    "avg_goals": 2.14
+  },
+  {
+    "home": "FULHAM",
+    "away": "CHELSEA",
+    "played": 189,
+    "overs": 42,
+    "over_pct": 22.2,
+    "avg_goals": 2.32
+  },
+  {
+    "home": "FULHAM",
+    "away": "EVERTON",
+    "played": 189,
+    "overs": 23,
+    "over_pct": 12.2,
+    "avg_goals": 1.87
+  },
+  {
+    "home": "FULHAM",
+    "away": "MANCHESTER BLUE",
+    "played": 189,
+    "overs": 42,
+    "over_pct": 22.2,
+    "avg_goals": 2.6
+  },
+  {
+    "home": "LEEDS",
+    "away": "CHELSEA",
+    "played": 189,
+    "overs": 35,
+    "over_pct": 18.5,
+    "avg_goals": 2.27
+  },
+  {
+    "home": "LEEDS",
+    "away": "LONDON GUNS",
+    "played": 189,
+    "overs": 33,
+    "over_pct": 17.5,
+    "avg_goals": 2.24
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "LONDON GUNS",
+    "played": 189,
+    "overs": 68,
+    "over_pct": 36.0,
+    "avg_goals": 2.93
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "CRYSTAL PALACE",
+    "played": 189,
+    "overs": 72,
+    "over_pct": 38.1,
+    "avg_goals": 3.13
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "EVERTON",
+    "played": 189,
+    "overs": 44,
+    "over_pct": 23.3,
+    "avg_goals": 2.45
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "FULHAM",
+    "played": 189,
+    "overs": 48,
+    "over_pct": 25.4,
+    "avg_goals": 2.45
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "NEWCASTLE",
+    "played": 189,
+    "overs": 69,
+    "over_pct": 36.5,
+    "avg_goals": 3.02
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "WOLVERHAMPTON",
+    "played": 189,
+    "overs": 76,
+    "over_pct": 40.2,
+    "avg_goals": 3.31
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "ASTON VILLA",
+    "played": 189,
+    "overs": 60,
+    "over_pct": 31.7,
+    "avg_goals": 2.84
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "BRIGHTON",
+    "played": 189,
+    "overs": 63,
+    "over_pct": 33.3,
+    "avg_goals": 2.84
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "CHELSEA",
+    "played": 189,
+    "overs": 92,
+    "over_pct": 48.7,
+    "avg_goals": 3.38
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "EVERTON",
+    "played": 189,
+    "overs": 56,
+    "over_pct": 29.6,
+    "avg_goals": 2.77
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "BRIGHTON",
+    "played": 189,
+    "overs": 54,
+    "over_pct": 28.6,
+    "avg_goals": 2.68
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "CRYSTAL PALACE",
+    "played": 189,
+    "overs": 59,
+    "over_pct": 31.2,
+    "avg_goals": 2.9
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "EVERTON",
+    "played": 189,
+    "overs": 38,
+    "over_pct": 20.1,
+    "avg_goals": 2.32
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "NEWCASTLE",
+    "played": 189,
+    "overs": 68,
+    "over_pct": 36.0,
+    "avg_goals": 2.8
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "WOLVERHAMPTON",
+    "played": 189,
+    "overs": 67,
+    "over_pct": 35.4,
+    "avg_goals": 3.01
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "EVERTON",
+    "played": 189,
+    "overs": 27,
+    "over_pct": 14.3,
+    "avg_goals": 2.05
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "BOURNEMOUTH",
+    "played": 189,
+    "overs": 50,
+    "over_pct": 26.5,
+    "avg_goals": 2.66
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "BRIGHTON",
+    "played": 189,
+    "overs": 51,
+    "over_pct": 27.0,
+    "avg_goals": 2.75
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "CHELSEA",
+    "played": 189,
+    "overs": 65,
+    "over_pct": 34.4,
+    "avg_goals": 2.97
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "EVERTON",
+    "played": 189,
+    "overs": 32,
+    "over_pct": 16.9,
+    "avg_goals": 2.15
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "LEEDS",
+    "played": 189,
+    "overs": 52,
+    "over_pct": 27.5,
+    "avg_goals": 2.53
+  },
+  {
+    "home": "WEST HAM",
+    "away": "BOURNEMOUTH",
+    "played": 189,
+    "overs": 46,
+    "over_pct": 24.3,
+    "avg_goals": 2.68
+  },
+  {
+    "home": "WEST HAM",
+    "away": "MANCHESTER BLUE",
+    "played": 189,
+    "overs": 76,
+    "over_pct": 40.2,
+    "avg_goals": 3.23
+  },
+  {
+    "home": "WEST HAM",
+    "away": "NEWCASTLE",
+    "played": 189,
+    "overs": 54,
+    "over_pct": 28.6,
+    "avg_goals": 2.77
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "BRIGHTON",
+    "played": 189,
+    "overs": 58,
+    "over_pct": 30.7,
+    "avg_goals": 2.86
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "LEEDS",
+    "played": 189,
+    "overs": 43,
+    "over_pct": 22.8,
+    "avg_goals": 2.47
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "NEWCASTLE",
+    "played": 189,
+    "overs": 65,
+    "over_pct": 34.4,
+    "avg_goals": 2.84
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "TOTTENHAM",
+    "played": 189,
+    "overs": 68,
+    "over_pct": 36.0,
+    "avg_goals": 2.89
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "BOURNEMOUTH",
+    "played": 188,
+    "overs": 43,
+    "over_pct": 22.9,
+    "avg_goals": 2.46
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "BRIGHTON",
+    "played": 188,
+    "overs": 32,
+    "over_pct": 17.0,
+    "avg_goals": 2.22
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "CRYSTAL PALACE",
+    "played": 188,
+    "overs": 50,
+    "over_pct": 26.6,
+    "avg_goals": 2.7
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "LONDON GUNS",
+    "played": 188,
+    "overs": 30,
+    "over_pct": 16.0,
+    "avg_goals": 2.33
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "ASTON VILLA",
+    "played": 188,
+    "overs": 38,
+    "over_pct": 20.2,
+    "avg_goals": 2.35
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "CHELSEA",
+    "played": 188,
+    "overs": 54,
+    "over_pct": 28.7,
+    "avg_goals": 2.8
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "MANCHESTER BLUE",
+    "played": 188,
+    "overs": 53,
+    "over_pct": 28.2,
+    "avg_goals": 2.84
+  },
+  {
+    "home": "CHELSEA",
+    "away": "FULHAM",
+    "played": 188,
+    "overs": 55,
+    "over_pct": 29.3,
+    "avg_goals": 2.73
+  },
+  {
+    "home": "CHELSEA",
+    "away": "LIVERPOOL",
+    "played": 188,
+    "overs": 60,
+    "over_pct": 31.9,
+    "avg_goals": 2.92
+  },
+  {
+    "home": "CHELSEA",
+    "away": "TOTTENHAM",
+    "played": 188,
+    "overs": 50,
+    "over_pct": 26.6,
+    "avg_goals": 2.74
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "CHELSEA",
+    "played": 188,
+    "overs": 72,
+    "over_pct": 38.3,
+    "avg_goals": 3.04
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "EVERTON",
+    "played": 188,
+    "overs": 32,
+    "over_pct": 17.0,
+    "avg_goals": 2.12
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "WEST HAM",
+    "played": 188,
+    "overs": 61,
+    "over_pct": 32.4,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "EVERTON",
+    "away": "BOURNEMOUTH",
+    "played": 188,
+    "overs": 36,
+    "over_pct": 19.1,
+    "avg_goals": 2.21
+  },
+  {
+    "home": "EVERTON",
+    "away": "CHELSEA",
+    "played": 188,
+    "overs": 36,
+    "over_pct": 19.1,
+    "avg_goals": 2.31
+  },
+  {
+    "home": "FULHAM",
+    "away": "CRYSTAL PALACE",
+    "played": 188,
+    "overs": 36,
+    "over_pct": 19.1,
+    "avg_goals": 2.29
+  },
+  {
+    "home": "LEEDS",
+    "away": "ASTON VILLA",
+    "played": 188,
+    "overs": 17,
+    "over_pct": 9.0,
+    "avg_goals": 1.81
+  },
+  {
+    "home": "LEEDS",
+    "away": "BOURNEMOUTH",
+    "played": 188,
+    "overs": 25,
+    "over_pct": 13.3,
+    "avg_goals": 1.97
+  },
+  {
+    "home": "LEEDS",
+    "away": "BRIGHTON",
+    "played": 188,
+    "overs": 17,
+    "over_pct": 9.0,
+    "avg_goals": 1.83
+  },
+  {
+    "home": "LEEDS",
+    "away": "WEST HAM",
+    "played": 188,
+    "overs": 36,
+    "over_pct": 19.1,
+    "avg_goals": 2.23
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "CHELSEA",
+    "played": 188,
+    "overs": 59,
+    "over_pct": 31.4,
+    "avg_goals": 2.81
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "FULHAM",
+    "played": 188,
+    "overs": 52,
+    "over_pct": 27.7,
+    "avg_goals": 2.53
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "MANCHESTER RED",
+    "played": 188,
+    "overs": 50,
+    "over_pct": 26.6,
+    "avg_goals": 2.55
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "CRYSTAL PALACE",
+    "played": 188,
+    "overs": 82,
+    "over_pct": 43.6,
+    "avg_goals": 3.38
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "LEEDS",
+    "played": 188,
+    "overs": 58,
+    "over_pct": 30.9,
+    "avg_goals": 2.73
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "LONDON GUNS",
+    "played": 188,
+    "overs": 86,
+    "over_pct": 45.7,
+    "avg_goals": 3.49
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "MANCHESTER RED",
+    "played": 188,
+    "overs": 72,
+    "over_pct": 38.3,
+    "avg_goals": 2.94
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "LIVERPOOL",
+    "played": 188,
+    "overs": 46,
+    "over_pct": 24.5,
+    "avg_goals": 2.49
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "LONDON GUNS",
+    "played": 188,
+    "overs": 48,
+    "over_pct": 25.5,
+    "avg_goals": 2.61
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "TOTTENHAM",
+    "played": 188,
+    "overs": 43,
+    "over_pct": 22.9,
+    "avg_goals": 2.52
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "ASTON VILLA",
+    "played": 188,
+    "overs": 49,
+    "over_pct": 26.1,
+    "avg_goals": 2.41
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "CRYSTAL PALACE",
+    "played": 188,
+    "overs": 51,
+    "over_pct": 27.1,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "LEEDS",
+    "played": 188,
+    "overs": 28,
+    "over_pct": 14.9,
+    "avg_goals": 1.96
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "LONDON GUNS",
+    "played": 188,
+    "overs": 54,
+    "over_pct": 28.7,
+    "avg_goals": 2.73
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "FULHAM",
+    "played": 188,
+    "overs": 38,
+    "over_pct": 20.2,
+    "avg_goals": 2.32
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "MANCHESTER BLUE",
+    "played": 188,
+    "overs": 56,
+    "over_pct": 29.8,
+    "avg_goals": 2.9
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "MANCHESTER RED",
+    "played": 188,
+    "overs": 56,
+    "over_pct": 29.8,
+    "avg_goals": 2.67
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "WOLVERHAMPTON",
+    "played": 188,
+    "overs": 69,
+    "over_pct": 36.7,
+    "avg_goals": 3.13
+  },
+  {
+    "home": "WEST HAM",
+    "away": "ASTON VILLA",
+    "played": 188,
+    "overs": 39,
+    "over_pct": 20.7,
+    "avg_goals": 2.41
+  },
+  {
+    "home": "WEST HAM",
+    "away": "FULHAM",
+    "played": 188,
+    "overs": 46,
+    "over_pct": 24.5,
+    "avg_goals": 2.51
+  },
+  {
+    "home": "WEST HAM",
+    "away": "LEEDS",
+    "played": 188,
+    "overs": 31,
+    "over_pct": 16.5,
+    "avg_goals": 2.27
+  },
+  {
+    "home": "WEST HAM",
+    "away": "MANCHESTER RED",
+    "played": 188,
+    "overs": 57,
+    "over_pct": 30.3,
+    "avg_goals": 2.72
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "BOURNEMOUTH",
+    "played": 188,
+    "overs": 50,
+    "over_pct": 26.6,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "CHELSEA",
+    "played": 188,
+    "overs": 72,
+    "over_pct": 38.3,
+    "avg_goals": 3.07
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "CRYSTAL PALACE",
+    "played": 188,
+    "overs": 69,
+    "over_pct": 36.7,
+    "avg_goals": 3.09
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "MANCHESTER BLUE",
+    "played": 188,
+    "overs": 92,
+    "over_pct": 48.9,
+    "avg_goals": 3.5
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "FULHAM",
+    "played": 187,
+    "overs": 25,
+    "over_pct": 13.4,
+    "avg_goals": 1.97
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "BOURNEMOUTH",
+    "played": 187,
+    "overs": 44,
+    "over_pct": 23.5,
+    "avg_goals": 2.38
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "LIVERPOOL",
+    "played": 187,
+    "overs": 42,
+    "over_pct": 22.5,
+    "avg_goals": 2.37
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "NEWCASTLE",
+    "played": 187,
+    "overs": 38,
+    "over_pct": 20.3,
+    "avg_goals": 2.45
+  },
+  {
+    "home": "CRYSTAL PALACE",
+    "away": "LONDON GUNS",
+    "played": 187,
+    "overs": 66,
+    "over_pct": 35.3,
+    "avg_goals": 2.98
+  },
+  {
+    "home": "EVERTON",
+    "away": "LONDON GUNS",
+    "played": 187,
+    "overs": 38,
+    "over_pct": 20.3,
+    "avg_goals": 2.35
+  },
+  {
+    "home": "FULHAM",
+    "away": "MANCHESTER RED",
+    "played": 187,
+    "overs": 31,
+    "over_pct": 16.6,
+    "avg_goals": 2.18
+  },
+  {
+    "home": "LEEDS",
+    "away": "WOLVERHAMPTON",
+    "played": 187,
+    "overs": 42,
+    "over_pct": 22.5,
+    "avg_goals": 2.48
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "MANCHESTER BLUE",
+    "played": 187,
+    "overs": 65,
+    "over_pct": 34.8,
+    "avg_goals": 2.87
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "BOURNEMOUTH",
+    "played": 187,
+    "overs": 56,
+    "over_pct": 29.9,
+    "avg_goals": 2.78
+  },
+  {
+    "home": "MANCHESTER BLUE",
+    "away": "WOLVERHAMPTON",
+    "played": 187,
+    "overs": 99,
+    "over_pct": 52.9,
+    "avg_goals": 3.79
+  },
+  {
+    "home": "MANCHESTER RED",
+    "away": "LEEDS",
+    "played": 187,
+    "overs": 51,
+    "over_pct": 27.3,
+    "avg_goals": 2.58
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "CRYSTAL PALACE",
+    "played": 187,
+    "overs": 56,
+    "over_pct": 29.9,
+    "avg_goals": 2.71
+  },
+  {
+    "home": "TOTTENHAM",
+    "away": "LIVERPOOL",
+    "played": 187,
+    "overs": 51,
+    "over_pct": 27.3,
+    "avg_goals": 2.7
+  },
+  {
+    "home": "WEST HAM",
+    "away": "LIVERPOOL",
+    "played": 187,
+    "overs": 45,
+    "over_pct": 24.1,
+    "avg_goals": 2.67
+  },
+  {
+    "home": "WOLVERHAMPTON",
+    "away": "ASTON VILLA",
+    "played": 187,
+    "overs": 60,
+    "over_pct": 32.1,
+    "avg_goals": 2.79
+  },
+  {
+    "home": "ASTON VILLA",
+    "away": "TOTTENHAM",
+    "played": 186,
+    "overs": 45,
+    "over_pct": 24.2,
+    "avg_goals": 2.44
+  },
+  {
+    "home": "BOURNEMOUTH",
+    "away": "WEST HAM",
+    "played": 186,
+    "overs": 42,
+    "over_pct": 22.6,
+    "avg_goals": 2.44
+  },
+  {
+    "home": "BRIGHTON",
+    "away": "WEST HAM",
+    "played": 186,
+    "overs": 40,
+    "over_pct": 21.5,
+    "avg_goals": 2.51
+  },
+  {
+    "home": "EVERTON",
+    "away": "WEST HAM",
+    "played": 186,
+    "overs": 40,
+    "over_pct": 21.5,
+    "avg_goals": 2.46
+  },
+  {
+    "home": "LIVERPOOL",
+    "away": "NEWCASTLE",
+    "played": 186,
+    "overs": 53,
+    "over_pct": 28.5,
+    "avg_goals": 2.84
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "BRIGHTON",
+    "played": 186,
+    "overs": 56,
+    "over_pct": 30.1,
+    "avg_goals": 2.79
+  },
+  {
+    "home": "NEWCASTLE",
+    "away": "MANCHESTER RED",
+    "played": 186,
+    "overs": 41,
+    "over_pct": 22.0,
+    "avg_goals": 2.42
+  },
+  {
+    "home": "LONDON GUNS",
+    "away": "TOTTENHAM",
+    "played": 185,
+    "overs": 60,
+    "over_pct": 32.4,
+    "avg_goals": 2.92
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Tottenham",
+    "played": 42,
+    "overs": 10,
+    "over_pct": 23.8,
+    "avg_goals": 2.4
+  },
+  {
+    "home": "Aston Villa",
+    "away": "West Ham",
+    "played": 42,
+    "overs": 9,
+    "over_pct": 21.4,
+    "avg_goals": 2.38
+  },
+  {
+    "home": "Brighton",
+    "away": "Chelsea",
+    "played": 42,
+    "overs": 6,
+    "over_pct": 14.3,
+    "avg_goals": 2.05
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Everton",
+    "played": 42,
+    "overs": 6,
+    "over_pct": 14.3,
+    "avg_goals": 2.21
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Wolverhampton",
+    "played": 42,
+    "overs": 11,
+    "over_pct": 26.2,
+    "avg_goals": 2.71
+  },
+  {
+    "home": "Liverpool",
+    "away": "Manchester Blue",
+    "played": 42,
+    "overs": 12,
+    "over_pct": 28.6,
+    "avg_goals": 2.67
+  },
+  {
+    "home": "London Guns",
+    "away": "Bournemouth",
+    "played": 42,
+    "overs": 17,
+    "over_pct": 40.5,
+    "avg_goals": 3.1
+  },
+  {
+    "home": "London Guns",
+    "away": "Chelsea",
+    "played": 42,
+    "overs": 15,
+    "over_pct": 35.7,
+    "avg_goals": 3.1
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Liverpool",
+    "played": 42,
+    "overs": 18,
+    "over_pct": 42.9,
+    "avg_goals": 3.17
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Brighton",
+    "played": 41,
+    "overs": 5,
+    "over_pct": 12.2,
+    "avg_goals": 1.9
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Chelsea",
+    "played": 41,
+    "overs": 12,
+    "over_pct": 29.3,
+    "avg_goals": 2.39
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Crystal Palace",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.49
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Fulham",
+    "played": 41,
+    "overs": 4,
+    "over_pct": 9.8,
+    "avg_goals": 2.12
+  },
+  {
+    "home": "Aston Villa",
+    "away": "London Guns",
+    "played": 41,
+    "overs": 7,
+    "over_pct": 17.1,
+    "avg_goals": 2.32
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Aston Villa",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.02
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Chelsea",
+    "played": 41,
+    "overs": 14,
+    "over_pct": 34.1,
+    "avg_goals": 3.1
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Crystal Palace",
+    "played": 41,
+    "overs": 9,
+    "over_pct": 22.0,
+    "avg_goals": 2.51
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Everton",
+    "played": 41,
+    "overs": 9,
+    "over_pct": 22.0,
+    "avg_goals": 2.37
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Manchester Red",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.51
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Newcastle",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.34
+  },
+  {
+    "home": "Bournemouth",
+    "away": "West Ham",
+    "played": 41,
+    "overs": 7,
+    "over_pct": 17.1,
+    "avg_goals": 2.34
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Wolverhampton",
+    "played": 41,
+    "overs": 12,
+    "over_pct": 29.3,
+    "avg_goals": 2.76
+  },
+  {
+    "home": "Brighton",
+    "away": "Crystal Palace",
+    "played": 41,
+    "overs": 11,
+    "over_pct": 26.8,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "Brighton",
+    "away": "Everton",
+    "played": 41,
+    "overs": 11,
+    "over_pct": 26.8,
+    "avg_goals": 2.27
+  },
+  {
+    "home": "Brighton",
+    "away": "Leeds",
+    "played": 41,
+    "overs": 6,
+    "over_pct": 14.6,
+    "avg_goals": 2.0
+  },
+  {
+    "home": "Brighton",
+    "away": "Liverpool",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.29
+  },
+  {
+    "home": "Brighton",
+    "away": "Newcastle",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.05
+  },
+  {
+    "home": "Brighton",
+    "away": "West Ham",
+    "played": 41,
+    "overs": 13,
+    "over_pct": 31.7,
+    "avg_goals": 2.66
+  },
+  {
+    "home": "Brighton",
+    "away": "Wolverhampton",
+    "played": 41,
+    "overs": 15,
+    "over_pct": 36.6,
+    "avg_goals": 2.98
+  },
+  {
+    "home": "Chelsea",
+    "away": "Everton",
+    "played": 41,
+    "overs": 7,
+    "over_pct": 17.1,
+    "avg_goals": 2.17
+  },
+  {
+    "home": "Chelsea",
+    "away": "Fulham",
+    "played": 41,
+    "overs": 12,
+    "over_pct": 29.3,
+    "avg_goals": 2.73
+  },
+  {
+    "home": "Chelsea",
+    "away": "Liverpool",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.54
+  },
+  {
+    "home": "Chelsea",
+    "away": "Newcastle",
+    "played": 41,
+    "overs": 13,
+    "over_pct": 31.7,
+    "avg_goals": 2.8
+  },
+  {
+    "home": "Chelsea",
+    "away": "Tottenham",
+    "played": 41,
+    "overs": 16,
+    "over_pct": 39.0,
+    "avg_goals": 2.93
+  },
+  {
+    "home": "Chelsea",
+    "away": "West Ham",
+    "played": 41,
+    "overs": 16,
+    "over_pct": 39.0,
+    "avg_goals": 3.29
+  },
+  {
+    "home": "Chelsea",
+    "away": "Wolverhampton",
+    "played": 41,
+    "overs": 20,
+    "over_pct": 48.8,
+    "avg_goals": 3.41
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Chelsea",
+    "played": 41,
+    "overs": 15,
+    "over_pct": 36.6,
+    "avg_goals": 2.93
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Fulham",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.0
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Liverpool",
+    "played": 41,
+    "overs": 15,
+    "over_pct": 36.6,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Newcastle",
+    "played": 41,
+    "overs": 4,
+    "over_pct": 9.8,
+    "avg_goals": 2.27
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "West Ham",
+    "played": 41,
+    "overs": 12,
+    "over_pct": 29.3,
+    "avg_goals": 2.83
+  },
+  {
+    "home": "Everton",
+    "away": "Aston Villa",
+    "played": 41,
+    "overs": 5,
+    "over_pct": 12.2,
+    "avg_goals": 1.83
+  },
+  {
+    "home": "Everton",
+    "away": "Fulham",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.34
+  },
+  {
+    "home": "Everton",
+    "away": "Liverpool",
+    "played": 41,
+    "overs": 5,
+    "over_pct": 12.2,
+    "avg_goals": 2.22
+  },
+  {
+    "home": "Everton",
+    "away": "London Guns",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.49
+  },
+  {
+    "home": "Everton",
+    "away": "Manchester Blue",
+    "played": 41,
+    "overs": 15,
+    "over_pct": 36.6,
+    "avg_goals": 2.95
+  },
+  {
+    "home": "Everton",
+    "away": "Manchester Red",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.0
+  },
+  {
+    "home": "Everton",
+    "away": "Newcastle",
+    "played": 41,
+    "overs": 5,
+    "over_pct": 12.2,
+    "avg_goals": 1.9
+  },
+  {
+    "home": "Fulham",
+    "away": "Bournemouth",
+    "played": 41,
+    "overs": 9,
+    "over_pct": 22.0,
+    "avg_goals": 2.02
+  },
+  {
+    "home": "Fulham",
+    "away": "Brighton",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.56
+  },
+  {
+    "home": "Fulham",
+    "away": "Leeds",
+    "played": 41,
+    "overs": 4,
+    "over_pct": 9.8,
+    "avg_goals": 1.71
+  },
+  {
+    "home": "Fulham",
+    "away": "London Guns",
+    "played": 41,
+    "overs": 6,
+    "over_pct": 14.6,
+    "avg_goals": 2.02
+  },
+  {
+    "home": "Fulham",
+    "away": "Manchester Blue",
+    "played": 41,
+    "overs": 7,
+    "over_pct": 17.1,
+    "avg_goals": 2.56
+  },
+  {
+    "home": "Fulham",
+    "away": "Manchester Red",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.39
+  },
+  {
+    "home": "Fulham",
+    "away": "Tottenham",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.32
+  },
+  {
+    "home": "Leeds",
+    "away": "Aston Villa",
+    "played": 41,
+    "overs": 4,
+    "over_pct": 9.8,
+    "avg_goals": 1.68
+  },
+  {
+    "home": "Leeds",
+    "away": "Bournemouth",
+    "played": 41,
+    "overs": 6,
+    "over_pct": 14.6,
+    "avg_goals": 2.1
+  },
+  {
+    "home": "Leeds",
+    "away": "Brighton",
+    "played": 41,
+    "overs": 6,
+    "over_pct": 14.6,
+    "avg_goals": 2.02
+  },
+  {
+    "home": "Leeds",
+    "away": "Chelsea",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.49
+  },
+  {
+    "home": "Leeds",
+    "away": "Everton",
+    "played": 41,
+    "overs": 4,
+    "over_pct": 9.8,
+    "avg_goals": 1.63
+  },
+  {
+    "home": "Leeds",
+    "away": "Newcastle",
+    "played": 41,
+    "overs": 7,
+    "over_pct": 17.1,
+    "avg_goals": 2.22
+  },
+  {
+    "home": "Leeds",
+    "away": "West Ham",
+    "played": 41,
+    "overs": 7,
+    "over_pct": 17.1,
+    "avg_goals": 2.27
+  },
+  {
+    "home": "Leeds",
+    "away": "Wolverhampton",
+    "played": 41,
+    "overs": 4,
+    "over_pct": 9.8,
+    "avg_goals": 2.02
+  },
+  {
+    "home": "Liverpool",
+    "away": "Bournemouth",
+    "played": 41,
+    "overs": 12,
+    "over_pct": 29.3,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "Liverpool",
+    "away": "Fulham",
+    "played": 41,
+    "overs": 11,
+    "over_pct": 26.8,
+    "avg_goals": 2.78
+  },
+  {
+    "home": "Liverpool",
+    "away": "Leeds",
+    "played": 41,
+    "overs": 9,
+    "over_pct": 22.0,
+    "avg_goals": 2.51
+  },
+  {
+    "home": "Liverpool",
+    "away": "London Guns",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.61
+  },
+  {
+    "home": "Liverpool",
+    "away": "Manchester Red",
+    "played": 41,
+    "overs": 11,
+    "over_pct": 26.8,
+    "avg_goals": 2.66
+  },
+  {
+    "home": "Liverpool",
+    "away": "Tottenham",
+    "played": 41,
+    "overs": 11,
+    "over_pct": 26.8,
+    "avg_goals": 2.76
+  },
+  {
+    "home": "London Guns",
+    "away": "Brighton",
+    "played": 41,
+    "overs": 11,
+    "over_pct": 26.8,
+    "avg_goals": 2.49
+  },
+  {
+    "home": "London Guns",
+    "away": "Crystal Palace",
+    "played": 41,
+    "overs": 14,
+    "over_pct": 34.1,
+    "avg_goals": 3.32
+  },
+  {
+    "home": "London Guns",
+    "away": "Leeds",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "London Guns",
+    "away": "Manchester Blue",
+    "played": 41,
+    "overs": 17,
+    "over_pct": 41.5,
+    "avg_goals": 3.1
+  },
+  {
+    "home": "London Guns",
+    "away": "Manchester Red",
+    "played": 41,
+    "overs": 13,
+    "over_pct": 31.7,
+    "avg_goals": 2.93
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Aston Villa",
+    "played": 41,
+    "overs": 17,
+    "over_pct": 41.5,
+    "avg_goals": 3.02
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Bournemouth",
+    "played": 41,
+    "overs": 13,
+    "over_pct": 31.7,
+    "avg_goals": 2.98
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Brighton",
+    "played": 41,
+    "overs": 16,
+    "over_pct": 39.0,
+    "avg_goals": 3.0
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Chelsea",
+    "played": 41,
+    "overs": 16,
+    "over_pct": 39.0,
+    "avg_goals": 3.22
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Crystal Palace",
+    "played": 41,
+    "overs": 13,
+    "over_pct": 31.7,
+    "avg_goals": 3.2
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Leeds",
+    "played": 41,
+    "overs": 13,
+    "over_pct": 31.7,
+    "avg_goals": 2.71
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Manchester Red",
+    "played": 41,
+    "overs": 15,
+    "over_pct": 36.6,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Aston Villa",
+    "played": 41,
+    "overs": 7,
+    "over_pct": 17.1,
+    "avg_goals": 2.51
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Bournemouth",
+    "played": 41,
+    "overs": 12,
+    "over_pct": 29.3,
+    "avg_goals": 2.76
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Brighton",
+    "played": 41,
+    "overs": 11,
+    "over_pct": 26.8,
+    "avg_goals": 2.29
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Crystal Palace",
+    "played": 41,
+    "overs": 18,
+    "over_pct": 43.9,
+    "avg_goals": 3.17
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Everton",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.39
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Leeds",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.37
+  },
+  {
+    "home": "Manchester Red",
+    "away": "West Ham",
+    "played": 41,
+    "overs": 17,
+    "over_pct": 41.5,
+    "avg_goals": 3.27
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Wolverhampton",
+    "played": 41,
+    "overs": 17,
+    "over_pct": 41.5,
+    "avg_goals": 3.07
+  },
+  {
+    "home": "Newcastle",
+    "away": "Aston Villa",
+    "played": 41,
+    "overs": 14,
+    "over_pct": 34.1,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "Newcastle",
+    "away": "Fulham",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.37
+  },
+  {
+    "home": "Newcastle",
+    "away": "Leeds",
+    "played": 41,
+    "overs": 6,
+    "over_pct": 14.6,
+    "avg_goals": 1.9
+  },
+  {
+    "home": "Newcastle",
+    "away": "Liverpool",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.39
+  },
+  {
+    "home": "Newcastle",
+    "away": "London Guns",
+    "played": 41,
+    "overs": 13,
+    "over_pct": 31.7,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "Newcastle",
+    "away": "Manchester Blue",
+    "played": 41,
+    "overs": 15,
+    "over_pct": 36.6,
+    "avg_goals": 2.9
+  },
+  {
+    "home": "Newcastle",
+    "away": "Manchester Red",
+    "played": 41,
+    "overs": 7,
+    "over_pct": 17.1,
+    "avg_goals": 2.17
+  },
+  {
+    "home": "Newcastle",
+    "away": "Tottenham",
+    "played": 41,
+    "overs": 6,
+    "over_pct": 14.6,
+    "avg_goals": 2.32
+  },
+  {
+    "home": "Tottenham",
+    "away": "Bournemouth",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.59
+  },
+  {
+    "home": "Tottenham",
+    "away": "Brighton",
+    "played": 41,
+    "overs": 12,
+    "over_pct": 29.3,
+    "avg_goals": 2.76
+  },
+  {
+    "home": "Tottenham",
+    "away": "Crystal Palace",
+    "played": 41,
+    "overs": 12,
+    "over_pct": 29.3,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "Tottenham",
+    "away": "Fulham",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.32
+  },
+  {
+    "home": "Tottenham",
+    "away": "Leeds",
+    "played": 41,
+    "overs": 6,
+    "over_pct": 14.6,
+    "avg_goals": 2.24
+  },
+  {
+    "home": "Tottenham",
+    "away": "London Guns",
+    "played": 41,
+    "overs": 17,
+    "over_pct": 41.5,
+    "avg_goals": 3.2
+  },
+  {
+    "home": "Tottenham",
+    "away": "Manchester Blue",
+    "played": 41,
+    "overs": 15,
+    "over_pct": 36.6,
+    "avg_goals": 3.07
+  },
+  {
+    "home": "Tottenham",
+    "away": "Manchester Red",
+    "played": 41,
+    "overs": 13,
+    "over_pct": 31.7,
+    "avg_goals": 2.54
+  },
+  {
+    "home": "West Ham",
+    "away": "Everton",
+    "played": 41,
+    "overs": 9,
+    "over_pct": 22.0,
+    "avg_goals": 2.56
+  },
+  {
+    "home": "West Ham",
+    "away": "Fulham",
+    "played": 41,
+    "overs": 9,
+    "over_pct": 22.0,
+    "avg_goals": 2.8
+  },
+  {
+    "home": "West Ham",
+    "away": "Liverpool",
+    "played": 41,
+    "overs": 9,
+    "over_pct": 22.0,
+    "avg_goals": 2.59
+  },
+  {
+    "home": "West Ham",
+    "away": "London Guns",
+    "played": 41,
+    "overs": 16,
+    "over_pct": 39.0,
+    "avg_goals": 2.78
+  },
+  {
+    "home": "West Ham",
+    "away": "Manchester Blue",
+    "played": 41,
+    "overs": 14,
+    "over_pct": 34.1,
+    "avg_goals": 2.95
+  },
+  {
+    "home": "West Ham",
+    "away": "Newcastle",
+    "played": 41,
+    "overs": 17,
+    "over_pct": 41.5,
+    "avg_goals": 2.9
+  },
+  {
+    "home": "West Ham",
+    "away": "Tottenham",
+    "played": 41,
+    "overs": 22,
+    "over_pct": 53.7,
+    "avg_goals": 3.54
+  },
+  {
+    "home": "West Ham",
+    "away": "Wolverhampton",
+    "played": 41,
+    "overs": 18,
+    "over_pct": 43.9,
+    "avg_goals": 3.32
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Aston Villa",
+    "played": 41,
+    "overs": 8,
+    "over_pct": 19.5,
+    "avg_goals": 2.49
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Everton",
+    "played": 41,
+    "overs": 10,
+    "over_pct": 24.4,
+    "avg_goals": 2.59
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Fulham",
+    "played": 41,
+    "overs": 13,
+    "over_pct": 31.7,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Manchester Blue",
+    "played": 41,
+    "overs": 20,
+    "over_pct": 48.8,
+    "avg_goals": 3.37
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Newcastle",
+    "played": 41,
+    "overs": 15,
+    "over_pct": 36.6,
+    "avg_goals": 3.15
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Tottenham",
+    "played": 41,
+    "overs": 12,
+    "over_pct": 29.3,
+    "avg_goals": 2.68
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Bournemouth",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.7
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Everton",
+    "played": 40,
+    "overs": 5,
+    "over_pct": 12.5,
+    "avg_goals": 2.1
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Leeds",
+    "played": 40,
+    "overs": 5,
+    "over_pct": 12.5,
+    "avg_goals": 2.2
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Liverpool",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.45
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Manchester Blue",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.48
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Manchester Red",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.02
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Newcastle",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.58
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Wolverhampton",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.45
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Brighton",
+    "played": 40,
+    "overs": 5,
+    "over_pct": 12.5,
+    "avg_goals": 2.15
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Fulham",
+    "played": 40,
+    "overs": 4,
+    "over_pct": 10.0,
+    "avg_goals": 1.88
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Leeds",
+    "played": 40,
+    "overs": 2,
+    "over_pct": 5.0,
+    "avg_goals": 1.88
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Liverpool",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "Bournemouth",
+    "away": "London Guns",
+    "played": 40,
+    "overs": 6,
+    "over_pct": 15.0,
+    "avg_goals": 2.2
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Manchester Blue",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.55
+  },
+  {
+    "home": "Bournemouth",
+    "away": "Tottenham",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.48
+  },
+  {
+    "home": "Brighton",
+    "away": "Aston Villa",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.23
+  },
+  {
+    "home": "Brighton",
+    "away": "Bournemouth",
+    "played": 40,
+    "overs": 4,
+    "over_pct": 10.0,
+    "avg_goals": 2.0
+  },
+  {
+    "home": "Brighton",
+    "away": "Fulham",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.2
+  },
+  {
+    "home": "Brighton",
+    "away": "London Guns",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.83
+  },
+  {
+    "home": "Brighton",
+    "away": "Manchester Blue",
+    "played": 40,
+    "overs": 17,
+    "over_pct": 42.5,
+    "avg_goals": 3.1
+  },
+  {
+    "home": "Brighton",
+    "away": "Manchester Red",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.6
+  },
+  {
+    "home": "Brighton",
+    "away": "Tottenham",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 2.42
+  },
+  {
+    "home": "Chelsea",
+    "away": "Aston Villa",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 2.67
+  },
+  {
+    "home": "Chelsea",
+    "away": "Bournemouth",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.83
+  },
+  {
+    "home": "Chelsea",
+    "away": "Brighton",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 2.67
+  },
+  {
+    "home": "Chelsea",
+    "away": "Crystal Palace",
+    "played": 40,
+    "overs": 15,
+    "over_pct": 37.5,
+    "avg_goals": 3.17
+  },
+  {
+    "home": "Chelsea",
+    "away": "Leeds",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.3
+  },
+  {
+    "home": "Chelsea",
+    "away": "London Guns",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 2.98
+  },
+  {
+    "home": "Chelsea",
+    "away": "Manchester Blue",
+    "played": 40,
+    "overs": 16,
+    "over_pct": 40.0,
+    "avg_goals": 3.35
+  },
+  {
+    "home": "Chelsea",
+    "away": "Manchester Red",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 2.73
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Aston Villa",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.35
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Bournemouth",
+    "played": 40,
+    "overs": 9,
+    "over_pct": 22.5,
+    "avg_goals": 2.38
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Brighton",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.55
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Leeds",
+    "played": 40,
+    "overs": 0,
+    "over_pct": 0.0,
+    "avg_goals": 1.77
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "London Guns",
+    "played": 40,
+    "overs": 20,
+    "over_pct": 50.0,
+    "avg_goals": 3.23
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Manchester Blue",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.65
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Manchester Red",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.5
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Tottenham",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.75
+  },
+  {
+    "home": "Everton",
+    "away": "Bournemouth",
+    "played": 40,
+    "overs": 5,
+    "over_pct": 12.5,
+    "avg_goals": 2.15
+  },
+  {
+    "home": "Everton",
+    "away": "Brighton",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.2
+  },
+  {
+    "home": "Everton",
+    "away": "Chelsea",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.25
+  },
+  {
+    "home": "Everton",
+    "away": "Crystal Palace",
+    "played": 40,
+    "overs": 9,
+    "over_pct": 22.5,
+    "avg_goals": 2.2
+  },
+  {
+    "home": "Everton",
+    "away": "Leeds",
+    "played": 40,
+    "overs": 4,
+    "over_pct": 10.0,
+    "avg_goals": 1.7
+  },
+  {
+    "home": "Everton",
+    "away": "Tottenham",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.17
+  },
+  {
+    "home": "Everton",
+    "away": "West Ham",
+    "played": 40,
+    "overs": 6,
+    "over_pct": 15.0,
+    "avg_goals": 2.4
+  },
+  {
+    "home": "Everton",
+    "away": "Wolverhampton",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.58
+  },
+  {
+    "home": "Fulham",
+    "away": "Aston Villa",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.17
+  },
+  {
+    "home": "Fulham",
+    "away": "Chelsea",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.23
+  },
+  {
+    "home": "Fulham",
+    "away": "Crystal Palace",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.23
+  },
+  {
+    "home": "Fulham",
+    "away": "Everton",
+    "played": 40,
+    "overs": 6,
+    "over_pct": 15.0,
+    "avg_goals": 1.93
+  },
+  {
+    "home": "Fulham",
+    "away": "Liverpool",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.08
+  },
+  {
+    "home": "Fulham",
+    "away": "Newcastle",
+    "played": 40,
+    "overs": 3,
+    "over_pct": 7.5,
+    "avg_goals": 2.1
+  },
+  {
+    "home": "Fulham",
+    "away": "West Ham",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 2.67
+  },
+  {
+    "home": "Fulham",
+    "away": "Wolverhampton",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.98
+  },
+  {
+    "home": "Leeds",
+    "away": "Crystal Palace",
+    "played": 40,
+    "overs": 3,
+    "over_pct": 7.5,
+    "avg_goals": 1.7
+  },
+  {
+    "home": "Leeds",
+    "away": "Fulham",
+    "played": 40,
+    "overs": 5,
+    "over_pct": 12.5,
+    "avg_goals": 2.02
+  },
+  {
+    "home": "Leeds",
+    "away": "Liverpool",
+    "played": 40,
+    "overs": 4,
+    "over_pct": 10.0,
+    "avg_goals": 1.7
+  },
+  {
+    "home": "Leeds",
+    "away": "London Guns",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.27
+  },
+  {
+    "home": "Leeds",
+    "away": "Manchester Blue",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.45
+  },
+  {
+    "home": "Leeds",
+    "away": "Manchester Red",
+    "played": 40,
+    "overs": 5,
+    "over_pct": 12.5,
+    "avg_goals": 1.93
+  },
+  {
+    "home": "Leeds",
+    "away": "Tottenham",
+    "played": 40,
+    "overs": 2,
+    "over_pct": 5.0,
+    "avg_goals": 2.1
+  },
+  {
+    "home": "Liverpool",
+    "away": "Aston Villa",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.35
+  },
+  {
+    "home": "Liverpool",
+    "away": "Brighton",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 2.9
+  },
+  {
+    "home": "Liverpool",
+    "away": "Chelsea",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.7
+  },
+  {
+    "home": "Liverpool",
+    "away": "Crystal Palace",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 2.98
+  },
+  {
+    "home": "Liverpool",
+    "away": "Everton",
+    "played": 40,
+    "overs": 9,
+    "over_pct": 22.5,
+    "avg_goals": 2.13
+  },
+  {
+    "home": "Liverpool",
+    "away": "Newcastle",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 3.02
+  },
+  {
+    "home": "Liverpool",
+    "away": "West Ham",
+    "played": 40,
+    "overs": 16,
+    "over_pct": 40.0,
+    "avg_goals": 3.27
+  },
+  {
+    "home": "Liverpool",
+    "away": "Wolverhampton",
+    "played": 40,
+    "overs": 22,
+    "over_pct": 55.0,
+    "avg_goals": 3.77
+  },
+  {
+    "home": "London Guns",
+    "away": "Aston Villa",
+    "played": 40,
+    "overs": 9,
+    "over_pct": 22.5,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "London Guns",
+    "away": "Everton",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "London Guns",
+    "away": "Fulham",
+    "played": 40,
+    "overs": 9,
+    "over_pct": 22.5,
+    "avg_goals": 2.5
+  },
+  {
+    "home": "London Guns",
+    "away": "Liverpool",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.48
+  },
+  {
+    "home": "London Guns",
+    "away": "Newcastle",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 2.98
+  },
+  {
+    "home": "London Guns",
+    "away": "Tottenham",
+    "played": 40,
+    "overs": 16,
+    "over_pct": 40.0,
+    "avg_goals": 3.1
+  },
+  {
+    "home": "London Guns",
+    "away": "West Ham",
+    "played": 40,
+    "overs": 15,
+    "over_pct": 37.5,
+    "avg_goals": 3.1
+  },
+  {
+    "home": "London Guns",
+    "away": "Wolverhampton",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 3.05
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Everton",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 2.8
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Fulham",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 3.0
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Liverpool",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 2.98
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "London Guns",
+    "played": 40,
+    "overs": 16,
+    "over_pct": 40.0,
+    "avg_goals": 3.17
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Newcastle",
+    "played": 40,
+    "overs": 16,
+    "over_pct": 40.0,
+    "avg_goals": 3.2
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Tottenham",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 3.08
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "West Ham",
+    "played": 40,
+    "overs": 18,
+    "over_pct": 45.0,
+    "avg_goals": 3.33
+  },
+  {
+    "home": "Manchester Blue",
+    "away": "Wolverhampton",
+    "played": 40,
+    "overs": 20,
+    "over_pct": 50.0,
+    "avg_goals": 3.58
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Chelsea",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 2.92
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Fulham",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.67
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Liverpool",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 2.33
+  },
+  {
+    "home": "Manchester Red",
+    "away": "London Guns",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.75
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Manchester Blue",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.5
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Newcastle",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.65
+  },
+  {
+    "home": "Manchester Red",
+    "away": "Tottenham",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "Newcastle",
+    "away": "Bournemouth",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.38
+  },
+  {
+    "home": "Newcastle",
+    "away": "Brighton",
+    "played": 40,
+    "overs": 6,
+    "over_pct": 15.0,
+    "avg_goals": 2.0
+  },
+  {
+    "home": "Newcastle",
+    "away": "Chelsea",
+    "played": 40,
+    "overs": 15,
+    "over_pct": 37.5,
+    "avg_goals": 3.02
+  },
+  {
+    "home": "Newcastle",
+    "away": "Crystal Palace",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 2.48
+  },
+  {
+    "home": "Newcastle",
+    "away": "Everton",
+    "played": 40,
+    "overs": 8,
+    "over_pct": 20.0,
+    "avg_goals": 1.7
+  },
+  {
+    "home": "Newcastle",
+    "away": "West Ham",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 2.85
+  },
+  {
+    "home": "Newcastle",
+    "away": "Wolverhampton",
+    "played": 40,
+    "overs": 19,
+    "over_pct": 47.5,
+    "avg_goals": 3.4
+  },
+  {
+    "home": "Tottenham",
+    "away": "Aston Villa",
+    "played": 40,
+    "overs": 11,
+    "over_pct": 27.5,
+    "avg_goals": 2.75
+  },
+  {
+    "home": "Tottenham",
+    "away": "Chelsea",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.7
+  },
+  {
+    "home": "Tottenham",
+    "away": "Everton",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.3
+  },
+  {
+    "home": "Tottenham",
+    "away": "Liverpool",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.58
+  },
+  {
+    "home": "Tottenham",
+    "away": "Newcastle",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 2.63
+  },
+  {
+    "home": "Tottenham",
+    "away": "West Ham",
+    "played": 40,
+    "overs": 9,
+    "over_pct": 22.5,
+    "avg_goals": 2.5
+  },
+  {
+    "home": "Tottenham",
+    "away": "Wolverhampton",
+    "played": 40,
+    "overs": 10,
+    "over_pct": 25.0,
+    "avg_goals": 2.88
+  },
+  {
+    "home": "West Ham",
+    "away": "Aston Villa",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.65
+  },
+  {
+    "home": "West Ham",
+    "away": "Bournemouth",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.75
+  },
+  {
+    "home": "West Ham",
+    "away": "Brighton",
+    "played": 40,
+    "overs": 7,
+    "over_pct": 17.5,
+    "avg_goals": 2.38
+  },
+  {
+    "home": "West Ham",
+    "away": "Chelsea",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.83
+  },
+  {
+    "home": "West Ham",
+    "away": "Crystal Palace",
+    "played": 40,
+    "overs": 18,
+    "over_pct": 45.0,
+    "avg_goals": 3.25
+  },
+  {
+    "home": "West Ham",
+    "away": "Leeds",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.45
+  },
+  {
+    "home": "West Ham",
+    "away": "Manchester Red",
+    "played": 40,
+    "overs": 12,
+    "over_pct": 30.0,
+    "avg_goals": 2.83
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Bournemouth",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 2.77
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Brighton",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 3.08
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Chelsea",
+    "played": 40,
+    "overs": 20,
+    "over_pct": 50.0,
+    "avg_goals": 3.48
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Crystal Palace",
+    "played": 40,
+    "overs": 17,
+    "over_pct": 42.5,
+    "avg_goals": 3.2
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Leeds",
+    "played": 40,
+    "overs": 9,
+    "over_pct": 22.5,
+    "avg_goals": 2.4
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "London Guns",
+    "played": 40,
+    "overs": 13,
+    "over_pct": 32.5,
+    "avg_goals": 2.92
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "Manchester Red",
+    "played": 40,
+    "overs": 14,
+    "over_pct": 35.0,
+    "avg_goals": 3.08
+  },
+  {
+    "home": "Wolverhampton",
+    "away": "West Ham",
+    "played": 40,
+    "overs": 22,
+    "over_pct": 55.0,
+    "avg_goals": 3.65
+  }
+]

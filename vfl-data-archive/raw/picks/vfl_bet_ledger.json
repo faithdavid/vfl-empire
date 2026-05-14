@@ -1,0 +1,458 @@
+{
+  "bets": [
+    {
+      "bet_id": "bet_20260514_161959",
+      "placed_at": "2026-05-14T20:19:59.273168+00:00",
+      "matchday": 16,
+      "bets": [
+        {
+          "event_id": "vf:match:1402438391",
+          "home": "Aston Villa",
+          "away": "Leeds",
+          "matchday": 16,
+          "odds": 1.1,
+          "llm_confidence": 99.0,
+          "llm_reason": "LOCK OF THE DAY. T1vT1 matchup (9.5% Over recency-weighted \u2014 best in the matrix). Fixture 13% Over across 38 games (avg 2.3 goals \u2014 VERY SAFE). Odds 1.10 mandatory (\u22641.20, 84.3% WR). Improvement T1vT1 recent-20 = 85.0% \u2192 +18 bonus. Both teams are T1 defensive walls. Not a death fixture. All 5 signals aligned.",
+          "constraint_score": 72,
+          "constraint_tier_over": 9.5
+        },
+        {
+          "event_id": "vf:match:1402438388",
+          "home": "Everton",
+          "away": "Tottenham",
+          "matchday": 16,
+          "odds": 1.18,
+          "llm_confidence": 99.0,
+          "llm_reason": "STRONGEST. Everton HOME = 84.4% U3.5 (defensive fortress). Fixture 13% Over across 38 games (avg 1.9 goals \u2014 VERY SAFE). T2vT3 at 21.2% Over recency-weighted, well under 36% skip threshold. Odds 1.18 mandatory (\u22641.20). Improvement T2vT3 recent-20 = 90.0% \u2192 +25 bonus (proven high-accuracy matchup). Not a death fixture. All signals aligned.",
+          "constraint_score": 77,
+          "constraint_tier_over": 21.2
+        },
+        {
+          "event_id": "vf:match:1402438392",
+          "home": "Fulham",
+          "away": "Liverpool",
+          "matchday": 16,
+          "odds": 1.16,
+          "llm_confidence": 97.0,
+          "llm_reason": "Fulham HOME = 79.8% U3.5 (T1 defensive at home). T1vT3 at 12.8% Over recency-weighted \u2014 excellent tier signal. Fixture 22% Over across 37 games (avg 2.2 goals \u2014 SAFE). Odds 1.16 mandatory (\u22641.20). Improvement T1vT3 recent-20 = 85.0% \u2192 +18 bonus. Minor concern: Liverpool T3 can score, but Fulham's T1 defense at home contains them. Not a death fixture.",
+          "constraint_score": 88,
+          "constraint_tier_over": 12.8
+        }
+      ],
+      "combined_odds": 1.51,
+      "stake": 100,
+      "potential_payout": 151.0,
+      "settled": false,
+      "won": null
+    },
+    {
+      "bet_id": "bet_20260514_162958",
+      "placed_at": "2026-05-14T20:29:58.872431+00:00",
+      "matchday": 18,
+      "bets": [
+        {
+          "event_id": "vf:match:1402438405",
+          "home": "Brighton",
+          "away": "Liverpool",
+          "matchday": 18,
+          "odds": 1.25,
+          "llm_confidence": 96.0,
+          "llm_reason": "STRONGEST. Brighton vs Liverpool fixture historically 7.5% Over (40 games, avg 2.1 goals) \u2014 EXCEPTIONAL safety. Listed as a Sure Bet Fixture (5% Over in Oracle). T2vT3 at 21.2% Over recency-weighted, well under 36% skip threshold. Improvement T2vT3 recent-20 = 90.0% \u2192 +25 bonus (proven high-accuracy matchup). Both teams defensive: Brighton T2, Liverpool T3. Not a death fixture. Only minor concern: odds @1.25 just above mandatory threshold.",
+          "constraint_score": 45,
+          "constraint_tier_over": 21.2
+        },
+        {
+          "event_id": "vf:match:1402438407",
+          "home": "Everton",
+          "away": "London Guns",
+          "matchday": 18,
+          "odds": 1.2,
+          "llm_confidence": 95.0,
+          "llm_reason": "VERY STRONG. Everton HOME = 84.4% U3.5 (defensive fortress). Fixture 12.2% Over across 41 games (avg 2.0 goals \u2014 very safe). Odds 1.20 mandatory pick territory (<=1.20, 84.3% WR). T2vT4 at 24.0% Over recency-weighted, well under 36% threshold. Not a death fixture. Minor concern: improvement T2vT4 recent-20 at 75% \u2014 below bonus threshold.",
+          "constraint_score": 47,
+          "constraint_tier_over": 24.0
+        },
+        {
+          "event_id": "vf:match:1402438406",
+          "home": "Leeds",
+          "away": "Manchester Blue",
+          "matchday": 18,
+          "odds": 1.2,
+          "llm_confidence": 90.0,
+          "llm_reason": "SOLID. Leeds HOME = 86.1% U3.5 (BEST home defense in the league). Odds 1.20 mandatory pick (<=1.20). T1vT5 at 23.7% Over recency-weighted, under skip threshold. Fixture 22.0% Over across 41 games (avg 2.4 goals \u2014 moderate but acceptable with Leeds home defense). Man Blue AWAY = 68.0% U3.5, less dangerous than at home (60.8%). Not a death fixture. Concern: improvement T1vT5 recent-20 at 65% is weak, Man Blue is T5 goal machine.",
+          "constraint_score": 60,
+          "constraint_tier_over": 23.7
+        }
+      ],
+      "combined_odds": 1.8,
+      "stake": 100,
+      "potential_payout": 180.0,
+      "settled": false,
+      "won": null
+    },
+    {
+      "bet_id": "bet_20260514_164530",
+      "placed_at": "2026-05-14T20:45:30.873887+00:00",
+      "matchday": 24,
+      "bets": [
+        {
+          "event_id": "vf:match:1402438452",
+          "home": "Leeds",
+          "away": "Liverpool",
+          "matchday": 24,
+          "odds": 1.14,
+          "llm_confidence": 99.0,
+          "llm_reason": "CERTAIN. T1vT3 = 12.8% Over (recency-weighted). Odds @1.14 \u2014 extremely low, far below 1.20 mandatory. Leeds HOME = 86.1% U3.5 (best home defense in league). Improvement T1vT3 recent-20 = 90.0% \u2192 +25 bonus. Not a death fixture. Every single signal aligned \u2014 this is the safest match on the card.",
+          "constraint_score": 105,
+          "constraint_tier_over": 12.8
+        },
+        {
+          "event_id": "vf:match:1402438454",
+          "home": "Fulham",
+          "away": "Newcastle",
+          "matchday": 24,
+          "odds": 1.2,
+          "llm_confidence": 97.0,
+          "llm_reason": "NEAR-CERTAIN. T1vT3 = 12.8% Over (recency-weighted). Odds @1.20 = mandatory pick threshold (84.3% WR). Fulham HOME = 79.8% U3.5. Improvement T1vT3 recent-20 = 90.0% \u2192 +25 bonus. Fulham T1 (safest tier) defending at home vs Newcastle T3 (neutral). Not a death fixture. All signals strong.",
+          "constraint_score": 103,
+          "constraint_tier_over": 12.8
+        },
+        {
+          "event_id": "vf:match:1402438453",
+          "home": "Chelsea",
+          "away": "Everton",
+          "matchday": 24,
+          "odds": 1.2,
+          "llm_confidence": 90.0,
+          "llm_reason": "Odds @1.20 = mandatory pick threshold (84.3% WR). T5vT2 = 28.1% Over \u2014 under 36% skip threshold, 71.9% U3.5 rate. Everton T2 away is defensive (76-80% U3.5). Not a death fixture. Minor concern: Chelsea T5 HOME (goal-machine team, 67% U3.5 overall). Improvement T5vT2 recent-20 at 75.0% below bonus threshold. The odds \u22641.20 rule is the strongest signal here \u2014 historical 84.3% win rate on these.",
+          "constraint_score": 47,
+          "constraint_tier_over": 28.1
+        }
+      ],
+      "combined_odds": 1.64,
+      "stake": 100,
+      "potential_payout": 164.0,
+      "settled": false,
+      "won": null
+    },
+    {
+      "bet_id": "bet_20260514_174735",
+      "placed_at": "2026-05-14T21:47:35.156561+00:00",
+      "matchday": 10,
+      "bets": [
+        {
+          "event_id": "vf:match:1402442507",
+          "home": "Everton",
+          "away": "Liverpool",
+          "matchday": 10,
+          "odds": 1.14,
+          "llm_confidence": 99.0,
+          "llm_reason": "NEAR-CERTAIN. Lowest odds on board @1.14 (\u22641.15 AND \u22641.20 \u2192 double bonus, forced pick, 84.3% WR). T2vT3 recency-weighted = 21.2% Over (78.8% Under). Fixture 'Everton vs Liverpool' = 13% Over historically (38 games, avg 1.9g) \u2192 87% Under \u2014 VERY SAFE. Improvement tracker T2vT3 recent-20 accuracy = 100.0% (20/20) \u2192 max +18 (\u226585%) AND +25 (\u226590%) bonus. Everton HOME = 84.4% U3.5. Liverpool AWAY = 76.9% U3.5 (cautious). Merseyside derby historically low-scoring in both directions. NOT on Death Fixtures. NOT on Apocalypse matchday. Every single signal is green \u2014 zero concerns.",
+          "constraint_score": 74,
+          "constraint_tier_over": 21.2
+        },
+        {
+          "event_id": "vf:match:1402442505",
+          "home": "Leeds",
+          "away": "Manchester Blue",
+          "matchday": 10,
+          "odds": 1.2,
+          "llm_confidence": 95.0,
+          "llm_reason": "VERY STRONG. Odds @1.20 \u22641.20 \u2192 FORCED PICK (84.3% WR, never skip). Leeds HOME = 86.1% U3.5 \u2014 best defensive record in VFL. T1vT5 recency-weighted = 23.7% Over (76.3% Under, well below 36% threshold). Fixture 'Leeds vs Manchester Blue' = 24% Over historically (37 games, avg 2.5g) \u2192 76% Under \u2014 SAFE. Improvement T1vT5 recent-20 = 60.0% (no bonus, yellow flag) but Leeds' fortress home defense and sub-24% Over matrix/fixture override this concern. Man Blue is T5 (most dangerous) but even goal machines struggle at Elland Road (86.1% stay Under). NOT on Death Fixtures. Odds market prices this correctly at @1.20.",
+          "constraint_score": 60,
+          "constraint_tier_over": 23.7
+        },
+        {
+          "event_id": "vf:match:1402442503",
+          "home": "Manchester Red",
+          "away": "Aston Villa",
+          "matchday": 10,
+          "odds": 1.2,
+          "llm_confidence": 93.0,
+          "llm_reason": "STRONG. Odds @1.20 \u22641.20 \u2192 FORCED PICK (84.3% WR). T4vT1 recency-weighted = 19.0% Over (81% Under, very safe). Improvement tracker T4vT1 recent-20 accuracy = 90.0% (18/20) \u2192 +18 (\u226585%) AND +25 (\u226590%) bonus. Aston Villa = T1 defensive wall (77.9% U3.5 overall, strong away). Fixture 'Manchester Red vs Aston Villa' = 23% Over historically (39 games, avg 2.5g) \u2192 77% Under \u2014 SAFE. NOT on Death Fixtures. Concern: Man Red is T4 at home (moderately attacking) but T4vT1 at 19% Over with 90% recent-20 improvement makes this extremely safe.",
+          "constraint_score": 82,
+          "constraint_tier_over": 19.0
+        }
+      ],
+      "combined_odds": 1.64,
+      "stake": 100,
+      "potential_payout": 164.0,
+      "settled": false,
+      "won": null
+    },
+    {
+      "bet_id": "bet_20260514_180327",
+      "placed_at": "2026-05-14T22:03:27.760367+00:00",
+      "matchday": 14,
+      "bets": [
+        {
+          "event_id": "vf:match:1402442536",
+          "home": "Everton",
+          "away": "Leeds",
+          "matchday": 14,
+          "odds": 1.05,
+          "llm_confidence": 99.0,
+          "llm_reason": "NEAR-CERTAIN. Lowest odds on board @1.05 (\u22641.20 \u2192 forced pick, 84.3% WR). T2vT1 recency-weighted = 13.5% Over (86.5% Under \u2014 \ud83d\udd25 STRONG). Improvement tracker T2vT1 recent-20 = 100.0% (20/20) \u2192 +25 bonus (\u226590%). Fixture \"Everton vs Leeds\" = 10% Over historically (39 games, 1.5 avg) \u2014 VERY SAFE category. Everton HOME = 84.4% U3.5 (defensive fortress, +12 bonus). Leeds = T1 defensive wall (83.6% U3.5). NOT on Death Fixtures. Every signal GREEN \u2014 near-zero concerns.",
+          "constraint_score": 104,
+          "constraint_tier_over": 13.5
+        },
+        {
+          "event_id": "vf:match:1402442541",
+          "home": "Aston Villa",
+          "away": "Fulham",
+          "matchday": 14,
+          "odds": 1.16,
+          "llm_confidence": 99.0,
+          "llm_reason": "NEAR-CERTAIN. Odds @1.16 \u22641.20 \u2192 forced pick (84.3% WR). T1vT1 = 9.5% Over recency-weighted (absolute safest matchup in VFL \u2014 both teams are defensive walls). Aston Villa = T1 (77.9% U3.5), Fulham = T1 (78.0% U3.5). Fixture \"Aston Villa vs Fulham\" = 13% Over historically (38 games, 2.2 avg) \u2014 VERY SAFE. Improvement tracker T1vT1 recent-20 = 85.0% \u2192 +18 bonus (\u226585%). NOT on Death Fixtures. Two defensive walls colliding \u2014 almost guarantees Under 3.5.",
+          "constraint_score": 95,
+          "constraint_tier_over": 9.5
+        }
+      ],
+      "combined_odds": 1.22,
+      "stake": 100,
+      "potential_payout": 122.0,
+      "settled": false,
+      "won": null
+    },
+    {
+      "bet_id": "bet_20260514_182726",
+      "placed_at": "2026-05-14T22:27:26.352772+00:00",
+      "matchday": 18,
+      "bets": [
+        {
+          "event_id": "vf:match:1402442567",
+          "home": "Leeds",
+          "away": "Tottenham",
+          "matchday": 18,
+          "odds": 1.14,
+          "llm_confidence": 99.0,
+          "llm_reason": "NEAR-CERTAIN. Tier T1vT3 = 12.8% Over (87.2% Under \u2014 elite). Fixture-specific 'Leeds vs Tottenham' historically 11% Over (n=36) \u2014 one of the safest fixtures in VFL. Both tier and fixture below 15% Over. Leeds HOME = 86.1% U3.5 (BEST home defense in league). Tottenham T3 neutral (72.2% U3.5) struggles against elite defenses. Odds @1.14 = lowest on board, \u22641.20 forced pick. Improvement tracker T1vT3 recent-20 = 85.0% \u2192 +18 bonus. NOT on Death Fixtures. NOT on Danger Fixtures. Every signal GREEN.",
+          "constraint_score": 98,
+          "constraint_tier_over": 12.8
+        },
+        {
+          "event_id": "vf:match:1402442569",
+          "home": "Brighton",
+          "away": "Fulham",
+          "matchday": 18,
+          "odds": 1.18,
+          "llm_confidence": 95.0,
+          "llm_reason": "VERY STRONG. Tier T2vT1 = 13.5% Over (86.5% Under \u2014 second-safest tier matchup in VFL). Improvement tracker T2vT1 recent-20 = 100.0% (20/20 PERFECT) \u2192 MAX +25 bonus. Brighton T2 defensive (76.0% U3.5) hosts Fulham T1 defensive wall (78.0% U3.5) \u2014 two defensive teams collide. Odds @1.18 \u2264 1.20 \u2192 forced pick (84.3% WR). NOT on Death Fixtures. Minor concern: fixture-specific 'Brighton vs Fulham' historically 21% Over (n=38) \u2014 still safe but not elite. Effective risk with WORSE-of rule = 21% Over = 79% Under. Very strong but one minor fixture concern prevents 99%.",
+          "constraint_score": 84,
+          "constraint_tier_over": 13.5
+        },
+        {
+          "event_id": "vf:match:1402442570",
+          "home": "Everton",
+          "away": "Wolverhampton",
+          "matchday": 18,
+          "odds": 1.2,
+          "llm_confidence": 90.0,
+          "llm_reason": "FORCED PICK by odds rule. Odds @1.20 \u2264 1.20 \u2192 NEVER skip (84.3% historical WR). Everton HOME = 84.4% U3.5 \u2192 +12 bonus. Everton T2 defensive (76.0% U3.5) at home against Wolverhampton T5 (65.3% Over, goal machine). Tier T2vT5 = 28.2% Over (71.8% Under). Fixture 'Everton vs Wolverhampton' historically 27% Over (n=37) \u2014 moderate. NOT on Death Fixtures. Main concern: Wolverhampton is T5 (most dangerous tier), and the effective risk at 28.2% Over is not elite. Trusting the odds \u22641.20 forced-pick rule which has 84.3% historical win rate across 5,776 settled picks.",
+          "constraint_score": 47,
+          "constraint_tier_over": 28.2
+        }
+      ],
+      "combined_odds": 1.61,
+      "stake": 100,
+      "potential_payout": 161.0,
+      "settled": false,
+      "won": null
+    },
+    {
+      "bet_id": "bet_20260514_183600",
+      "placed_at": "2026-05-14T22:36:00.935654+00:00",
+      "matchday": 23,
+      "bets": [
+        {
+          "event_id": "vf:match:1402442611",
+          "home": "Brighton",
+          "away": "Leeds",
+          "matchday": 23,
+          "odds": 1.12,
+          "win_prob": 88.84785714285714,
+          "reason": "",
+          "components": {
+            "llm_confidence": 99.0,
+            "constraint_score": 79.0,
+            "historical_win_rate": 91.3,
+            "market_implied": 89.3,
+            "fused_probability": 88.85,
+            "confidence_ratio": 0.995
+          },
+          "constraint_tier_over": 13.5
+        },
+        {
+          "event_id": "vf:match:1402442612",
+          "home": "Fulham",
+          "away": "Crystal Palace",
+          "matchday": 23,
+          "odds": 1.16,
+          "win_prob": 83.05903448275862,
+          "reason": "",
+          "components": {
+            "llm_confidence": 97.0,
+            "constraint_score": 78.0,
+            "historical_win_rate": 78.1,
+            "market_implied": 86.2,
+            "fused_probability": 83.06,
+            "confidence_ratio": 0.963
+          },
+          "constraint_tier_over": 18.1
+        }
+      ],
+      "combined_odds": 1.3,
+      "stake": 100,
+      "potential_payout": 130.0,
+      "settled": false,
+      "won": null
+    },
+    {
+      "bet_id": "bet_20260514_190153",
+      "placed_at": "2026-05-14T23:01:53.453457+00:00",
+      "matchday": 29,
+      "bets": [
+        {
+          "event_id": "vf:match:1402442661",
+          "home": "Fulham",
+          "away": "Aston Villa",
+          "matchday": 29,
+          "odds": 1.12,
+          "win_prob": 89.14785714285713,
+          "reason": "",
+          "components": {
+            "llm_confidence": 99.0,
+            "constraint_score": 80.0,
+            "historical_win_rate": 91.3,
+            "market_implied": 89.3,
+            "fused_probability": 89.15,
+            "confidence_ratio": 0.998
+          },
+          "constraint_tier_over": 9.5
+        },
+        {
+          "event_id": "vf:match:1402442656",
+          "home": "Leeds",
+          "away": "Everton",
+          "matchday": 29,
+          "odds": 1.04,
+          "win_prob": 89.11153846153846,
+          "reason": "",
+          "components": {
+            "llm_confidence": 99.0,
+            "constraint_score": 82.0,
+            "historical_win_rate": 86.5,
+            "market_implied": 96.2,
+            "fused_probability": 89.11,
+            "confidence_ratio": 0.927
+          },
+          "constraint_tier_over": 18.2
+        }
+      ],
+      "combined_odds": 1.16,
+      "stake": 100,
+      "potential_payout": 116.0,
+      "settled": false,
+      "won": null
+    },
+    {
+      "bet_id": "bet_20260514_191027",
+      "placed_at": "2026-05-14T23:10:27.355234+00:00",
+      "matchday": 29,
+      "bets": [
+        {
+          "event_id": "vf:match:1402442661",
+          "home": "Fulham",
+          "away": "Aston Villa",
+          "matchday": 29,
+          "odds": 1.12,
+          "win_prob": 89.14785714285713,
+          "reason": "",
+          "components": {
+            "llm_confidence": 99.0,
+            "constraint_score": 80.0,
+            "historical_win_rate": 91.3,
+            "market_implied": 89.3,
+            "fused_probability": 89.15,
+            "confidence_ratio": 0.998
+          },
+          "constraint_tier_over": 9.5
+        },
+        {
+          "event_id": "vf:match:1402442656",
+          "home": "Leeds",
+          "away": "Everton",
+          "matchday": 29,
+          "odds": 1.04,
+          "win_prob": 89.11153846153846,
+          "reason": "",
+          "components": {
+            "llm_confidence": 99.0,
+            "constraint_score": 82.0,
+            "historical_win_rate": 86.5,
+            "market_implied": 96.2,
+            "fused_probability": 89.11,
+            "confidence_ratio": 0.927
+          },
+          "constraint_tier_over": 18.2
+        }
+      ],
+      "combined_odds": 1.16,
+      "stake": 100,
+      "potential_payout": 116.0,
+      "settled": false,
+      "won": null
+    },
+    {
+      "bet_id": "bet_20260514_191839",
+      "placed_at": "2026-05-14T23:18:39.962323+00:00",
+      "matchday": 29,
+      "bets": [
+        {
+          "event_id": "vf:match:1402442661",
+          "home": "Fulham",
+          "away": "Aston Villa",
+          "matchday": 29,
+          "odds": 1.12,
+          "win_prob": 89.14785714285713,
+          "reason": "",
+          "components": {
+            "llm_confidence": 99.0,
+            "constraint_score": 80.0,
+            "historical_win_rate": 91.3,
+            "market_implied": 89.3,
+            "fused_probability": 89.15,
+            "confidence_ratio": 0.998
+          },
+          "constraint_tier_over": 9.5
+        },
+        {
+          "event_id": "vf:match:1402442656",
+          "home": "Leeds",
+          "away": "Everton",
+          "matchday": 29,
+          "odds": 1.04,
+          "win_prob": 89.11153846153846,
+          "reason": "",
+          "components": {
+            "llm_confidence": 99.0,
+            "constraint_score": 82.0,
+            "historical_win_rate": 86.5,
+            "market_implied": 96.2,
+            "fused_probability": 89.11,
+            "confidence_ratio": 0.927
+          },
+          "constraint_tier_over": 18.2
+        }
+      ],
+      "combined_odds": 1.16,
+      "stake": 100,
+      "potential_payout": 116.0,
+      "settled": false,
+      "won": null
+    }
+  ],
+  "total_staked": 1000,
+  "total_won": 0,
+  "total_lost": 1000
+}

@@ -1,0 +1,27 @@
+{
+  "season_id": "vf:season:3086694",
+  "season_name": "VFLM 4931",
+  "match_day": 4,
+  "md_priors": {
+    "home": 44.28,
+    "away": 31.33,
+    "draw": 24.38,
+    "deviation": 1.22,
+    "classification": "Normal",
+    "signal": "MD 4: Normal deviation 1.22. No MD-specific adjustment needed."
+  },
+  "global_averages": {
+    "home": 44.89,
+    "away": 31.23,
+    "draw": 23.88
+  },
+  "deviant_mds": [
+    3,
+    9,
+    12,
+    14,
+    19,
+    30
+  ],
+  "note": "Predicting VFLM 4931 MD 4. Deviation 1.22 < 2.5 — Normal classification. Bayesian prior at global averages. No adjustment."
+}
