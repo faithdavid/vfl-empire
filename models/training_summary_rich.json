@@ -1,0 +1,66 @@
+{
+  "over_15": {
+    "val_acc": 0.7679,
+    "val_auc": 0.75,
+    "train_rows": 48935,
+    "xgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/xgb_over_15.json",
+    "lgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/lgb_over_15.txt",
+    "iso_path": "/home/ubuntu/faith-workspace/vfl-empire/models/iso_over_15.pkl"
+  },
+  "under_35": {
+    "val_acc": 0.7634,
+    "val_auc": 0.7624,
+    "train_rows": 48935,
+    "xgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/xgb_under_35.json",
+    "lgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/lgb_under_35.txt",
+    "iso_path": "/home/ubuntu/faith-workspace/vfl-empire/models/iso_under_35.pkl"
+  },
+  "gg": {
+    "val_acc": 0.6551,
+    "val_auc": 0.7292,
+    "train_rows": 48935,
+    "xgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/xgb_gg.json",
+    "lgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/lgb_gg.txt",
+    "iso_path": "/home/ubuntu/faith-workspace/vfl-empire/models/iso_gg.pkl"
+  },
+  "home_win": {
+    "val_acc": 0.7989,
+    "val_auc": 0.8902,
+    "train_rows": 48935,
+    "xgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/xgb_home_win.json",
+    "lgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/lgb_home_win.txt",
+    "iso_path": "/home/ubuntu/faith-workspace/vfl-empire/models/iso_home_win.pkl"
+  },
+  "draw": {
+    "val_acc": 0.8131,
+    "val_auc": 0.8615,
+    "train_rows": 48935,
+    "xgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/xgb_draw.json",
+    "lgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/lgb_draw.txt",
+    "iso_path": "/home/ubuntu/faith-workspace/vfl-empire/models/iso_draw.pkl"
+  },
+  "away_win": {
+    "val_acc": 0.823,
+    "val_auc": 0.8931,
+    "train_rows": 48935,
+    "xgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/xgb_away_win.json",
+    "lgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/lgb_away_win.txt",
+    "iso_path": "/home/ubuntu/faith-workspace/vfl-empire/models/iso_away_win.pkl"
+  },
+  "over_25": {
+    "val_acc": 0.6797,
+    "val_auc": 0.7522,
+    "train_rows": 48935,
+    "xgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/xgb_over_25.json",
+    "lgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/lgb_over_25.txt",
+    "iso_path": "/home/ubuntu/faith-workspace/vfl-empire/models/iso_over_25.pkl"
+  },
+  "under_25": {
+    "val_acc": 0.6797,
+    "val_auc": 0.7522,
+    "train_rows": 48935,
+    "xgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/xgb_under_25.json",
+    "lgb_path": "/home/ubuntu/faith-workspace/vfl-empire/models/lgb_under_25.txt",
+    "iso_path": "/home/ubuntu/faith-workspace/vfl-empire/models/iso_under_25.pkl"
+  }
+}

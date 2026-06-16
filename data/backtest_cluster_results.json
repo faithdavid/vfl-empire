@@ -1,0 +1,374 @@
+Loading all historical matches...
+  Loaded 3441 matches with full odds+results
+  Skipped (incomplete odds): 0
+
+Backtesting 37 seasons...
+  VFLM 5081        ( 2 MDs): Singles HR= 25.0% ROI=-43.8% | Parlay HR=  0.0% ROI=-100.0% | Weighted ROI=-27.6%
+  VFLM 5082        ( 2 MDs): Singles HR= 50.0% ROI=+7.5% | Parlay HR=  0.0% ROI=-100.0% | Weighted ROI=-14.2%
+  VFLM 5083        ( 9 MDs): Singles HR= 55.6% ROI=+13.1% | Parlay HR= 22.2% ROI=-19.6% | Weighted ROI=+5.3%
+  VFLM 5084        ( 7 MDs): Singles HR= 35.7% ROI=-29.6% | Parlay HR= 14.3% ROI=-26.3% | Weighted ROI=-43.7%
+  VFLM 5085        ( 9 MDs): Singles HR= 33.3% ROI=-38.9% | Parlay HR= 11.1% ROI=-66.4% | Weighted ROI=-47.3%
+  VFLM 5086        ( 9 MDs): Singles HR= 55.6% ROI=+17.2% | Parlay HR= 33.3% ROI=+66.7% | Weighted ROI=+10.6%
+  VFLM 5087        (10 MDs): Singles HR= 60.0% ROI=+25.8% | Parlay HR= 40.0% ROI=+78.9% | Weighted ROI=+30.2%
+  VFLM 5088        (13 MDs): Singles HR= 57.7% ROI=+23.3% | Parlay HR= 46.2% ROI=+101.4% | Weighted ROI=+27.9%
+  VFLM 5089        (10 MDs): Singles HR= 40.0% ROI=-17.8% | Parlay HR= 20.0% ROI=-24.8% | Weighted ROI=-16.6%
+  VFLM 5090        (10 MDs): Singles HR= 20.0% ROI=-63.0% | Parlay HR=  0.0% ROI=-100.0% | Weighted ROI=-71.0%
+  VFLM 5091        ( 9 MDs): Singles HR= 66.7% ROI=+38.9% | Parlay HR= 44.4% ROI=+92.5% | Weighted ROI=+40.5%
+  VFLM 5092        ( 8 MDs): Singles HR= 37.5% ROI=-30.3% | Parlay HR= 25.0% ROI=-14.5% | Weighted ROI=-37.9%
+  VFLM 5093        ( 6 MDs): Singles HR= 33.3% ROI=-26.2% | Parlay HR=  0.0% ROI=-100.0% | Weighted ROI=-17.7%
+  VFLM 5094        ( 8 MDs): Singles HR= 50.0% ROI=-0.3% | Parlay HR= 25.0% ROI=-6.4% | Weighted ROI=-2.9%
+  VFLM 5095        ( 8 MDs): Singles HR= 50.0% ROI=-2.2% | Parlay HR= 37.5% ROI=+38.7% | Weighted ROI=-1.4%
+  VFLM 5096        (10 MDs): Singles HR= 40.0% ROI=-19.8% | Parlay HR= 20.0% ROI=-30.0% | Weighted ROI=-12.6%
+  VFLM 5097        ( 8 MDs): Singles HR= 43.8% ROI=-15.3% | Parlay HR= 25.0% ROI=-1.3% | Weighted ROI=-7.5%
+  VFLM 5098        (10 MDs): Singles HR= 50.0% ROI=+4.2% | Parlay HR= 30.0% ROI=+40.5% | Weighted ROI=-1.1%
+  VFLM 5099        ( 8 MDs): Singles HR= 56.2% ROI=+9.4% | Parlay HR= 25.0% ROI=-5.4% | Weighted ROI=+16.9%
+  VFLM 5100        ( 8 MDs): Singles HR= 56.2% ROI=+17.8% | Parlay HR= 25.0% ROI=+4.7% | Weighted ROI=+28.6%
+  VFLM 5101        ( 8 MDs): Singles HR= 37.5% ROI=-17.2% | Parlay HR= 12.5% ROI=-35.7% | Weighted ROI=-18.2%
+  VFLM 5102        ( 9 MDs): Singles HR= 38.9% ROI=-22.8% | Parlay HR= 22.2% ROI=-2.9% | Weighted ROI=-34.7%
+  VFLM 5103        ( 8 MDs): Singles HR= 56.2% ROI=+12.2% | Parlay HR= 37.5% ROI=+60.2% | Weighted ROI=+10.4%
+  VFLM 5104        ( 8 MDs): Singles HR= 43.8% ROI=-7.5% | Parlay HR= 37.5% ROI=+74.3% | Weighted ROI=-5.2%
+  VFLM 5105        ( 8 MDs): Singles HR= 62.5% ROI=+29.1% | Parlay HR= 25.0% ROI=-7.3% | Weighted ROI=+41.3%
+  VFLM 5106        (17 MDs): Singles HR= 50.0% ROI=+5.7% | Parlay HR= 17.6% ROI=-17.4% | Weighted ROI=+15.3%
+  VFLM 5107        ( 9 MDs): Singles HR= 33.3% ROI=-27.8% | Parlay HR= 11.1% ROI=-49.3% | Weighted ROI=-20.7%
+  VFLM 5108        ( 7 MDs): Singles HR= 50.0% ROI=-5.7% | Parlay HR= 28.6% ROI=+16.0% | Weighted ROI=-16.8%
+  VFLM 5109        (11 MDs): Singles HR= 40.9% ROI=-22.3% | Parlay HR= 27.3% ROI=-3.5% | Weighted ROI=-30.6%
+  VFLM 5110        ( 9 MDs): Singles HR= 50.0% ROI=+6.4% | Parlay HR= 33.3% ROI=+67.0% | Weighted ROI=-1.9%
+  VFLM 5111        (10 MDs): Singles HR= 45.0% ROI=+2.0% | Parlay HR= 10.0% ROI=-62.6% | Weighted ROI=+13.7%
+  VFLM 5112        (25 MDs): Singles HR= 56.0% ROI=+17.7% | Parlay HR= 28.0% ROI=+19.2% | Weighted ROI=+21.9%
+  VFLM 5113        (30 MDs): Singles HR= 46.7% ROI=-5.4% | Parlay HR= 26.7% ROI=+19.0% | Weighted ROI=-7.2%
+  VFLM 5114        (30 MDs): Singles HR= 53.3% ROI=+9.2% | Parlay HR= 23.3% ROI=+9.0% | Weighted ROI=+2.7%
+  VFLM 5115        (30 MDs): Singles HR= 40.0% ROI=-17.2% | Parlay HR= 13.3% ROI=-47.5% | Weighted ROI=-15.4%
+  VFLM 5116        (30 MDs): Singles HR= 48.3% ROI=-0.3% | Parlay HR= 26.7% ROI=+15.9% | Weighted ROI=+2.9%
+  VFLM 5117        (18 MDs): Singles HR= 38.9% ROI=-18.2% | Parlay HR= 22.2% ROI=-0.9% | Weighted ROI=-21.2%
+{
+  "total_seasons": 37,
+  "total_matchdays": 431,
+  "overall": {
+    "singles": {
+      "label": "Singles (flat 1u)",
+      "total_bets": 862,
+      "wins": 405,
+      "hit_rate": 0.4698,
+      "total_stake": 862.0,
+      "total_return": 832.7,
+      "net_profit": -29.3,
+      "roi": -3.4,
+      "avg_odds": 2.1
+    },
+    "parlays": {
+      "label": "2-leg Parlays",
+      "total_bets": 431,
+      "wins": 103,
+      "hit_rate": 0.239,
+      "total_stake": 431.0,
+      "total_return": 440.39,
+      "net_profit": 9.39,
+      "roi": 2.18,
+      "avg_odds": 4.41
+    },
+    "weighted": {
+      "label": "Weighted",
+      "total_bets": 862,
+      "wins": 405,
+      "hit_rate": 0.4698,
+      "total_stake": 859.67,
+      "total_return": 830.05,
+      "net_profit": -29.63,
+      "roi": -3.45,
+      "avg_odds": 0.0
+    }
+  },
+  "per_season": [
+    {
+      "season": "VFLM 5081",
+      "matchdays": 2,
+      "total_singles_picks": 4
+    },
+    {
+      "season": "VFLM 5082",
+      "matchdays": 2,
+      "total_singles_picks": 4
+    },
+    {
+      "season": "VFLM 5083",
+      "matchdays": 9,
+      "total_singles_picks": 18
+    },
+    {
+      "season": "VFLM 5084",
+      "matchdays": 7,
+      "total_singles_picks": 14
+    },
+    {
+      "season": "VFLM 5085",
+      "matchdays": 9,
+      "total_singles_picks": 18
+    },
+    {
+      "season": "VFLM 5086",
+      "matchdays": 9,
+      "total_singles_picks": 18
+    },
+    {
+      "season": "VFLM 5087",
+      "matchdays": 10,
+      "total_singles_picks": 20
+    },
+    {
+      "season": "VFLM 5088",
+      "matchdays": 13,
+      "total_singles_picks": 26
+    },
+    {
+      "season": "VFLM 5089",
+      "matchdays": 10,
+      "total_singles_picks": 20
+    },
+    {
+      "season": "VFLM 5090",
+      "matchdays": 10,
+      "total_singles_picks": 20
+    },
+    {
+      "season": "VFLM 5091",
+      "matchdays": 9,
+      "total_singles_picks": 18
+    },
+    {
+      "season": "VFLM 5092",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5093",
+      "matchdays": 6,
+      "total_singles_picks": 12
+    },
+    {
+      "season": "VFLM 5094",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5095",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5096",
+      "matchdays": 10,
+      "total_singles_picks": 20
+    },
+    {
+      "season": "VFLM 5097",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5098",
+      "matchdays": 10,
+      "total_singles_picks": 20
+    },
+    {
+      "season": "VFLM 5099",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5100",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5101",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5102",
+      "matchdays": 9,
+      "total_singles_picks": 18
+    },
+    {
+      "season": "VFLM 5103",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5104",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5105",
+      "matchdays": 8,
+      "total_singles_picks": 16
+    },
+    {
+      "season": "VFLM 5106",
+      "matchdays": 17,
+      "total_singles_picks": 34
+    },
+    {
+      "season": "VFLM 5107",
+      "matchdays": 9,
+      "total_singles_picks": 18
+    },
+    {
+      "season": "VFLM 5108",
+      "matchdays": 7,
+      "total_singles_picks": 14
+    },
+    {
+      "season": "VFLM 5109",
+      "matchdays": 11,
+      "total_singles_picks": 22
+    },
+    {
+      "season": "VFLM 5110",
+      "matchdays": 9,
+      "total_singles_picks": 18
+    },
+    {
+      "season": "VFLM 5111",
+      "matchdays": 10,
+      "total_singles_picks": 20
+    },
+    {
+      "season": "VFLM 5112",
+      "matchdays": 25,
+      "total_singles_picks": 50
+    },
+    {
+      "season": "VFLM 5113",
+      "matchdays": 30,
+      "total_singles_picks": 60
+    },
+    {
+      "season": "VFLM 5114",
+      "matchdays": 30,
+      "total_singles_picks": 60
+    },
+    {
+      "season": "VFLM 5115",
+      "matchdays": 30,
+      "total_singles_picks": 60
+    },
+    {
+      "season": "VFLM 5116",
+      "matchdays": 30,
+      "total_singles_picks": 60
+    },
+    {
+      "season": "VFLM 5117",
+      "matchdays": 18,
+      "total_singles_picks": 36
+    }
+  ],
+  "cluster_breakdown": {
+    "0": {
+      "cluster_id": 0,
+      "recommended_bet": "NG",
+      "expected_hit_rate": 0.531,
+      "expected_odds": 1.84,
+      "actual_picks": 13,
+      "actual_wins": 6,
+      "actual_hit_rate": 0.4615,
+      "total_stake": 13.0,
+      "total_return": 9.9,
+      "net_profit": -3.1,
+      "roi": -23.85
+    },
+    "1": {
+      "cluster_id": 1,
+      "recommended_bet": "NG",
+      "expected_hit_rate": 0.59,
+      "expected_odds": 1.61,
+      "actual_picks": 1,
+      "actual_wins": 0,
+      "actual_hit_rate": 0.0,
+      "total_stake": 1.0,
+      "total_return": 0.0,
+      "net_profit": -1.0,
+      "roi": -100.0
+    },
+    "2": {
+      "cluster_id": 2,
+      "recommended_bet": "GG",
+      "expected_hit_rate": 0.491,
+      "expected_odds": 2.14,
+      "actual_picks": 410,
+      "actual_wins": 169,
+      "actual_hit_rate": 0.4122,
+      "total_stake": 410.0,
+      "total_return": 394.65,
+      "net_profit": -15.35,
+      "roi": -3.74
+    },
+    "3": {
+      "cluster_id": 3,
+      "recommended_bet": "GG",
+      "expected_hit_rate": 0.585,
+      "expected_odds": 1.7,
+      "actual_picks": 74,
+      "actual_wins": 41,
+      "actual_hit_rate": 0.5541,
+      "total_stake": 74.0,
+      "total_return": 71.95,
+      "net_profit": -2.05,
+      "roi": -2.77
+    },
+    "4": {
+      "cluster_id": 4,
+      "recommended_bet": "O2.5",
+      "expected_hit_rate": 0.52,
+      "expected_odds": 2.02,
+      "actual_picks": 256,
+      "actual_wins": 134,
+      "actual_hit_rate": 0.5234,
+      "total_stake": 256.0,
+      "total_return": 259.15,
+      "net_profit": 3.15,
+      "roi": 1.23
+    },
+    "5": {
+      "cluster_id": 5,
+      "recommended_bet": "U2.5",
+      "expected_hit_rate": 0.593,
+      "expected_odds": 1.65,
+      "actual_picks": 1,
+      "actual_wins": 0,
+      "actual_hit_rate": 0.0,
+      "total_stake": 1.0,
+      "total_return": 0.0,
+      "net_profit": -1.0,
+      "roi": -100.0
+    },
+    "6": {
+      "cluster_id": 6,
+      "recommended_bet": "GG",
+      "expected_hit_rate": 0.585,
+      "expected_odds": 1.74,
+      "actual_picks": 95,
+      "actual_wins": 47,
+      "actual_hit_rate": 0.4947,
+      "total_stake": 95.0,
+      "total_return": 84.25,
+      "net_profit": -10.75,
+      "roi": -11.32
+    },
+    "7": {
+      "cluster_id": 7,
+      "recommended_bet": "GG",
+      "expected_hit_rate": 0.616,
+      "expected_odds": 1.59,
+      "actual_picks": 12,
+      "actual_wins": 8,
+      "actual_hit_rate": 0.6667,
+      "total_stake": 12.0,
+      "total_return": 12.8,
+      "net_profit": 0.8,
+      "roi": 6.67
+    }
+  }
+}

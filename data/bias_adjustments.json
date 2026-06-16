@@ -1,0 +1,26 @@
+{
+  "team_bias_home_goals": {
+    "Manchester Blue": 0.233,
+    "Manchester Red": 0.174,
+    "Liverpool": 0.195,
+    "London Guns": 0.134,
+    "Tottenham": -0.170,
+    "Everton": -0.098
+  },
+  "team_bias_away_goals": {
+    "Manchester Red": 0.122,
+    "London Guns": 0.060,
+    "Everton": -0.051
+  },
+  "team_bias_o25": {
+    "Brighton": 0.078,
+    "Crystal Palace": 0.059,
+    "Wolverhampton": 0.040,
+    "Bournemouth": -0.024
+  },
+  "team_bias_gg": {
+    "Brighton": 0.073,
+    "Wolverhampton": 0.064,
+    "Crystal Palace": 0.057
+  }
+}

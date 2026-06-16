@@ -1,0 +1,19 @@
+2026-05-21 11:55:35,964 [INFO] Browser launched
+2026-05-21 11:55:36,055 [INFO] Browser context and page created
+2026-05-21 11:55:36,055 [INFO] Navigation attempt 1/3 to https://www.msport.com/ng/web/virtual
+2026-05-21 11:55:38,621 [INFO] Navigation OK — URL: https://www.msport.com/ng/web/welcome
+2026-05-21 11:55:38,625 [DEBUG] Playwright event listeners installed
+2026-05-21 11:55:38,696 [INFO] Injected Requestly web-sdk
+2026-05-21 11:55:38,728 [INFO] Requestly.SessionRecorder is available
+2026-05-21 11:55:38,852 [DEBUG] Requestly SessionRecorder started
+2026-05-21 11:55:46,876 [WARNING] Error pulling Requestly session: Page.evaluate: SyntaxError: Illegal return statement
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:302:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2026-05-21 11:55:46,899 [DEBUG] Requestly SessionRecorder stopped
+2026-05-21 11:55:46,900 [INFO] Finalizing capture (status=completed, duration=11s)
+2026-05-21 11:55:46,987 [DEBUG] Browser closed
+2026-05-21 11:55:46,990 [INFO] Requestly session saved (0 events)
+2026-05-21 11:55:46,993 [INFO] HAR saved (0 entries)
+2026-05-21 11:55:46,995 [INFO] Index metadata written: /home/ubuntu/faith-workspace/vfl-empire/network-capture/smoke_test_2026-05-21_115535/index.json
+2026-05-21 11:55:46,996 [INFO] Capture finalized. Output: /home/ubuntu/faith-workspace/vfl-empire/network-capture/smoke_test_2026-05-21_115535

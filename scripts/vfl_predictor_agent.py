@@ -13,8 +13,8 @@ constraints = VFLConstraints()
 
 # ─── CONFIG ───
 STATE_FILE = os.path.expanduser("~/.hermes/cron/state/vfl_predictor_state.json")
-MODEL_PATH = os.path.expanduser("~/Documents/Projects/vfl-data/models/vfl_model.json")
-TABLE_DIR = os.path.expanduser("~/Documents/Projects/vfl-data/tables")
+MODEL_PATH = os.path.expanduser("~/faith-workspace/vfl-empire/models/vfl_model.json")
+TABLE_DIR = os.path.expanduser("~/faith-workspace/vfl-complete-data/tables")
 UA = "Mozilla/5.0"
 os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
 os.makedirs(TABLE_DIR, exist_ok=True)

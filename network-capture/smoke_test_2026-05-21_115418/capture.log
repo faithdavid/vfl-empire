@@ -1,0 +1,13 @@
+2026-05-21 11:54:19,033 [INFO] Browser launched
+2026-05-21 11:54:19,098 [INFO] Browser context and page created
+2026-05-21 11:54:19,098 [INFO] Navigation attempt 1/3 to https://www.msport.com/ng/web/virtual
+2026-05-21 11:54:37,974 [WARNING] Navigation attempt 1 failed: Timeout 15000ms exceeded.
+2026-05-21 11:54:47,984 [INFO] Navigation attempt 2/3 to https://www.msport.com/ng/web/virtual
+2026-05-21 11:55:04,178 [WARNING] Navigation attempt 2 failed: Timeout 15000ms exceeded.
+2026-05-21 11:55:08,439 [WARNING] Received SIGTERM – initiating graceful shutdown...
+2026-05-21 11:55:14,184 [INFO] Navigation attempt 3/3 to https://www.msport.com/ng/web/virtual
+2026-05-21 11:55:14,187 [WARNING] Navigation attempt 3 failed: Page.goto: Target page, context or browser has been closed
+2026-05-21 11:55:14,187 [INFO] Finalizing capture (status=navigation_failed, duration=56s)
+2026-05-21 11:55:14,188 [DEBUG] Browser closed
+2026-05-21 11:55:14,191 [INFO] Index metadata written: /home/ubuntu/faith-workspace/vfl-empire/network-capture/smoke_test_2026-05-21_115418/index.json
+2026-05-21 11:55:14,191 [INFO] Capture finalized. Output: /home/ubuntu/faith-workspace/vfl-empire/network-capture/smoke_test_2026-05-21_115418

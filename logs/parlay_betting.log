@@ -1,0 +1,1343 @@
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD28...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND O1.5 ANCHOR: Manchester Blue vs West Ham @1.08
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⚓ FOUND U3.5 ANCHOR: Fulham vs Brighton @1.14
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: London Guns vs Crystal Palace → Over 1.5 Goals
+  ❌ Gate FAIL: Liverpool vs Manchester Red → Over 1.5 Goals FAILS: ['cluster']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD29...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND O1.5 ANCHOR: Manchester Blue vs West Ham @1.08
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⚓ FOUND U3.5 ANCHOR: Fulham vs Brighton @1.14
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Leeds vs Newcastle → Under 3.5 Goals FAILS: ['cluster']
+  ✅ Gate PASS: Manchester Red vs London Guns → Over 1.5 Goals
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD29...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND O1.5 ANCHOR: Manchester Blue vs West Ham @1.08
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⚓ FOUND U3.5 ANCHOR: Fulham vs Brighton @1.14
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Leeds vs Newcastle → Under 3.5 Goals FAILS: ['cluster']
+  ✅ Gate PASS: Manchester Red vs London Guns → Over 1.5 Goals
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND U3.5 ANCHOR: Fulham vs Brighton @1.14
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Leeds vs Newcastle → Under 3.5 Goals FAILS: ['cluster']
+  ✅ Gate PASS: Manchester Red vs London Guns → Over 1.5 Goals
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦80.74 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND U3.5 ANCHOR: Fulham vs Brighton @1.14
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+🤖 Consulting agy validator...
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND U3.5 ANCHOR: Fulham vs Brighton @1.14
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Leeds vs Newcastle → Under 3.5 Goals FAILS: ['cluster']
+  ✅ Gate PASS: Manchester Red vs London Guns → Over 1.5 Goals
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND O1.5 ANCHOR: Leeds vs Chelsea @1.4
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Leeds vs Chelsea → Over 1.5 Goals FAILS: ['cluster', 'finite_state']
+  ❌ Gate FAIL: Liverpool vs Brighton → Over 1.5 Goals FAILS: ['cluster']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND O1.5 ANCHOR: Leeds vs Chelsea @1.4
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Leeds vs Chelsea → Over 1.5 Goals FAILS: ['cluster', 'finite_state']
+  ❌ Gate FAIL: Liverpool vs Brighton → Over 1.5 Goals FAILS: ['cluster']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND O1.5 ANCHOR: Leeds vs Chelsea @1.4
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Leeds vs Chelsea → Over 1.5 Goals FAILS: ['cluster', 'finite_state']
+  ❌ Gate FAIL: Liverpool vs Brighton → Over 1.5 Goals FAILS: ['cluster']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND O1.5 ANCHOR: Leeds vs Chelsea @1.4
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Leeds vs Chelsea → Over 1.5 Goals FAILS: ['cluster', 'finite_state']
+  ❌ Gate FAIL: Liverpool vs Brighton → Over 1.5 Goals FAILS: ['cluster']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD2...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦69.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD2...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦69.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD2...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦69.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD3...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦69.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD3...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦49.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5113, MD3...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦49.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD4...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦39.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD4...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦39.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD4...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦69.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD5...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦69.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD5...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦69.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD5...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦59.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD6...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⛔ STOP LOSS TRIGGERED — Balance ₦59.8 is at or below stop-loss of ₦100.0
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD6...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦60.00
+⚓ FOUND O1.5 ANCHOR: Tottenham vs Newcastle @1.2
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Tottenham vs Newcastle → Over 1.5 Goals
+  ✅ Gate PASS: London Guns vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+
+🎯 **30% RATCHET PROTOCOL — Phase 1 | Milestone 0 | Hits 0**
+📅 VFLM 5145 — MD6
+────────────────────────────────────────────────────────────
+  Leg 1: Tottenham vs Newcastle → Over 1.5 Goals @1.2
+  Leg 2: London Guns vs Manchester Red → Over 1.5 Goals @1.22
+────────────────────────────────────────────────────────────
+💵 Combined Odds: 1.46
+🏦 Bankroll: ₦49.8
+💰 Stake: ₦25
+💵 Potential Return: ₦36.50
+
+🖱 Placing bet via browser...
+2026-05-25 15:20:21,140 [INFO] Connected to Chromium CDP
+2026-05-25 15:20:26,257 [INFO] Checking login state...
+2026-05-25 15:20:26,268 [INFO] Already logged in (no login form)
+2026-05-25 15:20:26,269 [INFO] Placing 2-leg parlay (stake: ₦25.0) on MD6
+2026-05-25 15:20:33,436 [INFO] Ensuring matchday section for MD6 is visible and active...
+2026-05-25 15:20:35,972 [INFO] Page title: Virtual | MSport
+2026-05-25 15:20:36,986 [INFO] Leg 1/2: Tottenham vs Newcastle → Over 1.5 Goals
+2026-05-25 15:20:36,987 [INFO] Selecting O/U line 1.5 for Tottenham vs Newcastle...
+2026-05-25 15:20:36,989 [INFO] Changing specifier from 2.5 → 1.5 for Tottenham vs Newcastle
+2026-05-25 15:20:38,479 [INFO] Specifier set to 1.5
+2026-05-25 15:20:38,531 [INFO]   Leg 1 successfully clicked and selected directly.
+2026-05-25 15:20:39,532 [INFO] Leg 2/2: London Guns vs Manchester Red → Over 1.5 Goals
+2026-05-25 15:20:39,532 [INFO] Selecting O/U line 1.5 for London Guns vs Manchester Red...
+2026-05-25 15:20:39,546 [INFO] Changing specifier from 2.5 → 1.5 for London Guns vs Manchester Red
+2026-05-25 15:20:40,887 [INFO] Specifier set to 1.5
+2026-05-25 15:20:40,944 [INFO]   Leg 2 successfully clicked and selected directly.
+2026-05-25 15:20:41,944 [INFO] Entering stake...
+2026-05-25 15:20:42,948 [INFO] Using input selector: aside .m-virtual-mutiple-edit .bet-input input
+2026-05-25 15:20:43,972 [INFO] Clicking Place Bet...
+2026-05-25 15:20:47,013 [INFO] Confirming bet...
+2026-05-25 15:20:51,059 [INFO] ✅ Success confirmed via balance deduction: 49.8 -> 24.8 (stake: 25.0)
+2026-05-25 15:20:51,059 [INFO] ✅ Bet placed successfully!
+   Result: {
+  "success": true,
+  "leg_count": 2,
+  "stake": 25.0,
+  "balance": "NGN 24.80",
+  "page_text": "NGN 24.80\nDeposit\nMy Bets\nMy Account \nHome\nSports\nLive Betting\nVirtual\nGames\nMy Matches\nJackpot\nPromotions\nApp\nHot\nSearch\nBetslip\nMSport Virtual EPL\nVF Bundesliga\nVirtual World Cup\nVirtual Euro Cup\nVirtual NBA\nV-Dog Racing\nV-Horse Racing\nV-Live Tennis\n\nBet History\n\nHow to play\n5145 / Match Day 5\nMAT"
+}
+
+✅ Bet recorded. Good luck!
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD6...
+⚠️ Cluster pipeline exit=1: 
+🎉 Parlay WON! Stake: ₦25.0 → Return: ₦35.35 (Fee: ₦1.15 banked)
+📈 1 hit recorded for milestone. Capital is now ₦35.35. Need 1 more win to skim.
+🔄 Ratchet Protocol Status: SETTLED | Phase: 1 | Milestone: 0 | Hits: 1 | Active Capital: ₦35.35 | Vault: ₦61.15
+🔄 Re-fetching live balance after settlement...
+🔄 Fetching live balance (attempt 1/5)...
+⚓ FOUND O1.5 ANCHOR: Tottenham vs Newcastle @1.2
+⚓ FOUND U3.5 ANCHOR: Everton vs Leeds @1.06
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Tottenham vs Newcastle → Over 1.5 Goals
+  ✅ Gate PASS: London Guns vs Manchester Red → Over 1.5 Goals
+  ✅ Gate PASS: Chelsea vs Liverpool → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⚠️ Ratchet stake (₦35.35) exceeds balance (₦14.8). Capping.
+⛔ Stake too low (₦15)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD7...
+⚠️ Cluster pipeline exit=1: Traceback (most recent call last):
+  File "/home/ubuntu/faith-workspace/vfl-empire/scripts/pipeline_integration.py", line 68, in <module>
+    from odds_cluster_classifier import (
+  File "/home/ubuntu
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 1 | Active Capital: ₦35.35 | Vault: ₦61.15
+⚓ FOUND O1.5 ANCHOR: Tottenham vs Newcastle @1.2
+⚓ FOUND U3.5 ANCHOR: Everton vs Leeds @1.06
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Everton vs Leeds → Under 3.5 Goals
+  ✅ Gate PASS: Liverpool vs London Guns → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⚠️ Ratchet stake (₦35.35) exceeds balance (₦14.8). Capping.
+⛔ Stake too low (₦15)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD7...
+⚠️ Cluster pipeline exit=1: Traceback (most recent call last):
+  File "/home/ubuntu/faith-workspace/vfl-empire/scripts/pipeline_integration.py", line 68, in <module>
+    from odds_cluster_classifier import (
+  File "/home/ubuntu
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 1 | Active Capital: ₦35.35 | Vault: ₦61.15
+⚓ FOUND O1.5 ANCHOR: Tottenham vs Newcastle @1.2
+⚓ FOUND U3.5 ANCHOR: Everton vs Leeds @1.06
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Everton vs Leeds → Under 3.5 Goals
+  ✅ Gate PASS: Liverpool vs London Guns → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+
+🎯 **30% RATCHET PROTOCOL — Phase 1 | Milestone 0 | Hits 1**
+📅 VFLM 5145 — MD7
+────────────────────────────────────────────────────────────
+  Leg 1: Everton vs Leeds → Under 3.5 Goals @1.06
+  Leg 2: Liverpool vs London Guns → Over 1.5 Goals @1.22
+────────────────────────────────────────────────────────────
+💵 Combined Odds: 1.29
+🏦 Bankroll: ₦41.4
+💰 Stake: ₦35
+💵 Potential Return: ₦45.60
+
+🖱 Placing bet via browser...
+2026-05-25 15:25:09,320 [INFO] Connected to Chromium CDP
+2026-05-25 15:25:14,432 [INFO] Checking login state...
+2026-05-25 15:25:14,450 [INFO] Already logged in (no login form)
+2026-05-25 15:25:14,451 [INFO] Placing 2-leg parlay (stake: ₦35.35) on MD7
+2026-05-25 15:25:21,562 [INFO] Ensuring matchday section for MD7 is visible and active...
+2026-05-25 15:25:24,078 [INFO] Page title: Virtual | MSport
+2026-05-25 15:25:25,097 [INFO] Leg 1/2: Everton vs Leeds → Under 3.5 Goals
+2026-05-25 15:25:25,103 [INFO] Selecting O/U line 3.5 for Everton vs Leeds...
+2026-05-25 15:25:25,104 [INFO] Changing specifier from 1.5 → 3.5 for Everton vs Leeds
+2026-05-25 15:25:26,426 [INFO] Specifier set to 3.5
+2026-05-25 15:25:26,470 [INFO]   Leg 1 successfully clicked and selected directly.
+2026-05-25 15:25:27,471 [INFO] Leg 2/2: Liverpool vs London Guns → Over 1.5 Goals
+2026-05-25 15:25:27,471 [INFO] Selecting O/U line 1.5 for Liverpool vs London Guns...
+2026-05-25 15:25:27,475 [INFO] Changing specifier from 2.5 → 1.5 for Liverpool vs London Guns
+2026-05-25 15:25:28,794 [INFO] Specifier set to 1.5
+2026-05-25 15:25:28,823 [INFO]   Leg 2 successfully clicked and selected directly.
+2026-05-25 15:25:29,823 [INFO] Entering stake...
+2026-05-25 15:25:30,827 [INFO] Using input selector: aside .m-virtual-mutiple-edit .bet-input input
+2026-05-25 15:25:31,838 [INFO] Clicking Place Bet...
+2026-05-25 15:25:34,864 [INFO] Confirming bet...
+2026-05-25 15:25:38,889 [INFO] ✅ Success confirmed via balance deduction: 71.4 -> 36.05 (stake: 35.35)
+2026-05-25 15:25:38,890 [INFO] ✅ Bet placed successfully!
+   Result: {
+  "success": true,
+  "leg_count": 2,
+  "stake": 35.35,
+  "balance": "NGN 36.05",
+  "page_text": "NGN 36.05\nDeposit\nMy Bets\nMy Account \nHome\nSports\nLive Betting\nVirtual\nGames\nMy Matches\nJackpot\nPromotions\nApp\nHot\nSearch\nBetslip\nMSport Virtual EPL\nVF Bundesliga\nVirtual World Cup\nVirtual Euro Cup\nVirtual NBA\nV-Dog Racing\nV-Horse Racing\nV-Live Tennis\n\nBet History\n\nHow to play\n5145 / Match Day 6\nPOS"
+}
+
+✅ Bet recorded. Good luck!
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD8...
+⚠️ Cluster pipeline exit=1: Traceback (most recent call last):
+  File "/home/ubuntu/faith-workspace/vfl-empire/scripts/pipeline_integration.py", line 68, in <module>
+    from odds_cluster_classifier import (
+  File "/home/ubuntu
+🎉 Parlay WON! Stake: ₦35.35 → Return: ₦44.57 (Fee: ₦1.03 banked)
+💰 CAPITAL RECOVERY COMPLETE! Banking ₦25.0 to Safe Vault.
+🔄 Moving to Phase 2, Milestone 1 with Working Capital: ₦19.57
+🔄 Ratchet Protocol Status: SETTLED | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+🔄 Re-fetching live balance after settlement...
+🔄 Fetching live balance (attempt 1/5)...
+⚓ FOUND U3.5 ANCHOR: Everton vs Leeds @1.06
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Crystal Palace vs Everton → DNB Home FAILS: ['cluster', 'finite_state']
+  ❌ Gate FAIL: Leeds vs Manchester Red → Over 1.5 Goals FAILS: ['cluster', 'odds_reasonableness']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD8...
+⚠️ Cluster pipeline exit=1: Traceback (most recent call last):
+  File "/home/ubuntu/faith-workspace/vfl-empire/scripts/pipeline_integration.py", line 68, in <module>
+    from odds_cluster_classifier import (
+  File "/home/ubuntu
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Everton vs Leeds @1.06
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Crystal Palace vs Everton → DNB Home FAILS: ['cluster', 'finite_state']
+  ❌ Gate FAIL: Leeds vs Manchester Red → Over 1.5 Goals FAILS: ['cluster', 'odds_reasonableness']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD8...
+⚠️ Cluster pipeline exit=1: Traceback (most recent call last):
+  File "/home/ubuntu/faith-workspace/vfl-empire/scripts/pipeline_integration.py", line 68, in <module>
+    from odds_cluster_classifier import (
+  File "/home/ubuntu
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Crystal Palace vs Everton → DNB Home FAILS: ['cluster', 'finite_state']
+  ❌ Gate FAIL: Leeds vs Manchester Red → Over 1.5 Goals FAILS: ['cluster', 'odds_reasonableness']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD9...
+⚠️ Cluster pipeline exit=1: Traceback (most recent call last):
+  File "/home/ubuntu/faith-workspace/vfl-empire/scripts/pipeline_integration.py", line 68, in <module>
+    from odds_cluster_classifier import (
+  File "/home/ubuntu
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Liverpool vs Leeds → Over 1.5 Goals FAILS: ['cluster']
+  ✅ Gate PASS: Newcastle vs Manchester Blue → Over 1.5 Goals
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD9...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Wolverhampton @1.12
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Liverpool vs Leeds → Over 1.5 Goals FAILS: ['cluster']
+  ✅ Gate PASS: Newcastle vs Manchester Blue → Over 1.5 Goals
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD10...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Wolverhampton @1.12
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+⚓ FOUND U3.5 ANCHOR: Manchester Red vs Everton @1.2
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Leeds vs Newcastle → Under 3.5 Goals
+  ✅ Gate PASS: West Ham vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD10...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Wolverhampton @1.12
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+⚓ FOUND U3.5 ANCHOR: Manchester Red vs Everton @1.2
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Leeds vs Newcastle → Under 3.5 Goals
+  ✅ Gate PASS: West Ham vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD10...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Wolverhampton @1.12
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+⚓ FOUND U3.5 ANCHOR: Manchester Red vs Everton @1.2
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Leeds vs Newcastle → Under 3.5 Goals
+  ✅ Gate PASS: West Ham vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD11...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Wolverhampton @1.12
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+⚓ FOUND U3.5 ANCHOR: Manchester Red vs Everton @1.2
+⚓ FOUND U3.5 ANCHOR: Leeds vs Fulham @1.06
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Manchester Red vs Everton → Under 3.5 Goals
+  ✅ Gate PASS: Liverpool vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD11...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Wolverhampton @1.12
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+⚓ FOUND U3.5 ANCHOR: Manchester Red vs Everton @1.2
+⚓ FOUND U3.5 ANCHOR: Leeds vs Fulham @1.06
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Manchester Red vs Everton → Under 3.5 Goals
+  ✅ Gate PASS: Liverpool vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD11...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Wolverhampton @1.12
+⚓ FOUND U3.5 ANCHOR: Leeds vs Newcastle @1.14
+⚓ FOUND U3.5 ANCHOR: Manchester Red vs Everton @1.2
+⚓ FOUND U3.5 ANCHOR: Leeds vs Fulham @1.06
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Manchester Red vs Everton → Under 3.5 Goals
+  ✅ Gate PASS: Liverpool vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD12...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Manchester Red vs Everton @1.2
+⚓ FOUND U3.5 ANCHOR: Leeds vs Fulham @1.06
+⚓ FOUND O1.5 ANCHOR: Bournemouth vs Manchester Blue @1.22
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Leeds vs Fulham → Under 3.5 Goals
+  ✅ Gate PASS: Aston Villa vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD12...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Leeds vs Fulham @1.06
+⚓ FOUND O1.5 ANCHOR: Bournemouth vs Manchester Blue @1.22
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Leeds vs Fulham → Under 3.5 Goals
+  ✅ Gate PASS: Aston Villa vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD13...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Leeds vs Fulham @1.06
+⚓ FOUND O1.5 ANCHOR: Bournemouth vs Manchester Blue @1.22
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Bournemouth vs Manchester Blue → Over 1.5 Goals
+  ✅ Gate PASS: Liverpool vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD13...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Bournemouth vs Manchester Blue @1.22
+⚓ FOUND U3.5 ANCHOR: West Ham vs Fulham @1.22
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Bournemouth vs Manchester Blue → Over 1.5 Goals
+  ✅ Gate PASS: Liverpool vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD13...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Bournemouth vs Manchester Blue @1.22
+⚓ FOUND U3.5 ANCHOR: West Ham vs Fulham @1.22
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Bournemouth vs Manchester Blue → Over 1.5 Goals
+  ✅ Gate PASS: Liverpool vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD14...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Bournemouth vs Manchester Blue @1.22
+⚓ FOUND U3.5 ANCHOR: West Ham vs Fulham @1.22
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: West Ham vs Fulham → Under 3.5 Goals
+  ❌ Gate FAIL: Leeds vs Bournemouth → DNB Away FAILS: []
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD14...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: West Ham vs Fulham @1.22
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: West Ham vs Fulham → Under 3.5 Goals
+  ❌ Gate FAIL: Leeds vs Bournemouth → DNB Away FAILS: []
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD14...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: West Ham vs Fulham @1.22
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: West Ham vs Fulham → Under 3.5 Goals
+  ❌ Gate FAIL: Leeds vs Bournemouth → DNB Away FAILS: []
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD15...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: West Ham vs Fulham @1.22
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Wolverhampton vs West Ham → Over 1.5 Goals
+  ✅ Gate PASS: London Guns vs Aston Villa → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD15...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Leeds @1.3
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Wolverhampton vs West Ham → Over 1.5 Goals
+  ✅ Gate PASS: London Guns vs Aston Villa → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD16...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Leeds @1.3
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Chelsea vs Leeds → Over 1.5 Goals
+  ✅ Gate PASS: Brighton vs Liverpool → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD16...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Wolverhampton vs West Ham @1.15
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Leeds @1.3
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Chelsea vs Leeds → Over 1.5 Goals
+  ✅ Gate PASS: Brighton vs Liverpool → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD16...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Leeds @1.3
+⚓ FOUND U3.5 ANCHOR: Everton vs Bournemouth @1.2
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Chelsea vs Leeds → Over 1.5 Goals
+  ✅ Gate PASS: Brighton vs Liverpool → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD17...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Leeds @1.3
+⚓ FOUND U3.5 ANCHOR: Everton vs Bournemouth @1.2
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Everton vs Bournemouth → Under 3.5 Goals
+  ✅ Gate PASS: Manchester Blue vs Aston Villa → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD17...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Leeds @1.3
+⚓ FOUND U3.5 ANCHOR: Everton vs Bournemouth @1.2
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Everton vs Bournemouth → Under 3.5 Goals
+  ✅ Gate PASS: Manchester Blue vs Aston Villa → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD17...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Everton vs Bournemouth @1.2
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Everton vs Bournemouth → Under 3.5 Goals
+  ✅ Gate PASS: Manchester Blue vs Aston Villa → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD18...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Everton vs Bournemouth @1.2
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: London Guns vs Crystal Palace → Over 1.5 Goals
+  ✅ Gate PASS: Chelsea vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD18...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: London Guns vs Crystal Palace → Over 1.5 Goals
+  ✅ Gate PASS: Chelsea vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD19...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Manchester Red vs Tottenham → Over 1.5 Goals
+  ✅ Gate PASS: Crystal Palace vs Manchester Blue → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD19...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Manchester Red vs Tottenham → Over 1.5 Goals
+  ✅ Gate PASS: Crystal Palace vs Manchester Blue → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD19...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Manchester Red vs Tottenham → Over 1.5 Goals
+  ✅ Gate PASS: Crystal Palace vs Manchester Blue → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD20...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD20...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD20...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD21...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD21...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD21...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD21...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD22...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD22...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD22...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD23...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD23...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD23...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD24...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD24...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD24...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD24...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD25...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD25...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD25...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD26...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD26...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD26...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD27...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD27...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD27...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD27...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD28...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD28...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD28...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD29...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD29...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD29...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+⏳ No qualifying parlays found for future matchdays
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: London Guns vs Crystal Palace → Over 1.5 Goals
+  ✅ Gate PASS: Chelsea vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: London Guns vs Crystal Palace → Over 1.5 Goals
+  ✅ Gate PASS: Chelsea vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD1...
+⚠️ Cluster pipeline exit=1: 
+============================================================
+  PIPELINE INTEGRATION BRIDGE
+  Season: vf:season:3092901
+  Matchday: 1
+  Fixtures: 8
+====================================================
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: London Guns vs Crystal Palace → Over 1.5 Goals
+  ✅ Gate PASS: Chelsea vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: London Guns vs Crystal Palace → Over 1.5 Goals
+  ✅ Gate PASS: Chelsea vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: London Guns vs Crystal Palace → Over 1.5 Goals
+  ✅ Gate PASS: Chelsea vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: London Guns vs Crystal Palace @1.16
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: London Guns vs Crystal Palace → Over 1.5 Goals
+  ✅ Gate PASS: Chelsea vs West Ham → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Everton vs Aston Villa @1.09
+⚓ FOUND O1.5 ANCHOR: Leeds vs Chelsea @1.4
+⚓ FOUND U3.5 ANCHOR: Aston Villa vs Leeds @1.12
+  ⚠️ Ranking warning: Found TRAP Leeds vs Chelsea for Over 1.5 Goals
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Everton vs Aston Villa → Under 3.5 Goals FAILS: ['cluster']
+  ✅ Gate PASS: Manchester Red vs Manchester Blue → Over 1.5 Goals
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5145, MD1...
+✅ Cluster picks saved
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Everton vs Aston Villa @1.09
+⚓ FOUND O1.5 ANCHOR: Leeds vs Chelsea @1.4
+⚓ FOUND U3.5 ANCHOR: Aston Villa vs Leeds @1.12
+  ⚠️ Ranking warning: Found TRAP Leeds vs Chelsea for Over 1.5 Goals
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Everton vs Aston Villa → Under 3.5 Goals FAILS: ['cluster']
+  ✅ Gate PASS: Manchester Red vs Manchester Blue → Over 1.5 Goals
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD2...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Everton vs Aston Villa @1.09
+⚓ FOUND O1.5 ANCHOR: Leeds vs Chelsea @1.4
+⚓ FOUND U3.5 ANCHOR: Aston Villa vs Leeds @1.12
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Aston Villa vs Leeds → Under 3.5 Goals FAILS: ['cluster']
+  ❌ Gate FAIL: Newcastle vs Manchester Red → Over 1.5 Goals FAILS: ['cluster']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD2...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Aston Villa vs Leeds @1.12
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Aston Villa vs Leeds → Under 3.5 Goals FAILS: ['cluster']
+  ❌ Gate FAIL: Newcastle vs Manchester Red → Over 1.5 Goals FAILS: ['cluster']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD2...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Aston Villa vs Leeds @1.12
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ❌ Gate FAIL: Aston Villa vs Leeds → Under 3.5 Goals FAILS: ['cluster']
+  ❌ Gate FAIL: Newcastle vs Manchester Red → Over 1.5 Goals FAILS: ['cluster']
+🚫 Prediction gate rejected bet — one or more legs failed data validation
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD3...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⚓ FOUND U3.5 ANCHOR: Aston Villa vs Leeds @1.12
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Manchester Red vs Tottenham → Over 1.5 Goals
+  ✅ Gate PASS: West Ham vs Liverpool → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD3...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Manchester Red vs Tottenham → Over 1.5 Goals
+  ✅ Gate PASS: West Ham vs Liverpool → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD4...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Liverpool vs Manchester Red → Over 1.5 Goals
+  ✅ Gate PASS: Newcastle vs Leeds → DNB Home
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+⛔ Stake too low (₦20)
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD4...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+🤖 Consulting agy validator...
+✅ Agy approved the bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Liverpool vs Manchester Red → Over 1.5 Goals
+  ✅ Gate PASS: Newcastle vs Leeds → DNB Home
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+
+🎯 **30% RATCHET PROTOCOL — Phase 2 | Milestone 1 | Hits 0**
+📅 VFLM 5146 — MD4
+────────────────────────────────────────────────────────────
+  Leg 1: Liverpool vs Manchester Red → Over 1.5 Goals @1.3
+  Leg 2: Newcastle vs Leeds → DNB Home @1.8
+────────────────────────────────────────────────────────────
+💵 Combined Odds: 2.34
+🏦 Bankroll: ₦81.0
+💰 Stake: ₦20
+💵 Potential Return: ₦45.79
+
+🖱 Placing bet via browser...
+2026-05-25 17:04:45,910 [INFO] Connected to Chromium CDP
+2026-05-25 17:04:51,008 [INFO] Checking login state...
+2026-05-25 17:04:51,015 [INFO] Already logged in (no login form)
+2026-05-25 17:04:51,015 [INFO] Placing 2-leg parlay (stake: ₦19.57) on MD4
+2026-05-25 17:04:58,125 [INFO] Ensuring matchday section for MD4 is visible and active...
+2026-05-25 17:05:00,639 [INFO] Page title: Virtual | MSport
+2026-05-25 17:05:01,710 [INFO] Leg 1/2: Liverpool vs Manchester Red → Over 1.5 Goals
+2026-05-25 17:05:01,711 [INFO] Selecting O/U line 1.5 for Liverpool vs Manchester Red...
+2026-05-25 17:05:01,715 [INFO] Changing specifier from 2.5 → 1.5 for Liverpool vs Manchester Red
+2026-05-25 17:05:03,121 [INFO] Specifier set to 1.5
+2026-05-25 17:05:03,198 [INFO]   Leg 1 successfully clicked and selected directly.
+2026-05-25 17:05:04,200 [INFO] Leg 2/2: Newcastle vs Leeds → DNB Home
+2026-05-25 17:05:04,283 [INFO]   Leg 2 successfully clicked and selected directly.
+2026-05-25 17:05:05,283 [INFO] Entering stake...
+2026-05-25 17:05:06,295 [INFO] Using input selector: aside .m-virtual-mutiple-edit .bet-input input
+2026-05-25 17:05:07,325 [INFO] Clicking Place Bet...
+2026-05-25 17:05:10,369 [INFO] Confirming bet...
+2026-05-25 17:05:14,390 [INFO] ✅ Success confirmed via balance deduction: 81.05 -> 61.48 (stake: 19.57)
+2026-05-25 17:05:14,391 [INFO] ✅ Bet placed successfully!
+   Result: {
+  "success": true,
+  "leg_count": 2,
+  "stake": 19.57,
+  "balance": "NGN 61.48",
+  "page_text": "NGN 61.48\nDeposit\nMy Bets\nMy Account \nHome\nSports\nLive Betting\nVirtual\nGames\nMy Matches\nJackpot\nPromotions\nApp\nHot\nSearch\nBetslip\nMSport Virtual EPL\nVF Bundesliga\nVirtual World Cup\nVirtual Euro Cup\nVirtual NBA\nV-Dog Racing\nV-Horse Racing\nV-Live Tennis\n\nBet History\n\nHow to play\n5146 / Match Day 3\nMAT"
+}
+
+✅ Bet recorded. Good luck!
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD4...
+⚠️ Cluster pipeline exit=1: 
+❌ Parlay LOST. Resetting active capital to 0.
+🔄 Ratchet Protocol Status: SETTLED | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦87.18
+🔄 Re-fetching live balance after settlement...
+🔄 Fetching live balance (attempt 1/5)...
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Wolverhampton @1.12
+⚓ FOUND O1.5 ANCHOR: Bournemouth vs Manchester Blue @1.22
+🤖 Consulting agy validator...
+⚠️ Agy response unclear (Error: timed out waiting for response
+), proceeding anyway.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Liverpool vs Manchester Red → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+
+🎯 **30% RATCHET PROTOCOL — Phase 1 | Milestone 0 | Hits 0**
+📅 VFLM 5146 — MD4
+────────────────────────────────────────────────────────────
+  Leg 1: Liverpool vs Manchester Red → Over 1.5 Goals @1.3
+────────────────────────────────────────────────────────────
+💵 Combined Odds: 1.30
+🏦 Bankroll: ₦61.5
+💰 Stake: ₦25
+💵 Potential Return: ₦32.50
+
+🖱 Placing bet via browser...
+2026-05-25 17:06:44,002 [INFO] Connected to Chromium CDP
+2026-05-25 17:06:49,116 [INFO] Checking login state...
+2026-05-25 17:06:49,132 [INFO] Already logged in (no login form)
+2026-05-25 17:06:49,135 [INFO] Placing 1-leg parlay (stake: ₦25.0) on MD4
+2026-05-25 17:06:56,247 [INFO] Ensuring matchday section for MD4 is visible and active...
+2026-05-25 17:06:58,796 [INFO] Page title: Virtual | MSport
+2026-05-25 17:06:59,811 [INFO] Leg 1/1: Liverpool vs Manchester Red → Over 1.5 Goals
+2026-05-25 17:06:59,812 [INFO] Selecting O/U line 1.5 for Liverpool vs Manchester Red...
+2026-05-25 17:06:59,815 [INFO] Changing specifier from 2.5 → 1.5 for Liverpool vs Manchester Red
+2026-05-25 17:07:01,130 [INFO] Specifier set to 1.5
+2026-05-25 17:07:01,198 [INFO]   Leg 1 successfully clicked and selected directly.
+2026-05-25 17:07:02,199 [INFO] Entering stake...
+2026-05-25 17:07:03,225 [INFO] Using input selector: aside .bet-input input
+2026-05-25 17:07:04,236 [INFO] Clicking Place Bet...
+2026-05-25 17:07:07,254 [INFO] Confirming bet...
+2026-05-25 17:07:11,272 [INFO] ✅ Success confirmed via balance deduction: 61.48 -> 36.48 (stake: 25.0)
+2026-05-25 17:07:11,272 [INFO] ✅ Bet placed successfully!
+   Result: {
+  "success": true,
+  "leg_count": 1,
+  "stake": 25.0,
+  "balance": "NGN 36.48",
+  "page_text": "NGN 36.48\nDeposit\nMy Bets\nMy Account \nHome\nSports\nLive Betting\nVirtual\nGames\nMy Matches\nJackpot\nPromotions\nApp\nHot\nSearch\nBetslip\nMSport Virtual EPL\nVF Bundesliga\nVirtual World Cup\nVirtual Euro Cup\nVirtual NBA\nV-Dog Racing\nV-Horse Racing\nV-Live Tennis\n\nBet History\n\nHow to play\n5146 / Match Day 4\nPRE"
+}
+
+✅ Bet recorded. Good luck!
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD5...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: IDLE | Phase: 1 | Milestone: 0 | Hits: 0 | Active Capital: ₦25.0 | Vault: ₦87.18
+⚓ FOUND O1.5 ANCHOR: Chelsea vs Wolverhampton @1.12
+⚓ FOUND O1.5 ANCHOR: Bournemouth vs Manchester Blue @1.22
+🤖 Consulting agy validator...
+⚠️ Agy validation timed out, proceeding with bet.
+🔍 Running prediction gate on all legs...
+  ✅ Gate PASS: Bournemouth vs Manchester Blue → Over 1.5 Goals
+  ✅ Gate PASS: Manchester Red vs Crystal Palace → Over 1.5 Goals
+✅ All legs passed prediction gate (H2H + Form + Cluster + Odds + Regime)
+
+🎯 **30% RATCHET PROTOCOL — Phase 1 | Milestone 0 | Hits 0**
+📅 VFLM 5146 — MD5
+────────────────────────────────────────────────────────────
+  Leg 1: Bournemouth vs Manchester Blue → Over 1.5 Goals @1.22
+  Leg 2: Manchester Red vs Crystal Palace → Over 1.5 Goals @1.18
+────────────────────────────────────────────────────────────
+💵 Combined Odds: 1.44
+🏦 Bankroll: ₦36.5
+💰 Stake: ₦25
+💵 Potential Return: ₦36.00
+
+🖱 Placing bet via browser...
+2026-05-25 17:08:43,347 [INFO] Connected to Chromium CDP
+2026-05-25 17:08:48,456 [INFO] Checking login state...
+2026-05-25 17:08:48,462 [INFO] Already logged in (no login form)
+2026-05-25 17:08:48,462 [INFO] Placing 2-leg parlay (stake: ₦25.0) on MD5
+2026-05-25 17:08:55,569 [INFO] Ensuring matchday section for MD5 is visible and active...
+2026-05-25 17:08:58,096 [INFO] Page title: Virtual | MSport
+2026-05-25 17:08:59,119 [INFO] Leg 1/2: Bournemouth vs Manchester Blue → Over 1.5 Goals
+2026-05-25 17:08:59,119 [INFO] Selecting O/U line 1.5 for Bournemouth vs Manchester Blue...
+2026-05-25 17:08:59,121 [INFO] Changing specifier from 2.5 → 1.5 for Bournemouth vs Manchester Blue
+2026-05-25 17:09:00,461 [INFO] Specifier set to 1.5
+2026-05-25 17:09:00,538 [INFO]   Leg 1 successfully clicked and selected directly.
+2026-05-25 17:09:01,551 [INFO] Leg 2/2: Manchester Red vs Crystal Palace → Over 1.5 Goals
+2026-05-25 17:09:01,551 [INFO] Selecting O/U line 1.5 for Manchester Red vs Crystal Palace...
+2026-05-25 17:09:01,553 [INFO] Changing specifier from 2.5 → 1.5 for Manchester Red vs Crystal Palace
+2026-05-25 17:09:02,907 [INFO] Specifier set to 1.5
+2026-05-25 17:09:02,960 [INFO]   Leg 2 successfully clicked and selected directly.
+2026-05-25 17:09:03,988 [INFO] Entering stake...
+2026-05-25 17:09:04,991 [INFO] Using input selector: aside .m-virtual-mutiple-edit .bet-input input
+2026-05-25 17:09:06,027 [INFO] Clicking Place Bet...
+2026-05-25 17:09:09,075 [INFO] Confirming bet...
+2026-05-25 17:09:13,090 [INFO] ✅ Success confirmed via balance deduction: 36.48 -> 11.48 (stake: 25.0)
+2026-05-25 17:09:13,090 [INFO] ✅ Bet placed successfully!
+   Result: {
+  "success": true,
+  "leg_count": 2,
+  "stake": 25.0,
+  "balance": "NGN 11.48",
+  "page_text": "NGN 11.48\nDeposit\nMy Bets\nMy Account \nHome\nSports\nLive Betting\nVirtual\nGames\nMy Matches\nJackpot\nPromotions\nApp\nHot\nSearch\nBetslip\nMSport Virtual EPL\nVF Bundesliga\nVirtual World Cup\nVirtual Euro Cup\nVirtual NBA\nV-Dog Racing\nV-Horse Racing\nV-Live Tennis\n\nBet History\n\nHow to play\n5146 / Match Day 4\nMAT"
+}
+
+✅ Bet recorded. Good luck!
+🔄 Fetching live balance (attempt 1/5)...
+🧬 Generating cluster picks for season 5146, MD5...
+⚠️ Cluster pipeline exit=1: 
+🔄 Ratchet Protocol Status: WAITING | Phase: 2 | Milestone: 1 | Hits: 0 | Active Capital: ₦19.57 | Vault: ₦87.18
+⏳ Waiting for active bet (MD4) to settle...

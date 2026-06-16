@@ -1,0 +1,3 @@
+2026-05-21 11:54:04,420 [INFO] Finalizing capture (status=error, duration=0s)
+2026-05-21 11:54:04,424 [INFO] Index metadata written: /home/ubuntu/faith-workspace/vfl-empire/network-capture/smoke_test_2026-05-21_115404/index.json
+2026-05-21 11:54:04,424 [INFO] Capture finalized. Output: /home/ubuntu/faith-workspace/vfl-empire/network-capture/smoke_test_2026-05-21_115404

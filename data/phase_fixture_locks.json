@@ -1,0 +1,2036 @@
+[
+    {
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Bournemouth",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 9,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Everton",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 11,
+        "lock": "dr",
+        "occurrences": 5
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Liverpool",
+        "home_tier": "T2",
+        "away_tier": "T1",
+        "phase": 6,
+        "lock": "aw",
+        "occurrences": 6
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Newcastle",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Newcastle",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Wolverhampton",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 8
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Wolverhampton",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Aston Villa",
+        "away": "Wolverhampton",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Aston Villa",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 4,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Liverpool",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 5,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Liverpool",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 12,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Liverpool",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 5,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Liverpool",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 7,
+        "lock": "aw",
+        "occurrences": 6
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Manchester Blue",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 6,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Manchester Blue",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 8,
+        "lock": "aw",
+        "occurrences": 7
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Manchester Blue",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 10,
+        "lock": "aw",
+        "occurrences": 8
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Manchester Red",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 6,
+        "lock": "aw",
+        "occurrences": 9
+    },
+    {
+        "home": "Bournemouth",
+        "away": "Manchester Red",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 15,
+        "lock": "aw",
+        "occurrences": 6
+    },
+    {
+        "home": "Brighton",
+        "away": "Bournemouth",
+        "home_tier": "T4",
+        "away_tier": "T4",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Brighton",
+        "away": "Chelsea",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 12,
+        "lock": "aw",
+        "occurrences": 10
+    },
+    {
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "home_tier": "T3",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Brighton",
+        "away": "Crystal Palace",
+        "home_tier": "T4",
+        "away_tier": "T4",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Brighton",
+        "away": "Fulham",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Brighton",
+        "away": "Leeds",
+        "home_tier": "T3",
+        "away_tier": "T3",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Brighton",
+        "away": "Leeds",
+        "home_tier": "T4",
+        "away_tier": "T3",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Brighton",
+        "away": "London Guns",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 13,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Brighton",
+        "away": "Manchester Red",
+        "home_tier": "T1",
+        "away_tier": "T1",
+        "phase": 3,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Brighton",
+        "away": "Wolverhampton",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Chelsea",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Chelsea",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Chelsea",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Chelsea",
+        "away": "Bournemouth",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Chelsea",
+        "away": "Brighton",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 9
+    },
+    {
+        "home": "Chelsea",
+        "away": "Brighton",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Chelsea",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Chelsea",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Chelsea",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 11
+    },
+    {
+        "home": "Chelsea",
+        "away": "Everton",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Chelsea",
+        "away": "Fulham",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Chelsea",
+        "away": "Fulham",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Chelsea",
+        "away": "West Ham",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 11,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Chelsea",
+        "away": "West Ham",
+        "home_tier": "T2",
+        "away_tier": "T2",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Chelsea",
+        "away": "Wolverhampton",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Chelsea",
+        "away": "Wolverhampton",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Chelsea",
+        "away": "Wolverhampton",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 8
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "Aston Villa",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 4,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "Chelsea",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 11,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "Chelsea",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 7,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "Chelsea",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 11,
+        "lock": "aw",
+        "occurrences": 6
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "Manchester Blue",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 7,
+        "lock": "aw",
+        "occurrences": 6
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "Manchester Blue",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 14,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "Manchester Red",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 5,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "Tottenham",
+        "home_tier": "T4",
+        "away_tier": "T1",
+        "phase": 5,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "West Ham",
+        "home_tier": "T3",
+        "away_tier": "T3",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Crystal Palace",
+        "away": "Wolverhampton",
+        "home_tier": "T4",
+        "away_tier": "T4",
+        "phase": 13,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Everton",
+        "away": "Fulham",
+        "home_tier": "T4",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Everton",
+        "away": "Manchester Blue",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 3,
+        "lock": "aw",
+        "occurrences": 6
+    },
+    {
+        "home": "Everton",
+        "away": "Wolverhampton",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Fulham",
+        "away": "Aston Villa",
+        "home_tier": "T4",
+        "away_tier": "T3",
+        "phase": 8,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Fulham",
+        "away": "Brighton",
+        "home_tier": "T4",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "aw",
+        "occurrences": 6
+    },
+    {
+        "home": "Fulham",
+        "away": "Chelsea",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 8,
+        "lock": "aw",
+        "occurrences": 6
+    },
+    {
+        "home": "Fulham",
+        "away": "Liverpool",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 5,
+        "lock": "aw",
+        "occurrences": 7
+    },
+    {
+        "home": "Fulham",
+        "away": "Manchester Blue",
+        "home_tier": "T4",
+        "away_tier": "T1",
+        "phase": 6,
+        "lock": "aw",
+        "occurrences": 9
+    },
+    {
+        "home": "Fulham",
+        "away": "Manchester Red",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 14,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Leeds",
+        "away": "Brighton",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Leeds",
+        "away": "Brighton",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 12,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Leeds",
+        "away": "Fulham",
+        "home_tier": "T3",
+        "away_tier": "T3",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Leeds",
+        "away": "Liverpool",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 10,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Leeds",
+        "away": "Liverpool",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 11,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Leeds",
+        "away": "London Guns",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 8,
+        "lock": "aw",
+        "occurrences": 7
+    },
+    {
+        "home": "Leeds",
+        "away": "Manchester Blue",
+        "home_tier": "T4",
+        "away_tier": "T1",
+        "phase": 8,
+        "lock": "aw",
+        "occurrences": 6
+    },
+    {
+        "home": "Leeds",
+        "away": "Manchester Red",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 10,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Leeds",
+        "away": "Newcastle",
+        "home_tier": "T4",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Aston Villa",
+        "home_tier": "T1",
+        "away_tier": "T1",
+        "phase": 9,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Liverpool",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Liverpool",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 11,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Bournemouth",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Brighton",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Liverpool",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Liverpool",
+        "away": "Everton",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Everton",
+        "home_tier": "T2",
+        "away_tier": "T2",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Liverpool",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Liverpool",
+        "away": "Fulham",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Liverpool",
+        "away": "Leeds",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Liverpool",
+        "away": "Leeds",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Liverpool",
+        "away": "Leeds",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Liverpool",
+        "away": "Leeds",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 13,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Liverpool",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Liverpool",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 13,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Liverpool",
+        "away": "Tottenham",
+        "home_tier": "T1",
+        "away_tier": "T1",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 8
+    },
+    {
+        "home": "London Guns",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "London Guns",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Bournemouth",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 8
+    },
+    {
+        "home": "London Guns",
+        "away": "Bournemouth",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Bournemouth",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 13,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Bournemouth",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Brighton",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Chelsea",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 13,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "London Guns",
+        "away": "Crystal Palace",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Everton",
+        "home_tier": "T2",
+        "away_tier": "T2",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "London Guns",
+        "away": "Everton",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "London Guns",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "London Guns",
+        "away": "Fulham",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 11,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Leeds",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Leeds",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 9,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "London Guns",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 3,
+        "lock": "dr",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Newcastle",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "London Guns",
+        "away": "Tottenham",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Aston Villa",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Brighton",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Brighton",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 8
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 9
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Crystal Palace",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Crystal Palace",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 11,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Crystal Palace",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Everton",
+        "home_tier": "T1",
+        "away_tier": "T1",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Everton",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 9,
+        "lock": "hw",
+        "occurrences": 13
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Everton",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 9
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 13
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Leeds",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 9
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "London Guns",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "London Guns",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 8
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 12
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 13,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "West Ham",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 9,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "West Ham",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Wolverhampton",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Wolverhampton",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Blue",
+        "away": "Wolverhampton",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 9
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 11,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 10
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Bournemouth",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Brighton",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Brighton",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 10
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 13
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Fulham",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Leeds",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Leeds",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "London Guns",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 11,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Newcastle",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "West Ham",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 9,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Wolverhampton",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 11,
+        "lock": "hw",
+        "occurrences": 8
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Wolverhampton",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 7
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Wolverhampton",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 9,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Manchester Red",
+        "away": "Wolverhampton",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Newcastle",
+        "away": "Aston Villa",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 13,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Newcastle",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Newcastle",
+        "away": "Chelsea",
+        "home_tier": "T4",
+        "away_tier": "T2",
+        "phase": 6,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Newcastle",
+        "away": "Everton",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 4,
+        "lock": "dr",
+        "occurrences": 5
+    },
+    {
+        "home": "Newcastle",
+        "away": "Liverpool",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 14,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Newcastle",
+        "away": "Manchester Red",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 13,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Newcastle",
+        "away": "Manchester Red",
+        "home_tier": "T4",
+        "away_tier": "T1",
+        "phase": 8,
+        "lock": "aw",
+        "occurrences": 8
+    },
+    {
+        "home": "Newcastle",
+        "away": "West Ham",
+        "home_tier": "T4",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Aston Villa",
+        "home_tier": "T1",
+        "away_tier": "T1",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Tottenham",
+        "away": "Bournemouth",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 11,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Tottenham",
+        "away": "Bournemouth",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 9
+    },
+    {
+        "home": "Tottenham",
+        "away": "Brighton",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 5,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Tottenham",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Crystal Palace",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 7,
+        "lock": "hw",
+        "occurrences": 8
+    },
+    {
+        "home": "Tottenham",
+        "away": "Crystal Palace",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 4,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Crystal Palace",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Fulham",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 12
+    },
+    {
+        "home": "Tottenham",
+        "away": "Leeds",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Manchester Blue",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 6,
+        "lock": "dr",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T3",
+        "phase": 15,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Tottenham",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 3,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Newcastle",
+        "home_tier": "T1",
+        "away_tier": "T4",
+        "phase": 8,
+        "lock": "hw",
+        "occurrences": 6
+    },
+    {
+        "home": "Tottenham",
+        "away": "Newcastle",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Tottenham",
+        "away": "Wolverhampton",
+        "home_tier": "T1",
+        "away_tier": "T2",
+        "phase": 10,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "West Ham",
+        "away": "Crystal Palace",
+        "home_tier": "T2",
+        "away_tier": "T3",
+        "phase": 12,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "West Ham",
+        "away": "Crystal Palace",
+        "home_tier": "T3",
+        "away_tier": "T3",
+        "phase": 11,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "West Ham",
+        "away": "Fulham",
+        "home_tier": "T3",
+        "away_tier": "T4",
+        "phase": 6,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "West Ham",
+        "away": "Leeds",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 9,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "West Ham",
+        "away": "Manchester Blue",
+        "home_tier": "T2",
+        "away_tier": "T1",
+        "phase": 4,
+        "lock": "aw",
+        "occurrences": 9
+    },
+    {
+        "home": "Wolverhampton",
+        "away": "Chelsea",
+        "home_tier": "T1",
+        "away_tier": "T1",
+        "phase": 2,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Wolverhampton",
+        "away": "Fulham",
+        "home_tier": "T2",
+        "away_tier": "T4",
+        "phase": 2,
+        "lock": "hw",
+        "occurrences": 5
+    },
+    {
+        "home": "Wolverhampton",
+        "away": "London Guns",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 3,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Wolverhampton",
+        "away": "Manchester Blue",
+        "home_tier": "T2",
+        "away_tier": "T1",
+        "phase": 14,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Wolverhampton",
+        "away": "Manchester Blue",
+        "home_tier": "T3",
+        "away_tier": "T2",
+        "phase": 7,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Wolverhampton",
+        "away": "Tottenham",
+        "home_tier": "T3",
+        "away_tier": "T1",
+        "phase": 7,
+        "lock": "aw",
+        "occurrences": 5
+    },
+    {
+        "home": "Wolverhampton",
+        "away": "West Ham",
+        "home_tier": "T3",
+        "away_tier": "T3",
+        "phase": 14,
+        "lock": "hw",
+        "occurrences": 5
+    }
+]

@@ -1,0 +1,7 @@
+#!/bin/bash
+# vfl_picks — quick VFL picks summary for Telegram
+# Usage: vfl_picks [--all] [--file <path>]
+
+SCRIPT="$(readlink -f "$0")"
+DIR="$(dirname "$SCRIPT")"
+exec python3 "$DIR/../scripts/vfl_picks_formatter.py" "$@"

@@ -13,3 +13,6 @@ __pycache__/
 
 # Ignore local lock files
 *.lock
+venv_betting/
+venv_betting/
+venv_betting/

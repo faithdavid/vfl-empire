@@ -1,0 +1,14 @@
+2026/06/06-01:51:10.353 3e71c0 Reusing MANIFEST /home/ubuntu/faith-workspace/vfl-empire/chrome_data/Default/IndexedDB/https_www.msport.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/06-01:51:10.353 3e71c0 Recovering log #1022
+2026/06/06-01:51:10.353 3e71c0 Reusing old log /home/ubuntu/faith-workspace/vfl-empire/chrome_data/Default/IndexedDB/https_www.msport.com_0.indexeddb.leveldb/001022.log 
+2026/06/06-01:51:10.353 3e71c0 Delete type=2 #1020
+2026/06/06-01:51:10.670 3e71c1 Level-0 table #1027: started
+2026/06/06-01:51:10.673 3e71c1 Level-0 table #1027: 494 bytes OK
+2026/06/06-01:51:10.675 3e71c1 Delete type=0 #1022
+2026/06/06-01:51:10.676 3e71bb Manual compaction at level-0 from ' \x02\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \x03\x01\x00\x00\x00' @ 0 : 0; will stop at ' \x02\x01\x00\x00\x05' @ 4966 : 1
+2026/06/06-01:51:10.676 3e71bb Compacting 1@0 + 1@1 files
+2026/06/06-01:51:10.679 3e71bb Generated table #1028@0: 24 keys, 4740 bytes
+2026/06/06-01:51:10.679 3e71bb Compacted 1@0 + 1@1 files => 4740 bytes
+2026/06/06-01:51:10.681 3e71bb compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/06-01:51:10.681 3e71bb Delete type=2 #1027
+2026/06/06-01:51:10.681 3e71c0 Manual compaction at level-0 from ' \x02\x01\x00\x00\x05' @ 4966 : 1 .. ' \x03\x01\x00\x00\x00' @ 0 : 0; will stop at (end)

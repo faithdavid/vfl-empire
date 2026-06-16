@@ -1,0 +1,458 @@
+[
+  {
+    "signature": [
+      "Leeds vs Wolverhampton",
+      "Bournemouth vs Fulham",
+      "Manchester Blue vs West Ham",
+      "Crystal Palace vs Manchester Red",
+      "Everton vs Tottenham",
+      "Brighton vs Liverpool",
+      "Aston Villa vs Chelsea",
+      "London Guns vs Newcastle"
+    ],
+    "occurrences": [
+      [
+        "VFLM 5111",
+        "14"
+      ],
+      [
+        "VFLM 5111",
+        "29"
+      ],
+      [
+        "VFLM 5083",
+        "1"
+      ],
+      [
+        "VFLM 5083",
+        "16"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Chelsea vs Tottenham",
+      "Fulham vs Leeds",
+      "Aston Villa vs Bournemouth",
+      "Crystal Palace vs Manchester Red",
+      "Brighton vs Wolverhampton",
+      "Everton vs West Ham",
+      "Liverpool vs Manchester Blue",
+      "London Guns vs Newcastle"
+    ],
+    "occurrences": [
+      [
+        "",
+        "6"
+      ],
+      [
+        "",
+        "21"
+      ],
+      [
+        "VFLM 5144",
+        "6"
+      ],
+      [
+        "VFLM 5144",
+        "21"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Liverpool vs Tottenham",
+      "Manchester Red vs Newcastle",
+      "Brighton vs Leeds",
+      "Crystal Palace vs Everton",
+      "Bournemouth vs West Ham",
+      "Chelsea vs Wolverhampton",
+      "London Guns vs Manchester Blue",
+      "Aston Villa vs Fulham"
+    ],
+    "occurrences": [
+      [
+        "",
+        "7"
+      ],
+      [
+        "",
+        "22"
+      ],
+      [
+        "VFLM 5144",
+        "7"
+      ],
+      [
+        "VFLM 5144",
+        "22"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Chelsea vs Leeds",
+      "Aston Villa vs Brighton",
+      "Fulham vs West Ham",
+      "Bournemouth vs Crystal Palace",
+      "Liverpool vs Wolverhampton",
+      "London Guns vs Tottenham",
+      "Everton vs Manchester Red",
+      "Manchester Blue vs Newcastle"
+    ],
+    "occurrences": [
+      [
+        "",
+        "8"
+      ],
+      [
+        "",
+        "23"
+      ],
+      [
+        "VFLM 5144",
+        "8"
+      ],
+      [
+        "VFLM 5144",
+        "23"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Crystal Palace vs Fulham",
+      "London Guns vs Wolverhampton",
+      "Bournemouth vs Manchester Red",
+      "Brighton vs West Ham",
+      "Manchester Blue vs Tottenham",
+      "Everton vs Newcastle",
+      "Leeds vs Liverpool",
+      "Aston Villa vs Chelsea"
+    ],
+    "occurrences": [
+      [
+        "",
+        "9"
+      ],
+      [
+        "",
+        "24"
+      ],
+      [
+        "VFLM 5144",
+        "9"
+      ],
+      [
+        "VFLM 5144",
+        "24"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Manchester Blue vs Wolverhampton",
+      "Bournemouth vs Everton",
+      "Brighton vs Crystal Palace",
+      "Chelsea vs West Ham",
+      "Newcastle vs Tottenham",
+      "Fulham vs Manchester Red",
+      "Aston Villa vs Liverpool",
+      "Leeds vs London Guns"
+    ],
+    "occurrences": [
+      [
+        "",
+        "10"
+      ],
+      [
+        "",
+        "25"
+      ],
+      [
+        "VFLM 5144",
+        "10"
+      ],
+      [
+        "VFLM 5144",
+        "25"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Everton vs Fulham",
+      "Bournemouth vs Newcastle",
+      "Brighton vs Manchester Red",
+      "Aston Villa vs London Guns",
+      "Liverpool vs West Ham",
+      "Tottenham vs Wolverhampton",
+      "Chelsea vs Crystal Palace",
+      "Leeds vs Manchester Blue"
+    ],
+    "occurrences": [
+      [
+        "",
+        "11"
+      ],
+      [
+        "",
+        "26"
+      ],
+      [
+        "VFLM 5144",
+        "11"
+      ],
+      [
+        "VFLM 5144",
+        "26"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Aston Villa vs Manchester Blue",
+      "Bournemouth vs Fulham",
+      "Brighton vs Everton",
+      "Crystal Palace vs Liverpool",
+      "London Guns vs West Ham",
+      "Chelsea vs Manchester Red",
+      "Leeds vs Tottenham",
+      "Newcastle vs Wolverhampton"
+    ],
+    "occurrences": [
+      [
+        "",
+        "12"
+      ],
+      [
+        "",
+        "27"
+      ],
+      [
+        "VFLM 5144",
+        "12"
+      ],
+      [
+        "VFLM 5144",
+        "27"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Liverpool vs Manchester Red",
+      "Leeds vs Wolverhampton",
+      "Aston Villa vs Tottenham",
+      "Manchester Blue vs West Ham",
+      "Bournemouth vs Brighton",
+      "Chelsea vs Everton",
+      "Fulham vs Newcastle",
+      "Crystal Palace vs London Guns"
+    ],
+    "occurrences": [
+      [
+        "",
+        "13"
+      ],
+      [
+        "",
+        "28"
+      ],
+      [
+        "VFLM 5144",
+        "13"
+      ],
+      [
+        "VFLM 5144",
+        "28"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "London Guns vs Manchester Red",
+      "Tottenham vs West Ham",
+      "Leeds vs Newcastle",
+      "Brighton vs Fulham",
+      "Aston Villa vs Wolverhampton",
+      "Crystal Palace vs Manchester Blue",
+      "Everton vs Liverpool",
+      "Bournemouth vs Chelsea"
+    ],
+    "occurrences": [
+      [
+        "",
+        "14"
+      ],
+      [
+        "",
+        "29"
+      ],
+      [
+        "VFLM 5144",
+        "14"
+      ],
+      [
+        "VFLM 5144",
+        "29"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Manchester Blue vs Manchester Red",
+      "Brighton vs Newcastle",
+      "West Ham vs Wolverhampton",
+      "Chelsea vs Fulham",
+      "Crystal Palace vs Tottenham",
+      "Bournemouth vs Liverpool",
+      "Everton vs London Guns",
+      "Aston Villa vs Leeds"
+    ],
+    "occurrences": [
+      [
+        "",
+        "15"
+      ],
+      [
+        "VFLM 5144",
+        "15"
+      ],
+      [
+        "VFLM 5144",
+        "30"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Crystal Palace vs Wolverhampton",
+      "Aston Villa vs Newcastle",
+      "Fulham vs Liverpool",
+      "Leeds vs West Ham",
+      "Brighton vs Chelsea",
+      "Bournemouth vs London Guns",
+      "Manchester Red vs Tottenham",
+      "Everton vs Manchester Blue"
+    ],
+    "occurrences": [
+      [
+        "",
+        "16"
+      ],
+      [
+        "VFLM 5144",
+        "1"
+      ],
+      [
+        "VFLM 5144",
+        "16"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Aston Villa vs West Ham",
+      "Fulham vs London Guns",
+      "Manchester Red vs Wolverhampton",
+      "Everton vs Tottenham",
+      "Bournemouth vs Manchester Blue",
+      "Brighton vs Liverpool",
+      "Crystal Palace vs Leeds",
+      "Chelsea vs Newcastle"
+    ],
+    "occurrences": [
+      [
+        "",
+        "17"
+      ],
+      [
+        "VFLM 5144",
+        "2"
+      ],
+      [
+        "VFLM 5144",
+        "17"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Everton vs Wolverhampton",
+      "Fulham vs Manchester Blue",
+      "Leeds vs Manchester Red",
+      "Newcastle vs West Ham",
+      "Bournemouth vs Tottenham",
+      "Chelsea vs Liverpool",
+      "Aston Villa vs Crystal Palace",
+      "Brighton vs London Guns"
+    ],
+    "occurrences": [
+      [
+        "",
+        "18"
+      ],
+      [
+        "VFLM 5144",
+        "3"
+      ],
+      [
+        "VFLM 5144",
+        "18"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Chelsea vs London Guns",
+      "Aston Villa vs Manchester Red",
+      "Fulham vs Tottenham",
+      "Everton vs Leeds",
+      "Brighton vs Manchester Blue",
+      "Liverpool vs Newcastle",
+      "Crystal Palace vs West Ham",
+      "Bournemouth vs Wolverhampton"
+    ],
+    "occurrences": [
+      [
+        "",
+        "19"
+      ],
+      [
+        "VFLM 5144",
+        "4"
+      ],
+      [
+        "VFLM 5144",
+        "19"
+      ]
+    ]
+  },
+  {
+    "signature": [
+      "Manchester Red vs West Ham",
+      "Fulham vs Wolverhampton",
+      "Liverpool vs London Guns",
+      "Chelsea vs Manchester Blue",
+      "Brighton vs Tottenham",
+      "Crystal Palace vs Newcastle",
+      "Aston Villa vs Everton",
+      "Bournemouth vs Leeds"
+    ],
+    "occurrences": [
+      [
+        "",
+        "20"
+      ],
+      [
+        "VFLM 5144",
+        "5"
+      ],
+      [
+        "VFLM 5144",
+        "20"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "xgb_accuracy": 0.7217,
+  "lgb_accuracy": 0.7363,
+  "ensemble_accuracy": 0.7295,
+  "n_estimators": 500,
+  "training_rows": 71033,
+  "test_rows": 17759,
+  "features": [
+    "confidence",
+    "odds",
+    "cv_1x2",
+    "prediction_enc",
+    "engine_enc",
+    "tier_home_enc",
+    "tier_away_enc",
+    "match_day",
+    "is_home_win",
+    "is_away_win",
+    "is_draw",
+    "is_over",
+    "is_under",
+    "is_dnb",
+    "expected_value",
+    "high_conf",
+    "very_high_conf"
+  ],
+  "trained_at": "2026-05-29T17:15:33.974460"
+}

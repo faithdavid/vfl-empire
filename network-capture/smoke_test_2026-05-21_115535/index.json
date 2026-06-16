@@ -1,0 +1,10 @@
+{
+  "start_time": "2026-05-21T11:55:35.433Z",
+  "end_time": "2026-05-21T11:55:46.900Z",
+  "duration_seconds": 11.5,
+  "target_url": "https://www.msport.com/ng/web/virtual",
+  "playwright_event_count": 28,
+  "requestly_event_count": 0,
+  "output_dir": "/home/ubuntu/faith-workspace/vfl-empire/network-capture/smoke_test_2026-05-21_115535",
+  "status": "completed"
+}

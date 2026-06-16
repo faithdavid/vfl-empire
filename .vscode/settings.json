@@ -1,0 +1,47 @@
+{
+  "python.defaultInterpreterPath": "/home/ubuntu/faith-workspace/vfl-empire/venv_betting/bin/python",
+  "python.analysis.extraPaths": [
+    "/home/ubuntu/faith-workspace/vfl-empire/services",
+    "/home/ubuntu/faith-workspace/vfl-empire/scripts",
+    "/home/ubuntu/faith-workspace/vfl-complete-data"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/venv_betting": true,
+    "**/data": true,
+    "**/databases": true,
+    "**/archive": true,
+    "**/archived": true,
+    "**/backups": true,
+    "**/*.db": true,
+    "**/*.log": true
+  },
+  "search.exclude": {
+    "**/venv_betting": true,
+    "**/data": true,
+    "**/databases": true,
+    "**/archive": true,
+    "**/archived": true,
+    "**/backups": true,
+    "**/*.db": true,
+    "**/*.log": true
+  },
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "jupyter.notebookFileRoot": "${workspaceFolder}/notebooks",
+  "colab.serverMounting": true,
+  "colab.terminal": true,
+  "colab.activityBarContentView": true,
+  "colab.activityBarResourceView": true,
+  "files.associations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.output.textLineLimit": 200
+}

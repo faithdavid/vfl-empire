@@ -1,0 +1,38 @@
+[Unit]
+Description=MSport Go Agent — Low-Latency VFL Betting Engine
+Documentation=https://github.com/faithdavid/vfl-empire
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/faith-workspace/vfl-empire/go-agent
+ExecStart=/home/ubuntu/faith-workspace/vfl-empire/go-agent/msport-agent
+Restart=always
+RestartSec=5
+StartLimitInterval=60
+StartLimitBurst=3
+
+# Environment variables (auth tokens — refresh via cron)
+Environment=MSPORT_ACCESS_TOKEN="2:patron:id:accesstoken:cd736edcd5d02656a29c82ed7dba4c81RX/GkPtJ5dvOAViLp1oeTj3RsW35gDZo8XOI4t+kqpoLRhovznKBhNkBt88+qFXsf5LQMs5KhhLJaQqZ+65Kzg"
+Environment=MSPORT_USER_ID="211107233210puid30405048"
+Environment=MSPORT_DEVICE_ID="ea5d309e-7b63-44df-ade9-e44c631f722b"
+
+# Resource limits
+LimitNOFILE=2097152
+LimitNPROC=65536
+
+# Security hardening
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=full
+ProtectHome=read-only
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
