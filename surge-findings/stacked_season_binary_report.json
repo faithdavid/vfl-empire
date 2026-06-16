@@ -1,0 +1,133 @@
+{
+  "n_seasons_stacked": 840,
+  "bits_per_season": 240,
+  "total_bits": 201600,
+  "global_p_odd": 0.49079,
+  "entropy_bits_per_symbol_global": 0.99976,
+  "entropy_mean_per_column": 0.99886,
+  "markov_on_concat_stack": {
+    "p01": 0.48844,
+    "p11": 0.49323,
+    "p00": 0.51156,
+    "p10": 0.50677
+  },
+  "markov_counts": {
+    "00": 52514,
+    "01": 50141,
+    "10": 50142,
+    "11": 48802
+  },
+  "run_length": {
+    "mean": 2.0102907742012683,
+    "max": 24,
+    "n_runs": 100284
+  },
+  "autocorr_lag1": 0.00479,
+  "autocorr_lag8": -0.00416,
+  "autocorr_lag240": null,
+  "ngram_surprise_2bit": 0.00051,
+  "ngram_surprise_8bit": 0.01288,
+  "top_biased_slots": [
+    {
+      "bit_index": 54,
+      "matchday": 7,
+      "fixture_slot": 7,
+      "p_odd": 0.4417
+    },
+    {
+      "bit_index": 157,
+      "matchday": 20,
+      "fixture_slot": 6,
+      "p_odd": 0.4476
+    },
+    {
+      "bit_index": 181,
+      "matchday": 23,
+      "fixture_slot": 6,
+      "p_odd": 0.4512
+    },
+    {
+      "bit_index": 58,
+      "matchday": 8,
+      "fixture_slot": 3,
+      "p_odd": 0.4536
+    },
+    {
+      "bit_index": 29,
+      "matchday": 4,
+      "fixture_slot": 6,
+      "p_odd": 0.4536
+    },
+    {
+      "bit_index": 85,
+      "matchday": 11,
+      "fixture_slot": 6,
+      "p_odd": 0.456
+    },
+    {
+      "bit_index": 226,
+      "matchday": 29,
+      "fixture_slot": 3,
+      "p_odd": 0.456
+    },
+    {
+      "bit_index": 204,
+      "matchday": 26,
+      "fixture_slot": 5,
+      "p_odd": 0.4571
+    },
+    {
+      "bit_index": 98,
+      "matchday": 13,
+      "fixture_slot": 3,
+      "p_odd": 0.4571
+    },
+    {
+      "bit_index": 20,
+      "matchday": 3,
+      "fixture_slot": 5,
+      "p_odd": 0.4583
+    },
+    {
+      "bit_index": 202,
+      "matchday": 26,
+      "fixture_slot": 3,
+      "p_odd": 0.4583
+    },
+    {
+      "bit_index": 3,
+      "matchday": 1,
+      "fixture_slot": 4,
+      "p_odd": 0.5417
+    },
+    {
+      "bit_index": 222,
+      "matchday": 28,
+      "fixture_slot": 7,
+      "p_odd": 0.4619
+    },
+    {
+      "bit_index": 196,
+      "matchday": 25,
+      "fixture_slot": 5,
+      "p_odd": 0.4619
+    },
+    {
+      "bit_index": 107,
+      "matchday": 14,
+      "fixture_slot": 4,
+      "p_odd": 0.4631
+    }
+  ],
+  "files": {
+    "mega_stack": "/home/ubuntu/faith-workspace/vfl-empire/surge-findings/odd_even_mega_stack.txt",
+    "plot": "/home/ubuntu/faith-workspace/vfl-empire/models/odd_even/plots/stacked_season_binary_analysis.png"
+  },
+  "academy_playbook": [
+    "Entropy \u22481 and surprise\u22480 \u2192 treat as iid noise; no edge from bit pattern alone.",
+    "Column marginals \u2192 per (MD, slot) bias; stack filter for betting.",
+    "Markov p01\u2260p10 \u2192 short memory; weak sequential rule at fixture level.",
+    "Autocorr spike at lag 8 or 240 \u2192 MD/season periodicity (check plot).",
+    "Next: HMM on MD-level 8-bit words, or CNN on (seasons\u00d7240) heatmap for anomaly seasons."
+  ]
+}

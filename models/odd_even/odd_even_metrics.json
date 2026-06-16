@@ -1,0 +1,32 @@
+{
+  "train_n": 6416,
+  "test_n": 15815,
+  "cutoff_vflm": 5200,
+  "test_vflm_range": [
+    5290,
+    5401
+  ],
+  "accuracy": 0.4959215934239646,
+  "roc_auc": 0.495076830511658,
+  "baseline_favorite": {
+    "n": 15815,
+    "accuracy_favorite": 0.5164717040784066,
+    "roi_flat_1u": -0.09483085678153652,
+    "pct_actual_odd": 0.48852355358836547
+  },
+  "model_roi_flat_1u": -0.10510907366424281,
+  "model_bets": 15815,
+  "feature_importance": {
+    "matchday_number": 0.3524375776434993,
+    "vflm_num": 0.17471602725060786,
+    "odd_odds": 0.07880696218130069,
+    "even_odds": 0.0,
+    "implied_odd_norm": 0.132618138257291,
+    "implied_even_norm": 0.0,
+    "book_bias_odd": 0.0,
+    "log_odd": 0.0,
+    "log_even": 0.0,
+    "md_sin": 0.11692635082302029,
+    "md_cos": 0.14449494384428063
+  }
+}

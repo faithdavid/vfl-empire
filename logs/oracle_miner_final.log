@@ -1,0 +1,10 @@
+=== PHASE 2: ORACLE MINER ===
+Loading Unified Matrix...
+Training on 18324 matches with 18 structural features...
+
+Oracle Mining Complete!
+Total >=95% Deterministic Branches Discovered: 0
+  - 100% Home Wins: 0
+  - 100% Draws: 0
+  - 100% Away Wins: 0
+Rules exported to: /home/ubuntu/faith-workspace/vfl-empire/data/deterministic_branches.json

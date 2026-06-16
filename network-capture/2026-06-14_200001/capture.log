@@ -1,0 +1,27 @@
+2026-06-14 20:00:03,756 [INFO] Browser launched
+2026-06-14 20:00:04,344 [INFO] Browser context and page created
+2026-06-14 20:00:04,344 [INFO] Navigation attempt 1/3 to https://www.msport.com/ng/web/virtual
+2026-06-14 20:00:17,560 [DEBUG] networkidle wait timeout (non-critical)
+2026-06-14 20:00:17,560 [INFO] Navigation OK — URL: https://www.msport.com/ng/web/welcome
+2026-06-14 20:00:17,565 [DEBUG] Playwright event listeners installed
+2026-06-14 20:00:17,565 [WARNING] Requestly SDK not found at /tmp/node_modules/@requestly/web-sdk/dist/requestly-web-sdk.min.js — skipping Layer 2
+2026-06-14 20:02:17,864 [INFO] HEARTBEAT — elapsed=136s events=26 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:04:17,973 [INFO] HEARTBEAT — elapsed=256s events=53 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:06:18,112 [INFO] HEARTBEAT — elapsed=376s events=79 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:08:18,199 [INFO] HEARTBEAT — elapsed=496s events=105 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:10:18,691 [INFO] HEARTBEAT — elapsed=617s events=131 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:12:18,875 [INFO] HEARTBEAT — elapsed=737s events=157 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:14:19,380 [INFO] HEARTBEAT — elapsed=857s events=183 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:16:19,776 [INFO] HEARTBEAT — elapsed=978s events=209 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:18:19,872 [INFO] HEARTBEAT — elapsed=1098s events=236 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:20:20,318 [INFO] HEARTBEAT — elapsed=1218s events=262 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:22:20,576 [INFO] HEARTBEAT — elapsed=1339s events=288 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:24:20,691 [INFO] HEARTBEAT — elapsed=1459s events=315 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:26:20,919 [INFO] HEARTBEAT — elapsed=1579s events=341 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:28:21,060 [INFO] HEARTBEAT — elapsed=1699s events=367 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-14 20:30:01,978 [INFO] Capture complete (1800s elapsed)
+2026-06-14 20:30:01,979 [INFO] Finalizing capture (status=completed, duration=1800s)
+2026-06-14 20:30:02,504 [DEBUG] Browser closed
+2026-06-14 20:30:02,537 [INFO] Index metadata written: /home/ubuntu/faith-workspace/vfl-empire/network-capture/2026-06-14_200001/index.json
+2026-06-14 20:30:02,539 [INFO] Capture finalized. Output: /home/ubuntu/faith-workspace/vfl-empire/network-capture/2026-06-14_200001
+2026-06-14 20:30:02,631 [INFO] Successfully captured 390 Playwright events and 0 Requestly events

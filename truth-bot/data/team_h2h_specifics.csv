@@ -1,0 +1,121 @@
+Team_1,Team_2,Total_Matches,T1_Wins,T2_Wins,Draws,T1_Win%,T2_Win%,Draw%
+Aston Villa,Bournemouth,511,322,68,121,63.0,13.3,23.7
+Aston Villa,Brighton,511,238,124,149,46.6,24.3,29.2
+Aston Villa,Chelsea,505,164,212,129,32.5,42.0,25.5
+Aston Villa,Crystal Palace,512,323,74,115,63.1,14.5,22.5
+Aston Villa,Everton,511,230,124,157,45.0,24.3,30.7
+Aston Villa,Fulham,507,311,81,115,61.3,16.0,22.7
+Aston Villa,Leeds,512,272,87,153,53.1,17.0,29.9
+Aston Villa,Liverpool,512,134,231,147,26.2,45.1,28.7
+Aston Villa,London Guns,507,191,194,122,37.7,38.3,24.1
+Aston Villa,Manchester Blue,508,153,238,117,30.1,46.9,23.0
+Aston Villa,Manchester Red,506,160,217,129,31.6,42.9,25.5
+Aston Villa,Newcastle,510,298,83,129,58.4,16.3,25.3
+Aston Villa,Tottenham,512,197,163,152,38.5,31.8,29.7
+Aston Villa,West Ham,510,265,131,114,52.0,25.7,22.4
+Aston Villa,Wolverhampton,511,268,116,127,52.4,22.7,24.9
+Bournemouth,Brighton,511,124,250,137,24.3,48.9,26.8
+Bournemouth,Chelsea,511,56,375,80,11.0,73.4,15.7
+Bournemouth,Crystal Palace,506,159,198,149,31.4,39.1,29.4
+Bournemouth,Everton,511,111,274,126,21.7,53.6,24.7
+Bournemouth,Fulham,513,167,196,150,32.6,38.2,29.2
+Bournemouth,Leeds,511,150,197,164,29.4,38.6,32.1
+Bournemouth,Liverpool,515,59,369,87,11.5,71.7,16.9
+Bournemouth,London Guns,503,76,307,120,15.1,61.0,23.9
+Bournemouth,Manchester Blue,512,54,374,84,10.5,73.0,16.4
+Bournemouth,Manchester Red,513,60,345,108,11.7,67.3,21.1
+Bournemouth,Newcastle,507,165,187,155,32.5,36.9,30.6
+Bournemouth,Tottenham,506,80,321,105,15.8,63.4,20.8
+Bournemouth,West Ham,504,118,261,125,23.4,51.8,24.8
+Bournemouth,Wolverhampton,513,133,280,100,25.9,54.6,19.5
+Brighton,Chelsea,511,112,285,114,21.9,55.8,22.3
+Brighton,Crystal Palace,507,228,142,137,45.0,28.0,27.0
+Brighton,Everton,512,185,186,141,36.1,36.3,27.5
+Brighton,Fulham,511,256,126,129,50.1,24.7,25.2
+Brighton,Leeds,507,235,120,152,46.4,23.7,30.0
+Brighton,Liverpool,513,94,299,120,18.3,58.3,23.4
+Brighton,London Guns,511,133,260,118,26.0,50.9,23.1
+Brighton,Manchester Blue,508,89,315,104,17.5,62.0,20.5
+Brighton,Manchester Red,509,95,274,140,18.7,53.8,27.5
+Brighton,Newcastle,506,208,149,149,41.1,29.4,29.4
+Brighton,Tottenham,504,120,237,147,23.8,47.0,29.2
+Brighton,West Ham,516,183,208,125,35.5,40.3,24.2
+Brighton,Wolverhampton,507,203,181,123,40.0,35.7,24.3
+Chelsea,Crystal Palace,510,366,55,89,71.8,10.8,17.5
+Chelsea,Everton,505,244,119,142,48.3,23.6,28.1
+Chelsea,Fulham,508,347,60,101,68.3,11.8,19.9
+Chelsea,Leeds,512,321,71,120,62.7,13.9,23.4
+Chelsea,Liverpool,510,194,184,132,38.0,36.1,25.9
+Chelsea,London Guns,514,204,177,133,39.7,34.4,25.9
+Chelsea,Manchester Blue,511,173,223,115,33.9,43.6,22.5
+Chelsea,Manchester Red,510,161,212,137,31.6,41.6,26.9
+Chelsea,Newcastle,511,350,64,97,68.5,12.5,19.0
+Chelsea,Tottenham,510,206,176,128,40.4,34.5,25.1
+Chelsea,West Ham,506,254,121,131,50.2,23.9,25.9
+Chelsea,Wolverhampton,512,318,92,102,62.1,18.0,19.9
+Crystal Palace,Everton,516,136,243,137,26.4,47.1,26.6
+Crystal Palace,Fulham,506,191,185,130,37.7,36.6,25.7
+Crystal Palace,Leeds,507,153,224,130,30.2,44.2,25.6
+Crystal Palace,Liverpool,509,66,338,105,13.0,66.4,20.6
+Crystal Palace,London Guns,511,104,300,107,20.4,58.7,20.9
+Crystal Palace,Manchester Blue,507,65,345,97,12.8,68.0,19.1
+Crystal Palace,Manchester Red,509,63,369,77,12.4,72.5,15.1
+Crystal Palace,Newcastle,511,187,193,131,36.6,37.8,25.6
+Crystal Palace,Tottenham,510,99,295,116,19.4,57.8,22.7
+Crystal Palace,West Ham,509,127,254,128,25.0,49.9,25.1
+Crystal Palace,Wolverhampton,512,160,237,115,31.2,46.3,22.5
+Everton,Fulham,509,271,100,138,53.2,19.6,27.1
+Everton,Leeds,508,203,137,168,40.0,27.0,33.1
+Everton,Liverpool,507,106,276,125,20.9,54.4,24.7
+Everton,London Guns,505,134,232,139,26.5,45.9,27.5
+Everton,Manchester Blue,510,112,284,114,22.0,55.7,22.4
+Everton,Manchester Red,512,104,270,138,20.3,52.7,27.0
+Everton,Newcastle,512,230,118,164,44.9,23.0,32.0
+Everton,Tottenham,510,135,242,133,26.5,47.5,26.1
+Everton,West Ham,513,179,194,140,34.9,37.8,27.3
+Everton,Wolverhampton,507,220,151,136,43.4,29.8,26.8
+Fulham,Leeds,511,145,195,171,28.4,38.2,33.5
+Fulham,Liverpool,512,73,337,102,14.3,65.8,19.9
+Fulham,London Guns,506,87,310,109,17.2,61.3,21.5
+Fulham,Manchester Blue,510,61,349,100,12.0,68.4,19.6
+Fulham,Manchester Red,515,72,331,112,14.0,64.3,21.7
+Fulham,Newcastle,513,165,208,140,32.2,40.5,27.3
+Fulham,Tottenham,513,84,309,120,16.4,60.2,23.4
+Fulham,West Ham,513,122,264,127,23.8,51.5,24.8
+Fulham,Wolverhampton,505,142,245,118,28.1,48.5,23.4
+Leeds,Liverpool,509,66,328,115,13.0,64.4,22.6
+Leeds,London Guns,509,96,271,142,18.9,53.2,27.9
+Leeds,Manchester Blue,512,69,338,105,13.5,66.0,20.5
+Leeds,Manchester Red,508,51,343,114,10.0,67.5,22.4
+Leeds,Newcastle,514,187,173,154,36.4,33.7,30.0
+Leeds,Tottenham,511,84,298,129,16.4,58.3,25.2
+Leeds,West Ham,506,151,230,125,29.8,45.5,24.7
+Leeds,Wolverhampton,507,172,204,131,33.9,40.2,25.8
+Liverpool,London Guns,511,228,160,123,44.6,31.3,24.1
+Liverpool,Manchester Blue,508,173,201,134,34.1,39.6,26.4
+Liverpool,Manchester Red,511,197,185,129,38.6,36.2,25.2
+Liverpool,Newcastle,505,329,66,110,65.1,13.1,21.8
+Liverpool,Tottenham,512,231,154,127,45.1,30.1,24.8
+Liverpool,West Ham,510,306,105,99,60.0,20.6,19.4
+Liverpool,Wolverhampton,508,315,94,99,62.0,18.5,19.5
+London Guns,Manchester Blue,514,159,246,109,30.9,47.9,21.2
+London Guns,Manchester Red,504,156,230,118,31.0,45.6,23.4
+London Guns,Newcastle,511,291,105,115,56.9,20.5,22.5
+London Guns,Tottenham,512,188,200,124,36.7,39.1,24.2
+London Guns,West Ham,512,253,151,108,49.4,29.5,21.1
+London Guns,Wolverhampton,514,289,137,88,56.2,26.7,17.1
+Manchester Blue,Manchester Red,512,203,186,123,39.6,36.3,24.0
+Manchester Blue,Newcastle,509,326,87,96,64.0,17.1,18.9
+Manchester Blue,Tottenham,505,222,160,123,44.0,31.7,24.4
+Manchester Blue,West Ham,509,303,104,102,59.5,20.4,20.0
+Manchester Blue,Wolverhampton,511,326,92,93,63.8,18.0,18.2
+Manchester Red,Newcastle,509,321,70,118,63.1,13.8,23.2
+Manchester Red,Tottenham,510,229,156,125,44.9,30.6,24.5
+Manchester Red,West Ham,506,280,101,125,55.3,20.0,24.7
+Manchester Red,Wolverhampton,514,310,94,110,60.3,18.3,21.4
+Newcastle,Tottenham,506,93,308,105,18.4,60.9,20.8
+Newcastle,West Ham,510,145,234,131,28.4,45.9,25.7
+Newcastle,Wolverhampton,510,144,238,128,28.2,46.7,25.1
+Tottenham,West Ham,511,250,137,124,48.9,26.8,24.3
+Tottenham,Wolverhampton,511,291,118,102,56.9,23.1,20.0
+West Ham,Wolverhampton,508,201,192,115,39.6,37.8,22.6

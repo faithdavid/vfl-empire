@@ -1,0 +1,3 @@
+Candidate rows with scores: 145371
+PostgreSQL connection pool initialized
+Done. inserted_results=65374 skipped_or_dup=79997 dry_run=False

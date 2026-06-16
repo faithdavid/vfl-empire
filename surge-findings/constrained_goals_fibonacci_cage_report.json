@@ -1,0 +1,45 @@
+{
+  "n_fixtures": 201840,
+  "pct_total_le_7": 100.0,
+  "pct_total_gt_7": 0.0,
+  "mean_total_goals": 2.5738,
+  "p_odd_from_totals": 0.49076,
+  "pmf_total_0_7": {
+    "0": 0.07372,
+    "1": 0.18989,
+    "2": 0.25329,
+    "3": 0.22006,
+    "4": 0.14751,
+    "5": 0.07343,
+    "6": 0.03473,
+    "7": 0.00737
+  },
+  "entropy_total_distribution": 2.61937,
+  "independent_poisson_predicted_total": {
+    "0": 0.07624,
+    "1": 0.19624,
+    "2": 0.25254,
+    "3": 0.21666,
+    "4": 0.13941,
+    "5": 0.07176,
+    "6": 0.03078,
+    "7": 0.01132,
+    "8": 0.0036
+  },
+  "roadmap": {
+    "state_space": "T \u2208 {0,1,2,3,4,5,6,7} (\u224899%+ mass); scoreline (H,A) with H,A \u2208 {0..6} mostly",
+    "odd_even": "Odd \u21d4 T\u2208{1,3,5,7}; Even \u21d4 T\u2208{0,2,4,6} \u2014 partition of \u2124\u2088",
+    "entropy_bits": 2.6194,
+    "entropy_max_uniform_8": 3.0,
+    "fibonacci_link": "Totals in Fibonacci set {0,1,2,3,5,8} carry 81.0% mass; 4,6,7 are non-Fib \u2014 Zeckendorf-code T as features",
+    "models_that_fit_cage": [
+      "Independent Poisson(\u03bbh)\u00d7Poisson(\u03bba) truncated to grid \u2014 2 params + truncate",
+      "Skellam / difference distribution for spread markets",
+      "Categorical T~Cat(8) with WC-clash logits \u2014 8-way softmax (DS)",
+      "Bradley-Terry sets \u03bbh,\u03bba per team; sum T=H+A",
+      "Fibonacci: partition function on compositions H+A=T with bounded parts \u2014 exact counting"
+    ],
+    "calibration": "Compare empirical P(T|clash) to Poisson product; KL per clash"
+  },
+  "plot": "/home/ubuntu/faith-workspace/vfl-empire/models/odd_even/plots/constrained_total_goals_cage.png"
+}

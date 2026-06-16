@@ -1,8 +1,9 @@
 {
-    "current_stake": 140.0,
+    "current_stake": 120.0,
     "bets_placed_in_cycle": 0,
     "cycle_number": 1,
     "total_profit_banked": 0.0,
-    "last_bet_md": 2,
-    "last_bet_season": "VFLM 5295"
+    "last_bet_md": 23,
+    "last_bet_season": "VFLM 5333",
+    "pending_settlement_md": null
 }

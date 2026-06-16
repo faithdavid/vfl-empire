@@ -1,0 +1,362 @@
+{
+  "n_fixtures": 202560,
+  "definition": "Scoreline H:A; table = standings entering MD (after MD-1); MD1 from 0-point table",
+  "global_top_scorelines_pct": [
+    {
+      "scoreline": "1:1",
+      "pct": 11.32
+    },
+    {
+      "scoreline": "1:0",
+      "pct": 10.15
+    },
+    {
+      "scoreline": "0:1",
+      "pct": 8.83
+    },
+    {
+      "scoreline": "2:0",
+      "pct": 8.53
+    },
+    {
+      "scoreline": "2:1",
+      "pct": 8.2
+    },
+    {
+      "scoreline": "0:0",
+      "pct": 7.38
+    },
+    {
+      "scoreline": "1:2",
+      "pct": 6.56
+    },
+    {
+      "scoreline": "0:2",
+      "pct": 5.49
+    },
+    {
+      "scoreline": "2:2",
+      "pct": 4.5
+    },
+    {
+      "scoreline": "3:0",
+      "pct": 4.46
+    },
+    {
+      "scoreline": "3:1",
+      "pct": 4.43
+    },
+    {
+      "scoreline": "1:3",
+      "pct": 2.87
+    },
+    {
+      "scoreline": "0:3",
+      "pct": 2.79
+    },
+    {
+      "scoreline": "4:0",
+      "pct": 2.06
+    },
+    {
+      "scoreline": "3:2",
+      "pct": 2.04
+    }
+  ],
+  "by_tier_clash_md_gt_1": [
+    {
+      "group": "T4xT1",
+      "n": 12889,
+      "top1_scoreline": "0:1",
+      "top1_pct": 14.05,
+      "top2_scoreline": "0:2",
+      "top2_pct": 11.13,
+      "entropy_scoreline": 4.051,
+      "mean_total_goals": 2.55,
+      "pct_draw": 22.59
+    },
+    {
+      "group": "T4xT2",
+      "n": 13356,
+      "top1_scoreline": "0:1",
+      "top1_pct": 13.6,
+      "top2_scoreline": "1:1",
+      "top2_pct": 11.91,
+      "entropy_scoreline": 4.075,
+      "mean_total_goals": 2.455,
+      "pct_draw": 25.11
+    },
+    {
+      "group": "T4xT4",
+      "n": 10397,
+      "top1_scoreline": "1:1",
+      "top1_pct": 13.56,
+      "top2_scoreline": "1:0",
+      "top2_pct": 11.73,
+      "entropy_scoreline": 3.994,
+      "mean_total_goals": 2.329,
+      "pct_draw": 27.83
+    },
+    {
+      "group": "T3xT4",
+      "n": 13043,
+      "top1_scoreline": "1:0",
+      "top1_pct": 13.4,
+      "top2_scoreline": "1:1",
+      "top2_pct": 12.6,
+      "entropy_scoreline": 4.016,
+      "mean_total_goals": 2.415,
+      "pct_draw": 26.13
+    },
+    {
+      "group": "T2xT4",
+      "n": 12320,
+      "top1_scoreline": "2:0",
+      "top1_pct": 13.29,
+      "top2_scoreline": "1:0",
+      "top2_pct": 12.62,
+      "entropy_scoreline": 4.026,
+      "mean_total_goals": 2.609,
+      "pct_draw": 21.75
+    },
+    {
+      "group": "T1xT4",
+      "n": 11956,
+      "top1_scoreline": "2:0",
+      "top1_pct": 13.28,
+      "top2_scoreline": "1:0",
+      "top2_pct": 12.86,
+      "entropy_scoreline": 4.01,
+      "mean_total_goals": 2.78,
+      "pct_draw": 18.4
+    },
+    {
+      "group": "T1xT3",
+      "n": 12726,
+      "top1_scoreline": "2:0",
+      "top1_pct": 12.92,
+      "top2_scoreline": "1:0",
+      "top2_pct": 11.32,
+      "entropy_scoreline": 4.127,
+      "mean_total_goals": 2.79,
+      "pct_draw": 19.86
+    },
+    {
+      "group": "T3xT1",
+      "n": 12947,
+      "top1_scoreline": "0:1",
+      "top1_pct": 12.66,
+      "top2_scoreline": "1:1",
+      "top2_pct": 11.2,
+      "entropy_scoreline": 4.12,
+      "mean_total_goals": 2.546,
+      "pct_draw": 24.45
+    },
+    {
+      "group": "T3xT3",
+      "n": 9856,
+      "top1_scoreline": "1:1",
+      "top1_pct": 12.61,
+      "top2_scoreline": "1:0",
+      "top2_pct": 11.65,
+      "entropy_scoreline": 4.104,
+      "mean_total_goals": 2.477,
+      "pct_draw": 26.89
+    },
+    {
+      "group": "T3xT2",
+      "n": 13171,
+      "top1_scoreline": "1:1",
+      "top1_pct": 12.51,
+      "top2_scoreline": "0:1",
+      "top2_pct": 9.93,
+      "entropy_scoreline": 4.14,
+      "mean_total_goals": 2.483,
+      "pct_draw": 26.36
+    },
+    {
+      "group": "T4xT3",
+      "n": 13538,
+      "top1_scoreline": "1:1",
+      "top1_pct": 12.44,
+      "top2_scoreline": "0:1",
+      "top2_pct": 10.94,
+      "entropy_scoreline": 4.08,
+      "mean_total_goals": 2.392,
+      "pct_draw": 27.29
+    },
+    {
+      "group": "T2xT2",
+      "n": 9819,
+      "top1_scoreline": "1:1",
+      "top1_pct": 11.8,
+      "top2_scoreline": "1:0",
+      "top2_pct": 9.78,
+      "entropy_scoreline": 4.191,
+      "mean_total_goals": 2.606,
+      "pct_draw": 25.0
+    }
+  ],
+  "by_rank_sum_bucket": [
+    {
+      "group": "deep",
+      "n": 43356,
+      "top1_scoreline": "1:1",
+      "top1_pct": 12.61,
+      "top2_scoreline": "1:0",
+      "top2_pct": 11.72,
+      "entropy_scoreline": 4.075,
+      "mean_total_goals": 2.402,
+      "pct_draw": 26.47
+    },
+    {
+      "group": "lower",
+      "n": 39720,
+      "top1_scoreline": "1:1",
+      "top1_pct": 11.53,
+      "top2_scoreline": "1:0",
+      "top2_pct": 10.3,
+      "entropy_scoreline": 4.18,
+      "mean_total_goals": 2.532,
+      "pct_draw": 24.32
+    },
+    {
+      "group": "mid",
+      "n": 47755,
+      "top1_scoreline": "1:1",
+      "top1_pct": 10.96,
+      "top2_scoreline": "1:0",
+      "top2_pct": 9.76,
+      "entropy_scoreline": 4.247,
+      "mean_total_goals": 2.611,
+      "pct_draw": 22.99
+    },
+    {
+      "group": "upper",
+      "n": 36887,
+      "top1_scoreline": "1:1",
+      "top1_pct": 10.72,
+      "top2_scoreline": "1:0",
+      "top2_pct": 9.29,
+      "entropy_scoreline": 4.256,
+      "mean_total_goals": 2.64,
+      "pct_draw": 23.2
+    },
+    {
+      "group": "elite_low",
+      "n": 34842,
+      "top1_scoreline": "1:1",
+      "top1_pct": 10.63,
+      "top2_scoreline": "1:0",
+      "top2_pct": 9.44,
+      "entropy_scoreline": 4.254,
+      "mean_total_goals": 2.712,
+      "pct_draw": 22.47
+    }
+  ],
+  "strongest_table_cells_min80": [
+    {
+      "group": "H12_A1",
+      "n": 893,
+      "top1_scoreline": "0:1",
+      "top1_pct": 16.8,
+      "mean_total_goals": 2.458,
+      "pct_draw": 22.06
+    },
+    {
+      "group": "H16_A1",
+      "n": 724,
+      "top1_scoreline": "0:1",
+      "top1_pct": 16.71,
+      "mean_total_goals": 2.568,
+      "pct_draw": 18.23
+    },
+    {
+      "group": "H11_A16",
+      "n": 885,
+      "top1_scoreline": "1:0",
+      "top1_pct": 15.93,
+      "mean_total_goals": 2.436,
+      "pct_draw": 23.95
+    },
+    {
+      "group": "H14_A1",
+      "n": 819,
+      "top1_scoreline": "0:1",
+      "top1_pct": 15.87,
+      "mean_total_goals": 2.536,
+      "pct_draw": 24.18
+    },
+    {
+      "group": "H14_A3",
+      "n": 801,
+      "top1_scoreline": "0:1",
+      "top1_pct": 15.86,
+      "mean_total_goals": 2.544,
+      "pct_draw": 23.35
+    },
+    {
+      "group": "H13_A1",
+      "n": 803,
+      "top1_scoreline": "0:1",
+      "top1_pct": 15.82,
+      "mean_total_goals": 2.621,
+      "pct_draw": 22.91
+    },
+    {
+      "group": "H5_A15",
+      "n": 825,
+      "top1_scoreline": "2:0",
+      "top1_pct": 15.76,
+      "mean_total_goals": 2.686,
+      "pct_draw": 20.36
+    },
+    {
+      "group": "H4_A13",
+      "n": 807,
+      "top1_scoreline": "2:0",
+      "top1_pct": 15.74,
+      "mean_total_goals": 2.848,
+      "pct_draw": 18.84
+    },
+    {
+      "group": "H16_A2",
+      "n": 868,
+      "top1_scoreline": "0:1",
+      "top1_pct": 15.67,
+      "mean_total_goals": 2.439,
+      "pct_draw": 21.89
+    },
+    {
+      "group": "H16_A5",
+      "n": 876,
+      "top1_scoreline": "0:1",
+      "top1_pct": 15.64,
+      "mean_total_goals": 2.445,
+      "pct_draw": 21.23
+    },
+    {
+      "group": "H6_A15",
+      "n": 806,
+      "top1_scoreline": "2:0",
+      "top1_pct": 15.63,
+      "mean_total_goals": 2.663,
+      "pct_draw": 20.35
+    },
+    {
+      "group": "H9_A16",
+      "n": 833,
+      "top1_scoreline": "1:0",
+      "top1_pct": 15.61,
+      "mean_total_goals": 2.487,
+      "pct_draw": 20.05
+    }
+  ],
+  "findings": [
+    "Tier clash T4xT1: most common scoreline 0:1 at 14.05% (n=12889) \u2014 typed outcome, not just odd/even.",
+    "Global mode scoreline 1:1 (11.32%); top 5 scorelines cover ~47.0% of all games.",
+    "Sharpest table cell H12_A1: 0:1 16.8% (mean T=2.458, draw 22.06%).",
+    "Use scoreline PMF per table_cell_x1 + O/U integral; odd/even is coarse projection of this."
+  ],
+  "plot": "/home/ubuntu/faith-workspace/vfl-empire/models/odd_even/plots/scoreline_table_xminus1.png"
+}

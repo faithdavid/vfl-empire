@@ -1,0 +1,193 @@
+{
+  "capture_dir": "network-capture/2026-06-11_071524_interactive",
+  "vfl_endpoints": [
+    {
+      "endpoint": "GET current/match/day/info",
+      "hits": 300,
+      "sample": {
+        "url": "https://www.msport.com/api/ng/facts-center/query/frontend/virtual/current/match/day/info",
+        "status": 200,
+        "body_chars": 250,
+        "body_truncated": false,
+        "parseable": true
+      },
+      "schema": {
+        "matchDay": "int",
+        "matchDayStartTime": "int",
+        "seasonEndTime": "int",
+        "seasonId": "str",
+        "seasonName": "str",
+        "seasonStartTime": "int",
+        "status": "str"
+      }
+    },
+    {
+      "endpoint": "GET event/list",
+      "hits": 213,
+      "sample": {
+        "url": "https://www.msport.com/api/ng/facts-center/query/frontend/virtual/event/list?sportId=vf:sport:1",
+        "status": 200,
+        "body_chars": 8000,
+        "body_truncated": false,
+        "parseable": false
+      },
+      "schema": null
+    },
+    {
+      "endpoint": "GET productStatus",
+      "hits": 172,
+      "sample": {
+        "url": "https://www.msport.com/api/ng/facts-center/query/frontend/virtual/productStatus",
+        "status": 200,
+        "body_chars": 3685,
+        "body_truncated": false,
+        "parseable": true
+      },
+      "schema": {
+        "productStatus": [
+          {
+            "azIcon": "str",
+            "displayName": "str",
+            "enlarge": "null",
+            "flagText": "str",
+            "iconUrl": "str",
+            "lobbyUrl": "str",
+            "openPopup": "bool",
+            "pageUrl": "str",
+            "product": "int",
+            "sportId": "str",
+            "sportName": "str",
+            "status": "int",
+            "videoUrl": "str"
+          }
+        ]
+      }
+    },
+    {
+      "endpoint": "GET event/detail",
+      "hits": 146,
+      "sample": {
+        "url": "https://www.msport.com/api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082448",
+        "status": 200,
+        "body_chars": 8000,
+        "body_truncated": false,
+        "parseable": false
+      },
+      "schema": null
+    },
+    {
+      "endpoint": "GET result/season/selection",
+      "hits": 8,
+      "sample": {
+        "url": "https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result/season/selection",
+        "status": 200,
+        "body_chars": 6922,
+        "body_truncated": false,
+        "parseable": true
+      },
+      "schema": [
+        {
+          "matchDay": [
+            "int"
+          ],
+          "seasonId": "str",
+          "seasonName": "str",
+          "startTime": "int"
+        }
+      ]
+    },
+    {
+      "endpoint": "GET result",
+      "hits": 8,
+      "sample": {
+        "url": "https://www.msport.com/api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3099107&matchDay=16",
+        "status": 200,
+        "body_chars": 1138,
+        "body_truncated": false,
+        "parseable": true
+      },
+      "schema": {
+        "after": "null",
+        "current": {
+          "matchDay": "int",
+          "seasonId": "str",
+          "seasonName": "str",
+          "seasonStartTime": "int"
+        },
+        "prev": {
+          "matchDay": "int",
+          "seasonId": "str",
+          "seasonName": "str",
+          "seasonStartTime": "int"
+        },
+        "results": [
+          {
+            "awayTeam": "str",
+            "firstGoal": "str",
+            "fullTime": "str",
+            "halfTime": "str",
+            "homeTeam": "str"
+          }
+        ]
+      }
+    },
+    {
+      "endpoint": "GET default-market-info/v2",
+      "hits": 2,
+      "sample": {
+        "url": "https://www.msport.com/api/ng/facts-center/query/frontend/default-market-info/v2?sportId=vf:sport:1&withOthers=1",
+        "status": 200,
+        "body_chars": 1959,
+        "body_truncated": false,
+        "parseable": true
+      },
+      "schema": {
+        "markets": [
+          {
+            "marketInfos": [
+              "object"
+            ],
+            "name": "str"
+          }
+        ],
+        "otherDefaultMarkets": [
+          {
+            "marketInfos": [
+              "object"
+            ],
+            "name": "str"
+          }
+        ],
+        "otherMarkets": [
+          {
+            "marketInfos": [
+              "object"
+            ],
+            "name": "str"
+          }
+        ]
+      }
+    }
+  ],
+  "recommended_pipeline": [
+    "GET current/match/day/info",
+    "GET event/list?sportId=vf:sport:1",
+    "GET default-market-info/v2?sportId=vf:sport:1&withOthers=1",
+    "GET event/detail?eventId={eventId}",
+    "GET result?seasonId={seasonId}&matchDay={matchDay}",
+    "GET result/season/selection",
+    "GET table"
+  ],
+  "event_id_format": "vf:match:{numeric_id}",
+  "event_id_sources": {
+    "event_list": "homeTeam/awayTeam/eventId + embedded markets (7)",
+    "event_detail": "full markets (31+) + metadata",
+    "result_api": "NO eventId \u2014 scores only",
+    "default_market_info": "market type catalog (ids, titles, groups)"
+  },
+  "collection_strategy": {
+    "fast_path": "event/list embedded markets \u2014 upsert odds every cycle",
+    "deep_path": "event/detail when list markets < 7 or --force-detail",
+    "catalog": "default-market-info/v2 once per session or daily"
+  }
+}

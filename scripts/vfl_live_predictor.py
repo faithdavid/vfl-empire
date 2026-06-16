@@ -32,35 +32,29 @@ import os
 import sys
 import traceback
 from datetime import datetime, timezone
-# psycopg2 failed, using sqlite3 fallback for prediction loggingck
-from datetime import datetime, timezone
-# psycopg2 failed, using sqlite3 fallback for prediction logging
-def log_prediction_to_db(data):
-    print("Logging to SQLite instead of Postgres (Hotfix)")
-
-# Mock get_db for now to avoid the psycopg2 dependency entirely in the script
-def get_db():
-    class MockCur:
-        def execute(self, *args, **kwargs): pass
-        def __enter__(self): return self
-        def __exit__(self, *args): pass
-    return MockCur()
-
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
-# (Removed problematic import of common.db_manager since we are mocking get_db)
-# from common.db_manager import get_db
-
 
 # ──────────────────────────────────────────────────────────────────────
-# PATHS
+# PATHS (must be before services/common imports)
 # ──────────────────────────────────────────────────────────────────────
 BASE_DIR = Path("/home/ubuntu/faith-workspace/vfl-complete-data")
 SCRIPTS_DIR = Path("/home/ubuntu/faith-workspace/vfl-empire/scripts")
+SERVICES_DIR = Path("/home/ubuntu/faith-workspace/vfl-empire/services")
 
-# Add scripts dir to sys.path for direct imports
 sys.path.insert(0, str(SCRIPTS_DIR))
-sys.path.insert(0, "/home/ubuntu/faith-workspace/vfl-empire/services")
+sys.path.insert(0, str(SERVICES_DIR))
+
+from common.db_manager import get_db  # noqa: E402
+from common.deep_goals_predictor import (  # noqa: E402
+    format_scorelines_short,
+    predict_from_odds_dict,
+)
+
+
+# ──────────────────────────────────────────────────────────────────────
+# PATHS (continued)
+# ──────────────────────────────────────────────────────────────────────
 
 STATE_FILE = BASE_DIR / "signals" / "live_predictor_state.json"
 LOG_FILE = "/tmp/vfl_live_predictor.log"
@@ -130,7 +124,7 @@ def write_predictions_latest(season_name: str, season_id: str, match_day: int, f
     """Write latest predictions to the signals directory in the format expected by the API server."""
     output = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
-        "pipeline": "live_predictor_v1",
+        "pipeline": "live_predictor_v2_deep_goals",
         "matchdays": [
             {
                 "season": season_name,
@@ -310,12 +304,16 @@ def extract_odds(event: dict) -> Dict[str, Optional[float]]:
             elif name == "DNB":
                 if desc == "Home" or o.get("id") in (4, "4"):
                     odds["dnb_home"] = val
-            elif name in ("1X2", "Match Result", "Full Time Result"):
-                if desc == "Home":
+            elif (
+                mk.get("id") == 1
+                or name.lower() in ("1x2", "match result", "full time result")
+            ):
+                dlow = desc.lower()
+                if dlow == "home":
                     odds["home_win"] = val
-                elif desc == "Draw":
+                elif dlow == "draw":
                     odds["draw"] = val
-                elif desc == "Away":
+                elif dlow == "away":
                     odds["away_win"] = val
 
     return odds
@@ -340,6 +338,7 @@ def analyze_fixture(
     home: str,
     away: str,
     odds_dict: Dict[str, Optional[float]],
+    event_markets: Optional[List[dict]] = None,
 ) -> Dict[str, Any]:
     """Run full analysis on a single fixture.
 
@@ -360,7 +359,17 @@ def analyze_fixture(
         "markets": [],
         "best_pick": None,
         "gate_results": {},
+        "deep_goals": None,
     }
+
+    # ── 0. Deep goals + scorelines (O/U CDF, CS, H2H) ─────────────────
+    try:
+        result["deep_goals"] = predict_from_odds_dict(
+            home, away, odds_dict, markets=event_markets
+        )
+    except Exception as e:
+        logger.warning("deep_goals predict failed %s vs %s: %s", home, away, e)
+        result["deep_goals"] = None
 
     # ── 1. Finite State Space filter (trap detection) ────────────────
     try:
@@ -580,6 +589,19 @@ def build_report(
 
         lines.append(f"### {home} vs {away}")
 
+        dg = fa.get("deep_goals") or {}
+        if dg:
+            et = dg.get("E_total_blend")
+            o25 = dg.get("o25_lean", "—")
+            mood = dg.get("scoring_mood", "—")
+            sl = format_scorelines_short(dg.get("top_scorelines") or [])
+            lines.append(
+                f"🎯 **E[goals]={et}** | {o25} | mood *{mood}*"
+            )
+            lines.append(f"📋 **Top scorelines:** {sl}")
+            if dg.get("E_total_h2h") is not None:
+                lines.append(f"↔️ H2H avg total: {dg['E_total_h2h']}")
+
         # Finite state
         fs_verdict = fs.get("verdict", "PASS")
         if fs_verdict == "FAIL":
@@ -677,7 +699,8 @@ def run_predictor(
 
         season_id = str(info.get("seasonId", ""))
         season_name = str(info.get("seasonName", ""))
-        match_day = int(info.get("matchDay", 0))
+        md_val = info.get("matchDay", 0)
+        match_day = int(md_val) if md_val is not None else 0
         match_day_start_time = info.get("matchDayStartTime", 0)
     except Exception as e:
         logger.error("Failed to fetch match day info: %s", e)
@@ -762,6 +785,7 @@ def run_predictor(
             continue
 
         odds_dict = extract_odds(event)
+        markets = event.get("markets") or []
         logger.debug(
             "Analyzing %s vs %s: O1.5=%s, O2.5=%s, U2.5=%s, U3.5=%s, GG=%s, NG=%s",
             home, away,
@@ -770,7 +794,7 @@ def run_predictor(
             odds_dict.get("gg"), odds_dict.get("ng"),
         )
 
-        fa = analyze_fixture(home, away, odds_dict)
+        fa = analyze_fixture(home, away, odds_dict, event_markets=markets)
         fixture_analyses.append(fa)
         fixtures_total += 1
 

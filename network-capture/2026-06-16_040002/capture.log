@@ -1,0 +1,23 @@
+2026-06-16 04:00:05,366 [INFO] Browser launched
+2026-06-16 04:00:06,291 [INFO] Browser context and page created
+2026-06-16 04:00:06,294 [INFO] Navigation attempt 1/3 to https://www.msport.com/ng/web/virtual
+2026-06-16 04:00:14,129 [INFO] Navigation OK — URL: https://www.msport.com/ng/web/welcome
+2026-06-16 04:00:14,139 [DEBUG] Playwright event listeners installed
+2026-06-16 04:00:14,144 [WARNING] Requestly SDK not found at /tmp/node_modules/@requestly/web-sdk/dist/requestly-web-sdk.min.js — skipping Layer 2
+2026-06-16 04:02:14,419 [INFO] HEARTBEAT — elapsed=132s events=25 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:04:14,958 [INFO] HEARTBEAT — elapsed=253s events=47 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:06:15,676 [INFO] HEARTBEAT — elapsed=373s events=70 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:08:15,787 [INFO] HEARTBEAT — elapsed=493s events=95 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:10:15,931 [INFO] HEARTBEAT — elapsed=614s events=118 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:12:16,201 [INFO] HEARTBEAT — elapsed=734s events=142 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:14:16,342 [INFO] HEARTBEAT — elapsed=854s events=163 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:16:16,669 [INFO] HEARTBEAT — elapsed=974s events=186 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:18:17,524 [INFO] HEARTBEAT — elapsed=1095s events=207 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:20:20,301 [INFO] HEARTBEAT — elapsed=1218s events=230 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:31:28,909 [INFO] HEARTBEAT — elapsed=1887s events=245 requestly=0 url=https://www.msport.com/ng/web/welcome
+2026-06-16 04:31:29,201 [INFO] Capture complete (1887s elapsed)
+2026-06-16 04:31:29,204 [INFO] Finalizing capture (status=completed, duration=1887s)
+2026-06-16 04:37:16,407 [DEBUG] Browser closed
+2026-06-16 04:37:20,054 [INFO] Index metadata written: /home/ubuntu/faith-workspace/vfl-empire/network-capture/2026-06-16_040002/index.json
+2026-06-16 04:37:20,056 [INFO] Capture finalized. Output: /home/ubuntu/faith-workspace/vfl-empire/network-capture/2026-06-16_040002
+2026-06-16 04:37:27,109 [INFO] Successfully captured 245 Playwright events and 0 Requestly events

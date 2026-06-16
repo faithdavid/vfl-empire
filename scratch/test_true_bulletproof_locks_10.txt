@@ -1,0 +1,20 @@
+Training on 522 seasons. Testing on last 15 seasons...
+Total 100% Locks Found on Training Set: 9
+
+===================================================================================================
+ 🎯 INDEPENDENT BULLETPROOF ORACLE: LAST 15 SEASONS BACKTEST
+===================================================================================================
+SEASON   | MD  | FIXTURE                        | LAG TIERS  | PREDICTION | SCORE | RESULT
+----------------------------------------------------------------------------------------------------
+3089354  | 24  | Tottenham vs Fulham            | T1 v T4    | HOME WIN   | 3-0   | ✅ WON
+3089498  | 17  | Manchester Blue vs Everton     | T1 v T2    | HOME WIN   | 2-1   | ✅ WON
+3089615  | 18  | Manchester Blue vs Everton     | T1 v T2    | HOME WIN   | 3-0   | ✅ WON
+3089669  | 24  | Tottenham vs Fulham            | T1 v T4    | HOME WIN   | 2-0   | ✅ WON
+
+===================================================================================================
+ 🏁 FINAL RESULTS (LAST 15 SEASONS OOS)
+===================================================================================================
+Total Bets Placed:     4
+Total Wins:            4
+Total Losses:          0
+Accuracy:              100.00%

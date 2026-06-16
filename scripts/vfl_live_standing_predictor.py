@@ -30,6 +30,32 @@ def get_micro_tier(rank: int) -> str:
     elif rank <= 14: return "G"
     else: return "H"
 
+import sqlite3
+def get_current_phase() -> str:
+    """Detects if the MSport RNG is in a stable or chaos cycle by evaluating recent goal variance."""
+    try:
+        conn = sqlite3.connect('/home/ubuntu/faith-workspace/vfl-empire/data/databases/history.db')
+        cur = conn.cursor()
+        # Find the most active season
+        cur.execute("SELECT season, MAX(day) as max_day FROM matches GROUP BY season ORDER BY season DESC LIMIT 1")
+        row = cur.fetchone()
+        if not row: return "🟢 STABLE MODE"
+        
+        season, max_day = row[0], row[1]
+        if max_day < 3: return "🟢 STABLE MODE"
+        
+        # Analyze average goals over the last 3 matchdays
+        cur.execute("SELECT AVG(total) FROM matches WHERE season = ? AND day BETWEEN ? AND ?", (season, max_day - 2, max_day))
+        avg_goals = cur.fetchone()[0]
+        if avg_goals is None: return "🟢 STABLE MODE"
+        
+        # Extreme goal droughts or explosions indicate a volatile Chaos Phase
+        if avg_goals < 2.3 or avg_goals > 3.1:
+            return "🔴 CHAOS MODE"
+        return "🟢 STABLE MODE"
+    except:
+        return "🟢 STABLE MODE"
+
 def infer_exact_score(row: dict) -> str:
     """Infers exact scores based on intersecting high-confidence (>85%) or low-confidence (<15%) market locks."""
     u15 = row.get('w_u15_rate', 0) >= 0.85
@@ -147,29 +173,42 @@ def run_predictions():
         macro_row = macro_patterns.get(macro_key, {})
         micro_row = micro_patterns.get(micro_key, {})
 
-        confluence_picks = []
-        micro_picks = []
-        macro_picks = []
+        extreme_traps = []
+        regular_locks = []
 
-        markets = [
-            ('Under 1.5', 'w_u15_rate'), ('Over 1.5', 'w_o15_rate'),
-            ('Under 2.5', 'w_u25_rate'), ('Over 2.5', 'w_o25_rate'),
-            ('Under 3.5', 'w_u35_rate'), ('Over 3.5', 'w_o35_rate'),
-            ('GG (BTTS)', 'w_gg_rate'),
-            ('Home Win (1)', 'w_1_rate'), ('Draw (X)', 'w_x_rate'), ('Away Win (2)', 'w_2_rate')
-        ]
+        mac_1 = macro_row.get('w_1_rate', 0)
+        mic_1 = micro_row.get('w_1_rate', 0)
+        if mac_1 >= 0.85 or mic_1 >= 0.85:
+            extreme_traps.append(("1X2 Home Win", max(mac_1, mic_1)))
 
-        # Evaluate Confluence
-        for pick_name, rate_key in markets:
-            mac_r = macro_row.get(rate_key, 0)
-            mic_r = micro_row.get(rate_key, 0)
+        mac_u25 = macro_row.get('w_u25_rate', 0)
+        mic_u25 = micro_row.get('w_u25_rate', 0)
+        if mac_u25 >= 0.90 or mic_u25 >= 0.90:
+            extreme_traps.append(("Under 2.5", max(mac_u25, mic_u25)))
 
-            if mac_r >= 0.80 and mic_r >= 0.80:
-                confluence_picks.append((pick_name, mac_r, mic_r))
-            elif mic_r >= 0.85:
-                micro_picks.append((pick_name, mic_r))
-            elif mac_r >= 0.85:
-                macro_picks.append((pick_name, mac_r))
+        mac_o25 = macro_row.get('w_o25_rate', 0)
+        mic_o25 = micro_row.get('w_o25_rate', 0)
+        if mac_o25 >= 0.90 or mic_o25 >= 0.90:
+            extreme_traps.append(("Over 2.5", max(mac_o25, mic_o25)))
+            
+        mac_u35 = macro_row.get('w_u35_rate', 0)
+        mic_u35 = micro_row.get('w_u35_rate', 0)
+        if mac_u35 >= 0.95 or mic_u35 >= 0.95:
+            regular_locks.append(("Under 3.5", max(mac_u35, mic_u35)))
+
+        mac_o15 = macro_row.get('w_o15_rate', 0)
+        mic_o15 = micro_row.get('w_o15_rate', 0)
+        if mac_o15 >= 0.95 or mic_o15 >= 0.95:
+            regular_locks.append(("Over 1.5", max(mac_o15, mic_o15)))
+
+        current_phase = get_current_phase()
+
+        # Apply Phase Switching
+        if "CHAOS" in current_phase:
+            # In chaos, rely ONLY on the extreme structural traps and the safest U3.5 macro.
+            regular_locks = []
+            if macro_row.get('w_u35_rate', 0) >= 0.85:
+                regular_locks.append(("Under 3.5 (Chaos Fallback)", macro_row.get('w_u35_rate', 0)))
 
         # Check Chaos Trap Blacklist
         chaos_trap = False
@@ -184,45 +223,47 @@ def run_predictions():
             chaos_trap = True
             trap_reason = "Specific Team Chaos"
 
-        if confluence_picks or micro_picks or macro_picks:
+        if extreme_traps or regular_locks:
             match_header = f"⚔️ **{home}** vs **{away}**"
             picks.append(match_header)
-            
+
             if chaos_trap:
                 picks.append(f"   ⚠️ **[CHAOS TRAP WARNING]** Do not bet heavily. MSport RNG Target: {trap_reason}")
-            
-            # Use Micro for exact score and blindspots since it's the most granular
+
             target_row = micro_row if micro_row else macro_row
             exact_score = infer_exact_score(target_row)
             if exact_score:
                 picks.append(f"   ↳ 🔮 **EXACT SCORE PREDICTION: {exact_score}**")
-                
-            if target_row.get('w_o25_rate', 0) >= 0.80 and target_row.get('w_u35_rate', 0) >= 0.80:
-                picks.append("   🛡️ **BLINDSPOT COVER**: Play Under 3.5 (75% Safe) or Over 1.5 (73% Safe)")
-            elif target_row.get('w_gg_rate', 0) >= 0.80 and target_row.get('w_u25_rate', 0) >= 0.80:
-                picks.append("   🛡️ **BLINDSPOT COVER**: Play Under 3.5 (77% Safe)")
-            elif target_row.get('w_1_rate', 0) >= 0.80 and target_row.get('w_u25_rate', 0) >= 0.80:
-                picks.append("   🛡️ **BLINDSPOT COVER**: Play 1X (Home or Draw) (75% Safe)")
-            elif target_row.get('w_2_rate', 0) >= 0.80 and target_row.get('w_u25_rate', 0) >= 0.80:
-                picks.append("   🛡️ **BLINDSPOT COVER**: Play X2 (Draw or Away) (65% Safe)")
-            elif target_row.get('w_gg_rate', 0) >= 0.80 and target_row.get('w_o25_rate', 0) >= 0.80:
-                picks.append("   🛡️ **BLINDSPOT COVER**: Play Over 1.5 (73% Safe)")
 
-            for pick, mac_r, mic_r in confluence_picks:
-                picks.append(f"   ↳ 🥇 **[CONFLUENCE LOCK] {pick}**  •  Macro: {mac_r*100:.1f}% | Micro: {mic_r*100:.1f}%")
+            for pick, rate in extreme_traps:
+                picks.append(f"   ↳ 🎯 **[HIGH ODDS TRAP] {pick}**  •  {rate*100:.1f}%")
             
-            for pick, mic_r in micro_picks:
-                picks.append(f"   ↳ 🥈 **[MICRO LOCK] {pick}**  •  {mic_r*100:.1f}%")
-
-            for pick, mac_r in macro_picks:
-                picks.append(f"   ↳ 🥉 **[MACRO LOCK] {pick}**  •  {mac_r*100:.1f}%")
-
-            picks.append("") # Empty line for spacing
+            for pick, rate in regular_locks:
+                picks.append(f"   ↳ 🛡️ **[95%+ COMPOUND LOCK] {pick}**  •  {rate*100:.1f}%")
+            
+            picks.append("")
                              
     if picks:
-        message = f"🚨 **VFL CONDITIONAL LOCKS** | Matchday {md_num} 🚨\n\n"
+        # Determine Phase header dynamically
+        current_phase = get_current_phase()
+        if "CHAOS" in current_phase:
+            phase_header = "🔴 VFL MACRO LOCKS ONLY | CHAOS RNG DETECTED 🔴"
+        else:
+            phase_header = "🟢 VFL CONFLUENCE LOCKS | STABLE RNG DETECTED 🟢"
+            
+        message = f"{phase_header}\nMatchday {md_num} 🚨\n\n"
         message += "\n".join(picks)
-        
+
+        logger.info("Logging to local archive file...")
+        import datetime
+        try:
+            with open("/home/ubuntu/faith-workspace/vfl-empire/logs/discord_predictions_archive.log", "a") as logf:
+                logf.write(f"\n--- {datetime.datetime.now().isoformat()} ---\n")
+                logf.write(message)
+                logf.write("\n")
+        except Exception as e:
+            logger.error(f"Failed to log locally: {e}")
+
         logger.info("Sending picks to Discord...")
         subprocess.run(
             ["/home/ubuntu/.local/bin/hermes", "send", "--to", DISCORD_TARGET, message],

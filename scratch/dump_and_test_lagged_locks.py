@@ -3,9 +3,6 @@ import sys
 import numpy as np
 import json
 
-sys.path.append('/home/ubuntu/faith-workspace/vfl-empire/scripts')
-from vfl_standings_pattern_miner import extract_panel_data_with_standings
-
 def dump_and_test_lagged_locks():
     print("Extracting raw data and calculating 2-Matchday Lag Tiers...")
     
@@ -61,8 +58,13 @@ def dump_and_test_lagged_locks():
     # Filter to valid phases for lag (Phase 2 corresponds to MD3/MD4)
     df_valid = df[df['season_phase'] >= 2].copy()
     
-    # 1. Mine the 100% locks
-    grouped = df_valid.groupby(['home', 'away', 'lag_home_tier', 'lag_away_tier', 'season_phase'])
+    all_seasons = sorted(df_valid['season_num'].dropna().unique())
+    test_seasons = all_seasons[-15:]
+    df_train = df_valid[~df_valid['season_num'].isin(test_seasons)].copy()
+    df_test = df_valid[df_valid['season_num'].isin(test_seasons)].sort_values(by=['season_num', 'day'])
+
+    # 1. Mine the 100% locks ON TRAINING DATA ONLY
+    grouped = df_train.groupby(['home', 'away', 'lag_home_tier', 'lag_away_tier', 'season_phase'])
     
     locks = []
     locks_db = {}
@@ -89,19 +91,16 @@ def dump_and_test_lagged_locks():
             })
             locks_db[(str(home), str(away), str(h_tier), str(a_tier), int(phase))] = lock_code
             
-    # Dump to JSON
+    print(f"✅ Training completed. Found {len(locks)} bulletproof locks on training set.")
+
+    # Dump to JSON to update the DB so bot uses these
     out_path = '/home/ubuntu/faith-workspace/vfl-empire/data/phase_fixture_locks_bulletproof.json'
     with open(out_path, 'w') as f:
         json.dump(locks, f, indent=4)
-    print(f"✅ Successfully overwrote database: Saved {len(locks)} Bulletproof Locks to {out_path}\n")
-
-    # 2. Backtest on the last 10 seasons
-    all_seasons = sorted(df_valid['season_num'].dropna().unique())
-    test_seasons = all_seasons[-10:]
-    df_test = df_valid[df_valid['season_num'].isin(test_seasons)].sort_values(by=['season_num', 'day'])
+    print(f"✅ Saved {len(locks)} Bulletproof Locks to {out_path}\n")
 
     print("===================================================================================================")
-    print(" 🎯 BULLETPROOF ORACLE: VFLM BACKTEST (LAST 10 SEASONS)")
+    print(" 🎯 BULLETPROOF ORACLE: VFLM BACKTEST (LAST 15 SEASONS)")
     print("===================================================================================================")
     
     total_bets = 0

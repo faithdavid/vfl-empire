@@ -58,9 +58,9 @@ except Exception as e:
     log.error(f"Failed to load locks: {e}")
     sys.exit(1)
 
-def get_tiers_from_live_standings():
+def get_tiers_from_live_standings(season_id, target_md):
     try:
-        raw_standings = get_standings()
+        raw_standings = get_standings(season_id=season_id, match_day=target_md)
         if not raw_standings: return None
         table = extract_standings_table(raw_standings)
         if not table: return None
@@ -183,23 +183,35 @@ def main_loop():
                 continue
                 
             season = info.get('seasonName')
+            season_id = info.get('seasonId')
             current_md = info.get('matchDay')
             status = info.get('status')
             
-            # Prevent double-betting on the same matchday
-            if state['last_bet_season'] == season and state['last_bet_md'] == current_md:
-                log.info(f"Already checked MD {current_md}. Waiting for next...")
-                time.sleep(20)
-                continue
-                
-            tier_map = get_tiers_from_live_standings()
             events = get_event_list()
-            
-            if not tier_map or not events:
+            if not events:
                 time.sleep(10)
                 continue
                 
             target_md = events[0].get('matchDay')
+            
+            # Prevent double-betting on the same matchday
+            if state['last_bet_season'] == season and state['last_bet_md'] == target_md:
+                log.info(f"Already checked MD {target_md}. Waiting for next...")
+                time.sleep(20)
+                continue
+                
+            lagged_md = target_md - 1
+            if lagged_md < 1:
+                log.info(f"MD {target_md} too early for lagged tiers. Skipping.")
+                time.sleep(20)
+                continue
+                
+            tier_map = get_tiers_from_live_standings(season_id, lagged_md)
+            
+            if not tier_map:
+                time.sleep(10)
+                continue
+                
             season_phase = int(np.ceil(target_md / 2.0))
             
             locks_found = []

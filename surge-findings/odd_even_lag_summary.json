@@ -1,0 +1,30 @@
+{
+  "generated_utc": "2026-06-14T20:12:17.525630+00:00",
+  "n_slates": 25170,
+  "n_fixtures_with_lag": 201360,
+  "best_md_slate_odd_pct": [
+    {
+      "matchday_number": 5,
+      "n_slates": 839,
+      "pct_slate_sum_odd": 55.07,
+      "avg_md_goals": 20.6984505363528,
+      "avg_odd_fixtures": 3.911799761620977
+    },
+    {
+      "matchday_number": 6,
+      "n_slates": 839,
+      "pct_slate_sum_odd": 54.59,
+      "avg_md_goals": 20.572109654350417,
+      "avg_odd_fixtures": 3.8927294398092966
+    },
+    {
+      "matchday_number": 17,
+      "n_slates": 839,
+      "pct_slate_sum_odd": 54.11,
+      "avg_md_goals": 20.703218116805722,
+      "avg_odd_fixtures": 3.928486293206198
+    }
+  ],
+  "x2_agree_pct_odd": 48.78,
+  "x2_disagree_pct_odd": 49.33
+}

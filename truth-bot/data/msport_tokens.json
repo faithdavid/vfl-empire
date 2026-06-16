@@ -1,0 +1,11 @@
+{
+  "accessToken": "\"2:patron:id:accesstoken:7f073ac383921cb5fbc98868385347995lOxH0O84RfWRFvSbkxONRXLVWm6Ds+snnUQp6V/OCqvLr2QtqtW4PZeEu5fbzhrc8goCX6vzXP1xU5bCIjGsw==\"",
+  "refreshToken": "\"patron:id:refreshtoken:013902e4018f49d5a12934c923013f11\"",
+  "device-id": "3c321540-48ba-44ae-ab05-ce31a2fcba30",
+  "highFreqToken": "\"highfreq-games-b35215b498154217a9c328c5e4ec0edf\"",
+  "did": "260522101459pdid94946681",
+  "userId": "211107233210puid30405048",
+  "deviceId": "3c321540-48ba-44ae-ab05-ce31a2fcba30",
+  "deviceId_localStorage": "260522101459pdid94946681",
+  "refreshed_at": 1779671460.9915066
+}

@@ -1,0 +1,1002 @@
+{
+    "MD1 | Chelsea(T0) vs Crystal Palace(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD1 | Manchester Blue(T0) vs Leeds(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD1 | Manchester Blue(T0) vs Newcastle(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "7/7 (100%)"
+    },
+    "MD1 | Wolverhampton(T0) vs Manchester Red(T0)": {
+        "outcome": "AWAY WIN",
+        "confidence": "7/7 (100%)"
+    },
+    "MD10 | Leeds(T4) vs Liverpool(T2)": {
+        "outcome": "AWAY WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD10 | Liverpool(T1) vs Chelsea(T1)": {
+        "outcome": "DRAW",
+        "confidence": "4/4 (100%)"
+    },
+    "MD10 | London Guns(T1) vs Liverpool(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD10 | Manchester Red(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD10 | Manchester Red(T2) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Aston Villa(T1) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Chelsea(T1) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD11 | Fulham(T4) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Manchester Blue(T1) vs Liverpool(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Manchester Blue(T2) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Manchester Red(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Manchester Red(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Manchester Red(T1) vs Manchester Blue(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Newcastle(T2) vs Liverpool(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Newcastle(T3) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD11 | Tottenham(T1) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD12 | Bournemouth(T4) vs Aston Villa(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD12 | Bournemouth(T4) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD12 | Liverpool(T1) vs Crystal Palace(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD12 | Liverpool(T1) vs Manchester Blue(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD12 | Liverpool(T1) vs West Ham(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD12 | Manchester Blue(T1) vs West Ham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD12 | Manchester Red(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD12 | Wolverhampton(T2) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD12 | Wolverhampton(T4) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD13 | Bournemouth(T4) vs Manchester Blue(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD13 | Chelsea(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD13 | Liverpool(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD13 | Liverpool(T2) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD13 | Liverpool(T2) vs Manchester Red(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD13 | Manchester Blue(T1) vs Everton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD13 | Manchester Blue(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD13 | Manchester Red(T1) vs Everton(T3)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD13 | Tottenham(T2) vs Manchester Red(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD14 | Chelsea(T1) vs Crystal Palace(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD14 | Everton(T3) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD14 | Everton(T3) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD14 | Leeds(T4) vs Fulham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD14 | Manchester Blue(T1) vs Fulham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD14 | Manchester Blue(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD14 | Manchester Blue(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD14 | Manchester Red(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD14 | Manchester Red(T1) vs Everton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD14 | Newcastle(T4) vs Liverpool(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD14 | West Ham(T2) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD14 | Wolverhampton(T4) vs Chelsea(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD15 | Aston Villa(T3) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD15 | Leeds(T4) vs West Ham(T3)": {
+        "outcome": "DRAW",
+        "confidence": "4/4 (100%)"
+    },
+    "MD15 | Liverpool(T1) vs Chelsea(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD15 | Liverpool(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD15 | Liverpool(T1) vs Newcastle(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD15 | Newcastle(T4) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD16 | Aston Villa(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD16 | Aston Villa(T2) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD16 | Aston Villa(T2) vs Brighton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD16 | Chelsea(T2) vs Wolverhampton(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD16 | Crystal Palace(T4) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD16 | Manchester Blue(T1) vs Leeds(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD16 | Manchester Blue(T1) vs West Ham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD16 | Manchester Red(T1) vs Chelsea(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD16 | Tottenham(T1) vs Newcastle(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD16 | Wolverhampton(T4) vs Newcastle(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD17 | Aston Villa(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD17 | Aston Villa(T2) vs London Guns(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD17 | Brighton(T2) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD17 | Chelsea(T1) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD17 | Leeds(T3) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD17 | Liverpool(T1) vs Aston Villa(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD17 | Manchester Blue(T1) vs Wolverhampton(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD17 | Manchester Red(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD17 | Manchester Red(T2) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD17 | Newcastle(T3) vs Liverpool(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD18 | Brighton(T2) vs Manchester Red(T1)": {
+        "outcome": "DRAW",
+        "confidence": "4/4 (100%)"
+    },
+    "MD18 | Chelsea(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD18 | Fulham(T4) vs Manchester Blue(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD18 | Liverpool(T1) vs Crystal Palace(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD18 | Manchester Blue(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD18 | Manchester Red(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD19 | Bournemouth(T4) vs Chelsea(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | Brighton(T3) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD19 | Chelsea(T1) vs Crystal Palace(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | Chelsea(T1) vs Newcastle(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | Chelsea(T2) vs Brighton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD19 | Chelsea(T2) vs Leeds(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | Everton(T3) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | London Guns(T1) vs Manchester Red(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | Manchester Blue(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | Manchester Blue(T1) vs Liverpool(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | Manchester Red(T1) vs Brighton(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD19 | Manchester Red(T1) vs Everton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | Manchester Red(T1) vs Wolverhampton(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | Tottenham(T1) vs Everton(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD19 | West Ham(T2) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD2 | Bournemouth(T0) vs Manchester Blue(T0)": {
+        "outcome": "AWAY WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD2 | Bournemouth(T0) vs Wolverhampton(T0)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD2 | Chelsea(T0) vs Newcastle(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "9/9 (100%)"
+    },
+    "MD2 | Chelsea(T0) vs West Ham(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD2 | Crystal Palace(T0) vs Leeds(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "7/7 (100%)"
+    },
+    "MD2 | Liverpool(T0) vs Crystal Palace(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD2 | Manchester Blue(T0) vs West Ham(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD2 | Manchester Red(T0) vs Newcastle(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "8/8 (100%)"
+    },
+    "MD2 | Tottenham(T0) vs Newcastle(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "8/8 (100%)"
+    },
+    "MD2 | Wolverhampton(T0) vs Leeds(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD20 | Aston Villa(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD20 | Aston Villa(T2) vs Wolverhampton(T3)": {
+        "outcome": "DRAW",
+        "confidence": "4/4 (100%)"
+    },
+    "MD20 | Bournemouth(T4) vs Chelsea(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD20 | Bournemouth(T4) vs Manchester Blue(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD20 | Bournemouth(T4) vs Wolverhampton(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD20 | Liverpool(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD20 | Liverpool(T1) vs Everton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD20 | London Guns(T2) vs Liverpool(T1)": {
+        "outcome": "DRAW",
+        "confidence": "4/4 (100%)"
+    },
+    "MD20 | Manchester Blue(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "7/7 (100%)"
+    },
+    "MD20 | Manchester Blue(T1) vs Everton(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD20 | Manchester Blue(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD20 | Manchester Red(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD20 | Manchester Red(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD21 | Chelsea(T1) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD21 | Crystal Palace(T4) vs Liverpool(T2)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD21 | Fulham(T4) vs Tottenham(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD21 | Liverpool(T1) vs Leeds(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD21 | Liverpool(T1) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD21 | London Guns(T2) vs Liverpool(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD21 | Manchester Blue(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD21 | Manchester Blue(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD21 | Manchester Blue(T1) vs London Guns(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD21 | Manchester Red(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD21 | Manchester Red(T2) vs London Guns(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD22 | Aston Villa(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD22 | Aston Villa(T3) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD22 | Chelsea(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "8/8 (100%)"
+    },
+    "MD22 | Fulham(T4) vs Chelsea(T2)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD22 | Liverpool(T1) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD22 | Manchester Blue(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD22 | Manchester Red(T1) vs Brighton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD22 | Manchester Red(T1) vs Tottenham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD22 | Tottenham(T2) vs Everton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD23 | Chelsea(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD23 | Everton(T2) vs Chelsea(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD23 | Fulham(T4) vs Aston Villa(T2)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD23 | Fulham(T4) vs West Ham(T4)": {
+        "outcome": "AWAY WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD23 | Liverpool(T1) vs Crystal Palace(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD23 | Liverpool(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD23 | Liverpool(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD23 | Liverpool(T1) vs Manchester Blue(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD23 | Liverpool(T1) vs Tottenham(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD23 | London Guns(T2) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD23 | Manchester Red(T1) vs Crystal Palace(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD23 | Manchester Red(T1) vs Fulham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD23 | Manchester Red(T1) vs Leeds(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD23 | Manchester Red(T2) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD24 | Chelsea(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD24 | Leeds(T3) vs Newcastle(T4)": {
+        "outcome": "DRAW",
+        "confidence": "4/4 (100%)"
+    },
+    "MD24 | Liverpool(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD24 | Manchester Red(T1) vs Crystal Palace(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD24 | Tottenham(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD24 | Tottenham(T2) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD24 | West Ham(T3) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD24 | Wolverhampton(T3) vs Chelsea(T2)": {
+        "outcome": "AWAY WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD25 | Aston Villa(T2) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD25 | Bournemouth(T4) vs Chelsea(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | Bournemouth(T4) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | Chelsea(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | Liverpool(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "7/7 (100%)"
+    },
+    "MD25 | Liverpool(T1) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | London Guns(T1) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | Manchester Blue(T1) vs West Ham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | Manchester Red(T1) vs Brighton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD25 | Manchester Red(T1) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD25 | Manchester Red(T2) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | Tottenham(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD25 | Tottenham(T2) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | Tottenham(T2) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | West Ham(T3) vs London Guns(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | Wolverhampton(T3) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD25 | Wolverhampton(T3) vs West Ham(T2)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD26 | Aston Villa(T1) vs West Ham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD26 | Chelsea(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD26 | Fulham(T4) vs Manchester Red(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD26 | London Guns(T2) vs Everton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD26 | Manchester Blue(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD26 | Manchester Blue(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD26 | Manchester Red(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD26 | Tottenham(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD26 | Tottenham(T2) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD26 | Wolverhampton(T3) vs Chelsea(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD27 | Bournemouth(T4) vs Chelsea(T2)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD27 | Brighton(T3) vs Tottenham(T2)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD27 | Chelsea(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD27 | Chelsea(T1) vs Brighton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD27 | Chelsea(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD27 | Liverpool(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "7/7 (100%)"
+    },
+    "MD27 | Liverpool(T1) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD27 | Liverpool(T1) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD27 | Manchester Blue(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD27 | Manchester Red(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD27 | Manchester Red(T2) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD27 | Newcastle(T3) vs Chelsea(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD27 | West Ham(T3) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD28 | Bournemouth(T4) vs Manchester Blue(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD28 | Brighton(T3) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD28 | Chelsea(T1) vs Aston Villa(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD28 | Fulham(T4) vs Leeds(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD28 | Liverpool(T2) vs Chelsea(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD28 | Manchester Blue(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD28 | Tottenham(T2) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD28 | Tottenham(T2) vs Newcastle(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD28 | West Ham(T3) vs Everton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD28 | Wolverhampton(T3) vs London Guns(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "6/6 (100%)"
+    },
+    "MD29 | Crystal Palace(T4) vs Chelsea(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD29 | Manchester Blue(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD29 | Manchester Blue(T1) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD29 | Tottenham(T2) vs Everton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD29 | West Ham(T3) vs Aston Villa(T2)": {
+        "outcome": "AWAY WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD29 | Wolverhampton(T3) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD3 | Brighton(T0) vs Bournemouth(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD3 | Liverpool(T1) vs Fulham(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD3 | Liverpool(T2) vs Newcastle(T0)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD3 | Newcastle(T0) vs Bournemouth(T0)": {
+        "outcome": "DRAW",
+        "confidence": "4/4 (100%)"
+    },
+    "MD30 | Chelsea(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD30 | Leeds(T4) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD30 | Leeds(T4) vs Liverpool(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD30 | Liverpool(T1) vs Brighton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD30 | Liverpool(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD30 | Manchester Blue(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD30 | Manchester Red(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD30 | Wolverhampton(T3) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD5 | Crystal Palace(T3) vs Fulham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD5 | Manchester Red(T1) vs Tottenham(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD6 | Aston Villa(T2) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD6 | Chelsea(T1) vs Wolverhampton(T2)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD6 | Crystal Palace(T4) vs Fulham(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD6 | Crystal Palace(T4) vs Tottenham(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD6 | Manchester Blue(T2) vs London Guns(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD7 | Manchester Red(T1) vs Newcastle(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD7 | Manchester Red(T1) vs Wolverhampton(T3)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD8 | Liverpool(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD8 | London Guns(T1) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD8 | Manchester Red(T1) vs West Ham(T2)": {
+        "outcome": "DRAW",
+        "confidence": "4/4 (100%)"
+    },
+    "MD8 | Manchester Red(T2) vs Manchester Blue(T1)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD8 | Wolverhampton(T3) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD8 | Wolverhampton(T3) vs Liverpool(T1)": {
+        "outcome": "AWAY WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD9 | Liverpool(T1) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD9 | London Guns(T1) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD9 | Manchester Blue(T2) vs Fulham(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "5/5 (100%)"
+    },
+    "MD9 | Manchester Red(T2) vs Crystal Palace(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    },
+    "MD9 | Wolverhampton(T2) vs Bournemouth(T4)": {
+        "outcome": "HOME WIN",
+        "confidence": "4/4 (100%)"
+    }
+}

@@ -1,0 +1,3050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>VFL Fixture Odd/Even Purity — Canonical</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; padding: 1.5rem; }
+    h1 { color: #38bdf8; }
+    .meta { color: #94a3b8; margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.85rem; margin-bottom: 2rem; }
+    th, td { border: 1px solid #334155; padding: 6px 8px; text-align: left; }
+    th { background: #1e293b; color: #94a3b8; position: sticky; top: 0; }
+    tr:nth-child(even) { background: #1e293b44; }
+    .highlight { color: #10b981; font-weight: bold; }
+    .t1 { color: #10b981; font-weight: bold; }
+    .t2 { color: #3b82f6; }
+    .t3 { color: #f59e0b; }
+    .t4 { color: #ef4444; }
+    h2 { color: #a78bfa; margin-top: 2rem; }
+    input { padding: 8px; width: 280px; margin-bottom: 12px; background: #1e293b; border: 1px solid #475569; color: #fff; }
+  </style>
+</head>
+<body>
+  <h1>Fixture pairing — Odd / Even purity</h1>
+  <p class="meta">Source: <code>v_results_odd_even_ready</code> only (deduped canonical results). Not legacy Surge/history.db patterns.<br/>
+  Generated 2026-06-14 19:15 UTC. Min meetings n≥8. Highlight: dominant side ≥90%.</p>
+  <p class="meta">Pairings: fixed <strong>home × away</strong> (direction matters). Counts are all season matchdays where this fixture appeared.</p>
+
+  <h2>Near-certain (dominant ≥ 90%) — 0 pairings</h2>
+  <p class="meta">On <strong>canonical</strong> silver, parity is ~50/50 per pairing — expect <em>zero</em> true ~100% rows (unlike skewed legacy Surge).</p>
+  <input type="text" id="f1" placeholder="Filter table…" onkeyup="filterTable('near','f1')"/>
+  <table id="near">
+    <thead><tr>
+      <th>Home</th><th>Away</th><th>H Tier</th><th>A Tier</th>
+      <th>n</th><th>Seasons</th><th>Avg goals</th>
+      <th>% Odd</th><th>% Even</th><th>Dominant</th><th>Strength</th>
+    </tr></thead>
+    <tbody><tr><td colspan="11">None — no pairing ≥90% on clean data</td></tr></tbody>
+  </table>
+
+  <h2>Strong lean (dominant ≥ 60%) — 31 pairings</h2>
+  <input type="text" id="f0" placeholder="Filter table…" onkeyup="filterTable('lean','f0')"/>
+  <table id="lean">
+    <thead><tr>
+      <th>Home</th><th>Away</th><th>H Tier</th><th>A Tier</th>
+      <th>n</th><th>Seasons</th><th>Avg goals</th>
+      <th>% Odd</th><th>% Even</th><th>Dominant</th><th>Strength</th>
+    </tr></thead>
+    <tbody><tr>
+  <td>Tottenham</td><td>Leeds</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>841</td><td>503</td>
+  <td>2.18</td>
+  <td>34.6%</td>
+  <td>65.4%</td>
+  <td><strong>Even</strong></td>
+  <td>65.4%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>London Guns</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>837</td><td>518</td>
+  <td>2.78</td>
+  <td>34.8%</td>
+  <td>65.2%</td>
+  <td><strong>Even</strong></td>
+  <td>65.2%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Aston Villa</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>849</td><td>519</td>
+  <td>2.10</td>
+  <td>35.1%</td>
+  <td>64.9%</td>
+  <td><strong>Even</strong></td>
+  <td>64.9%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Manchester Red</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>820</td><td>504</td>
+  <td>2.91</td>
+  <td>64.8%</td>
+  <td>35.2%</td>
+  <td><strong>Odd</strong></td>
+  <td>64.8%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Wolverhampton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>833</td><td>510</td>
+  <td>2.79</td>
+  <td>35.5%</td>
+  <td>64.5%</td>
+  <td><strong>Even</strong></td>
+  <td>64.5%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Newcastle</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>841</td><td>520</td>
+  <td>2.32</td>
+  <td>35.8%</td>
+  <td>64.2%</td>
+  <td><strong>Even</strong></td>
+  <td>64.2%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Aston Villa</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>817</td><td>514</td>
+  <td>2.35</td>
+  <td>64.1%</td>
+  <td>35.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>64.1%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>West Ham</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>818</td><td>512</td>
+  <td>2.47</td>
+  <td>63.5%</td>
+  <td>36.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>63.5%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Wolverhampton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>779</td><td>493</td>
+  <td>2.88</td>
+  <td>63.4%</td>
+  <td>36.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>63.4%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Chelsea</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>848</td><td>518</td>
+  <td>2.73</td>
+  <td>63.1%</td>
+  <td>36.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>63.1%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>London Guns</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>826</td><td>505</td>
+  <td>2.38</td>
+  <td>62.5%</td>
+  <td>37.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>62.5%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>London Guns</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>873</td><td>519</td>
+  <td>2.81</td>
+  <td>62.4%</td>
+  <td>37.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>62.4%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Crystal Palace</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>845</td><td>516</td>
+  <td>3.28</td>
+  <td>62.2%</td>
+  <td>37.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>62.2%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Everton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>816</td><td>504</td>
+  <td>2.51</td>
+  <td>37.9%</td>
+  <td>62.1%</td>
+  <td><strong>Even</strong></td>
+  <td>62.1%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Manchester Blue</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>800</td><td>500</td>
+  <td>3.21</td>
+  <td>38.0%</td>
+  <td>62.0%</td>
+  <td><strong>Even</strong></td>
+  <td>62.0%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Fulham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>836</td><td>514</td>
+  <td>2.43</td>
+  <td>38.0%</td>
+  <td>62.0%</td>
+  <td><strong>Even</strong></td>
+  <td>62.0%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Bournemouth</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>869</td><td>523</td>
+  <td>2.76</td>
+  <td>38.1%</td>
+  <td>61.9%</td>
+  <td><strong>Even</strong></td>
+  <td>61.9%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Crystal Palace</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>773</td><td>480</td>
+  <td>2.99</td>
+  <td>61.8%</td>
+  <td>38.2%</td>
+  <td><strong>Odd</strong></td>
+  <td>61.8%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Everton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>840</td><td>516</td>
+  <td>1.81</td>
+  <td>38.2%</td>
+  <td>61.8%</td>
+  <td><strong>Even</strong></td>
+  <td>61.8%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Bournemouth</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>818</td><td>511</td>
+  <td>2.69</td>
+  <td>38.3%</td>
+  <td>61.7%</td>
+  <td><strong>Even</strong></td>
+  <td>61.7%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Liverpool</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>830</td><td>517</td>
+  <td>2.39</td>
+  <td>61.6%</td>
+  <td>38.4%</td>
+  <td><strong>Odd</strong></td>
+  <td>61.6%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>London Guns</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>812</td><td>517</td>
+  <td>2.30</td>
+  <td>61.5%</td>
+  <td>38.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>61.5%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Brighton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>815</td><td>510</td>
+  <td>1.92</td>
+  <td>38.9%</td>
+  <td>61.1%</td>
+  <td><strong>Even</strong></td>
+  <td>61.1%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Manchester Red</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>824</td><td>515</td>
+  <td>2.57</td>
+  <td>61.0%</td>
+  <td>39.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>61.0%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>London Guns</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>833</td><td>509</td>
+  <td>2.98</td>
+  <td>39.0%</td>
+  <td>61.0%</td>
+  <td><strong>Even</strong></td>
+  <td>61.0%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Manchester Red</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>803</td><td>511</td>
+  <td>2.28</td>
+  <td>60.6%</td>
+  <td>39.4%</td>
+  <td><strong>Odd</strong></td>
+  <td>60.6%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Brighton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>844</td><td>518</td>
+  <td>2.80</td>
+  <td>39.6%</td>
+  <td>60.4%</td>
+  <td><strong>Even</strong></td>
+  <td>60.4%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Leeds</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>830</td><td>515</td>
+  <td>2.07</td>
+  <td>39.6%</td>
+  <td>60.4%</td>
+  <td><strong>Even</strong></td>
+  <td>60.4%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>London Guns</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>795</td><td>502</td>
+  <td>2.18</td>
+  <td>39.8%</td>
+  <td>60.2%</td>
+  <td><strong>Even</strong></td>
+  <td>60.2%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Crystal Palace</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>881</td><td>526</td>
+  <td>2.53</td>
+  <td>60.2%</td>
+  <td>39.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>60.2%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Everton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>855</td><td>522</td>
+  <td>1.66</td>
+  <td>39.9%</td>
+  <td>60.1%</td>
+  <td><strong>Even</strong></td>
+  <td>60.1%</td>
+</tr></tbody>
+  </table>
+
+  <h2>All pairings (n≥8) — 240 rows</h2>
+  <input type="text" id="f2" placeholder="Filter table…" onkeyup="filterTable('all','f2')"/>
+  <table id="all">
+    <thead><tr>
+      <th>Home</th><th>Away</th><th>H Tier</th><th>A Tier</th>
+      <th>n</th><th>Seasons</th><th>Avg goals</th>
+      <th>% Odd</th><th>% Even</th><th>Dominant</th><th>Strength</th>
+    </tr></thead>
+    <tbody><tr>
+  <td>Tottenham</td><td>Leeds</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>841</td><td>503</td>
+  <td>2.18</td>
+  <td>34.6%</td>
+  <td>65.4%</td>
+  <td><strong>Even</strong></td>
+  <td>65.4%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>London Guns</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>837</td><td>518</td>
+  <td>2.78</td>
+  <td>34.8%</td>
+  <td>65.2%</td>
+  <td><strong>Even</strong></td>
+  <td>65.2%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Aston Villa</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>849</td><td>519</td>
+  <td>2.10</td>
+  <td>35.1%</td>
+  <td>64.9%</td>
+  <td><strong>Even</strong></td>
+  <td>64.9%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Manchester Red</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>820</td><td>504</td>
+  <td>2.91</td>
+  <td>64.8%</td>
+  <td>35.2%</td>
+  <td><strong>Odd</strong></td>
+  <td>64.8%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Wolverhampton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>833</td><td>510</td>
+  <td>2.79</td>
+  <td>35.5%</td>
+  <td>64.5%</td>
+  <td><strong>Even</strong></td>
+  <td>64.5%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Newcastle</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>841</td><td>520</td>
+  <td>2.32</td>
+  <td>35.8%</td>
+  <td>64.2%</td>
+  <td><strong>Even</strong></td>
+  <td>64.2%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Aston Villa</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>817</td><td>514</td>
+  <td>2.35</td>
+  <td>64.1%</td>
+  <td>35.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>64.1%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>West Ham</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>818</td><td>512</td>
+  <td>2.47</td>
+  <td>63.5%</td>
+  <td>36.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>63.5%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Wolverhampton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>779</td><td>493</td>
+  <td>2.88</td>
+  <td>63.4%</td>
+  <td>36.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>63.4%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Chelsea</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>848</td><td>518</td>
+  <td>2.73</td>
+  <td>63.1%</td>
+  <td>36.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>63.1%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>London Guns</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>826</td><td>505</td>
+  <td>2.38</td>
+  <td>62.5%</td>
+  <td>37.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>62.5%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>London Guns</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>873</td><td>519</td>
+  <td>2.81</td>
+  <td>62.4%</td>
+  <td>37.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>62.4%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Crystal Palace</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>845</td><td>516</td>
+  <td>3.28</td>
+  <td>62.2%</td>
+  <td>37.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>62.2%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Everton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>816</td><td>504</td>
+  <td>2.51</td>
+  <td>37.9%</td>
+  <td>62.1%</td>
+  <td><strong>Even</strong></td>
+  <td>62.1%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Manchester Blue</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>800</td><td>500</td>
+  <td>3.21</td>
+  <td>38.0%</td>
+  <td>62.0%</td>
+  <td><strong>Even</strong></td>
+  <td>62.0%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Fulham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>836</td><td>514</td>
+  <td>2.43</td>
+  <td>38.0%</td>
+  <td>62.0%</td>
+  <td><strong>Even</strong></td>
+  <td>62.0%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Bournemouth</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>869</td><td>523</td>
+  <td>2.76</td>
+  <td>38.1%</td>
+  <td>61.9%</td>
+  <td><strong>Even</strong></td>
+  <td>61.9%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Crystal Palace</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>773</td><td>480</td>
+  <td>2.99</td>
+  <td>61.8%</td>
+  <td>38.2%</td>
+  <td><strong>Odd</strong></td>
+  <td>61.8%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Everton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>840</td><td>516</td>
+  <td>1.81</td>
+  <td>38.2%</td>
+  <td>61.8%</td>
+  <td><strong>Even</strong></td>
+  <td>61.8%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Bournemouth</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>818</td><td>511</td>
+  <td>2.69</td>
+  <td>38.3%</td>
+  <td>61.7%</td>
+  <td><strong>Even</strong></td>
+  <td>61.7%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Liverpool</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>830</td><td>517</td>
+  <td>2.39</td>
+  <td>61.6%</td>
+  <td>38.4%</td>
+  <td><strong>Odd</strong></td>
+  <td>61.6%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>London Guns</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>812</td><td>517</td>
+  <td>2.30</td>
+  <td>61.5%</td>
+  <td>38.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>61.5%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Brighton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>815</td><td>510</td>
+  <td>1.92</td>
+  <td>38.9%</td>
+  <td>61.1%</td>
+  <td><strong>Even</strong></td>
+  <td>61.1%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Manchester Red</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>824</td><td>515</td>
+  <td>2.57</td>
+  <td>61.0%</td>
+  <td>39.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>61.0%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>London Guns</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>833</td><td>509</td>
+  <td>2.98</td>
+  <td>39.0%</td>
+  <td>61.0%</td>
+  <td><strong>Even</strong></td>
+  <td>61.0%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Manchester Red</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>803</td><td>511</td>
+  <td>2.28</td>
+  <td>60.6%</td>
+  <td>39.4%</td>
+  <td><strong>Odd</strong></td>
+  <td>60.6%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Brighton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>844</td><td>518</td>
+  <td>2.80</td>
+  <td>39.6%</td>
+  <td>60.4%</td>
+  <td><strong>Even</strong></td>
+  <td>60.4%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Leeds</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>830</td><td>515</td>
+  <td>2.07</td>
+  <td>39.6%</td>
+  <td>60.4%</td>
+  <td><strong>Even</strong></td>
+  <td>60.4%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>London Guns</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>795</td><td>502</td>
+  <td>2.18</td>
+  <td>39.8%</td>
+  <td>60.2%</td>
+  <td><strong>Even</strong></td>
+  <td>60.2%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Crystal Palace</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>881</td><td>526</td>
+  <td>2.53</td>
+  <td>60.2%</td>
+  <td>39.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>60.2%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Everton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>855</td><td>522</td>
+  <td>1.66</td>
+  <td>39.9%</td>
+  <td>60.1%</td>
+  <td><strong>Even</strong></td>
+  <td>60.1%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Wolverhampton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>841</td><td>514</td>
+  <td>2.55</td>
+  <td>59.9%</td>
+  <td>40.1%</td>
+  <td><strong>Odd</strong></td>
+  <td>59.9%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>West Ham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>814</td><td>507</td>
+  <td>3.21</td>
+  <td>40.3%</td>
+  <td>59.7%</td>
+  <td><strong>Even</strong></td>
+  <td>59.7%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Manchester Blue</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>843</td><td>516</td>
+  <td>2.38</td>
+  <td>40.6%</td>
+  <td>59.4%</td>
+  <td><strong>Even</strong></td>
+  <td>59.4%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Tottenham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>859</td><td>523</td>
+  <td>2.31</td>
+  <td>40.8%</td>
+  <td>59.2%</td>
+  <td><strong>Even</strong></td>
+  <td>59.2%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Aston Villa</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>844</td><td>508</td>
+  <td>2.38</td>
+  <td>40.8%</td>
+  <td>59.2%</td>
+  <td><strong>Even</strong></td>
+  <td>59.2%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Tottenham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>850</td><td>517</td>
+  <td>2.82</td>
+  <td>59.2%</td>
+  <td>40.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>59.2%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Newcastle</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>825</td><td>513</td>
+  <td>2.36</td>
+  <td>41.1%</td>
+  <td>58.9%</td>
+  <td><strong>Even</strong></td>
+  <td>58.9%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Manchester Red</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>827</td><td>509</td>
+  <td>2.26</td>
+  <td>58.9%</td>
+  <td>41.1%</td>
+  <td><strong>Odd</strong></td>
+  <td>58.9%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Brighton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>840</td><td>514</td>
+  <td>2.73</td>
+  <td>41.2%</td>
+  <td>58.8%</td>
+  <td><strong>Even</strong></td>
+  <td>58.8%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Wolverhampton</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>848</td><td>514</td>
+  <td>2.41</td>
+  <td>58.7%</td>
+  <td>41.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>58.7%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Leeds</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>850</td><td>514</td>
+  <td>2.58</td>
+  <td>41.3%</td>
+  <td>58.7%</td>
+  <td><strong>Even</strong></td>
+  <td>58.7%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Wolverhampton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>854</td><td>521</td>
+  <td>3.26</td>
+  <td>41.3%</td>
+  <td>58.7%</td>
+  <td><strong>Even</strong></td>
+  <td>58.7%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Brighton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>827</td><td>508</td>
+  <td>2.03</td>
+  <td>41.4%</td>
+  <td>58.6%</td>
+  <td><strong>Even</strong></td>
+  <td>58.6%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Leeds</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>817</td><td>500</td>
+  <td>2.34</td>
+  <td>41.5%</td>
+  <td>58.5%</td>
+  <td><strong>Even</strong></td>
+  <td>58.5%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Brighton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>848</td><td>519</td>
+  <td>2.35</td>
+  <td>41.8%</td>
+  <td>58.2%</td>
+  <td><strong>Even</strong></td>
+  <td>58.2%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Fulham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>840</td><td>522</td>
+  <td>2.07</td>
+  <td>41.8%</td>
+  <td>58.2%</td>
+  <td><strong>Even</strong></td>
+  <td>58.2%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Tottenham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>845</td><td>517</td>
+  <td>2.69</td>
+  <td>41.9%</td>
+  <td>58.1%</td>
+  <td><strong>Even</strong></td>
+  <td>58.1%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Newcastle</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>860</td><td>511</td>
+  <td>3.26</td>
+  <td>42.0%</td>
+  <td>58.0%</td>
+  <td><strong>Even</strong></td>
+  <td>58.0%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Chelsea</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>825</td><td>508</td>
+  <td>2.90</td>
+  <td>42.1%</td>
+  <td>57.9%</td>
+  <td><strong>Even</strong></td>
+  <td>57.9%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Liverpool</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>806</td><td>499</td>
+  <td>2.72</td>
+  <td>42.1%</td>
+  <td>57.9%</td>
+  <td><strong>Even</strong></td>
+  <td>57.9%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Wolverhampton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>794</td><td>503</td>
+  <td>2.80</td>
+  <td>42.1%</td>
+  <td>57.9%</td>
+  <td><strong>Even</strong></td>
+  <td>57.9%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Leeds</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>841</td><td>520</td>
+  <td>2.29</td>
+  <td>57.9%</td>
+  <td>42.1%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.9%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Leeds</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>823</td><td>510</td>
+  <td>2.89</td>
+  <td>42.2%</td>
+  <td>57.8%</td>
+  <td><strong>Even</strong></td>
+  <td>57.8%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Brighton</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>830</td><td>508</td>
+  <td>1.96</td>
+  <td>57.8%</td>
+  <td>42.2%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.8%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Tottenham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>818</td><td>499</td>
+  <td>2.55</td>
+  <td>57.7%</td>
+  <td>42.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.7%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Liverpool</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>834</td><td>514</td>
+  <td>2.52</td>
+  <td>57.7%</td>
+  <td>42.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.7%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Newcastle</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>829</td><td>517</td>
+  <td>2.73</td>
+  <td>57.7%</td>
+  <td>42.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.7%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Brighton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>829</td><td>515</td>
+  <td>2.69</td>
+  <td>42.3%</td>
+  <td>57.7%</td>
+  <td><strong>Even</strong></td>
+  <td>57.7%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Aston Villa</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>812</td><td>505</td>
+  <td>2.51</td>
+  <td>42.4%</td>
+  <td>57.6%</td>
+  <td><strong>Even</strong></td>
+  <td>57.6%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Manchester Red</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>849</td><td>522</td>
+  <td>2.66</td>
+  <td>57.5%</td>
+  <td>42.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.5%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>West Ham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>818</td><td>504</td>
+  <td>2.67</td>
+  <td>57.5%</td>
+  <td>42.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.5%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Chelsea</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>846</td><td>516</td>
+  <td>2.46</td>
+  <td>57.3%</td>
+  <td>42.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.3%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>West Ham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>874</td><td>531</td>
+  <td>2.31</td>
+  <td>57.3%</td>
+  <td>42.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.3%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Tottenham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>861</td><td>532</td>
+  <td>1.97</td>
+  <td>57.3%</td>
+  <td>42.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.3%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Crystal Palace</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>842</td><td>515</td>
+  <td>2.80</td>
+  <td>42.8%</td>
+  <td>57.2%</td>
+  <td><strong>Even</strong></td>
+  <td>57.2%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Manchester Red</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>863</td><td>520</td>
+  <td>2.50</td>
+  <td>57.0%</td>
+  <td>43.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>57.0%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Manchester Blue</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>807</td><td>507</td>
+  <td>2.99</td>
+  <td>43.1%</td>
+  <td>56.9%</td>
+  <td><strong>Even</strong></td>
+  <td>56.9%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Newcastle</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>816</td><td>509</td>
+  <td>2.49</td>
+  <td>43.1%</td>
+  <td>56.9%</td>
+  <td><strong>Even</strong></td>
+  <td>56.9%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Tottenham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>816</td><td>511</td>
+  <td>2.68</td>
+  <td>43.1%</td>
+  <td>56.9%</td>
+  <td><strong>Even</strong></td>
+  <td>56.9%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Liverpool</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>862</td><td>520</td>
+  <td>2.63</td>
+  <td>43.2%</td>
+  <td>56.8%</td>
+  <td><strong>Even</strong></td>
+  <td>56.8%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Crystal Palace</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>838</td><td>517</td>
+  <td>2.89</td>
+  <td>43.2%</td>
+  <td>56.8%</td>
+  <td><strong>Even</strong></td>
+  <td>56.8%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Manchester Red</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>871</td><td>524</td>
+  <td>2.40</td>
+  <td>43.3%</td>
+  <td>56.7%</td>
+  <td><strong>Even</strong></td>
+  <td>56.7%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>London Guns</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>841</td><td>500</td>
+  <td>2.90</td>
+  <td>56.6%</td>
+  <td>43.4%</td>
+  <td><strong>Odd</strong></td>
+  <td>56.6%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Newcastle</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>824</td><td>515</td>
+  <td>2.56</td>
+  <td>43.5%</td>
+  <td>56.5%</td>
+  <td><strong>Even</strong></td>
+  <td>56.5%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Aston Villa</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>887</td><td>529</td>
+  <td>2.83</td>
+  <td>43.5%</td>
+  <td>56.5%</td>
+  <td><strong>Even</strong></td>
+  <td>56.5%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Fulham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>841</td><td>524</td>
+  <td>2.79</td>
+  <td>56.5%</td>
+  <td>43.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>56.5%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Manchester Red</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>829</td><td>514</td>
+  <td>2.86</td>
+  <td>56.5%</td>
+  <td>43.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>56.5%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Chelsea</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>837</td><td>515</td>
+  <td>3.12</td>
+  <td>56.4%</td>
+  <td>43.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>56.4%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Crystal Palace</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>839</td><td>516</td>
+  <td>3.03</td>
+  <td>43.6%</td>
+  <td>56.4%</td>
+  <td><strong>Even</strong></td>
+  <td>56.4%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Bournemouth</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>826</td><td>514</td>
+  <td>2.26</td>
+  <td>56.3%</td>
+  <td>43.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>56.3%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Wolverhampton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>828</td><td>505</td>
+  <td>3.18</td>
+  <td>43.7%</td>
+  <td>56.3%</td>
+  <td><strong>Even</strong></td>
+  <td>56.3%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Manchester Blue</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>817</td><td>505</td>
+  <td>2.73</td>
+  <td>43.8%</td>
+  <td>56.2%</td>
+  <td><strong>Even</strong></td>
+  <td>56.2%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Brighton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>807</td><td>502</td>
+  <td>1.86</td>
+  <td>43.9%</td>
+  <td>56.1%</td>
+  <td><strong>Even</strong></td>
+  <td>56.1%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Tottenham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>863</td><td>525</td>
+  <td>2.28</td>
+  <td>43.9%</td>
+  <td>56.1%</td>
+  <td><strong>Even</strong></td>
+  <td>56.1%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Leeds</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>842</td><td>513</td>
+  <td>1.85</td>
+  <td>56.1%</td>
+  <td>43.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>56.1%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Aston Villa</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>844</td><td>514</td>
+  <td>2.23</td>
+  <td>56.0%</td>
+  <td>44.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>56.0%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Leeds</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>845</td><td>519</td>
+  <td>2.38</td>
+  <td>56.0%</td>
+  <td>44.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>56.0%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Manchester Red</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>798</td><td>501</td>
+  <td>2.74</td>
+  <td>44.1%</td>
+  <td>55.9%</td>
+  <td><strong>Even</strong></td>
+  <td>55.9%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Brighton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>823</td><td>513</td>
+  <td>2.47</td>
+  <td>44.2%</td>
+  <td>55.8%</td>
+  <td><strong>Even</strong></td>
+  <td>55.8%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Liverpool</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>804</td><td>504</td>
+  <td>2.45</td>
+  <td>44.3%</td>
+  <td>55.7%</td>
+  <td><strong>Even</strong></td>
+  <td>55.7%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Bournemouth</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>853</td><td>520</td>
+  <td>2.79</td>
+  <td>44.3%</td>
+  <td>55.7%</td>
+  <td><strong>Even</strong></td>
+  <td>55.7%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Wolverhampton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>862</td><td>523</td>
+  <td>3.07</td>
+  <td>55.7%</td>
+  <td>44.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>55.7%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Tottenham</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>785</td><td>495</td>
+  <td>2.26</td>
+  <td>44.3%</td>
+  <td>55.7%</td>
+  <td><strong>Even</strong></td>
+  <td>55.7%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Wolverhampton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>843</td><td>516</td>
+  <td>3.50</td>
+  <td>44.5%</td>
+  <td>55.5%</td>
+  <td><strong>Even</strong></td>
+  <td>55.5%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Manchester Red</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>809</td><td>508</td>
+  <td>2.60</td>
+  <td>44.5%</td>
+  <td>55.5%</td>
+  <td><strong>Even</strong></td>
+  <td>55.5%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Brighton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>847</td><td>514</td>
+  <td>2.76</td>
+  <td>44.5%</td>
+  <td>55.5%</td>
+  <td><strong>Even</strong></td>
+  <td>55.5%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Fulham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>837</td><td>512</td>
+  <td>2.73</td>
+  <td>44.7%</td>
+  <td>55.3%</td>
+  <td><strong>Even</strong></td>
+  <td>55.3%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Tottenham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>822</td><td>504</td>
+  <td>2.19</td>
+  <td>44.8%</td>
+  <td>55.2%</td>
+  <td><strong>Even</strong></td>
+  <td>55.2%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Bournemouth</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>803</td><td>498</td>
+  <td>2.97</td>
+  <td>44.8%</td>
+  <td>55.2%</td>
+  <td><strong>Even</strong></td>
+  <td>55.2%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Crystal Palace</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>842</td><td>511</td>
+  <td>2.30</td>
+  <td>44.9%</td>
+  <td>55.1%</td>
+  <td><strong>Even</strong></td>
+  <td>55.1%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Crystal Palace</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>819</td><td>509</td>
+  <td>2.77</td>
+  <td>44.9%</td>
+  <td>55.1%</td>
+  <td><strong>Even</strong></td>
+  <td>55.1%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Tottenham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>821</td><td>512</td>
+  <td>3.53</td>
+  <td>45.0%</td>
+  <td>55.0%</td>
+  <td><strong>Even</strong></td>
+  <td>55.0%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Wolverhampton</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>845</td><td>518</td>
+  <td>2.96</td>
+  <td>45.0%</td>
+  <td>55.0%</td>
+  <td><strong>Even</strong></td>
+  <td>55.0%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Leeds</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>840</td><td>514</td>
+  <td>1.81</td>
+  <td>45.0%</td>
+  <td>55.0%</td>
+  <td><strong>Even</strong></td>
+  <td>55.0%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Fulham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>862</td><td>526</td>
+  <td>2.39</td>
+  <td>55.0%</td>
+  <td>45.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>55.0%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Chelsea</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>833</td><td>508</td>
+  <td>2.32</td>
+  <td>45.0%</td>
+  <td>55.0%</td>
+  <td><strong>Even</strong></td>
+  <td>55.0%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Manchester Blue</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>839</td><td>512</td>
+  <td>2.60</td>
+  <td>45.0%</td>
+  <td>55.0%</td>
+  <td><strong>Even</strong></td>
+  <td>55.0%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Newcastle</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>836</td><td>511</td>
+  <td>3.15</td>
+  <td>45.1%</td>
+  <td>54.9%</td>
+  <td><strong>Even</strong></td>
+  <td>54.9%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Chelsea</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>818</td><td>506</td>
+  <td>3.31</td>
+  <td>45.1%</td>
+  <td>54.9%</td>
+  <td><strong>Even</strong></td>
+  <td>54.9%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>West Ham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>811</td><td>510</td>
+  <td>2.69</td>
+  <td>45.1%</td>
+  <td>54.9%</td>
+  <td><strong>Even</strong></td>
+  <td>54.9%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Leeds</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>817</td><td>511</td>
+  <td>2.57</td>
+  <td>54.8%</td>
+  <td>45.2%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.8%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Fulham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>790</td><td>499</td>
+  <td>2.66</td>
+  <td>45.2%</td>
+  <td>54.8%</td>
+  <td><strong>Even</strong></td>
+  <td>54.8%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Wolverhampton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>800</td><td>505</td>
+  <td>3.26</td>
+  <td>45.2%</td>
+  <td>54.8%</td>
+  <td><strong>Even</strong></td>
+  <td>54.8%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Wolverhampton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>833</td><td>518</td>
+  <td>2.97</td>
+  <td>45.3%</td>
+  <td>54.7%</td>
+  <td><strong>Even</strong></td>
+  <td>54.7%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Bournemouth</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>858</td><td>522</td>
+  <td>1.95</td>
+  <td>45.3%</td>
+  <td>54.7%</td>
+  <td><strong>Even</strong></td>
+  <td>54.7%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Liverpool</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>841</td><td>518</td>
+  <td>2.90</td>
+  <td>54.6%</td>
+  <td>45.4%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.6%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Bournemouth</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>834</td><td>509</td>
+  <td>2.90</td>
+  <td>54.4%</td>
+  <td>45.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.4%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Bournemouth</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>842</td><td>522</td>
+  <td>2.82</td>
+  <td>54.4%</td>
+  <td>45.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.4%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>West Ham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>844</td><td>514</td>
+  <td>3.67</td>
+  <td>45.6%</td>
+  <td>54.4%</td>
+  <td><strong>Even</strong></td>
+  <td>54.4%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Aston Villa</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>835</td><td>517</td>
+  <td>2.87</td>
+  <td>54.4%</td>
+  <td>45.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.4%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Bournemouth</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>828</td><td>516</td>
+  <td>2.18</td>
+  <td>54.2%</td>
+  <td>45.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.2%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Everton</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>804</td><td>506</td>
+  <td>1.85</td>
+  <td>54.2%</td>
+  <td>45.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.2%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Fulham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>841</td><td>520</td>
+  <td>2.10</td>
+  <td>54.2%</td>
+  <td>45.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.2%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Manchester Red</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>821</td><td>514</td>
+  <td>2.85</td>
+  <td>54.2%</td>
+  <td>45.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.2%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Leeds</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>842</td><td>509</td>
+  <td>2.42</td>
+  <td>45.8%</td>
+  <td>54.2%</td>
+  <td><strong>Even</strong></td>
+  <td>54.2%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>London Guns</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>848</td><td>520</td>
+  <td>2.73</td>
+  <td>45.9%</td>
+  <td>54.1%</td>
+  <td><strong>Even</strong></td>
+  <td>54.1%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Manchester Red</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>811</td><td>508</td>
+  <td>2.47</td>
+  <td>54.1%</td>
+  <td>45.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.1%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Wolverhampton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>830</td><td>513</td>
+  <td>2.44</td>
+  <td>54.1%</td>
+  <td>45.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.1%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Fulham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>831</td><td>505</td>
+  <td>2.35</td>
+  <td>54.0%</td>
+  <td>46.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.0%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Everton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>870</td><td>528</td>
+  <td>2.30</td>
+  <td>46.0%</td>
+  <td>54.0%</td>
+  <td><strong>Even</strong></td>
+  <td>54.0%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Aston Villa</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>820</td><td>505</td>
+  <td>1.87</td>
+  <td>54.0%</td>
+  <td>46.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.0%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Manchester Blue</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>835</td><td>506</td>
+  <td>2.88</td>
+  <td>54.0%</td>
+  <td>46.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>54.0%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Manchester Blue</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>821</td><td>509</td>
+  <td>2.10</td>
+  <td>46.0%</td>
+  <td>54.0%</td>
+  <td><strong>Even</strong></td>
+  <td>54.0%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>London Guns</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>853</td><td>513</td>
+  <td>2.48</td>
+  <td>46.1%</td>
+  <td>53.9%</td>
+  <td><strong>Even</strong></td>
+  <td>53.9%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Everton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>842</td><td>512</td>
+  <td>2.51</td>
+  <td>46.1%</td>
+  <td>53.9%</td>
+  <td><strong>Even</strong></td>
+  <td>53.9%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Bournemouth</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>820</td><td>513</td>
+  <td>3.07</td>
+  <td>46.1%</td>
+  <td>53.9%</td>
+  <td><strong>Even</strong></td>
+  <td>53.9%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Newcastle</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>830</td><td>511</td>
+  <td>2.77</td>
+  <td>46.1%</td>
+  <td>53.9%</td>
+  <td><strong>Even</strong></td>
+  <td>53.9%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Chelsea</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>837</td><td>517</td>
+  <td>2.31</td>
+  <td>46.2%</td>
+  <td>53.8%</td>
+  <td><strong>Even</strong></td>
+  <td>53.8%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Fulham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>833</td><td>512</td>
+  <td>2.45</td>
+  <td>53.7%</td>
+  <td>46.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.7%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Aston Villa</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>805</td><td>512</td>
+  <td>2.57</td>
+  <td>46.3%</td>
+  <td>53.7%</td>
+  <td><strong>Even</strong></td>
+  <td>53.7%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Brighton</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>834</td><td>513</td>
+  <td>1.99</td>
+  <td>53.6%</td>
+  <td>46.4%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.6%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Manchester Blue</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>838</td><td>513</td>
+  <td>2.89</td>
+  <td>46.4%</td>
+  <td>53.6%</td>
+  <td><strong>Even</strong></td>
+  <td>53.6%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Liverpool</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>810</td><td>504</td>
+  <td>3.01</td>
+  <td>53.6%</td>
+  <td>46.4%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.6%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Leeds</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>814</td><td>508</td>
+  <td>2.50</td>
+  <td>46.4%</td>
+  <td>53.6%</td>
+  <td><strong>Even</strong></td>
+  <td>53.6%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Aston Villa</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>833</td><td>514</td>
+  <td>2.31</td>
+  <td>53.5%</td>
+  <td>46.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.5%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Chelsea</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>809</td><td>508</td>
+  <td>2.80</td>
+  <td>46.5%</td>
+  <td>53.5%</td>
+  <td><strong>Even</strong></td>
+  <td>53.5%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Bournemouth</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>800</td><td>503</td>
+  <td>2.27</td>
+  <td>46.5%</td>
+  <td>53.5%</td>
+  <td><strong>Even</strong></td>
+  <td>53.5%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Newcastle</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>834</td><td>513</td>
+  <td>2.09</td>
+  <td>53.5%</td>
+  <td>46.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.5%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Chelsea</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>821</td><td>511</td>
+  <td>2.76</td>
+  <td>53.5%</td>
+  <td>46.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.5%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Newcastle</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>853</td><td>521</td>
+  <td>2.98</td>
+  <td>53.5%</td>
+  <td>46.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.5%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Liverpool</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>853</td><td>514</td>
+  <td>2.83</td>
+  <td>46.7%</td>
+  <td>53.3%</td>
+  <td><strong>Even</strong></td>
+  <td>53.3%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Tottenham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>823</td><td>512</td>
+  <td>2.93</td>
+  <td>46.7%</td>
+  <td>53.3%</td>
+  <td><strong>Even</strong></td>
+  <td>53.3%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>West Ham</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>827</td><td>510</td>
+  <td>2.50</td>
+  <td>53.3%</td>
+  <td>46.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.3%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>London Guns</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>846</td><td>518</td>
+  <td>2.94</td>
+  <td>53.3%</td>
+  <td>46.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.3%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Newcastle</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>863</td><td>524</td>
+  <td>3.07</td>
+  <td>53.3%</td>
+  <td>46.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.3%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>West Ham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>820</td><td>517</td>
+  <td>2.68</td>
+  <td>46.7%</td>
+  <td>53.3%</td>
+  <td><strong>Even</strong></td>
+  <td>53.3%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Crystal Palace</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>821</td><td>516</td>
+  <td>2.20</td>
+  <td>53.2%</td>
+  <td>46.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.2%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Liverpool</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>829</td><td>510</td>
+  <td>2.76</td>
+  <td>53.2%</td>
+  <td>46.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.2%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Chelsea</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>851</td><td>509</td>
+  <td>2.49</td>
+  <td>46.9%</td>
+  <td>53.1%</td>
+  <td><strong>Even</strong></td>
+  <td>53.1%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Manchester Red</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>836</td><td>521</td>
+  <td>2.95</td>
+  <td>53.1%</td>
+  <td>46.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.1%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Tottenham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>842</td><td>512</td>
+  <td>2.96</td>
+  <td>46.9%</td>
+  <td>53.1%</td>
+  <td><strong>Even</strong></td>
+  <td>53.1%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Fulham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>825</td><td>509</td>
+  <td>2.23</td>
+  <td>53.1%</td>
+  <td>46.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.1%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Aston Villa</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>814</td><td>495</td>
+  <td>1.91</td>
+  <td>46.9%</td>
+  <td>53.1%</td>
+  <td><strong>Even</strong></td>
+  <td>53.1%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Newcastle</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>839</td><td>516</td>
+  <td>2.28</td>
+  <td>53.0%</td>
+  <td>47.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.0%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Crystal Palace</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>824</td><td>493</td>
+  <td>2.47</td>
+  <td>47.0%</td>
+  <td>53.0%</td>
+  <td><strong>Even</strong></td>
+  <td>53.0%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Brighton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>849</td><td>514</td>
+  <td>3.05</td>
+  <td>47.0%</td>
+  <td>53.0%</td>
+  <td><strong>Even</strong></td>
+  <td>53.0%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Tottenham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>823</td><td>511</td>
+  <td>2.98</td>
+  <td>53.0%</td>
+  <td>47.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>53.0%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Everton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>838</td><td>520</td>
+  <td>1.95</td>
+  <td>52.9%</td>
+  <td>47.1%</td>
+  <td><strong>Odd</strong></td>
+  <td>52.9%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Manchester Blue</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>841</td><td>517</td>
+  <td>2.88</td>
+  <td>47.2%</td>
+  <td>52.8%</td>
+  <td><strong>Even</strong></td>
+  <td>52.8%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>London Guns</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>824</td><td>511</td>
+  <td>2.06</td>
+  <td>47.3%</td>
+  <td>52.7%</td>
+  <td><strong>Even</strong></td>
+  <td>52.7%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Fulham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>809</td><td>499</td>
+  <td>2.74</td>
+  <td>47.3%</td>
+  <td>52.7%</td>
+  <td><strong>Even</strong></td>
+  <td>52.7%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Chelsea</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>844</td><td>517</td>
+  <td>2.84</td>
+  <td>47.4%</td>
+  <td>52.6%</td>
+  <td><strong>Even</strong></td>
+  <td>52.6%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>London Guns</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>835</td><td>512</td>
+  <td>2.74</td>
+  <td>47.5%</td>
+  <td>52.5%</td>
+  <td><strong>Even</strong></td>
+  <td>52.5%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>West Ham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>824</td><td>504</td>
+  <td>2.11</td>
+  <td>47.6%</td>
+  <td>52.4%</td>
+  <td><strong>Even</strong></td>
+  <td>52.4%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>West Ham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>850</td><td>518</td>
+  <td>3.45</td>
+  <td>52.4%</td>
+  <td>47.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>52.4%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Liverpool</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>833</td><td>512</td>
+  <td>2.67</td>
+  <td>52.3%</td>
+  <td>47.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>52.3%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Fulham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>841</td><td>515</td>
+  <td>2.47</td>
+  <td>47.7%</td>
+  <td>52.3%</td>
+  <td><strong>Even</strong></td>
+  <td>52.3%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Manchester Red</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>853</td><td>524</td>
+  <td>2.06</td>
+  <td>52.3%</td>
+  <td>47.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>52.3%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Bournemouth</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>825</td><td>508</td>
+  <td>2.73</td>
+  <td>47.8%</td>
+  <td>52.2%</td>
+  <td><strong>Even</strong></td>
+  <td>52.2%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Leeds</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>824</td><td>510</td>
+  <td>1.61</td>
+  <td>47.8%</td>
+  <td>52.2%</td>
+  <td><strong>Even</strong></td>
+  <td>52.2%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Bournemouth</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>830</td><td>510</td>
+  <td>2.76</td>
+  <td>47.8%</td>
+  <td>52.2%</td>
+  <td><strong>Even</strong></td>
+  <td>52.2%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Newcastle</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>811</td><td>505</td>
+  <td>2.18</td>
+  <td>52.2%</td>
+  <td>47.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>52.2%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Everton</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>850</td><td>509</td>
+  <td>2.07</td>
+  <td>52.1%</td>
+  <td>47.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>52.1%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Manchester Blue</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>834</td><td>510</td>
+  <td>3.01</td>
+  <td>48.0%</td>
+  <td>52.0%</td>
+  <td><strong>Even</strong></td>
+  <td>52.0%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Liverpool</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>819</td><td>511</td>
+  <td>2.54</td>
+  <td>48.0%</td>
+  <td>52.0%</td>
+  <td><strong>Even</strong></td>
+  <td>52.0%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Brighton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>802</td><td>501</td>
+  <td>2.67</td>
+  <td>52.0%</td>
+  <td>48.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>52.0%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Liverpool</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>836</td><td>515</td>
+  <td>2.76</td>
+  <td>48.1%</td>
+  <td>51.9%</td>
+  <td><strong>Even</strong></td>
+  <td>51.9%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Tottenham</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>873</td><td>522</td>
+  <td>2.36</td>
+  <td>51.9%</td>
+  <td>48.1%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.9%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Manchester Blue</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>839</td><td>503</td>
+  <td>3.00</td>
+  <td>48.1%</td>
+  <td>51.9%</td>
+  <td><strong>Even</strong></td>
+  <td>51.9%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Manchester Blue</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>808</td><td>493</td>
+  <td>3.10</td>
+  <td>51.7%</td>
+  <td>48.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.7%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Everton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>840</td><td>510</td>
+  <td>2.30</td>
+  <td>51.7%</td>
+  <td>48.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.7%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>West Ham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>842</td><td>517</td>
+  <td>2.87</td>
+  <td>48.3%</td>
+  <td>51.7%</td>
+  <td><strong>Even</strong></td>
+  <td>51.7%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Newcastle</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>834</td><td>514</td>
+  <td>2.94</td>
+  <td>48.4%</td>
+  <td>51.6%</td>
+  <td><strong>Even</strong></td>
+  <td>51.6%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Chelsea</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>801</td><td>490</td>
+  <td>3.25</td>
+  <td>48.4%</td>
+  <td>51.6%</td>
+  <td><strong>Even</strong></td>
+  <td>51.6%</td>
+</tr>
+<tr>
+  <td>Everton</td><td>Liverpool</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>844</td><td>512</td>
+  <td>2.06</td>
+  <td>51.5%</td>
+  <td>48.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.5%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Chelsea</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>813</td><td>513</td>
+  <td>2.33</td>
+  <td>51.5%</td>
+  <td>48.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.5%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Leeds</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>813</td><td>506</td>
+  <td>1.95</td>
+  <td>48.5%</td>
+  <td>51.5%</td>
+  <td><strong>Even</strong></td>
+  <td>51.5%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Everton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>794</td><td>504</td>
+  <td>2.61</td>
+  <td>48.5%</td>
+  <td>51.5%</td>
+  <td><strong>Even</strong></td>
+  <td>51.5%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Crystal Palace</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>843</td><td>518</td>
+  <td>3.06</td>
+  <td>51.5%</td>
+  <td>48.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.5%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>Brighton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>818</td><td>509</td>
+  <td>2.68</td>
+  <td>51.5%</td>
+  <td>48.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.5%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Aston Villa</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>832</td><td>515</td>
+  <td>2.18</td>
+  <td>51.4%</td>
+  <td>48.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.4%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Crystal Palace</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>816</td><td>510</td>
+  <td>1.99</td>
+  <td>51.4%</td>
+  <td>48.6%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.4%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Crystal Palace</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>830</td><td>510</td>
+  <td>3.04</td>
+  <td>51.3%</td>
+  <td>48.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.3%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Crystal Palace</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>826</td><td>518</td>
+  <td>3.02</td>
+  <td>48.7%</td>
+  <td>51.3%</td>
+  <td><strong>Even</strong></td>
+  <td>51.3%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Newcastle</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>805</td><td>506</td>
+  <td>2.26</td>
+  <td>51.3%</td>
+  <td>48.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.3%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>West Ham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>811</td><td>505</td>
+  <td>2.98</td>
+  <td>51.3%</td>
+  <td>48.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.3%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Manchester Red</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>823</td><td>508</td>
+  <td>1.96</td>
+  <td>48.7%</td>
+  <td>51.3%</td>
+  <td><strong>Even</strong></td>
+  <td>51.3%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Tottenham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>810</td><td>499</td>
+  <td>2.74</td>
+  <td>51.2%</td>
+  <td>48.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.2%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>London Guns</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>830</td><td>508</td>
+  <td>2.10</td>
+  <td>48.8%</td>
+  <td>51.2%</td>
+  <td><strong>Even</strong></td>
+  <td>51.2%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Everton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>850</td><td>525</td>
+  <td>2.10</td>
+  <td>48.8%</td>
+  <td>51.2%</td>
+  <td><strong>Even</strong></td>
+  <td>51.2%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Liverpool</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>841</td><td>509</td>
+  <td>2.07</td>
+  <td>48.9%</td>
+  <td>51.1%</td>
+  <td><strong>Even</strong></td>
+  <td>51.1%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Brighton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>871</td><td>537</td>
+  <td>3.12</td>
+  <td>48.9%</td>
+  <td>51.1%</td>
+  <td><strong>Even</strong></td>
+  <td>51.1%</td>
+</tr>
+<tr>
+  <td>Bournemouth</td><td>Fulham</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>832</td><td>506</td>
+  <td>1.98</td>
+  <td>48.9%</td>
+  <td>51.1%</td>
+  <td><strong>Even</strong></td>
+  <td>51.1%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>London Guns</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>835</td><td>511</td>
+  <td>3.36</td>
+  <td>49.0%</td>
+  <td>51.0%</td>
+  <td><strong>Even</strong></td>
+  <td>51.0%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Everton</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>820</td><td>512</td>
+  <td>2.26</td>
+  <td>51.0%</td>
+  <td>49.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>51.0%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Wolverhampton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>827</td><td>513</td>
+  <td>2.89</td>
+  <td>50.9%</td>
+  <td>49.1%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.9%</td>
+</tr>
+<tr>
+  <td>West Ham</td><td>Everton</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>831</td><td>510</td>
+  <td>2.37</td>
+  <td>49.1%</td>
+  <td>50.9%</td>
+  <td><strong>Even</strong></td>
+  <td>50.9%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>Aston Villa</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>826</td><td>506</td>
+  <td>2.51</td>
+  <td>50.9%</td>
+  <td>49.1%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.9%</td>
+</tr>
+<tr>
+  <td>Manchester Red</td><td>Manchester Blue</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>858</td><td>528</td>
+  <td>2.53</td>
+  <td>49.2%</td>
+  <td>50.8%</td>
+  <td><strong>Even</strong></td>
+  <td>50.8%</td>
+</tr>
+<tr>
+  <td>Manchester Blue</td><td>Everton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>801</td><td>499</td>
+  <td>2.70</td>
+  <td>49.2%</td>
+  <td>50.8%</td>
+  <td><strong>Even</strong></td>
+  <td>50.8%</td>
+</tr>
+<tr>
+  <td>Liverpool</td><td>West Ham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>825</td><td>512</td>
+  <td>2.72</td>
+  <td>50.8%</td>
+  <td>49.2%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.8%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Bournemouth</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>822</td><td>508</td>
+  <td>2.04</td>
+  <td>49.3%</td>
+  <td>50.7%</td>
+  <td><strong>Even</strong></td>
+  <td>50.7%</td>
+</tr>
+<tr>
+  <td>Wolverhampton</td><td>Chelsea</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>836</td><td>519</td>
+  <td>3.09</td>
+  <td>50.7%</td>
+  <td>49.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.7%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>Chelsea</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>854</td><td>518</td>
+  <td>2.74</td>
+  <td>50.7%</td>
+  <td>49.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.7%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>West Ham</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>872</td><td>526</td>
+  <td>2.89</td>
+  <td>50.7%</td>
+  <td>49.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.7%</td>
+</tr>
+<tr>
+  <td>Newcastle</td><td>West Ham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>831</td><td>504</td>
+  <td>2.96</td>
+  <td>50.7%</td>
+  <td>49.3%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.7%</td>
+</tr>
+<tr>
+  <td>Crystal Palace</td><td>London Guns</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>796</td><td>503</td>
+  <td>2.99</td>
+  <td>50.6%</td>
+  <td>49.4%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.6%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Everton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>834</td><td>515</td>
+  <td>2.64</td>
+  <td>49.4%</td>
+  <td>50.6%</td>
+  <td><strong>Even</strong></td>
+  <td>50.6%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Crystal Palace</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>831</td><td>504</td>
+  <td>2.11</td>
+  <td>50.5%</td>
+  <td>49.5%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.5%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Aston Villa</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>896</td><td>527</td>
+  <td>2.43</td>
+  <td>49.7%</td>
+  <td>50.3%</td>
+  <td><strong>Even</strong></td>
+  <td>50.3%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Liverpool</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>845</td><td>515</td>
+  <td>2.18</td>
+  <td>49.7%</td>
+  <td>50.3%</td>
+  <td><strong>Even</strong></td>
+  <td>50.3%</td>
+</tr>
+<tr>
+  <td>Aston Villa</td><td>Leeds</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>821</td><td>508</td>
+  <td>2.20</td>
+  <td>50.3%</td>
+  <td>49.7%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.3%</td>
+</tr>
+<tr>
+  <td>Brighton</td><td>Fulham</td>
+  <td><span class="t2">T2</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>822</td><td>511</td>
+  <td>2.10</td>
+  <td>49.8%</td>
+  <td>50.2%</td>
+  <td><strong>Even</strong></td>
+  <td>50.2%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Manchester Blue</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>860</td><td>521</td>
+  <td>2.12</td>
+  <td>50.2%</td>
+  <td>49.8%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.2%</td>
+</tr>
+<tr>
+  <td>Leeds</td><td>Fulham</td>
+  <td><span class="t3">T3</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>813</td><td>505</td>
+  <td>1.63</td>
+  <td>49.8%</td>
+  <td>50.2%</td>
+  <td><strong>Even</strong></td>
+  <td>50.2%</td>
+</tr>
+<tr>
+  <td>Tottenham</td><td>Wolverhampton</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t3">T3</span></td>
+  <td>863</td><td>527</td>
+  <td>3.00</td>
+  <td>49.8%</td>
+  <td>50.2%</td>
+  <td><strong>Even</strong></td>
+  <td>50.2%</td>
+</tr>
+<tr>
+  <td>Fulham</td><td>Bournemouth</td>
+  <td><span class="t4">T4</span></td>
+  <td><span class="t4">T4</span></td>
+  <td>842</td><td>516</td>
+  <td>2.03</td>
+  <td>50.1%</td>
+  <td>49.9%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.1%</td>
+</tr>
+<tr>
+  <td>Chelsea</td><td>Aston Villa</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t2">T2</span></td>
+  <td>827</td><td>505</td>
+  <td>2.37</td>
+  <td>49.9%</td>
+  <td>50.1%</td>
+  <td><strong>Even</strong></td>
+  <td>50.1%</td>
+</tr>
+<tr>
+  <td>London Guns</td><td>Manchester Blue</td>
+  <td><span class="t1">T1</span></td>
+  <td><span class="t1">T1</span></td>
+  <td>824</td><td>515</td>
+  <td>3.27</td>
+  <td>50.0%</td>
+  <td>50.0%</td>
+  <td><strong>Odd</strong></td>
+  <td>50.0%</td>
+</tr></tbody>
+  </table>
+  <script>
+  function filterTable(id, fid) {
+    const q = document.getElementById(fid).value.toLowerCase();
+    document.querySelectorAll('#'+id+' tbody tr').forEach(tr => {
+      tr.style.display = tr.innerText.toLowerCase().includes(q) ? '' : 'none';
+    });
+  }
+  </script>
+</body>
+</html>

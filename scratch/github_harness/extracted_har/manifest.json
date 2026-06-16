@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "hars": 51,
+    "responses": 8212,
+    "stored": 2952,
+    "events": 1752,
+    "markets_rows": 1752
+  },
+  "endpoints": {
+    "result": 2705,
+    "match/day/event/list": 172,
+    "current/match/day/info": 41,
+    "event/list": 20,
+    "result/season/selection": 12,
+    "productStatus": 2
+  }
+}

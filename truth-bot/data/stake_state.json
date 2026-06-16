@@ -1,0 +1,8 @@
+{
+    "current_stake": 150.0,
+    "state": "IDLE",
+    "pending_return": 0.0,
+    "target_balance": 0.0,
+    "waiting_since_md": 0,
+    "milestones_hit": []
+}

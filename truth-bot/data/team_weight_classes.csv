@@ -1,0 +1,17 @@
+team,weight_class,avg_rank,win_rate,avg_goals_scored,avg_goals_conceded
+Manchester Blue,Heavyweight (Elite),4.1,56.15,1.9,1.09
+Liverpool,Heavyweight (Elite),4.23,54.12,1.69,0.97
+Manchester Red,Heavyweight (Elite),4.35,53.63,1.64,0.97
+Chelsea,Heavyweight (Elite),4.75,52.45,1.73,1.09
+Aston Villa,Upper-Middleweight,6.01,46.12,1.39,1.02
+Tottenham,Upper-Middleweight,6.02,46.58,1.51,1.15
+London Guns,Upper-Middleweight,6.19,46.4,1.58,1.2
+Everton,Upper-Middleweight,8.94,34.52,1.04,1.13
+West Ham,Lower-Middleweight,9.3,35.27,1.3,1.45
+Brighton,Lower-Middleweight,9.77,32.9,1.13,1.35
+Wolverhampton,Lower-Middleweight,10.25,32.3,1.28,1.61
+Leeds,Lower-Middleweight,11.85,24.95,0.83,1.31
+Newcastle,Featherweight (Weak),11.87,24.66,0.99,1.57
+Crystal Palace,Featherweight (Weak),12.38,23.82,1.01,1.68
+Fulham,Featherweight (Weak),12.8,22.2,0.81,1.49
+Bournemouth,Featherweight (Weak),13.18,20.66,0.86,1.63

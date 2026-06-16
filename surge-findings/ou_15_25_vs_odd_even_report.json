@@ -1,0 +1,96 @@
+{
+  "markets_used": [
+    "Over 1.5",
+    "Under 1.5",
+    "Over 2.5",
+    "Under 2.5"
+  ],
+  "n_fixtures": 22231,
+  "n_matchdays": 2776,
+  "baseline_p_odd": 0.4889,
+  "median_implied_p_over15": 0.7204,
+  "median_implied_p_over25": 0.4865,
+  "fixture_rules_best_threshold": {
+    "predict_odd_if_p_under25_high": {
+      "accuracy": 0.5111,
+      "threshold": 0.6
+    },
+    "predict_odd_if_p_over25_low": {
+      "accuracy": 0.5111,
+      "threshold": 0.4
+    },
+    "predict_odd_if_p_under15_high": {
+      "accuracy": 0.5119,
+      "threshold": 0.35
+    },
+    "predict_odd_if_p_over15_low": {
+      "accuracy": 0.5119,
+      "threshold": 0.64
+    }
+  },
+  "fixture_2x2_cells_o15_o25": {
+    "low_o15_low_o25": {
+      "n": 10334,
+      "p_odd_actual": 0.4889
+    },
+    "low_o15_high_o25": {
+      "n": 298,
+      "p_odd_actual": 0.5134
+    },
+    "high_o15_low_o25": {
+      "n": 312,
+      "p_odd_actual": 0.4679
+    },
+    "high_o15_high_o25": {
+      "n": 11287,
+      "p_odd_actual": 0.4889
+    }
+  },
+  "fixture_poisson_from_o25_only": 0.5061,
+  "fixture_direct_odd_even_odds": 0.5135,
+  "matchday_slate_odd_rule_mean_u25_ge_0.52": 0.4849,
+  "matchday_quintiles_by_mean_p_under25": [
+    {
+      "q": 1,
+      "mean_p_under25": 0.4999,
+      "pct_slate_odd": 50.27,
+      "avg_n_odd_games": 3.9,
+      "n_md": 555
+    },
+    {
+      "q": 2,
+      "mean_p_under25": 0.5103,
+      "pct_slate_odd": 52.25,
+      "avg_n_odd_games": 3.96,
+      "n_md": 555
+    },
+    {
+      "q": 3,
+      "mean_p_under25": 0.5161,
+      "pct_slate_odd": 53.15,
+      "avg_n_odd_games": 3.93,
+      "n_md": 555
+    },
+    {
+      "q": 4,
+      "mean_p_under25": 0.5221,
+      "pct_slate_odd": 49.37,
+      "avg_n_odd_games": 3.92,
+      "n_md": 555
+    },
+    {
+      "q": 5,
+      "mean_p_under25": 0.531,
+      "pct_slate_odd": 48.38,
+      "avg_n_odd_games": 3.84,
+      "n_md": 556
+    }
+  ],
+  "plot": "/home/ubuntu/faith-workspace/vfl-empire/models/odd_even/plots/ou_15_25_vs_odd_even.png",
+  "verdict": [
+    "Best single-line rule: predict_odd_if_p_under15_high acc=0.512 @ threshold=0.350",
+    "Strongest 2D cell high_o15_low_o25: P(odd)=0.468 n=312",
+    "MD: low vs high mean P(Under 2.5) slate odd% Q1=50.27% Q5=48.38%",
+    "Use O1.5+O2.5 together for \u03bb cage; U2.5/U1.5 for low-score odd lean (1,3)."
+  ]
+}

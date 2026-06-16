@@ -1,0 +1,370 @@
+{
+  "n_team_fixture_rows": 392080,
+  "definition": "team_tier_x1 from own rank entering MD; scoreline_ha global H:A; MD>1",
+  "highlights_home_by_tier": {
+    "T1": [
+      {
+        "team": "Fulham",
+        "n": 310,
+        "top_scoreline_ha": "0:0",
+        "top_pct_ha": 19.35,
+        "pct_win": 24.84,
+        "mean_team_goals": 0.848
+      },
+      {
+        "team": "Crystal Palace",
+        "n": 321,
+        "top_scoreline_ha": "1:1",
+        "top_pct_ha": 16.2,
+        "pct_win": 30.53,
+        "mean_team_goals": 1.028
+      },
+      {
+        "team": "Liverpool",
+        "n": 7336,
+        "top_scoreline_ha": "2:0",
+        "top_pct_ha": 14.01,
+        "pct_win": 66.97,
+        "mean_team_goals": 2.033
+      }
+    ],
+    "T2": [
+      {
+        "team": "Liverpool",
+        "n": 3585,
+        "top_scoreline_ha": "2:0",
+        "top_pct_ha": 13.67,
+        "pct_win": 58.52,
+        "mean_team_goals": 1.806
+      },
+      {
+        "team": "Manchester Red",
+        "n": 3666,
+        "top_scoreline_ha": "2:0",
+        "top_pct_ha": 13.56,
+        "pct_win": 60.09,
+        "mean_team_goals": 1.864
+      },
+      {
+        "team": "Leeds",
+        "n": 1572,
+        "top_scoreline_ha": "1:1",
+        "top_pct_ha": 13.55,
+        "pct_win": 30.03,
+        "mean_team_goals": 0.929
+      }
+    ],
+    "T3": [
+      {
+        "team": "Liverpool",
+        "n": 1071,
+        "top_scoreline_ha": "2:0",
+        "top_pct_ha": 15.59,
+        "pct_win": 58.08,
+        "mean_team_goals": 1.828
+      },
+      {
+        "team": "Crystal Palace",
+        "n": 3832,
+        "top_scoreline_ha": "1:1",
+        "top_pct_ha": 15.01,
+        "pct_win": 29.41,
+        "mean_team_goals": 1.164
+      },
+      {
+        "team": "Leeds",
+        "n": 4295,
+        "top_scoreline_ha": "0:1",
+        "top_pct_ha": 14.74,
+        "pct_win": 28.73,
+        "mean_team_goals": 0.893
+      }
+    ],
+    "T4": [
+      {
+        "team": "Leeds",
+        "n": 6046,
+        "top_scoreline_ha": "0:1",
+        "top_pct_ha": 17.48,
+        "pct_win": 26.27,
+        "mean_team_goals": 0.817
+      },
+      {
+        "team": "Fulham",
+        "n": 7582,
+        "top_scoreline_ha": "0:1",
+        "top_pct_ha": 16.99,
+        "pct_win": 24.39,
+        "mean_team_goals": 0.857
+      },
+      {
+        "team": "Liverpool",
+        "n": 262,
+        "top_scoreline_ha": "2:0",
+        "top_pct_ha": 16.79,
+        "pct_win": 63.36,
+        "mean_team_goals": 1.889
+      }
+    ]
+  },
+  "highlights_away_by_tier": {
+    "T1": [
+      {
+        "team": "Bournemouth",
+        "n": 247,
+        "top_scoreline_ha": "1:0",
+        "top_pct_ha": 18.22,
+        "pct_win": 15.38,
+        "mean_team_goals": 0.781
+      },
+      {
+        "team": "Fulham",
+        "n": 276,
+        "top_scoreline_ha": "0:1",
+        "top_pct_ha": 16.67,
+        "pct_win": 34.42,
+        "mean_team_goals": 0.953
+      },
+      {
+        "team": "Leeds",
+        "n": 380,
+        "top_scoreline_ha": "1:1",
+        "top_pct_ha": 14.47,
+        "pct_win": 23.42,
+        "mean_team_goals": 0.774
+      }
+    ],
+    "T2": [
+      {
+        "team": "Bournemouth",
+        "n": 1183,
+        "top_scoreline_ha": "1:1",
+        "top_pct_ha": 16.4,
+        "pct_win": 20.54,
+        "mean_team_goals": 0.858
+      },
+      {
+        "team": "Crystal Palace",
+        "n": 1367,
+        "top_scoreline_ha": "2:0",
+        "top_pct_ha": 15.73,
+        "pct_win": 19.46,
+        "mean_team_goals": 0.865
+      },
+      {
+        "team": "Fulham",
+        "n": 1159,
+        "top_scoreline_ha": "1:0",
+        "top_pct_ha": 14.32,
+        "pct_win": 23.38,
+        "mean_team_goals": 0.772
+      }
+    ],
+    "T3": [
+      {
+        "team": "Fulham",
+        "n": 3488,
+        "top_scoreline_ha": "2:0",
+        "top_pct_ha": 15.19,
+        "pct_win": 18.35,
+        "mean_team_goals": 0.742
+      },
+      {
+        "team": "Leeds",
+        "n": 4393,
+        "top_scoreline_ha": "1:0",
+        "top_pct_ha": 13.91,
+        "pct_win": 21.53,
+        "mean_team_goals": 0.799
+      },
+      {
+        "team": "Newcastle",
+        "n": 4076,
+        "top_scoreline_ha": "1:0",
+        "top_pct_ha": 13.67,
+        "pct_win": 19.48,
+        "mean_team_goals": 0.822
+      }
+    ],
+    "T4": [
+      {
+        "team": "Liverpool",
+        "n": 230,
+        "top_scoreline_ha": "0:1",
+        "top_pct_ha": 17.39,
+        "pct_win": 50.43,
+        "mean_team_goals": 1.465
+      },
+      {
+        "team": "Fulham",
+        "n": 7303,
+        "top_scoreline_ha": "1:0",
+        "top_pct_ha": 16.21,
+        "pct_win": 14.72,
+        "mean_team_goals": 0.689
+      },
+      {
+        "team": "Aston Villa",
+        "n": 835,
+        "top_scoreline_ha": "1:1",
+        "top_pct_ha": 14.97,
+        "pct_win": 30.9,
+        "mean_team_goals": 1.037
+      }
+    ]
+  },
+  "plot": "/home/ubuntu/faith-workspace/vfl-empire/models/odd_even/plots/scoreline_per_team_tier_heatmap.png",
+  "example_liverpool": [
+    {
+      "team": "Liverpool",
+      "tier_x1": "T1",
+      "role": "away",
+      "n": 7531,
+      "top_scoreline_ha": "0:1",
+      "top_pct_ha": 11.58,
+      "top2_scoreline_ha": "1:1",
+      "top2_pct_ha": 11.53,
+      "top_team_view": "1:0",
+      "top_pct_team_view": 11.58,
+      "mean_team_goals": 1.515,
+      "mean_opp_goals": 1.076,
+      "pct_win": 49.5,
+      "pct_draw": 23.61,
+      "pct_loss": 26.89,
+      "mean_total_goals": 2.591
+    },
+    {
+      "team": "Liverpool",
+      "tier_x1": "T1",
+      "role": "home",
+      "n": 7336,
+      "top_scoreline_ha": "2:0",
+      "top_pct_ha": 14.01,
+      "top2_scoreline_ha": "1:0",
+      "top2_pct_ha": 11.63,
+      "top_team_view": "2:0",
+      "top_pct_team_view": 14.01,
+      "mean_team_goals": 2.033,
+      "mean_opp_goals": 0.769,
+      "pct_win": 66.97,
+      "pct_draw": 18.24,
+      "pct_loss": 14.79,
+      "mean_total_goals": 2.802
+    },
+    {
+      "team": "Liverpool",
+      "tier_x1": "T2",
+      "role": "away",
+      "n": 3455,
+      "top_scoreline_ha": "1:1",
+      "top_pct_ha": 12.91,
+      "top2_scoreline_ha": "0:1",
+      "top2_pct_ha": 11.03,
+      "top_team_view": "1:1",
+      "top_pct_team_view": 12.91,
+      "mean_team_goals": 1.446,
+      "mean_opp_goals": 1.095,
+      "pct_win": 44.95,
+      "pct_draw": 25.15,
+      "pct_loss": 29.9,
+      "mean_total_goals": 2.54
+    },
+    {
+      "team": "Liverpool",
+      "tier_x1": "T2",
+      "role": "home",
+      "n": 3585,
+      "top_scoreline_ha": "2:0",
+      "top_pct_ha": 13.67,
+      "top2_scoreline_ha": "1:0",
+      "top2_pct_ha": 11.58,
+      "top_team_view": "2:0",
+      "top_pct_team_view": 13.67,
+      "mean_team_goals": 1.806,
+      "mean_opp_goals": 0.852,
+      "pct_win": 58.52,
+      "pct_draw": 22.01,
+      "pct_loss": 19.47,
+      "mean_total_goals": 2.658
+    },
+    {
+      "team": "Liverpool",
+      "tier_x1": "T3",
+      "role": "away",
+      "n": 1040,
+      "top_scoreline_ha": "1:1",
+      "top_pct_ha": 13.08,
+      "top2_scoreline_ha": "0:1",
+      "top2_pct_ha": 12.6,
+      "top_team_view": "1:1",
+      "top_pct_team_view": 13.08,
+      "mean_team_goals": 1.388,
+      "mean_opp_goals": 1.138,
+      "pct_win": 42.69,
+      "pct_draw": 23.17,
+      "pct_loss": 34.13,
+      "mean_total_goals": 2.525
+    },
+    {
+      "team": "Liverpool",
+      "tier_x1": "T3",
+      "role": "home",
+      "n": 1071,
+      "top_scoreline_ha": "2:0",
+      "top_pct_ha": 15.59,
+      "top2_scoreline_ha": "1:1",
+      "top2_pct_ha": 9.34,
+      "top_team_view": "2:0",
+      "top_pct_team_view": 15.59,
+      "mean_team_goals": 1.828,
+      "mean_opp_goals": 0.844,
+      "pct_win": 58.08,
+      "pct_draw": 21.94,
+      "pct_loss": 19.98,
+      "mean_total_goals": 2.672
+    },
+    {
+      "team": "Liverpool",
+      "tier_x1": "T4",
+      "role": "away",
+      "n": 230,
+      "top_scoreline_ha": "0:1",
+      "top_pct_ha": 17.39,
+      "top2_scoreline_ha": "1:2",
+      "top2_pct_ha": 10.43,
+      "top_team_view": "1:0",
+      "top_pct_team_view": 17.39,
+      "mean_team_goals": 1.465,
+      "mean_opp_goals": 1.104,
+      "pct_win": 50.43,
+      "pct_draw": 19.57,
+      "pct_loss": 30.0,
+      "mean_total_goals": 2.57
+    },
+    {
+      "team": "Liverpool",
+      "tier_x1": "T4",
+      "role": "home",
+      "n": 262,
+      "top_scoreline_ha": "2:0",
+      "top_pct_ha": 16.79,
+      "top2_scoreline_ha": "1:0",
+      "top2_pct_ha": 11.07,
+      "top_team_view": "2:0",
+      "top_pct_team_view": 16.79,
+      "mean_team_goals": 1.889,
+      "mean_opp_goals": 0.859,
+      "pct_win": 63.36,
+      "pct_draw": 19.85,
+      "pct_loss": 16.79,
+      "mean_total_goals": 2.748
+    }
+  ],
+  "findings": [
+    "Home @ T1: sharpest mode Fulham \u2192 0:0 (19.35%, W%=24.84)",
+    "Home @ T2: sharpest mode Liverpool \u2192 2:0 (13.67%, W%=58.52)",
+    "Home @ T3: sharpest mode Liverpool \u2192 2:0 (15.59%, W%=58.08)",
+    "Home @ T4: sharpest mode Leeds \u2192 0:1 (17.48%, W%=26.27)",
+    "T4 home teams peak on 0:1/1:1 modes; T1 home peak 2:0/2:1 \u2014 tier shifts scoreline PMF per club."
+  ]
+}

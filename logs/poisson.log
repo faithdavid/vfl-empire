@@ -1,0 +1,16 @@
+=== POISSON ENGINE INTEGRATION ===
+Calculating Base Poisson Expected Goals (xG) to measure Engine Deviation...
+Poisson Expected Goals (xG) injected into Unified Matrix.
+    season  day            home  ... poisson_hxG  poisson_axG  target_1x2
+0  3074000   11     London Guns  ...       0.012        0.009           0
+1  3074000   11  Crystal Palace  ...       0.012        0.009           2
+2  3074000   11       Tottenham  ...       0.012        0.009           0
+3  3074000   11  Manchester Red  ...       0.012        0.009           0
+4  3074000   11     Aston Villa  ...       0.012        0.009           0
+5  3074000   11           Leeds  ...       0.012        0.009           1
+6  3074000   11       Liverpool  ...       0.012        0.009           1
+7  3074000   11        Brighton  ...       0.012        0.009           1
+8  3074091   26        Brighton  ...       0.012        0.009           1
+9  3074091   26     Bournemouth  ...       0.012        0.009           2
+
+[10 rows x 7 columns]

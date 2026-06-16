@@ -1,0 +1,54 @@
+Training on 522 seasons. Testing on last 15 seasons...
+Total 100% Locks Found on Training Set: 222
+
+===================================================================================================
+ 🎯 INDEPENDENT BULLETPROOF ORACLE: LAST 15 SEASONS BACKTEST
+===================================================================================================
+SEASON   | MD  | FIXTURE                        | LAG TIERS  | PREDICTION | SCORE | RESULT
+----------------------------------------------------------------------------------------------------
+3089322  | 13  | Manchester Blue vs Newcastle   | T2 v T4    | HOME WIN   | 3-0   | ✅ WON
+3089354  | 11  | Tottenham vs Crystal Palace    | T1 v T4    | HOME WIN   | 4-0   | ✅ WON
+3089354  | 24  | Tottenham vs Fulham            | T1 v T4    | HOME WIN   | 3-0   | ✅ WON
+3089354  | 28  | Liverpool vs Tottenham         | T2 v T1    | HOME WIN   | 0-0   | ❌ LOST
+3089382  | 5   | Manchester Red vs Fulham       | T1 v T4    | HOME WIN   | 2-1   | ✅ WON
+3089382  | 11  | London Guns vs Everton         | T2 v T3    | HOME WIN   | 1-1   | ❌ LOST
+3089382  | 15  | Leeds vs Liverpool             | T4 v T2    | AWAY WIN   | 1-1   | ❌ LOST
+3089382  | 27  | Aston Villa vs Crystal Palace  | T1 v T3    | HOME WIN   | 5-0   | ✅ WON
+3089382  | 30  | Liverpool vs Leeds             | T2 v T4    | HOME WIN   | 2-0   | ✅ WON
+3089414  | 4   | London Guns vs Chelsea         | T3 v T2    | HOME WIN   | 3-1   | ✅ WON
+3089414  | 5   | Manchester Red vs Fulham       | T1 v T4    | HOME WIN   | 2-0   | ✅ WON
+3089414  | 22  | Manchester Red vs Wolverhampton | T1 v T2    | HOME WIN   | 4-1   | ✅ WON
+3089440  | 4   | Liverpool vs Leeds             | T1 v T2    | HOME WIN   | 0-0   | ❌ LOST
+3089440  | 14  | Chelsea vs Fulham              | T2 v T3    | HOME WIN   | 2-0   | ✅ WON
+3089440  | 29  | Tottenham vs Newcastle         | T1 v T3    | HOME WIN   | 2-1   | ✅ WON
+3089440  | 30  | Manchester Blue vs Leeds       | T1 v T3    | HOME WIN   | 5-1   | ✅ WON
+3089469  | 5   | Chelsea vs Bournemouth         | T3 v T4    | HOME WIN   | 1-0   | ✅ WON
+3089498  | 17  | Manchester Blue vs Everton     | T1 v T2    | HOME WIN   | 2-1   | ✅ WON
+3089525  | 11  | Chelsea vs Bournemouth         | T2 v T3    | HOME WIN   | 2-0   | ✅ WON
+3089525  | 13  | Chelsea vs Fulham              | T2 v T3    | HOME WIN   | 0-0   | ❌ LOST
+3089525  | 25  | Aston Villa vs Crystal Palace  | T1 v T4    | HOME WIN   | 0-1   | ❌ LOST
+3089554  | 4   | Chelsea vs Bournemouth         | T1 v T4    | HOME WIN   | 2-0   | ✅ WON
+3089554  | 12  | Aston Villa vs Liverpool       | T2 v T1    | AWAY WIN   | 1-2   | ✅ WON
+3089554  | 18  | Manchester Red vs Wolverhampton | T1 v T4    | HOME WIN   | 1-1   | ❌ LOST
+3089554  | 24  | Chelsea vs Wolverhampton       | T2 v T4    | HOME WIN   | 4-1   | ✅ WON
+3089554  | 29  | Liverpool vs Crystal Palace    | T1 v T3    | HOME WIN   | 3-0   | ✅ WON
+3089583  | 7   | Aston Villa vs Bournemouth     | T1 v T3    | HOME WIN   | 1-0   | ✅ WON
+3089583  | 12  | Bournemouth vs Manchester Red  | T3 v T1    | AWAY WIN   | 0-1   | ✅ WON
+3089583  | 21  | Leeds vs Manchester Red        | T4 v T1    | AWAY WIN   | 2-0   | ❌ LOST
+3089615  | 4   | Liverpool vs West Ham          | T1 v T2    | HOME WIN   | 1-1   | ❌ LOST
+3089615  | 7   | Bournemouth vs Liverpool       | T4 v T2    | AWAY WIN   | 1-0   | ❌ LOST
+3089615  | 18  | Manchester Blue vs Everton     | T1 v T2    | HOME WIN   | 3-0   | ✅ WON
+3089643  | 7   | West Ham vs Manchester Blue    | T2 v T1    | AWAY WIN   | 1-2   | ✅ WON
+3089643  | 9   | Manchester Blue vs Fulham      | T1 v T4    | HOME WIN   | 4-1   | ✅ WON
+3089643  | 12  | Aston Villa vs Crystal Palace  | T1 v T3    | HOME WIN   | 2-2   | ❌ LOST
+3089643  | 20  | Aston Villa vs Wolverhampton   | T1 v T3    | HOME WIN   | 3-0   | ✅ WON
+3089669  | 4   | London Guns vs Newcastle       | T1 v T2    | HOME WIN   | 2-1   | ✅ WON
+3089669  | 24  | Tottenham vs Fulham            | T1 v T4    | HOME WIN   | 2-0   | ✅ WON
+
+===================================================================================================
+ 🏁 FINAL RESULTS (LAST 15 SEASONS OOS)
+===================================================================================================
+Total Bets Placed:     38
+Total Wins:            27
+Total Losses:          11
+Accuracy:              71.05%

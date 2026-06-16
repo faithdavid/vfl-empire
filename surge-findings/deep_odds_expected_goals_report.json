@@ -1,0 +1,92 @@
+{
+  "n_fixtures": 500,
+  "mae_expected_total_vs_actual": 1.234,
+  "pct_within_1_goal": 0.474,
+  "logic": [
+    "O/U lines de-vig \u2192 CDF \u2192 P(T=0..7) \u2192 E[T] (same as ou_integral_cdf)",
+    "Exact goals de-vig \u2192 E[T] refine",
+    "Correct Score de-vig \u2192 top 3 H:A (direct scoreline from book)",
+    "H2H mean_total prior blend",
+    "We CAN state expected goals; odd/even profit was separate failure"
+  ],
+  "sample": [
+    {
+      "event_id": "vf:match:1404291900",
+      "home_team": "London Guns",
+      "away_team": "Crystal Palace",
+      "E_total_ou_cdf": null,
+      "E_total_exact_goals": null,
+      "E_total_h2h": 3.039,
+      "E_total_blend": 3.039,
+      "P_T_pmf_ou": null,
+      "top_scorelines_book_cs": [],
+      "top_scorelines_model": [
+        {
+          "scoreline": "1:1",
+          "p": 0.1104
+        },
+        {
+          "scoreline": "2:1",
+          "p": 0.0872
+        },
+        {
+          "scoreline": "1:2",
+          "p": 0.0805
+        }
+      ],
+      "actual_total": 3
+    },
+    {
+      "event_id": "vf:match:1404291899",
+      "home_team": "Manchester Blue",
+      "away_team": "Chelsea",
+      "E_total_ou_cdf": null,
+      "E_total_exact_goals": null,
+      "E_total_h2h": 3.098,
+      "E_total_blend": 3.098,
+      "P_T_pmf_ou": null,
+      "top_scorelines_book_cs": [],
+      "top_scorelines_model": [
+        {
+          "scoreline": "1:1",
+          "p": 0.1081
+        },
+        {
+          "scoreline": "2:1",
+          "p": 0.0871
+        },
+        {
+          "scoreline": "1:2",
+          "p": 0.0804
+        }
+      ],
+      "actual_total": 2
+    },
+    {
+      "event_id": "vf:match:1404291898",
+      "home_team": "Wolverhampton",
+      "away_team": "Bournemouth",
+      "E_total_ou_cdf": null,
+      "E_total_exact_goals": null,
+      "E_total_h2h": 3.03,
+      "E_total_blend": 3.03,
+      "P_T_pmf_ou": null,
+      "top_scorelines_book_cs": [],
+      "top_scorelines_model": [
+        {
+          "scoreline": "1:1",
+          "p": 0.1107
+        },
+        {
+          "scoreline": "2:1",
+          "p": 0.0872
+        },
+        {
+          "scoreline": "1:2",
+          "p": 0.0805
+        }
+      ],
+      "actual_total": 3
+    }
+  ]
+}

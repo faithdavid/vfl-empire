@@ -1,0 +1,23 @@
+# Fibonacci read — full-time odd/even binary
+Fibonacci 1-based positions in 240-bit season: [1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233]
+
+## Position sampling
+WC: P(odd) AT fib positions = 0.49613
+WC: P(odd) at other positions = 0.49051
+Delta (fib - non) = 0.562 pp
+
+## Golden ratio φ split (linear read)
+First 148 bits (≈240/φ): P(odd)=0.49096
+Remainder: P(odd)=0.49053
+Delta pp = 0.043
+
+## Fibonacci on MD *counts* (not bits)
+count[MD_t] - count[t-1] - count[t-2]: 4.75% exactly zero
+mean |residual| = 4.0151
+residual histogram (top): {-13: 2, -12: 7, -11: 70, -10: 158, -9: 497, -8: 921, -7: 1740, -6: 2965}
+
+## Fibonacci walk (last season)
+Season VFLM 5404: walk len=72 P(odd)=0.6250
+First 64 walk bits: 0101010110001111111011111101010111001010110011110111110110011000
+
+Interpretation: if Fib were structural, fib positions or φ-split would deviate >>2pp from 50%.

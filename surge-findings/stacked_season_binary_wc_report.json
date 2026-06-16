@@ -1,0 +1,78 @@
+{
+  "order": "top8_clash_then_min_rank",
+  "n_seasons": 840,
+  "global_p_odd": 0.49079,
+  "entropy": 0.99976,
+  "markov_p01": 0.49274,
+  "markov_p11": 0.48877,
+  "wc_slot_marginals": [
+    {
+      "wc_slot": 1,
+      "p_odd": 0.5032
+    },
+    {
+      "wc_slot": 2,
+      "p_odd": 0.4863
+    },
+    {
+      "wc_slot": 3,
+      "p_odd": 0.4947
+    },
+    {
+      "wc_slot": 4,
+      "p_odd": 0.4967
+    },
+    {
+      "wc_slot": 5,
+      "p_odd": 0.4847
+    },
+    {
+      "wc_slot": 6,
+      "p_odd": 0.4873
+    },
+    {
+      "wc_slot": 7,
+      "p_odd": 0.4889
+    },
+    {
+      "wc_slot": 8,
+      "p_odd": 0.4845
+    }
+  ],
+  "slot1_vs_slot8_delta_pp": 1.87,
+  "top_biased_wc_slots": [
+    {
+      "wc_slot": 8,
+      "p_odd": 0.4845
+    },
+    {
+      "wc_slot": 5,
+      "p_odd": 0.4847
+    },
+    {
+      "wc_slot": 2,
+      "p_odd": 0.4863
+    },
+    {
+      "wc_slot": 6,
+      "p_odd": 0.4873
+    }
+  ],
+  "sample_md_annotation": {
+    "VFLM 5404": [
+      "slot1: Fulham(r8/UMW) vs Newcastle(r3/HW) -> 0",
+      "slot2: Manchester Red(r1/HW) vs Leeds(r15/FW) -> 0",
+      "slot3: Wolverhampton(r14/FW) vs Aston Villa(r2/HW) -> 0",
+      "slot4: London Guns(r12/LMW) vs Brighton(r4/HW) -> 1",
+      "slot5: Manchester Blue(r10/LMW) vs Liverpool(r5/UMW) -> 0",
+      "slot6: Everton(r6/UMW) vs Tottenham(r11/LMW) -> 1",
+      "slot7: West Ham(r16/FW) vs Bournemouth(r7/UMW) -> 1",
+      "slot8: Chelsea(r9/LMW) vs Crystal Palace(r13/FW) -> 1"
+    ]
+  },
+  "files": {
+    "chains": "/home/ubuntu/faith-workspace/vfl-empire/surge-findings/odd_even_binary_chains_wc.txt",
+    "mega": "/home/ubuntu/faith-workspace/vfl-empire/surge-findings/odd_even_mega_stack_wc.txt",
+    "plot": "/home/ubuntu/faith-workspace/vfl-empire/models/odd_even/plots/stacked_season_binary_wc_analysis.png"
+  }
+}

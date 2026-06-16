@@ -97,18 +97,14 @@ def run():
         bet = None
         prob = None
         
-        if chunk == "MD 11-15" and h_tier == "T4(13-16)" and a_tier == "T3(9-12)":
-            bet = "1X (Home Win/Draw)"; prob = "97.4%"
-        elif chunk == "MD 21-25" and h_tier == "T2(5-8)" and a_tier == "T3(9-12)":
-            bet = "1X (Home Win/Draw)"; prob = "96.4%"
+        if chunk == "MD 21-25" and h_tier == "T2(5-8)" and a_tier == "T3(9-12)":
+            bet = "1X (Home Win/Draw)"; prob = "81.6%"
         elif chunk == "MD 26-30" and h_tier == "T1(1-4)" and a_tier == "T3(9-12)":
-            bet = "1X (Home Win/Draw)"; prob = "94.3%"
-        elif chunk == "MD 6-10" and h_tier == "T2(5-8)" and a_tier == "T4(13-16)":
-            bet = "1X (Home Win/Draw)"; prob = "93.3%"
+            bet = "1X (Home Win/Draw)"; prob = "90.0%"
         elif chunk == "MD 16-20" and h_tier == "T1(1-4)" and a_tier == "T3(9-12)":
-            bet = "1X (Home Win/Draw)"; prob = "92.3%"
+            bet = "1X (Home Win/Draw)"; prob = "84.8%"
         elif chunk == "MD 16-20" and h_tier == "T1(1-4)" and a_tier == "T2(5-8)":
-            bet = "1X (Home Win/Draw)"; prob = "92.3%"
+            bet = "1X (Home Win/Draw)"; prob = "80.4%"
             
         if bet:
             locks_found.append({

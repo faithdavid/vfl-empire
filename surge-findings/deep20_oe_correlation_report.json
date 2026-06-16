@@ -1,0 +1,270 @@
+{
+  "latest_20_deep_seasons": [
+    "VFLM 5401",
+    "VFLM 5400",
+    "VFLM 5399",
+    "VFLM 5398",
+    "VFLM 5397",
+    "VFLM 5396",
+    "VFLM 5395",
+    "VFLM 5394",
+    "VFLM 5393",
+    "VFLM 5392",
+    "VFLM 5391",
+    "VFLM 5390",
+    "VFLM 5389",
+    "VFLM 5388",
+    "VFLM 5387",
+    "VFLM 5386",
+    "VFLM 5385",
+    "VFLM 5384",
+    "VFLM 5383",
+    "VFLM 5382"
+  ],
+  "n_fixtures": 4560,
+  "n_with_odd_even_odds": 4432,
+  "odd_even_correlation": {
+    "n": 4432,
+    "corr_implied_odd_vs_outcome": 0.0583,
+    "brier_implied_odd": 0.2492,
+    "acc_pick_favorite": 0.5217,
+    "roi_flat_stake_favorite": -0.0856
+  },
+  "tag_volume_table": [
+    {
+      "tag": "O15_very_high",
+      "n": 1781,
+      "pct_odd": 50.31,
+      "mean_p_odd": 0.4950607503352229,
+      "gap_vs_implied": 0.008,
+      "consistency_score": 11.0
+    },
+    {
+      "tag": "OE_even_fav",
+      "n": 1699,
+      "pct_odd": 46.73,
+      "mean_p_odd": 0.47961868517876477,
+      "gap_vs_implied": -0.0123,
+      "consistency_score": 111.1
+    },
+    {
+      "tag": "OE_coin",
+      "n": 1593,
+      "pct_odd": 49.47,
+      "mean_p_odd": 0.4998366139531684,
+      "gap_vs_implied": -0.0051,
+      "consistency_score": 16.9
+    },
+    {
+      "tag": "O25_high",
+      "n": 1250,
+      "pct_odd": 48.96,
+      "mean_p_odd": 0.4976094368340943,
+      "gap_vs_implied": -0.008,
+      "consistency_score": 26.0
+    },
+    {
+      "tag": "O25_low",
+      "n": 1106,
+      "pct_odd": 48.82,
+      "mean_p_odd": 0.49204904203170197,
+      "gap_vs_implied": -0.0038,
+      "consistency_score": 26.1
+    },
+    {
+      "tag": "GG_yes_lean",
+      "n": 1070,
+      "pct_odd": 51.59,
+      "mean_p_odd": 0.4974176115472098,
+      "gap_vs_implied": 0.0185,
+      "consistency_score": 34.0
+    },
+    {
+      "tag": "OE_odd_fav",
+      "n": 958,
+      "pct_odd": 52.3,
+      "mean_p_odd": 0.5180275132426446,
+      "gap_vs_implied": 0.005,
+      "consistency_score": 44.1
+    },
+    {
+      "tag": "GG_no_lean",
+      "n": 796,
+      "pct_odd": 46.73,
+      "mean_p_odd": 0.4935645938071737,
+      "gap_vs_implied": -0.0263,
+      "consistency_score": 52.1
+    },
+    {
+      "tag": "COMBO_even_fav_low_o25",
+      "n": 458,
+      "pct_odd": 46.94,
+      "mean_p_odd": 0.47271407017473893,
+      "gap_vs_implied": -0.0033,
+      "consistency_score": 28.0
+    },
+    {
+      "tag": "COMBO_even_fav_gg_no",
+      "n": 414,
+      "pct_odd": 45.65,
+      "mean_p_odd": 0.4729373010095662,
+      "gap_vs_implied": -0.0164,
+      "consistency_score": 36.0
+    },
+    {
+      "tag": "COMBO_odd_fav_gg_yes",
+      "n": 139,
+      "pct_odd": 58.99,
+      "mean_p_odd": 0.5299034744806894,
+      "gap_vs_implied": 0.06,
+      "consistency_score": 25.0
+    },
+    {
+      "tag": "OE_missing",
+      "n": 128,
+      "pct_odd": 53.12,
+      "mean_p_odd": NaN,
+      "gap_vs_implied": NaN,
+      "consistency_score": 8.0
+    },
+    {
+      "tag": "OE_even_fav_strong",
+      "n": 119,
+      "pct_odd": 47.06,
+      "mean_p_odd": 0.4540357238785926,
+      "gap_vs_implied": 0.0166,
+      "consistency_score": 7.0
+    },
+    {
+      "tag": "OE_odd_fav_strong",
+      "n": 63,
+      "pct_odd": 71.43,
+      "mean_p_odd": 0.5452544031311155,
+      "gap_vs_implied": 0.169,
+      "consistency_score": 27.0
+    }
+  ],
+  "top_consistency_tags": [
+    {
+      "tag": "OE_even_fav",
+      "n": 1699,
+      "pct_odd": 46.73,
+      "mean_p_odd": 0.47961868517876477,
+      "gap_vs_implied": -0.0123,
+      "consistency_score": 111.1
+    },
+    {
+      "tag": "GG_no_lean",
+      "n": 796,
+      "pct_odd": 46.73,
+      "mean_p_odd": 0.4935645938071737,
+      "gap_vs_implied": -0.0263,
+      "consistency_score": 52.1
+    },
+    {
+      "tag": "OE_odd_fav",
+      "n": 958,
+      "pct_odd": 52.3,
+      "mean_p_odd": 0.5180275132426446,
+      "gap_vs_implied": 0.005,
+      "consistency_score": 44.1
+    },
+    {
+      "tag": "COMBO_even_fav_gg_no",
+      "n": 414,
+      "pct_odd": 45.65,
+      "mean_p_odd": 0.4729373010095662,
+      "gap_vs_implied": -0.0164,
+      "consistency_score": 36.0
+    },
+    {
+      "tag": "GG_yes_lean",
+      "n": 1070,
+      "pct_odd": 51.59,
+      "mean_p_odd": 0.4974176115472098,
+      "gap_vs_implied": 0.0185,
+      "consistency_score": 34.0
+    },
+    {
+      "tag": "COMBO_even_fav_low_o25",
+      "n": 458,
+      "pct_odd": 46.94,
+      "mean_p_odd": 0.47271407017473893,
+      "gap_vs_implied": -0.0033,
+      "consistency_score": 28.0
+    },
+    {
+      "tag": "OE_odd_fav_strong",
+      "n": 63,
+      "pct_odd": 71.43,
+      "mean_p_odd": 0.5452544031311155,
+      "gap_vs_implied": 0.169,
+      "consistency_score": 27.0
+    },
+    {
+      "tag": "O25_low",
+      "n": 1106,
+      "pct_odd": 48.82,
+      "mean_p_odd": 0.49204904203170197,
+      "gap_vs_implied": -0.0038,
+      "consistency_score": 26.1
+    },
+    {
+      "tag": "O25_high",
+      "n": 1250,
+      "pct_odd": 48.96,
+      "mean_p_odd": 0.4976094368340943,
+      "gap_vs_implied": -0.008,
+      "consistency_score": 26.0
+    },
+    {
+      "tag": "COMBO_odd_fav_gg_yes",
+      "n": 139,
+      "pct_odd": 58.99,
+      "mean_p_odd": 0.5299034744806894,
+      "gap_vs_implied": 0.06,
+      "consistency_score": 25.0
+    },
+    {
+      "tag": "OE_coin",
+      "n": 1593,
+      "pct_odd": 49.47,
+      "mean_p_odd": 0.4998366139531684,
+      "gap_vs_implied": -0.0051,
+      "consistency_score": 16.9
+    },
+    {
+      "tag": "O15_very_high",
+      "n": 1781,
+      "pct_odd": 50.31,
+      "mean_p_odd": 0.4950607503352229,
+      "gap_vs_implied": 0.008,
+      "consistency_score": 11.0
+    },
+    {
+      "tag": "OE_missing",
+      "n": 128,
+      "pct_odd": 53.12,
+      "mean_p_odd": NaN,
+      "gap_vs_implied": NaN,
+      "consistency_score": 8.0
+    },
+    {
+      "tag": "OE_even_fav_strong",
+      "n": 119,
+      "pct_odd": 47.06,
+      "mean_p_odd": 0.4540357238785926,
+      "gap_vs_implied": 0.0166,
+      "consistency_score": 7.0
+    }
+  ],
+  "findings": [
+    "OE market vs result: corr=0.0583, acc fav=0.5217, ROI/fav=-0.0856",
+    "Tag OE_even_fav: n=1699, actual odd 46.73%, implied 48.0% if set, gap -0.0123",
+    "Tag GG_no_lean: n=796, actual odd 46.73%, implied 49.4% if set, gap -0.0263",
+    "Tag OE_odd_fav: n=958, actual odd 52.3%, implied 51.8% if set, gap 0.005",
+    "Tag COMBO_even_fav_gg_no: n=414, actual odd 45.65%, implied 47.3% if set, gap -0.0164",
+    "Tag GG_yes_lean: n=1070, actual odd 51.59%, implied 49.7% if set, gap 0.0185",
+    "Volume consistency = large n + stable pct_odd across latest 20 seasons; use combo tags for filters."
+  ]
+}

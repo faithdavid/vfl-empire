@@ -1,0 +1,20 @@
+# Full-time goals: constrained cage 0-7 (your Fibonacci / discrete math frame)
+N=201840  mean total=2.574  P(odd)=0.4908
+Mass on 0-7: 100.00%   >7: 0.00%
+
+PMF total goals:
+  T=0: 7.37%  EVEN
+  T=1: 18.99%  ODD
+  T=2: 25.33%  EVEN
+  T=3: 22.01%  ODD
+  T=4: 14.75%  EVEN
+  T=5: 7.34%  ODD
+  T=6: 3.47%  EVEN
+  T=7: 0.74%  ODD
+
+Entropy H(T)=2.619 bits (max log2(8)=3.000)
+
+Odd/even is a PARTITION of this 8-state space — crack T first, odd follows.
+Fibonacci: use as integer scaffold {0,1,2,3,5,8} for compositions H+A=T, not bit positions.
+
+Next: P(T|WC clash) 8-way model + compare to Poisson(λh)Poisson(λa).

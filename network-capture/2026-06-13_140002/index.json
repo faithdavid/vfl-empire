@@ -1,0 +1,10 @@
+{
+  "start_time": "2026-06-13T14:00:02.213Z",
+  "end_time": "2026-06-13T14:30:02.242Z",
+  "duration_seconds": 1800.0,
+  "target_url": "https://www.msport.com/ng/web/virtual",
+  "playwright_event_count": 413,
+  "requestly_event_count": 0,
+  "output_dir": "/home/ubuntu/faith-workspace/vfl-empire/network-capture/2026-06-13_140002",
+  "status": "completed"
+}

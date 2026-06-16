@@ -1,0 +1,45 @@
+{
+  "integral_definition": "De-vig Over+Under=1 per line; CDF F(1.5), F(2.5) from Under; PMF on 0..7 sums to 1",
+  "n_fixtures": 22231,
+  "p_over15_mean": 0.7168,
+  "p_over15_std": 0.0728,
+  "accuracy_at_50pct": {
+    "o15_lambda_only": 0.5052,
+    "poisson_two_knot_o15_o25": 0.5059,
+    "cdf_knot_reconstruct": 0.5083
+  },
+  "brier_score_lower_better": {
+    "poisson_two_knot": 0.25,
+    "cdf_knot": 0.25
+  },
+  "high_confidence_abs_p_odd_minus_half_ge_0.08": {
+    "n": 0,
+    "accuracy": 0
+  },
+  "o15_tight_band_0.68_0.76": {
+    "n": 8298,
+    "accuracy_using_p_odd_pois": 0.5166,
+    "empirical_odd_rate": 0.4894
+  },
+  "calibration_bins_p_odd_pois": [
+    {
+      "bin": "0.47-0.50",
+      "n": 14013,
+      "pred": 0.4960869715206558,
+      "actual": 0.4865482052379933
+    },
+    {
+      "bin": "0.50-0.53",
+      "n": 8218,
+      "pred": 0.5017402498174715,
+      "actual": 0.4929423217327817
+    }
+  ],
+  "verdict": [
+    "Yes \u2014 use integral/CDF: each O/U line is a probability mass partition summing to 1; stack lines to pin P(T=0..7), then odd = sum odd atoms.",
+    "O1.5 implied is tight (std=0.073) \u2014 anchors \u03bb well but does NOT alone imply 100% odd/even; it pins scoring level (~72% have 2+ goals).",
+    "Two-knot Poisson (O1.5+O2.5) acc=0.506; confident tail acc=0.000 on n=0.",
+    "Path to higher certainty: bet only when reconstructed P(odd) or P(even) exceeds calibrated threshold (e.g. 0.58), not when O1.5 is merely consistent."
+  ],
+  "plot": "/home/ubuntu/faith-workspace/vfl-empire/models/odd_even/plots/ou_integral_cdf_odd_even.png"
+}

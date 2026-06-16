@@ -1,0 +1,329 @@
+{
+  "started_at": "2026-06-11T07:15:24.042412+00:00",
+  "duration_seconds": 600,
+  "playwright_events": 11100,
+  "cdp_events": 10236,
+  "unique_api_endpoints": 1686,
+  "top_api_endpoints": [
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/current/match/day/info",
+      300
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/list?sportId=vf:sport:1",
+      213
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/countries-a-z-menu/matchLabels",
+      173
+    ],
+    [
+      "GET /dist/css/my_matches.db2bdae5.css",
+      173
+    ],
+    [
+      "GET /dist/js/my_matches.5e82398a.js",
+      173
+    ],
+    [
+      "GET /dist/css/matches.a4251b52.css",
+      173
+    ],
+    [
+      "GET /dist/js/matches.ae7927bd.js",
+      173
+    ],
+    [
+      "GET /dist/js/virtual.f819da1f.js",
+      173
+    ],
+    [
+      "GET /dist/css/virtual.15744867.css",
+      173
+    ],
+    [
+      "GET /api/ng/marketing/market/bonus/valid?planName=virtual",
+      172
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/productStatus",
+      172
+    ],
+    [
+      "GET /en_US/fbevents.js",
+      168
+    ],
+    [
+      "GET /signals/config/1482606082556206?v=2.9.337&r=stable&domain=www.msport.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171",
+      168
+    ],
+    [
+      "GET /ng/web/virtual",
+      165
+    ],
+    [
+      "POST /frontendevents/dl?client=1B752747-577B-429A-A0E0-83861AF69088",
+      61
+    ],
+    [
+      "GET /ng/web/virtual/result",
+      8
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/result/season/selection",
+      8
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082453",
+      8
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082454",
+      8
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082455",
+      8
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082467",
+      8
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082468",
+      8
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082461",
+      8
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082456",
+      6
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082459",
+      6
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082460",
+      6
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082462",
+      6
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082463",
+      6
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082464",
+      6
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082465",
+      6
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082466",
+      6
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082448",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082449",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082450",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082451",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082452",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082445",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082446",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082447",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/result?seasonId=vf:season:3099107&matchDay=16",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082457",
+      4
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/virtual/event/detail?eventId=vf:match:1404082458",
+      4
+    ],
+    [
+      "GET /pagead/viewthroughconversion/696658643/?random=1781162128912&cv=11&fst=1781162128912&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6691v9220693107z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118131809~119456240~119456248&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fwelcome&rcb=10&frm=0&tiba=Best%20Online%20Sports%20%26%20Casino%20Betting%20and%20Best%20Odds%20in%20Nigeria%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/11559604125/?random=1781162129153&cv=11&fst=1781162129153&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fwelcome&rcb=5&frm=0&tiba=Best%20Online%20Sports%20%26%20Casino%20Betting%20and%20Best%20Odds%20in%20Nigeria%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/16881039932/?random=1781162129204&cv=11&fst=1781162129204&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fwelcome&rcb=5&frm=0&tiba=Best%20Online%20Sports%20%26%20Casino%20Betting%20and%20Best%20Odds%20in%20Nigeria%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /tr/?id=1482606082556206&ev=PageView&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fwelcome&rl=&if=false&ts=1781162129703&iw=false&sw=1920&sh=1080&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781162129690.977213331759394755&ler=empty&pmd[title]=Best%20Online%20Sports%20%26%20Casino%20Betting%20and%20Best%20Odds%20in%20Nigeria%20%7C%20MSport&pmd[locale]=en_US&pmd[description]=MSport%20in%20Nigeria%20offers%20more%20best%20odds%2C%20more%20vouchers%2C%20casino%20games%20like%20Aviator%2C%20fast%20deposit%20%26%20withdrawal%2C%20exclusive%20functions%2C%20and%207*24%20customer%20service.&pmd[keywords]=MSport%2C%20sportsbetting%2C%20Online%20betting%2Cbet%2Cfootball%20betting%2Codds%2Cjackpot%2Cmarkets%2C%20matches%2Cin%20play%2Clive%20odds%2CNigeria&plt=1017.5999999940395&imft=1&tz=60&it=1781162128808&coo=false&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im1&expv2[6]=hf1&rqm=GET",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/696658643/?random=1781162128912&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6691v9220693107z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118131809~119456240~119456248&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fwelcome&rcb=10&frm=0&tiba=Best%20Online%20Sports%20%26%20Casino%20Betting%20and%20Best%20Odds%20in%20Nigeria%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAEQoqgT9il2fCD3cLmyo3Wgwbf7YAKtR3nvPFOc4zCD2OIzgj9shx6NA0FBhmADZoB3zs44zM8j8QOCtN24ZtsI46TCjoByIHndwxSlLKl4WGkkpMFF8vxBP4jU5QoN535Mh_03qMFnViMMjMEqBP2XIVuCG8eqL1amr6VnginyjLJG7BdZH8tDKjoD4p92LHm2kR0uoS8AsO-SIDASQi819Anu1htxRkRPuHS2KzP0dAETAdBqQDYFkwEPHsRHyIoLsWBatO64SHBY-CTwMBZLKJUQ&random=3278809294&rmt_tld=0&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/11559604125/?random=1781162129153&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fwelcome&rcb=5&frm=0&tiba=Best%20Online%20Sports%20%26%20Casino%20Betting%20and%20Best%20Odds%20in%20Nigeria%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgbULwCT76v1Q6H8oFvGulWPoipD7HQZpMmYTrfOKM79Ms52KgwELsNUdk5E3ANanC1X3Iud-OMDn1Fxu42y3JjioHfbKvthL3ZqHGtAV83BGGb_ogAPVE2z3LSxh1jPC0XcfPC8wUrG7frUShsLG1M1hAKIzzPLzi0t1vRKGhDsBrH70bPan0upTt-ozGE68Dv3hr6ittkxAu6y5EBmjDYf4KfD6SFrNeQOUclzAA2BojNdRoF8ioIs0kJKfOafamioxOAaqeUlql7ZqB8rOV1L4dcS2EO4ZcCjDmy5o&random=2271780396&rmt_tld=0&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/16881039932/?random=1781162129204&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fwelcome&rcb=5&frm=0&tiba=Best%20Online%20Sports%20%26%20Casino%20Betting%20and%20Best%20Odds%20in%20Nigeria%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgZj0xtJGwe73LNRx7ZCjBUnTNbnjsV8Gd_MrNMiV0wZE-SifXh35MFN-B7BmwwD8rNUeNw44dxWtUJd2VgPF9F_Bkxdj3L3o-KMg5MD40q6FEL5H4Yd5hbXSNoHYSRDjTg0FlkGpqeS02ZwRU6PavLnoqo_whdDGHaf3uoBij-TIcHRASQWzQri-f3eWl23gHX4jLW06seg31ZurXxGMf9bXnxX6VzQkIZ45AzZZbp6LNQPgrAE5J4GHC60eq_JgFc53xyj_OdV0BfOeneA30CJlfKiQxejsoaKklysm&random=3371431896&rmt_tld=0&ipr=y",
+      2
+    ],
+    [
+      "GET /api/ng/facts-center/query/frontend/default-market-info/v2?sportId=vf:sport:1&withOthers=1",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/696658643/?random=1781162132552&cv=11&fst=1781162132552&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6691v9220693107z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131809~119456240~119456248&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=16&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/11559604125/?random=1781162132743&cv=11&fst=1781162132743&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938468~117776793~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=6&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /tr/?id=1482606082556206&ev=PageView&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rl=&if=false&ts=1781162132831&iw=false&sw=1920&sh=1080&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781162129690.977213331759394755&ler=empty&pmd[title]=Virtual%20%7C%20MSport&pmd[locale]=en_US&pmd[description]=MSport%20in%20Nigeria%20offers%20more%20best%20odds%2C%20more%20vouchers%2C%20casino%20games%20like%20Aviator%2C%20fast%20deposit%20%26%20withdrawal%2C%20exclusive%20functions%2C%20and%207*24%20customer%20service.&pmd[keywords]=MSport%2C%20sportsbetting%2C%20Online%20betting%2Cbet%2Cfootball%20betting%2Codds%2Cjackpot%2Cmarkets%2C%20matches%2Cin%20play%2Clive%20odds%2CNigeria&plt=987.4000000059605&imft=1&tz=60&it=1781162132647&coo=false&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&rqm=GET",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/16881039932/?random=1781162132764&cv=11&fst=1781162132764&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938468~117776793~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=6&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/696658643/?random=1781162132552&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6691v9220693107z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131809~119456240~119456248&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=16&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqge2vP0vUQ-JuSSTKDHoDr6SNO1GeAz9SOVPQmI2D8QHfbUhOZGa_0Zh0q9sOj46nfO7xqmUaTu2evRr-sJhNvY-qagI3kk_crmJuAnAtwM64YtiyPr_E65SNIV6Lgq6yTYuXRwoYJw7QiKyZpeN0lxZJHAAKW_VxmDz8q06fshV5V1CgSFS98H_pWlZgzzG_Eta2hR0Eo7SiWh8xWk3U2DTRGyM_irlNdS8MRwpTcl089OAGg5H5HjOkewoF3pazPsvUubXdL3UVTCx_Stce1TsytiU3cbXdccDhx9QT&random=2339448804&rmt_tld=1&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/696658643/?random=1781162132552&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6691v9220693107z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131809~119456240~119456248&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=16&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqge2vP0vUQ-JuSSTKDHoDr6SNO1GeAz9SOVPQmI2D8QHfbUhOZGa_0Zh0q9sOj46nfO7xqmUaTu2evRr-sJhNvY-qagI3kk_crmJuAnAtwM64YtiyPr_E65SNIV6Lgq6yTYuXRwoYJw7QiKyZpeN0lxZJHAAKW_VxmDz8q06fshV5V1CgSFS98H_pWlZgzzG_Eta2hR0Eo7SiWh8xWk3U2DTRGyM_irlNdS8MRwpTcl089OAGg5H5HjOkewoF3pazPsvUubXdL3UVTCx_Stce1TsytiU3cbXdccDhx9QT&random=2339448804&rmt_tld=0&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/16881039932/?random=1781162132764&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938468~117776793~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=6&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgVs24-Cd3qJ9Fv9rpu42UWSIdpyO1vUcfj4Fhc3eqDG2yLG9TvU1EorVThGXbxoXGAhjLhun66-B0sD9zURx-ki4VkpgXG62qaWywNkgrRjTIvD-O7b293W35rTdx8c72grzzuDGNvv-Cpx2E0FM0iRF4LIGcjP8KEEqas3RNGJw5vcgwGFgu65I_hrF1SWmgoo_mCftIXumSlNQmIQwbG2tomgHQIBWAbVtIw2cfxOvuq6_FYPQdbU4vpKiyOjm4XvGQrwG5gm2IkyZGJ2ZOLcmXvb-pF1XmUm-BiBT&random=1986377812&rmt_tld=1&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/11559604125/?random=1781162132743&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938468~117776793~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=6&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgaOWnBZhJFdXu-6wjUrTD6v4VrX4V0Qbf-3B5fXhz6bk8hY73x3RvXouheaJnE2jQFYjectptFPsfe3ajg0lj05kp6j28Fhzl47YLw8EDDJLsLHdOq97r1JwlLDvJeCIv9wqVO-45AxHtYGpZOhakf7QmiX9PQT12EtipdpwEF4KcNBsuHeFK0zNXJ8y19wzkRQeIczxg6ADwXAhYzSvuayLxbwUyc3gn8CR5Ak3aaSmqadZhQFV_aeGHyRkwu17hXB4uU8olXd6ikjkyRifQKxuavOY8RM5EF90IJ7P&random=2534071086&rmt_tld=1&ipr=y",
+      2
+    ],
+    [
+      "POST /j/collect?v=1&_v=j102&a=1400528832&t=event&ni=0&_s=1&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ul=en-gb&dt=Virtual%20%7C%20MSport&sr=1920x1080&vp=1920x1080&ec=undefined&ea=click&el=gtagApiGet&ev=1&_u=YADAAEABAAAAACAAI~&jid=1606190498&gjid=1654127954&cid=1970901721.1781162129&tid=UA-143250986-2&_gid=187379824.1781162133&_r=1&_slc=1&gtm=45He6691n81THK9VJXv830121934za200zd830121934&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938465~115938469~118131809&z=990370185",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/16881039932/?random=1781162132764&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938468~117776793~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=6&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgVs24-Cd3qJ9Fv9rpu42UWSIdpyO1vUcfj4Fhc3eqDG2yLG9TvU1EorVThGXbxoXGAhjLhun66-B0sD9zURx-ki4VkpgXG62qaWywNkgrRjTIvD-O7b293W35rTdx8c72grzzuDGNvv-Cpx2E0FM0iRF4LIGcjP8KEEqas3RNGJw5vcgwGFgu65I_hrF1SWmgoo_mCftIXumSlNQmIQwbG2tomgHQIBWAbVtIw2cfxOvuq6_FYPQdbU4vpKiyOjm4XvGQrwG5gm2IkyZGJ2ZOLcmXvb-pF1XmUm-BiBT&random=1986377812&rmt_tld=0&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/11559604125/?random=1781162132743&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938468~117776793~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=6&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgaOWnBZhJFdXu-6wjUrTD6v4VrX4V0Qbf-3B5fXhz6bk8hY73x3RvXouheaJnE2jQFYjectptFPsfe3ajg0lj05kp6j28Fhzl47YLw8EDDJLsLHdOq97r1JwlLDvJeCIv9wqVO-45AxHtYGpZOhakf7QmiX9PQT12EtipdpwEF4KcNBsuHeFK0zNXJ8y19wzkRQeIczxg6ADwXAhYzSvuayLxbwUyc3gn8CR5Ak3aaSmqadZhQFV_aeGHyRkwu17hXB4uU8olXd6ikjkyRifQKxuavOY8RM5EF90IJ7P&random=2534071086&rmt_tld=0&ipr=y",
+      2
+    ],
+    [
+      "GET /tr/?id=1482606082556206&ev=PageView&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual%2Fdetails%2Fvf%3Amatch%3A1404082448&rl=&if=false&ts=1781162137396&iw=false&sw=1920&sh=1080&v=2.9.337&r=stable&ec=1&o=4126&aems=0%3B0&fbp=fb.1.1781162129690.977213331759394755&ler=empty&pmd[title]=Virtual%20%7C%20MSport&pmd[locale]=en_US&pmd[description]=MSport%20in%20Nigeria%20offers%20more%20best%20odds%2C%20more%20vouchers%2C%20casino%20games%20like%20Aviator%2C%20fast%20deposit%20%26%20withdrawal%2C%20exclusive%20functions%2C%20and%207*24%20customer%20service.&pmd[keywords]=MSport%2C%20sportsbetting%2C%20Online%20betting%2Cbet%2Cfootball%20betting%2Codds%2Cjackpot%2Cmarkets%2C%20matches%2Cin%20play%2Clive%20odds%2CNigeria&plt=987.4000000059605&imft=1&tz=60&it=1781162137390&coo=false&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&rqm=GET",
+      2
+    ],
+    [
+      "GET /tr/?id=1482606082556206&ev=PageView&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rl=&if=false&ts=1781162140084&iw=false&sw=1920&sh=1080&v=2.9.337&r=stable&ec=2&o=4126&aems=0%3B0&fbp=fb.1.1781162129690.977213331759394755&ler=empty&pmd[title]=Virtual%20%7C%20MSport&pmd[locale]=en_US&pmd[description]=MSport%20in%20Nigeria%20offers%20more%20best%20odds%2C%20more%20vouchers%2C%20casino%20games%20like%20Aviator%2C%20fast%20deposit%20%26%20withdrawal%2C%20exclusive%20functions%2C%20and%207*24%20customer%20service.&pmd[keywords]=MSport%2C%20sportsbetting%2C%20Online%20betting%2Cbet%2Cfootball%20betting%2Codds%2Cjackpot%2Cmarkets%2C%20matches%2Cin%20play%2Clive%20odds%2CNigeria&plt=987.4000000059605&imft=1&tz=60&it=1781162140075&coo=false&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&rqm=GET",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/696658643/?random=1781162141911&cv=11&fst=1781162141911&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6691v9220693107z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118131809~119456240~119456248&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=8&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /tr/?id=1482606082556206&ev=PageView&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&if=false&ts=1781162142195&iw=false&sw=1920&sh=1080&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781162129690.977213331759394755&ler=empty&pmd[title]=Virtual%20%7C%20MSport&pmd[locale]=en_US&pmd[description]=MSport%20in%20Nigeria%20offers%20more%20best%20odds%2C%20more%20vouchers%2C%20casino%20games%20like%20Aviator%2C%20fast%20deposit%20%26%20withdrawal%2C%20exclusive%20functions%2C%20and%207*24%20customer%20service.&pmd[keywords]=MSport%2C%20sportsbetting%2C%20Online%20betting%2Cbet%2Cfootball%20betting%2Codds%2Cjackpot%2Cmarkets%2C%20matches%2Cin%20play%2Clive%20odds%2CNigeria&plt=424.6000000089407&imft=1&tz=60&it=1781162142047&coo=false&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct3&expv2[6]=hf1&rqm=GET",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/11559604125/?random=1781162141974&cv=11&fst=1781162141974&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=1&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/16881039932/?random=1781162141995&cv=11&fst=1781162141995&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=1&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/696658643/?random=1781162141911&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6691v9220693107z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118131809~119456240~119456248&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=8&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgRDxS0mhhpwsTUHG51ABqZJjyGAYVIQknWjV9XsxnFztFgzd9fwi6dikc4bx8PNS-70WePkc-UijA52d4x6d7aYHBrwKdkgHUOoqPDBpDyVeOUHYL5wB9A7Swjf4YIn-hKJ2Ahy8i35rZYQgNFh8sqDgJYCZmhT9OLiudOwW-PRlroQEujOYNzWyCTz5Qa83gfjlgyqPekicJt1i665ryEa128yr40Mc86f0XOoewcCP_lXBkNvQnh-dmLwOVCkOIBVY_yj80qbWZlp3RHdYU0ba2lROZamKteSWGPmb&random=1273928224&rmt_tld=1&ipr=y",
+      2
+    ],
+    [
+      "POST /j/collect?v=1&_v=j102&a=643744888&t=event&ni=0&_s=1&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ul=en-gb&dt=Virtual%20%7C%20MSport&sr=1920x1080&vp=1920x1080&ec=undefined&ea=click&el=gtagApiGet&ev=1&_u=QACAAEABAAAAACAAI~&jid=&gjid=&cid=1970901721.1781162129&tid=UA-143250986-2&_gid=187379824.1781162133&_slc=1&gtm=45He6691n81THK9VJXv830121934za200zd830121934&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117776793~118131809&z=923528506",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/696658643/?random=1781162141911&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6691v9220693107z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118131809~119456240~119456248&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=8&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgRDxS0mhhpwsTUHG51ABqZJjyGAYVIQknWjV9XsxnFztFgzd9fwi6dikc4bx8PNS-70WePkc-UijA52d4x6d7aYHBrwKdkgHUOoqPDBpDyVeOUHYL5wB9A7Swjf4YIn-hKJ2Ahy8i35rZYQgNFh8sqDgJYCZmhT9OLiudOwW-PRlroQEujOYNzWyCTz5Qa83gfjlgyqPekicJt1i665ryEa128yr40Mc86f0XOoewcCP_lXBkNvQnh-dmLwOVCkOIBVY_yj80qbWZlp3RHdYU0ba2lROZamKteSWGPmb&random=1273928224&rmt_tld=0&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/16881039932/?random=1781162141995&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=1&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgeJCBvuk4qysviVk30iuM-pGpWR3-fFKscfYEERaNoNDMxng4B0_y9eepNKNmiCo3BgLTOLSMiv58euV23YQIhf6oQ2J7ynjgoMPn26sKf7dim10cnQJxz9mOysLnueJj5jw9dG8MUM5eFeaUy_siN2wIxry7NU19hCei8CL3tCnsAHXha18nkqkITc8wzAGHzKPdnvfup7IUR_mEY4iYVMKZ9JOU6vxJ6VmpCAamZi5EkKuRspFNRRF9LWtf1INaQp9-Dqgr9BOKw343i4O4nz6TzupuDyzzeHRfUdx&random=3652719221&rmt_tld=1&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/11559604125/?random=1781162141974&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=1&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgexpE2f_HGKzez167Pvw5KSybEgv0bcKBOD8fPrZogjAvumBqxr9hkGvv0r5t_1PpZn8V-34oJcM5dpqwADo4Hq8HzfmgTR2QAynDXufQqPyRgkgWPTVGAjJ2snLLvIZJ86aYvRP1ZmY-OESuODBcuy4GKBjvEyN9we5vHmtFK57j7r5XE_iI7X-0FH9wq1oTgrS6qW__VMwagvSawQIVFvKrz98xt9v35y_R-ry9QZfEOShPraColV-iT0QtV46FdjrPU7abGnqUl5CPPXDvZCmKGA53R9FHIh_uYvY&random=3198860&rmt_tld=1&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/16881039932/?random=1781162141995&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=1&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgeJCBvuk4qysviVk30iuM-pGpWR3-fFKscfYEERaNoNDMxng4B0_y9eepNKNmiCo3BgLTOLSMiv58euV23YQIhf6oQ2J7ynjgoMPn26sKf7dim10cnQJxz9mOysLnueJj5jw9dG8MUM5eFeaUy_siN2wIxry7NU19hCei8CL3tCnsAHXha18nkqkITc8wzAGHzKPdnvfup7IUR_mEY4iYVMKZ9JOU6vxJ6VmpCAamZi5EkKuRspFNRRF9LWtf1INaQp9-Dqgr9BOKw343i4O4nz6TzupuDyzzeHRfUdx&random=3652719221&rmt_tld=0&ipr=y",
+      2
+    ],
+    [
+      "GET /pagead/1p-user-list/11559604125/?random=1781162141974&cv=11&fst=1781161200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=1&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAEQoqgexpE2f_HGKzez167Pvw5KSybEgv0bcKBOD8fPrZogjAvumBqxr9hkGvv0r5t_1PpZn8V-34oJcM5dpqwADo4Hq8HzfmgTR2QAynDXufQqPyRgkgWPTVGAjJ2snLLvIZJ86aYvRP1ZmY-OESuODBcuy4GKBjvEyN9we5vHmtFK57j7r5XE_iI7X-0FH9wq1oTgrS6qW__VMwagvSawQIVFvKrz98xt9v35y_R-ry9QZfEOShPraColV-iT0QtV46FdjrPU7abGnqUl5CPPXDvZCmKGA53R9FHIh_uYvY&random=3198860&rmt_tld=0&ipr=y",
+      2
+    ],
+    [
+      "GET /tr/?id=1482606082556206&ev=PageView&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual%2Fdetails%2Fvf%3Amatch%3A1404082449&rl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&if=false&ts=1781162142686&iw=false&sw=1920&sh=1080&v=2.9.337&r=stable&ec=1&o=4126&aems=0%3B0&fbp=fb.1.1781162129690.977213331759394755&ler=empty&pmd[title]=Virtual%20%7C%20MSport&pmd[locale]=en_US&pmd[description]=MSport%20in%20Nigeria%20offers%20more%20best%20odds%2C%20more%20vouchers%2C%20casino%20games%20like%20Aviator%2C%20fast%20deposit%20%26%20withdrawal%2C%20exclusive%20functions%2C%20and%207*24%20customer%20service.&pmd[keywords]=MSport%2C%20sportsbetting%2C%20Online%20betting%2Cbet%2Cfootball%20betting%2Codds%2Cjackpot%2Cmarkets%2C%20matches%2Cin%20play%2Clive%20odds%2CNigeria&plt=424.6000000089407&imft=1&tz=60&it=1781162142682&coo=false&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct3&expv2[6]=hf1&rqm=GET",
+      2
+    ],
+    [
+      "GET /tr/?id=1482606082556206&ev=PageView&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&if=false&ts=1781162145345&iw=false&sw=1920&sh=1080&v=2.9.337&r=stable&ec=2&o=4126&aems=0%3B0&fbp=fb.1.1781162129690.977213331759394755&ler=empty&pmd[title]=Virtual%20%7C%20MSport&pmd[locale]=en_US&pmd[description]=MSport%20in%20Nigeria%20offers%20more%20best%20odds%2C%20more%20vouchers%2C%20casino%20games%20like%20Aviator%2C%20fast%20deposit%20%26%20withdrawal%2C%20exclusive%20functions%2C%20and%207*24%20customer%20service.&pmd[keywords]=MSport%2C%20sportsbetting%2C%20Online%20betting%2Cbet%2Cfootball%20betting%2Codds%2Cjackpot%2Cmarkets%2C%20matches%2Cin%20play%2Clive%20odds%2CNigeria&plt=424.6000000089407&imft=1&tz=60&it=1781162145342&coo=false&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct3&expv2[6]=hf1&rqm=GET",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/696658643/?random=1781162146774&cv=11&fst=1781162146774&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6691v9220693107z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776794~118131809~119456240~119456248&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=16&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/11559604125/?random=1781162146828&cv=11&fst=1781162146828&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~117776793~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=18&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ],
+    [
+      "GET /tr/?id=1482606082556206&ev=PageView&dl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rl=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&if=false&ts=1781162147053&iw=false&sw=1920&sh=1080&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781162129690.977213331759394755&ler=empty&pmd[title]=Virtual%20%7C%20MSport&pmd[locale]=en_US&pmd[description]=MSport%20in%20Nigeria%20offers%20more%20best%20odds%2C%20more%20vouchers%2C%20casino%20games%20like%20Aviator%2C%20fast%20deposit%20%26%20withdrawal%2C%20exclusive%20functions%2C%20and%207*24%20customer%20service.&pmd[keywords]=MSport%2C%20sportsbetting%2C%20Online%20betting%2Cbet%2Cfootball%20betting%2Codds%2Cjackpot%2Cmarkets%2C%20matches%2Cin%20play%2Clive%20odds%2CNigeria&plt=354.29999999701977&imft=1&tz=60&it=1781162146889&coo=false&exp=m1&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct3&expv2[6]=hf0&rqm=GET",
+      2
+    ],
+    [
+      "GET /pagead/viewthroughconversion/16881039932/?random=1781162146851&cv=11&fst=1781162146851&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6691v872451136z8830121934za20gzb830121934zd830121934xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~117776793~118131809&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&ref=https%3A%2F%2Fwww.msport.com%2Fng%2Fweb%2Fvirtual&rcb=18&frm=0&tiba=Virtual%20%7C%20MSport&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1586605722.1781162129&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.0%7CHeadlessChrome%3B148.0.7778.0%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      2
+    ]
+  ]
+}

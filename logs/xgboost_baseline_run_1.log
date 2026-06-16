@@ -1,0 +1,16 @@
+=== DEPLOYING ML METAMODEL (XGBoost) ===
+Extracting 135,000 matches from PostgreSQL Data Lake...
+Engineering Latent Mathematical Features (Tension, Archetype, ELO)...
+Training Extreme Gradient Boosting (XGBoost) on Over/Under 2.5 boundaries...
+Training XGBoost on 1X2 Match Winner boundaries...
+
+=== MODEL PERFORMANCE METRICS ===
+Over/Under Base Accuracy: 59.82%
+1X2 Base Accuracy: 52.17%
+
+[!] IMPORTANT METAMODEL THRESHOLD FILTERING [!]
+Base accuracy applies to guessing ALL games. But we only bet when the model hits >55% Softmax Confidence.
+Model found 8515 games in the Test Set with >55% Softmax Confidence.
+Filtered 1X2 Accuracy on High-Confidence Locks: 64.23%
+
+The engine's baseline constraints have been mapped successfully.

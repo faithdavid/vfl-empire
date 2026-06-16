@@ -140,9 +140,13 @@ def run_deep_scan(season_limit=None):
                 
                 current_md_results = []
                 for r in results:
-                    event_id = r.get("eventId")
                     home = _normalise_team_name(r.get("homeTeam", ""))
                     away = _normalise_team_name(r.get("awayTeam", ""))
+                    event_id = (
+                        r.get("eventId")
+                        or r.get("id")
+                        or f"{s_id_uuid}:{md_num}:{home}:{away}"
+                    )
                     ft = r.get("fullTime", "0:0")
                     try:
                         hg, ag = map(int, str(ft).split(":"))

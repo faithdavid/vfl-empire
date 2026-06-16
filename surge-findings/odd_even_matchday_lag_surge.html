@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/>
+<title>Odd/Even — MD lag & slate sums</title>
+<style>
+body{background:#0f172a;color:#e2e8f0;font-family:system-ui;padding:1.5rem}
+h1{color:#38bdf8}h2{color:#a78bfa}.meta{color:#94a3b8}
+table{border-collapse:collapse;width:100%;font-size:0.85rem;margin:1rem 0}
+th,td{border:1px solid #334155;padding:6px}th{background:#1e293b}
+</style></head><body>
+<h1>Extrapolation angles: X-1 / X-2 + matchday sums</h1>
+<p class="meta">2026-06-14 20:12 UTC · canonical v_results_odd_even_ready</p>
+
+<h2>Angle 1 — Per matchday: slate total goals odd?</h2>
+<p>Each MD = 8 games. <code>md_sum_odd</code> = (sum of all goals) is odd. <code>md_n_odd_fixtures</code> = count of games with odd totals (0–8).</p>
+<table><thead><tr><th>matchday_number</th><th>n_slates</th><th>pct_slate_sum_odd</th><th>avg_md_goals</th><th>avg_odd_fixtures</th></tr></thead><tbody><tr><td>1.0</td><td>839.0</td><td>50.54</td><td>20.67699642431466</td><td>3.9856972586412396</td></tr><tr><td>2.0</td><td>839.0</td><td>49.46</td><td>20.67103694874851</td><td>3.9487485101311086</td></tr><tr><td>3.0</td><td>839.0</td><td>52.68</td><td>20.522050059594754</td><td>3.940405244338498</td></tr><tr><td>4.0</td><td>839.0</td><td>51.37</td><td>20.265792610250298</td><td>3.9511323003575685</td></tr><tr><td>5.0</td><td>839.0</td><td>55.07</td><td>20.6984505363528</td><td>3.911799761620977</td></tr><tr><td>6.0</td><td>839.0</td><td>54.59</td><td>20.572109654350417</td><td>3.8927294398092966</td></tr><tr><td>7.0</td><td>839.0</td><td>48.03</td><td>20.65196662693683</td><td>3.896305125148987</td></tr><tr><td>8.0</td><td>839.0</td><td>51.49</td><td>20.64600715137068</td><td>3.8164481525625744</td></tr><tr><td>9.0</td><td>839.0</td><td>48.51</td><td>20.737783075089393</td><td>3.934445768772348</td></tr><tr><td>10.0</td><td>839.0</td><td>45.77</td><td>20.66507747318236</td><td>4.028605482717521</td></tr><tr><td>11.0</td><td>839.0</td><td>49.58</td><td>20.517282479141837</td><td>3.9141835518474375</td></tr><tr><td>12.0</td><td>839.0</td><td>50.77</td><td>20.393325387365913</td><td>3.9809296781883194</td></tr><tr><td>13.0</td><td>839.0</td><td>49.46</td><td>20.66150178784267</td><td>3.901072705601907</td></tr><tr><td>14.0</td><td>839.0</td><td>51.97</td><td>20.476758045292016</td><td>3.9165673420738973</td></tr><tr><td>15.0</td><td>839.0</td><td>52.21</td><td>20.514898688915377</td><td>3.868891537544696</td></tr><tr><td>16.0</td><td>839.0</td><td>52.21</td><td>20.68414779499404</td><td>3.938021454112038</td></tr><tr><td>17.0</td><td>839.0</td><td>54.11</td><td>20.703218116805722</td><td>3.928486293206198</td></tr><tr><td>18.0</td><td>839.0</td><td>49.94</td><td>20.59475566150179</td><td>3.9129916567342073</td></tr><tr><td>19.0</td><td>839.0</td><td>49.7</td><td>20.68295589988081</td><td>3.963051251489869</td></tr><tr><td>20.0</td><td>839.0</td><td>51.85</td><td>20.451728247914183</td><td>3.9225268176400476</td></tr><tr><td>21.0</td><td>839.0</td><td>50.66</td><td>20.528009535160905</td><td>3.9201430274135878</td></tr><tr><td>22.0</td><td>839.0</td><td>49.94</td><td>20.558998808104885</td><td>3.99880810488677</td></tr><tr><td>23.0</td><td>839.0</td><td>49.23</td><td>20.852205005959476</td><td>3.896305125148987</td></tr><tr><td>24.0</td><td>839.0</td><td>53.4</td><td>20.796185935637663</td><td>3.9523241954707986</td></tr><tr><td>25.0</td><td>839.0</td><td>51.61</td><td>20.494636471990464</td><td>3.924910607866508</td></tr><tr><td>26.0</td><td>839.0</td><td>51.25</td><td>20.560190703218115</td><td>3.8522050059594757</td></tr><tr><td>27.0</td><td>839.0</td><td>51.01</td><td>20.612634088200238</td><td>3.9094159713945174</td></tr><tr><td>28.0</td><td>839.0</td><td>49.46</td><td>20.575685339690107</td><td>3.8676996424314662</td></tr><tr><td>29.0</td><td>839.0</td><td>48.27</td><td>20.4088200238379</td><td>3.898688915375447</td></tr><tr><td>30.0</td><td>839.0</td><td>49.7</td><td>20.497020262216925</td><td>4.01549463647199</td></tr></tbody></table>
+
+<h2>Angle 2 — Fixture odd% after previous MD slate was Even/Odd (X-1)</h2>
+<table><thead><tr><th>prev_md_sum_odd</th><th>n</th><th>pct_odd</th><th>pct_even</th><th>dominant_pct</th></tr></thead><tbody><tr><td>1.0</td><td>98944.0</td><td>49.0</td><td>51.0</td><td>51.0</td></tr><tr><td>0.0</td><td>95704.0</td><td>49.11</td><td>50.89</td><td>50.89</td></tr></tbody></table>
+
+<h2>Angle 3 — Fixture odd% after prev MD had k odd fixtures (X-1 count)</h2>
+<table><thead><tr><th>prev_md_n_odd</th><th>n</th><th>pct_odd</th><th>pct_even</th><th>dominant_pct</th></tr></thead><tbody><tr><td>1.0</td><td>7368.0</td><td>48.3</td><td>51.7</td><td>51.7</td></tr><tr><td>6.0</td><td>19576.0</td><td>48.42</td><td>51.58</td><td>51.58</td></tr><tr><td>5.0</td><td>41424.0</td><td>48.49</td><td>51.51</td><td>51.51</td></tr><tr><td>4.0</td><td>52232.0</td><td>49.28</td><td>50.72</td><td>50.72</td></tr><tr><td>2.0</td><td>22656.0</td><td>49.29</td><td>50.71</td><td>50.71</td></tr><tr><td>3.0</td><td>44456.0</td><td>49.43</td><td>50.57</td><td>50.57</td></tr><tr><td>7.0</td><td>5696.0</td><td>50.32</td><td>49.68</td><td>50.32</td></tr></tbody></table>
+
+<h2>Angle 4 — Current MD slate sum odd% given prev slate (chain)</h2>
+<table><thead><tr><th>prev_md_sum_odd</th><th>n</th><th>pct_next_slate_odd</th><th>pct_next_slate_even</th></tr></thead><tbody><tr><td>0.0</td><td>11963.0</td><td>48.39</td><td>51.61</td></tr><tr><td>1.0</td><td>12368.0</td><td>53.14</td><td>46.86</td></tr></tbody></table>
+
+<h2>How to use</h2>
+<ul>
+<li><strong>Bet slate sum</strong>: use Angle 1 + 4 (MD bias + Markov from prev slate).</li>
+<li><strong>Bet single fixture</strong>: combine Angle 2–3 with table cell (prior script) + same pairing.</li>
+<li><strong>X-2</strong>: filter fixtures where <code>prev2_md_sum_odd</code> agrees with <code>prev_md_sum_odd</code> (both even or both odd) — narrows sample, may lift %.</li>
+</ul>
+</body></html>

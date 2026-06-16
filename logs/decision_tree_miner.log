@@ -1,0 +1,7 @@
+=== MINING GENERALIZED BULLETPROOF LOCKS ===
+Using Supervised Learning (Decision Trees) to uncover engine execution branches...
+
+Training Decision Tree to find Pure Nodes (>95% Certainty)...
+
+Extracted 0 structural engine rules.
+NOTE: This script currently only uses Tension and Matchday. If we inject Home/Away Tiers, we will hit 95%+ purity.

@@ -1,0 +1,20 @@
+[2026-06-11T10:25:29.926108] MIGRATE_POSTGRES on results: Successfully migrated 79857 rows (in 6.44s)
+[2026-06-11T10:25:31.746574] MIGRATE_POSTGRES on odds_history: Successfully migrated 32435 rows (in 1.80s)
+[2026-06-11T10:25:34.041155] MIGRATE_ERROR on matches: Error: missing data for column "rich_details_json"
+CONTEXT:  COPY temp_matches, line 2: "1,vf:season:3070422,1,Chelsea,Wolverhampton,1.4,5.0,5.75,,,,,,,,,,,,,1774488350000,0,9awww.msport18_..."
+ (in 2.26s)
+[2026-06-11T10:25:34.095297] MIGRATE_POSTGRES on messages: Successfully migrated 118 rows (in 0.04s)
+[2026-06-11T10:25:35.396325] MIGRATE_ERROR on vfl_predictions: Error: missing data for column "predicted_score"
+CONTEXT:  COPY temp_vfl_predictions, line 2: "1,2461175.5684822686,2026-05-15 01:38:36,vf:season:3070422,1,,CHELSEA,WOLVERHAMPTON,UNKNOWN,,,sovere..."
+ (in 1.30s)
+[2026-06-11T10:25:35.511521] MIGRATE_POSTGRES on vfl_settlements: Successfully migrated 695 rows (in 0.10s)
+[2026-06-11T10:25:35.529732] MIGRATE_POSTGRES on cron_events: Successfully migrated 8 rows (in 0.01s)
+[2026-06-11T10:25:35.535335] MIGRATE_COMPLETE on ALL: Finished full SQLite to Postgres bulk migration (in 12.06s)
+[2026-06-11T10:26:00.748356] MIGRATE_POSTGRES on results: Successfully migrated 79857 rows (in 2.59s)
+[2026-06-11T10:26:01.595236] MIGRATE_POSTGRES on odds_history: Successfully migrated 32435 rows (in 0.82s)
+[2026-06-11T10:26:04.614662] MIGRATE_POSTGRES on matches: Successfully migrated 153617 rows (in 3.00s)
+[2026-06-11T10:26:04.649947] MIGRATE_POSTGRES on messages: Successfully migrated 118 rows (in 0.01s)
+[2026-06-11T10:26:06.647485] MIGRATE_POSTGRES on vfl_predictions: Successfully migrated 60779 rows (in 2.00s)
+[2026-06-11T10:26:06.693990] MIGRATE_POSTGRES on vfl_settlements: Successfully migrated 695 rows (in 0.03s)
+[2026-06-11T10:26:06.707047] MIGRATE_POSTGRES on cron_events: Successfully migrated 8 rows (in 0.01s)
+[2026-06-11T10:26:06.711564] MIGRATE_COMPLETE on ALL: Finished full SQLite to Postgres bulk migration (in 8.56s)

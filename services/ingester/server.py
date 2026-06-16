@@ -12,6 +12,9 @@ from common.msport_client import (
     _normalise_team_name
 )
 from common.db_manager import get_db, get_db_path
+from common.event_id_sync import lookup_event_id
+from common.prematch_odds import upsert_prematch_records
+from common.msport_client import records_from_event
 
 logger = logging.getLogger("[INGESTER]")
 logging.basicConfig(level=logging.INFO, format="%(name)s %(message)s")
@@ -33,7 +36,7 @@ ingest_state = {
 }
 
 async def _ingest_event_list():
-    """Fetch fixtures + odds for upcoming matchdays and store in vfl_odds_v2 table."""
+    """Fetch fixtures + odds for upcoming matchdays -> vfl_prematch_odds (+ legacy vfl_odds_v2)."""
     logger.info("Fetching event list...")
     events = await asyncio.get_event_loop().run_in_executor(None, get_event_list)
     if not events:
@@ -42,21 +45,32 @@ async def _ingest_event_list():
         return 0
 
     count = 0
+    prematch_records = []
+    now = datetime.now(timezone.utc).isoformat()
     with get_db() as cur:
-        now = datetime.now(timezone.utc).isoformat()
         for md_group in events:
             matchday_events = md_group.get("events") or []
             season_id = md_group.get("seasonId")
             md_num = md_group.get("matchDay")
-            
+
             for ev in matchday_events:
                 eid = ev.get("eventId") or ev.get("id")
                 home = _normalise_team_name(ev.get("homeTeam") or ev.get("homeName", ""))
                 away = _normalise_team_name(ev.get("awayTeam") or ev.get("awayName", ""))
-                
-                if not eid: continue
 
-                # Extract odds from event
+                if not eid:
+                    continue
+
+                prematch_records.extend(
+                    records_from_event(
+                        ev,
+                        season_id=str(season_id) if season_id else None,
+                        matchday_number=int(md_num) if md_num else None,
+                        source="ingester_event_list",
+                    )
+                )
+
+                # Legacy vfl_odds_v2 (cluster scripts) — keep until consumers migrated
                 odds = {"o15": None, "o25": None, "u25": None, "u35": None, "gg": None, "ng": None}
                 markets = ev.get("markets") or []
                 for mkt_group in markets:
@@ -69,17 +83,25 @@ async def _ingest_event_list():
                         try:
                             val = float(val)
                             if "Over/Under" in market_name:
-                                if "1.5" in specifiers and "Over" in name: odds["o15"] = val
-                                elif "2.5" in specifiers and "Over" in name: odds["o25"] = val
-                                elif "2.5" in specifiers and "Under" in name: odds["u25"] = val
-                                elif "3.5" in specifiers and "Under" in name: odds["u35"] = val
-                            elif ("GG" in market_name or "Both Teams" in market_name or "GG/NG" in market_name):
-                                if "Yes" in name or "Goal" in name: odds["gg"] = val
-                                elif "No" in name or "No Goal" in name: odds["ng"] = val
-                        except: continue
+                                if "1.5" in specifiers and "Over" in name:
+                                    odds["o15"] = val
+                                elif "2.5" in specifiers and "Over" in name:
+                                    odds["o25"] = val
+                                elif "2.5" in specifiers and "Under" in name:
+                                    odds["u25"] = val
+                                elif "3.5" in specifiers and "Under" in name:
+                                    odds["u35"] = val
+                            elif "GG" in market_name or "Both Teams" in market_name or "GG/NG" in market_name:
+                                if "Yes" in name or "Goal" in name:
+                                    odds["gg"] = val
+                                elif "No" in name or "No Goal" in name:
+                                    odds["ng"] = val
+                        except Exception:
+                            continue
 
                 try:
-                    cur.execute("""
+                    cur.execute(
+                        """
                         INSERT INTO vfl_odds_v2
                         (event_id, season_id, matchday_number, home_team, away_team, o15, o25, u25, u35, gg, ng, captured_at)
                         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
@@ -90,12 +112,31 @@ async def _ingest_event_list():
                         u35 = COALESCE(EXCLUDED.u35, vfl_odds_v2.u35),
                         gg = COALESCE(EXCLUDED.gg, vfl_odds_v2.gg),
                         ng = COALESCE(EXCLUDED.ng, vfl_odds_v2.ng)
-                    """, (str(eid), str(season_id), int(md_num) if md_num else 0, home, away, 
-                          odds["o15"], odds["o25"], odds["u25"], odds["u35"], odds["gg"], odds["ng"], now))
+                    """,
+                        (
+                            str(eid),
+                            str(season_id),
+                            int(md_num) if md_num else 0,
+                            home,
+                            away,
+                            odds["o15"],
+                            odds["o25"],
+                            odds["u25"],
+                            odds["u35"],
+                            odds["gg"],
+                            odds["ng"],
+                            now,
+                        ),
+                    )
                     count += 1
                 except Exception as e:
                     logger.debug(f"Skipping odds row: {e}")
-    logger.info(f"Stored {count} odds entries in vfl_odds_v2")
+
+    if prematch_records:
+        upsert_prematch_records(prematch_records, captured_at=now)
+        logger.info(f"Upserted {len(prematch_records)} prematch selections to vfl_prematch_odds")
+
+    logger.info(f"Stored {count} odds entries in vfl_odds_v2 (legacy)")
     ingest_state["last_event_list_ingest"] = now
     ingest_state["total_seasons_ingested"] += 1
     return count
@@ -183,8 +224,21 @@ async def sync_chronological_data(season_id, match_day, results, season_name="")
                 ft = r.get("fullTime", "0:0")
                 try: hg, ag = map(int, str(ft).split(":"))
                 except: hg, ag = 0, 0
-                eid = r.get("eventId") or r.get("id") or f"{season_id}:{match_day}:{home}:{away}"
-                
+                eid = (
+                    r.get("eventId")
+                    or r.get("id")
+                    or lookup_event_id(season_id, match_day, home, away)
+                )
+                if not eid:
+                    season_num = (season_name or "").replace("VFLM ", "").strip()
+                    if season_num.isdigit():
+                        eid = (
+                            f"vf:match:season:vflm{season_num}:md:{match_day}:"
+                            f"{home.replace(' ', '')}:{away.replace(' ', '')}"
+                        )
+                    else:
+                        eid = f"{season_id}:{match_day}:{home}:{away}"
+
                 cur.execute("""
                     INSERT INTO vfl_results_v2 (matchday_id, event_id, home_team, away_team, home_goals, away_goals)
                     VALUES (%s, %s, %s, %s, %s, %s)

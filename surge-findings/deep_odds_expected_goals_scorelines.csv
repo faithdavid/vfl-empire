@@ -1,0 +1,501 @@
+event_id,home_team,away_team,E_total_ou_cdf,E_total_exact_goals,E_total_h2h,E_total_blend,P_T_pmf_ou,top_scorelines_book_cs,top_scorelines_model,actual_total
+vf:match:1404291900,London Guns,Crystal Palace,,,3.039,3.039,,[],"[{'scoreline': '1:1', 'p': 0.1104}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404291899,Manchester Blue,Chelsea,,,3.098,3.098,,[],"[{'scoreline': '1:1', 'p': 0.1081}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:2', 'p': 0.0804}]",2
+vf:match:1404291898,Wolverhampton,Bournemouth,,,3.03,3.03,,[],"[{'scoreline': '1:1', 'p': 0.1107}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404291897,West Ham,Everton,,,2.331,2.331,,[],"[{'scoreline': '1:1', 'p': 0.1318}, {'scoreline': '1:0', 'p': 0.1178}, {'scoreline': '0:1', 'p': 0.1088}]",1
+vf:match:1404291896,Newcastle,Leeds,,,2.284,2.284,,[],"[{'scoreline': '1:1', 'p': 0.1327}, {'scoreline': '1:0', 'p': 0.121}, {'scoreline': '0:1', 'p': 0.1117}]",3
+vf:match:1404291895,Aston Villa,Brighton,,,2.345,2.345,,[],"[{'scoreline': '1:1', 'p': 0.1316}, {'scoreline': '1:0', 'p': 0.1169}, {'scoreline': '0:1', 'p': 0.1079}]",2
+vf:match:1404291894,Fulham,Tottenham,,,2.359,2.359,,[],"[{'scoreline': '1:1', 'p': 0.1313}, {'scoreline': '1:0', 'p': 0.1159}, {'scoreline': '0:1', 'p': 0.107}]",3
+vf:match:1404291893,Manchester Red,Liverpool,,,2.724,2.724,,[],"[{'scoreline': '1:1', 'p': 0.1215}, {'scoreline': '1:0', 'p': 0.0929}, {'scoreline': '2:1', 'p': 0.0861}]",1
+vf:match:1404291892,Liverpool,Wolverhampton,,,2.87,2.87,,[],"[{'scoreline': '1:1', 'p': 0.1166}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0846}]",0
+vf:match:1404291891,Chelsea,West Ham,,,3.047,3.047,,[],"[{'scoreline': '1:1', 'p': 0.1101}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",6
+vf:match:1404291890,Bournemouth,Fulham,,,2.004,2.004,,[],"[{'scoreline': '1:0', 'p': 0.1405}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1348}]",0
+vf:match:1404291889,Brighton,Manchester Red,,,2.595,2.595,,[],"[{'scoreline': '1:1', 'p': 0.1255}, {'scoreline': '1:0', 'p': 0.1007}, {'scoreline': '0:1', 'p': 0.093}]",4
+vf:match:1404291888,Newcastle,Aston Villa,,,2.405,2.405,,[],"[{'scoreline': '1:1', 'p': 0.1303}, {'scoreline': '1:0', 'p': 0.1129}, {'scoreline': '0:1', 'p': 0.1042}]",3
+vf:match:1404291887,Crystal Palace,Manchester Blue,,,3.14,3.14,,[],"[{'scoreline': '1:1', 'p': 0.1065}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:2', 'p': 0.0803}]",2
+vf:match:1404291886,Tottenham,London Guns,,,2.764,2.764,,[],"[{'scoreline': '1:1', 'p': 0.1202}, {'scoreline': '1:0', 'p': 0.0906}, {'scoreline': '2:1', 'p': 0.0864}]",3
+vf:match:1404291885,Leeds,Everton,,,1.642,1.642,,[],"[{'scoreline': '0:0', 'p': 0.1936}, {'scoreline': '1:0', 'p': 0.1653}, {'scoreline': '0:1', 'p': 0.1526}]",3
+vf:match:1404291884,Manchester Blue,Tottenham,,,3.208,3.208,,[],"[{'scoreline': '1:1', 'p': 0.1039}, {'scoreline': '2:1', 'p': 0.0866}, {'scoreline': '1:2', 'p': 0.08}]",3
+vf:match:1404291883,London Guns,Bournemouth,,,2.687,2.687,,[],"[{'scoreline': '1:1', 'p': 0.1227}, {'scoreline': '1:0', 'p': 0.0951}, {'scoreline': '0:1', 'p': 0.0878}]",3
+vf:match:1404291882,Manchester Red,Newcastle,,,2.759,2.759,,[],"[{'scoreline': '1:1', 'p': 0.1204}, {'scoreline': '1:0', 'p': 0.0909}, {'scoreline': '2:1', 'p': 0.0863}]",5
+vf:match:1404291881,Fulham,Liverpool,,,2.307,2.307,,[],"[{'scoreline': '1:1', 'p': 0.1323}, {'scoreline': '1:0', 'p': 0.1194}, {'scoreline': '0:1', 'p': 0.1102}]",1
+vf:match:1404291880,Everton,Chelsea,,,2.456,2.456,,[],"[{'scoreline': '1:1', 'p': 0.1291}, {'scoreline': '1:0', 'p': 0.1095}, {'scoreline': '0:1', 'p': 0.1011}]",3
+vf:match:1404291879,West Ham,Crystal Palace,,,2.735,2.735,,[],"[{'scoreline': '1:1', 'p': 0.1212}, {'scoreline': '1:0', 'p': 0.0923}, {'scoreline': '2:1', 'p': 0.0862}]",0
+vf:match:1404291878,Wolverhampton,Brighton,,,2.846,2.846,,[],"[{'scoreline': '1:1', 'p': 0.1174}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0859}]",1
+vf:match:1404291877,Aston Villa,Leeds,,,2.04,2.04,,[],"[{'scoreline': '1:0', 'p': 0.1379}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.13}]",0
+vf:match:1404291876,Brighton,Fulham,,,2.036,2.036,,[],"[{'scoreline': '1:0', 'p': 0.1382}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1305}]",1
+vf:match:1404291875,Bournemouth,Manchester Blue,,,2.947,2.947,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404291874,Aston Villa,Manchester Red,,,2.163,2.163,,[],"[{'scoreline': '1:1', 'p': 0.1343}, {'scoreline': '1:0', 'p': 0.1293}, {'scoreline': '0:1', 'p': 0.1194}]",5
+vf:match:1404291873,Liverpool,London Guns,,,2.988,2.988,,[],"[{'scoreline': '1:1', 'p': 0.1123}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404291872,Tottenham,West Ham,,,2.727,2.727,,[],"[{'scoreline': '1:1', 'p': 0.1214}, {'scoreline': '1:0', 'p': 0.0928}, {'scoreline': '2:1', 'p': 0.0861}]",4
+vf:match:1404291871,Leeds,Chelsea,,,2.411,2.411,,[],"[{'scoreline': '1:1', 'p': 0.1302}, {'scoreline': '1:0', 'p': 0.1125}, {'scoreline': '0:1', 'p': 0.1038}]",0
+vf:match:1404291870,Newcastle,Wolverhampton,,,3.021,3.021,,[],"[{'scoreline': '1:1', 'p': 0.1111}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404291869,Crystal Palace,Everton,,,2.144,2.144,,[],"[{'scoreline': '1:1', 'p': 0.1345}, {'scoreline': '1:0', 'p': 0.1306}, {'scoreline': '0:1', 'p': 0.1206}]",0
+vf:match:1404291868,West Ham,Bournemouth,,,2.603,2.603,,[],"[{'scoreline': '1:1', 'p': 0.1252}, {'scoreline': '1:0', 'p': 0.1002}, {'scoreline': '0:1', 'p': 0.0925}]",3
+vf:match:1404291867,Chelsea,Crystal Palace,,,2.78,2.78,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",3
+vf:match:1404291866,Manchester Blue,Liverpool,,,2.967,2.967,,[],"[{'scoreline': '1:1', 'p': 0.1131}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",6
+vf:match:1404291865,Everton,Tottenham,,,2.424,2.424,,[],"[{'scoreline': '1:1', 'p': 0.1299}, {'scoreline': '1:0', 'p': 0.1116}, {'scoreline': '0:1', 'p': 0.103}]",5
+vf:match:1404291864,London Guns,Brighton,,,2.561,2.561,,[],"[{'scoreline': '1:1', 'p': 0.1264}, {'scoreline': '1:0', 'p': 0.1028}, {'scoreline': '0:1', 'p': 0.0949}]",1
+vf:match:1404291863,Manchester Red,Leeds,,,2.308,2.308,,[],"[{'scoreline': '1:1', 'p': 0.1322}, {'scoreline': '1:0', 'p': 0.1194}, {'scoreline': '0:1', 'p': 0.1102}]",2
+vf:match:1404291862,Fulham,Newcastle,,,2.086,2.086,,[],"[{'scoreline': '1:1', 'p': 0.1349}, {'scoreline': '1:0', 'p': 0.1347}, {'scoreline': '0:1', 'p': 0.1243}]",0
+vf:match:1404291861,Wolverhampton,Aston Villa,,,2.794,2.794,,[],"[{'scoreline': '1:1', 'p': 0.1192}, {'scoreline': '1:0', 'p': 0.0889}, {'scoreline': '2:1', 'p': 0.0866}]",4
+vf:match:1404291860,Newcastle,London Guns,,,2.87,2.87,,[],"[{'scoreline': '1:1', 'p': 0.1166}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0846}]",3
+vf:match:1404291859,Aston Villa,Fulham,,,2.279,2.279,,[],"[{'scoreline': '1:1', 'p': 0.1327}, {'scoreline': '1:0', 'p': 0.1213}, {'scoreline': '0:1', 'p': 0.112}]",4
+vf:match:1404291858,Leeds,Crystal Palace,,,2.106,2.106,,[],"[{'scoreline': '1:1', 'p': 0.1348}, {'scoreline': '1:0', 'p': 0.1333}, {'scoreline': '0:1', 'p': 0.123}]",1
+vf:match:1404291857,Brighton,Manchester Blue,,,2.922,2.922,,[],"[{'scoreline': '1:1', 'p': 0.1147}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:0', 'p': 0.0818}]",2
+vf:match:1404291856,Manchester Red,Wolverhampton,,,3.061,3.061,,[],"[{'scoreline': '1:1', 'p': 0.1095}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404291855,Bournemouth,Everton,,,1.99,1.99,,[],"[{'scoreline': '1:0', 'p': 0.1415}, {'scoreline': '0:0', 'p': 0.1367}, {'scoreline': '1:1', 'p': 0.1351}]",1
+vf:match:1404291854,Tottenham,Chelsea,,,2.794,2.794,,[],"[{'scoreline': '1:1', 'p': 0.1192}, {'scoreline': '1:0', 'p': 0.0889}, {'scoreline': '2:1', 'p': 0.0866}]",4
+vf:match:1404291853,Liverpool,West Ham,,,2.612,2.612,,[],"[{'scoreline': '1:1', 'p': 0.125}, {'scoreline': '1:0', 'p': 0.0997}, {'scoreline': '0:1', 'p': 0.092}]",3
+vf:match:1404291852,Everton,Liverpool,,,2.168,2.168,,[],"[{'scoreline': '1:1', 'p': 0.1342}, {'scoreline': '1:0', 'p': 0.129}, {'scoreline': '0:1', 'p': 0.1191}]",1
+vf:match:1404291851,Manchester Blue,Newcastle,,,3.073,3.073,,[],"[{'scoreline': '1:1', 'p': 0.1091}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404291850,Chelsea,Bournemouth,,,2.558,2.558,,[],"[{'scoreline': '1:1', 'p': 0.1265}, {'scoreline': '1:0', 'p': 0.103}, {'scoreline': '0:1', 'p': 0.0951}]",3
+vf:match:1404291849,London Guns,Aston Villa,,,2.255,2.255,,[],"[{'scoreline': '1:1', 'p': 0.1331}, {'scoreline': '1:0', 'p': 0.123}, {'scoreline': '0:1', 'p': 0.1135}]",2
+vf:match:1404291848,Crystal Palace,Tottenham,,,2.85,2.85,,[],"[{'scoreline': '1:1', 'p': 0.1173}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0857}]",5
+vf:match:1404291847,Fulham,Manchester Red,,,2.319,2.319,,[],"[{'scoreline': '1:1', 'p': 0.132}, {'scoreline': '1:0', 'p': 0.1186}, {'scoreline': '0:1', 'p': 0.1095}]",2
+vf:match:1404291846,Wolverhampton,Leeds,,,2.391,2.391,,[],"[{'scoreline': '1:1', 'p': 0.1306}, {'scoreline': '1:0', 'p': 0.1138}, {'scoreline': '0:1', 'p': 0.1051}]",4
+vf:match:1404291845,West Ham,Brighton,,,2.532,2.532,,[],"[{'scoreline': '1:1', 'p': 0.1272}, {'scoreline': '1:0', 'p': 0.1047}, {'scoreline': '0:1', 'p': 0.0966}]",6
+vf:match:1404291844,Aston Villa,Manchester Blue,,,2.749,2.749,,[],"[{'scoreline': '1:1', 'p': 0.1207}, {'scoreline': '1:0', 'p': 0.0915}, {'scoreline': '2:1', 'p': 0.0863}]",1
+vf:match:1404291843,Brighton,Everton,,,2.064,2.064,,[],"[{'scoreline': '1:0', 'p': 0.1362}, {'scoreline': '1:1', 'p': 0.135}, {'scoreline': '0:0', 'p': 0.1269}]",2
+vf:match:1404291842,Bournemouth,Crystal Palace,,,2.496,2.496,,[],"[{'scoreline': '1:1', 'p': 0.1282}, {'scoreline': '1:0', 'p': 0.107}, {'scoreline': '0:1', 'p': 0.0987}]",3
+vf:match:1404291841,Wolverhampton,Fulham,,,2.516,2.516,,[],"[{'scoreline': '1:1', 'p': 0.1276}, {'scoreline': '1:0', 'p': 0.1057}, {'scoreline': '0:1', 'p': 0.0976}]",1
+vf:match:1404291840,Liverpool,Chelsea,,,2.742,2.742,,[],"[{'scoreline': '1:1', 'p': 0.1209}, {'scoreline': '1:0', 'p': 0.0919}, {'scoreline': '2:1', 'p': 0.0862}]",2
+vf:match:1404291839,Newcastle,West Ham,,,2.888,2.888,,[],"[{'scoreline': '1:1', 'p': 0.1159}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0836}]",3
+vf:match:1404291838,Leeds,Tottenham,,,2.042,2.042,,[],"[{'scoreline': '1:0', 'p': 0.1378}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1298}]",1
+vf:match:1404291837,Manchester Red,London Guns,,,2.946,2.946,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:0', 'p': 0.0805}]",2
+vf:match:1404291836,Chelsea,Brighton,,,2.796,2.796,,[],"[{'scoreline': '1:1', 'p': 0.1191}, {'scoreline': '1:0', 'p': 0.0888}, {'scoreline': '2:1', 'p': 0.0866}]",3
+vf:match:1404291835,London Guns,Wolverhampton,,,3.028,3.028,,[],"[{'scoreline': '1:1', 'p': 0.1108}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404291834,Fulham,Leeds,,,1.716,1.716,,[],"[{'scoreline': '0:0', 'p': 0.1798}, {'scoreline': '1:0', 'p': 0.1604}, {'scoreline': '0:1', 'p': 0.1481}]",3
+vf:match:1404291833,Tottenham,Bournemouth,,,2.498,2.498,,[],"[{'scoreline': '1:1', 'p': 0.1281}, {'scoreline': '1:0', 'p': 0.1068}, {'scoreline': '0:1', 'p': 0.0986}]",1
+vf:match:1404291832,Manchester Blue,Manchester Red,,,2.676,2.676,,[],"[{'scoreline': '1:1', 'p': 0.123}, {'scoreline': '1:0', 'p': 0.0958}, {'scoreline': '0:1', 'p': 0.0884}]",0
+vf:match:1404291831,Everton,Newcastle,,,2.013,2.013,,[],"[{'scoreline': '1:0', 'p': 0.1398}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1336}]",1
+vf:match:1404291830,West Ham,Aston Villa,,,2.437,2.437,,[],"[{'scoreline': '1:1', 'p': 0.1296}, {'scoreline': '1:0', 'p': 0.1108}, {'scoreline': '0:1', 'p': 0.1023}]",3
+vf:match:1404291829,Crystal Palace,Liverpool,,,2.831,2.831,,[],"[{'scoreline': '1:1', 'p': 0.1179}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:0', 'p': 0.0868}]",2
+vf:match:1404287352,Manchester Red,Wolverhampton,,,3.061,3.061,,[],"[{'scoreline': '1:1', 'p': 0.1095}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404287351,Bournemouth,Aston Villa,,,2.331,2.331,,[],"[{'scoreline': '1:1', 'p': 0.1318}, {'scoreline': '1:0', 'p': 0.1178}, {'scoreline': '0:1', 'p': 0.1088}]",4
+vf:match:1404287350,Liverpool,Fulham,,,2.307,2.307,,[],"[{'scoreline': '1:1', 'p': 0.1323}, {'scoreline': '1:0', 'p': 0.1194}, {'scoreline': '0:1', 'p': 0.1102}]",3
+vf:match:1404287349,London Guns,Leeds,,,2.318,2.318,,[],"[{'scoreline': '1:1', 'p': 0.1321}, {'scoreline': '1:0', 'p': 0.1187}, {'scoreline': '0:1', 'p': 0.1096}]",1
+vf:match:1404287348,Crystal Palace,West Ham,,,2.735,2.735,,[],"[{'scoreline': '1:1', 'p': 0.1212}, {'scoreline': '1:0', 'p': 0.0923}, {'scoreline': '2:1', 'p': 0.0862}]",3
+vf:match:1404287347,Everton,Newcastle,,,2.013,2.013,,[],"[{'scoreline': '1:0', 'p': 0.1398}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1336}]",0
+vf:match:1404287346,Chelsea,Brighton,,,2.796,2.796,,[],"[{'scoreline': '1:1', 'p': 0.1191}, {'scoreline': '1:0', 'p': 0.0888}, {'scoreline': '2:1', 'p': 0.0866}]",3
+vf:match:1404287345,Tottenham,Manchester Blue,,,3.208,3.208,,[],"[{'scoreline': '1:1', 'p': 0.1039}, {'scoreline': '2:1', 'p': 0.0866}, {'scoreline': '1:2', 'p': 0.08}]",5
+vf:match:1404287344,Leeds,Crystal Palace,,,2.106,2.106,,[],"[{'scoreline': '1:1', 'p': 0.1348}, {'scoreline': '1:0', 'p': 0.1333}, {'scoreline': '0:1', 'p': 0.123}]",0
+vf:match:1404287343,Fulham,Chelsea,,,2.637,2.637,,[],"[{'scoreline': '1:1', 'p': 0.1242}, {'scoreline': '1:0', 'p': 0.0981}, {'scoreline': '0:1', 'p': 0.0906}]",0
+vf:match:1404287342,Wolverhampton,Everton,,,2.384,2.384,,[],"[{'scoreline': '1:1', 'p': 0.1308}, {'scoreline': '1:0', 'p': 0.1143}, {'scoreline': '0:1', 'p': 0.1055}]",0
+vf:match:1404287341,Manchester Blue,Aston Villa,,,2.749,2.749,,[],"[{'scoreline': '1:1', 'p': 0.1207}, {'scoreline': '1:0', 'p': 0.0915}, {'scoreline': '2:1', 'p': 0.0863}]",0
+vf:match:1404287340,Liverpool,Bournemouth,,,2.779,2.779,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",0
+vf:match:1404287339,Brighton,London Guns,,,2.561,2.561,,[],"[{'scoreline': '1:1', 'p': 0.1264}, {'scoreline': '1:0', 'p': 0.1028}, {'scoreline': '0:1', 'p': 0.0949}]",0
+vf:match:1404287338,Newcastle,Tottenham,,,2.559,2.559,,[],"[{'scoreline': '1:1', 'p': 0.1265}, {'scoreline': '1:0', 'p': 0.103}, {'scoreline': '0:1', 'p': 0.095}]",0
+vf:match:1404287337,West Ham,Manchester Red,,,2.702,2.702,,[],"[{'scoreline': '1:1', 'p': 0.1222}, {'scoreline': '1:0', 'p': 0.0942}, {'scoreline': '0:1', 'p': 0.087}]",0
+vf:match:1404287336,Crystal Palace,Brighton,,,2.779,2.779,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",5
+vf:match:1404287335,Aston Villa,Newcastle,,,2.405,2.405,,[],"[{'scoreline': '1:1', 'p': 0.1303}, {'scoreline': '1:0', 'p': 0.1129}, {'scoreline': '0:1', 'p': 0.1042}]",5
+vf:match:1404287334,Everton,West Ham,,,2.331,2.331,,[],"[{'scoreline': '1:1', 'p': 0.1318}, {'scoreline': '1:0', 'p': 0.1178}, {'scoreline': '0:1', 'p': 0.1088}]",3
+vf:match:1404287333,Chelsea,Liverpool,,,2.742,2.742,,[],"[{'scoreline': '1:1', 'p': 0.1209}, {'scoreline': '1:0', 'p': 0.0919}, {'scoreline': '2:1', 'p': 0.0862}]",3
+vf:match:1404287332,Bournemouth,Manchester Blue,,,2.947,2.947,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",0
+vf:match:1404287331,Manchester Red,Leeds,,,2.308,2.308,,[],"[{'scoreline': '1:1', 'p': 0.1322}, {'scoreline': '1:0', 'p': 0.1194}, {'scoreline': '0:1', 'p': 0.1102}]",1
+vf:match:1404287330,Tottenham,Wolverhampton,,,2.987,2.987,,[],"[{'scoreline': '1:1', 'p': 0.1123}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404287329,London Guns,Fulham,,,2.571,2.571,,[],"[{'scoreline': '1:1', 'p': 0.1261}, {'scoreline': '1:0', 'p': 0.1022}, {'scoreline': '0:1', 'p': 0.0944}]",4
+vf:match:1404287328,West Ham,Tottenham,,,2.727,2.727,,[],"[{'scoreline': '1:1', 'p': 0.1214}, {'scoreline': '1:0', 'p': 0.0928}, {'scoreline': '2:1', 'p': 0.0861}]",2
+vf:match:1404287327,Chelsea,Bournemouth,,,2.558,2.558,,[],"[{'scoreline': '1:1', 'p': 0.1265}, {'scoreline': '1:0', 'p': 0.103}, {'scoreline': '0:1', 'p': 0.0951}]",2
+vf:match:1404287326,Leeds,Everton,,,1.642,1.642,,[],"[{'scoreline': '0:0', 'p': 0.1936}, {'scoreline': '1:0', 'p': 0.1653}, {'scoreline': '0:1', 'p': 0.1526}]",0
+vf:match:1404287325,Fulham,Crystal Palace,,,2.106,2.106,,[],"[{'scoreline': '1:1', 'p': 0.1348}, {'scoreline': '1:0', 'p': 0.1333}, {'scoreline': '0:1', 'p': 0.123}]",1
+vf:match:1404287324,Brighton,Manchester Red,,,2.595,2.595,,[],"[{'scoreline': '1:1', 'p': 0.1255}, {'scoreline': '1:0', 'p': 0.1007}, {'scoreline': '0:1', 'p': 0.093}]",1
+vf:match:1404287323,Wolverhampton,Aston Villa,,,2.794,2.794,,[],"[{'scoreline': '1:1', 'p': 0.1192}, {'scoreline': '1:0', 'p': 0.0889}, {'scoreline': '2:1', 'p': 0.0866}]",1
+vf:match:1404287322,Newcastle,Manchester Blue,,,3.073,3.073,,[],"[{'scoreline': '1:1', 'p': 0.1091}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404287321,Liverpool,London Guns,,,2.988,2.988,,[],"[{'scoreline': '1:1', 'p': 0.1123}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",6
+vf:match:1404287320,Tottenham,Leeds,,,2.042,2.042,,[],"[{'scoreline': '1:0', 'p': 0.1378}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1298}]",0
+vf:match:1404287319,London Guns,Chelsea,,,3.039,3.039,,[],"[{'scoreline': '1:1', 'p': 0.1104}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404287318,Manchester Blue,Wolverhampton,,,3.378,3.378,,[],"[{'scoreline': '1:1', 'p': 0.0972}, {'scoreline': '2:1', 'p': 0.0853}, {'scoreline': '1:2', 'p': 0.0788}]",4
+vf:match:1404287317,Aston Villa,West Ham,,,2.437,2.437,,[],"[{'scoreline': '1:1', 'p': 0.1296}, {'scoreline': '1:0', 'p': 0.1108}, {'scoreline': '0:1', 'p': 0.1023}]",2
+vf:match:1404287316,Bournemouth,Newcastle,,,2.269,2.269,,[],"[{'scoreline': '1:1', 'p': 0.1329}, {'scoreline': '1:0', 'p': 0.122}, {'scoreline': '0:1', 'p': 0.1126}]",0
+vf:match:1404287315,Crystal Palace,Liverpool,,,2.831,2.831,,[],"[{'scoreline': '1:1', 'p': 0.1179}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:0', 'p': 0.0868}]",2
+vf:match:1404287314,Everton,Brighton,,,2.064,2.064,,[],"[{'scoreline': '1:0', 'p': 0.1362}, {'scoreline': '1:1', 'p': 0.135}, {'scoreline': '0:0', 'p': 0.1269}]",2
+vf:match:1404287313,Manchester Red,Fulham,,,2.319,2.319,,[],"[{'scoreline': '1:1', 'p': 0.132}, {'scoreline': '1:0', 'p': 0.1186}, {'scoreline': '0:1', 'p': 0.1095}]",2
+vf:match:1404287312,Fulham,Everton,,,1.974,1.974,,[],"[{'scoreline': '1:0', 'p': 0.1426}, {'scoreline': '0:0', 'p': 0.1389}, {'scoreline': '1:1', 'p': 0.1351}]",1
+vf:match:1404287311,West Ham,Manchester Blue,,,3.321,3.321,,[],"[{'scoreline': '1:1', 'p': 0.0994}, {'scoreline': '2:1', 'p': 0.0858}, {'scoreline': '1:2', 'p': 0.0792}]",3
+vf:match:1404287310,London Guns,Bournemouth,,,2.687,2.687,,[],"[{'scoreline': '1:1', 'p': 0.1227}, {'scoreline': '1:0', 'p': 0.0951}, {'scoreline': '0:1', 'p': 0.0878}]",2
+vf:match:1404287309,Brighton,Tottenham,,,2.43,2.43,,[],"[{'scoreline': '1:1', 'p': 0.1298}, {'scoreline': '1:0', 'p': 0.1112}, {'scoreline': '0:1', 'p': 0.1027}]",4
+vf:match:1404287308,Leeds,Aston Villa,,,2.04,2.04,,[],"[{'scoreline': '1:0', 'p': 0.1379}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.13}]",2
+vf:match:1404287307,Wolverhampton,Newcastle,,,3.021,3.021,,[],"[{'scoreline': '1:1', 'p': 0.1111}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",1
+vf:match:1404287306,Liverpool,Manchester Red,,,2.724,2.724,,[],"[{'scoreline': '1:1', 'p': 0.1215}, {'scoreline': '1:0', 'p': 0.0929}, {'scoreline': '2:1', 'p': 0.0861}]",3
+vf:match:1404287305,Chelsea,Crystal Palace,,,2.78,2.78,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",2
+vf:match:1404287304,Everton,Liverpool,,,2.168,2.168,,[],"[{'scoreline': '1:1', 'p': 0.1342}, {'scoreline': '1:0', 'p': 0.129}, {'scoreline': '0:1', 'p': 0.1191}]",0
+vf:match:1404287303,Manchester Red,Chelsea,,,2.827,2.827,,[],"[{'scoreline': '1:1', 'p': 0.1181}, {'scoreline': '1:0', 'p': 0.087}, {'scoreline': '2:1', 'p': 0.0868}]",0
+vf:match:1404287302,Aston Villa,Brighton,,,2.345,2.345,,[],"[{'scoreline': '1:1', 'p': 0.1316}, {'scoreline': '1:0', 'p': 0.1169}, {'scoreline': '0:1', 'p': 0.1079}]",2
+vf:match:1404287301,Crystal Palace,London Guns,,,3.039,3.039,,[],"[{'scoreline': '1:1', 'p': 0.1104}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404287300,Bournemouth,Wolverhampton,,,3.03,3.03,,[],"[{'scoreline': '1:1', 'p': 0.1107}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404287299,Newcastle,West Ham,,,2.888,2.888,,[],"[{'scoreline': '1:1', 'p': 0.1159}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0836}]",5
+vf:match:1404287298,Tottenham,Fulham,,,2.359,2.359,,[],"[{'scoreline': '1:1', 'p': 0.1313}, {'scoreline': '1:0', 'p': 0.1159}, {'scoreline': '0:1', 'p': 0.107}]",2
+vf:match:1404287297,Manchester Blue,Leeds,,,2.473,2.473,,[],"[{'scoreline': '1:1', 'p': 0.1287}, {'scoreline': '1:0', 'p': 0.1084}, {'scoreline': '0:1', 'p': 0.1001}]",2
+vf:match:1404287296,Brighton,Manchester Blue,,,2.922,2.922,,[],"[{'scoreline': '1:1', 'p': 0.1147}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:0', 'p': 0.0818}]",2
+vf:match:1404287295,London Guns,Manchester Red,,,2.946,2.946,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:0', 'p': 0.0805}]",2
+vf:match:1404287294,Fulham,Aston Villa,,,2.279,2.279,,[],"[{'scoreline': '1:1', 'p': 0.1327}, {'scoreline': '1:0', 'p': 0.1213}, {'scoreline': '0:1', 'p': 0.112}]",3
+vf:match:1404287293,Leeds,Newcastle,,,2.284,2.284,,[],"[{'scoreline': '1:1', 'p': 0.1327}, {'scoreline': '1:0', 'p': 0.121}, {'scoreline': '0:1', 'p': 0.1117}]",3
+vf:match:1404287292,West Ham,Wolverhampton,,,3.177,3.177,,[],"[{'scoreline': '1:1', 'p': 0.1051}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:2', 'p': 0.0801}]",4
+vf:match:1404287291,Chelsea,Everton,,,2.456,2.456,,[],"[{'scoreline': '1:1', 'p': 0.1291}, {'scoreline': '1:0', 'p': 0.1095}, {'scoreline': '0:1', 'p': 0.1011}]",1
+vf:match:1404287290,Liverpool,Tottenham,,,2.859,2.859,,[],"[{'scoreline': '1:1', 'p': 0.117}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0852}]",4
+vf:match:1404287289,Crystal Palace,Bournemouth,,,2.496,2.496,,[],"[{'scoreline': '1:1', 'p': 0.1282}, {'scoreline': '1:0', 'p': 0.107}, {'scoreline': '0:1', 'p': 0.0987}]",3
+vf:match:1404287288,Tottenham,Chelsea,,,2.794,2.794,,[],"[{'scoreline': '1:1', 'p': 0.1192}, {'scoreline': '1:0', 'p': 0.0889}, {'scoreline': '2:1', 'p': 0.0866}]",3
+vf:match:1404287287,Aston Villa,Liverpool,,,2.477,2.477,,[],"[{'scoreline': '1:1', 'p': 0.1286}, {'scoreline': '1:0', 'p': 0.1082}, {'scoreline': '0:1', 'p': 0.0999}]",3
+vf:match:1404287286,Wolverhampton,Leeds,,,2.391,2.391,,[],"[{'scoreline': '1:1', 'p': 0.1306}, {'scoreline': '1:0', 'p': 0.1138}, {'scoreline': '0:1', 'p': 0.1051}]",0
+vf:match:1404287285,Manchester Blue,Fulham,,,2.403,2.403,,[],"[{'scoreline': '1:1', 'p': 0.1304}, {'scoreline': '1:0', 'p': 0.113}, {'scoreline': '0:1', 'p': 0.1043}]",3
+vf:match:1404287284,Manchester Red,Crystal Palace,,,2.835,2.835,,[],"[{'scoreline': '1:1', 'p': 0.1178}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:0', 'p': 0.0866}]",6
+vf:match:1404287283,Everton,London Guns,,,2.366,2.366,,[],"[{'scoreline': '1:1', 'p': 0.1311}, {'scoreline': '1:0', 'p': 0.1155}, {'scoreline': '0:1', 'p': 0.1066}]",0
+vf:match:1404287282,Newcastle,Brighton,,,2.15,2.15,,[],"[{'scoreline': '1:1', 'p': 0.1344}, {'scoreline': '1:0', 'p': 0.1302}, {'scoreline': '0:1', 'p': 0.1202}]",3
+vf:match:1404287281,Bournemouth,West Ham,,,2.603,2.603,,[],"[{'scoreline': '1:1', 'p': 0.1252}, {'scoreline': '1:0', 'p': 0.1002}, {'scoreline': '0:1', 'p': 0.0925}]",3
+vf:match:1404287280,Fulham,Newcastle,,,2.086,2.086,,[],"[{'scoreline': '1:1', 'p': 0.1349}, {'scoreline': '1:0', 'p': 0.1347}, {'scoreline': '0:1', 'p': 0.1243}]",0
+vf:match:1404287279,Chelsea,Aston Villa,,,2.434,2.434,,[],"[{'scoreline': '1:1', 'p': 0.1297}, {'scoreline': '1:0', 'p': 0.111}, {'scoreline': '0:1', 'p': 0.1024}]",4
+vf:match:1404287278,Leeds,West Ham,,,2.26,2.26,,[],"[{'scoreline': '1:1', 'p': 0.133}, {'scoreline': '1:0', 'p': 0.1226}, {'scoreline': '0:1', 'p': 0.1132}]",4
+vf:match:1404287277,Liverpool,Manchester Blue,,,2.967,2.967,,[],"[{'scoreline': '1:1', 'p': 0.1131}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404287276,London Guns,Tottenham,,,2.764,2.764,,[],"[{'scoreline': '1:1', 'p': 0.1202}, {'scoreline': '1:0', 'p': 0.0906}, {'scoreline': '2:1', 'p': 0.0864}]",3
+vf:match:1404287275,Manchester Red,Bournemouth,,,2.645,2.645,,[],"[{'scoreline': '1:1', 'p': 0.124}, {'scoreline': '1:0', 'p': 0.0977}, {'scoreline': '0:1', 'p': 0.0901}]",2
+vf:match:1404287274,Brighton,Wolverhampton,,,2.846,2.846,,[],"[{'scoreline': '1:1', 'p': 0.1174}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0859}]",2
+vf:match:1404287273,Crystal Palace,Everton,,,2.144,2.144,,[],"[{'scoreline': '1:1', 'p': 0.1345}, {'scoreline': '1:0', 'p': 0.1306}, {'scoreline': '0:1', 'p': 0.1206}]",1
+vf:match:1404287272,Aston Villa,London Guns,,,2.255,2.255,,[],"[{'scoreline': '1:1', 'p': 0.1331}, {'scoreline': '1:0', 'p': 0.123}, {'scoreline': '0:1', 'p': 0.1135}]",4
+vf:match:1404287271,Everton,Manchester Red,,,2.412,2.412,,[],"[{'scoreline': '1:1', 'p': 0.1302}, {'scoreline': '1:0', 'p': 0.1124}, {'scoreline': '0:1', 'p': 0.1038}]",4
+vf:match:1404287270,Manchester Blue,Chelsea,,,3.098,3.098,,[],"[{'scoreline': '1:1', 'p': 0.1081}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:2', 'p': 0.0804}]",3
+vf:match:1404287269,Tottenham,Crystal Palace,,,2.85,2.85,,[],"[{'scoreline': '1:1', 'p': 0.1173}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0857}]",6
+vf:match:1404287268,Newcastle,Liverpool,,,2.765,2.765,,[],"[{'scoreline': '1:1', 'p': 0.1202}, {'scoreline': '1:0', 'p': 0.0905}, {'scoreline': '2:1', 'p': 0.0864}]",1
+vf:match:1404287267,Bournemouth,Leeds,,,1.987,1.987,,[],"[{'scoreline': '1:0', 'p': 0.1417}, {'scoreline': '0:0', 'p': 0.1371}, {'scoreline': '1:1', 'p': 0.1351}]",4
+vf:match:1404287266,Wolverhampton,Fulham,,,2.516,2.516,,[],"[{'scoreline': '1:1', 'p': 0.1276}, {'scoreline': '1:0', 'p': 0.1057}, {'scoreline': '0:1', 'p': 0.0976}]",3
+vf:match:1404287265,West Ham,Brighton,,,2.532,2.532,,[],"[{'scoreline': '1:1', 'p': 0.1272}, {'scoreline': '1:0', 'p': 0.1047}, {'scoreline': '0:1', 'p': 0.0966}]",3
+vf:match:1404287264,Liverpool,Wolverhampton,,,2.87,2.87,,[],"[{'scoreline': '1:1', 'p': 0.1166}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0846}]",1
+vf:match:1404287263,Fulham,West Ham,,,2.44,2.44,,[],"[{'scoreline': '1:1', 'p': 0.1295}, {'scoreline': '1:0', 'p': 0.1106}, {'scoreline': '0:1', 'p': 0.1021}]",4
+vf:match:1404287262,Everton,Bournemouth,,,1.99,1.99,,[],"[{'scoreline': '1:0', 'p': 0.1415}, {'scoreline': '0:0', 'p': 0.1367}, {'scoreline': '1:1', 'p': 0.1351}]",2
+vf:match:1404287261,Chelsea,Newcastle,,,3.154,3.154,,[],"[{'scoreline': '1:1', 'p': 0.106}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:2', 'p': 0.0802}]",2
+vf:match:1404287260,Brighton,Leeds,,,1.887,1.887,,[],"[{'scoreline': '0:0', 'p': 0.1515}, {'scoreline': '1:0', 'p': 0.1487}, {'scoreline': '0:1', 'p': 0.1372}]",2
+vf:match:1404287259,Crystal Palace,Aston Villa,,,2.655,2.655,,[],"[{'scoreline': '1:1', 'p': 0.1237}, {'scoreline': '1:0', 'p': 0.0971}, {'scoreline': '0:1', 'p': 0.0896}]",2
+vf:match:1404287258,Manchester Red,Tottenham,,,2.685,2.685,,[],"[{'scoreline': '1:1', 'p': 0.1228}, {'scoreline': '1:0', 'p': 0.0953}, {'scoreline': '0:1', 'p': 0.0879}]",0
+vf:match:1404287257,London Guns,Manchester Blue,,,3.288,3.288,,[],"[{'scoreline': '1:1', 'p': 0.1007}, {'scoreline': '2:1', 'p': 0.0861}, {'scoreline': '1:2', 'p': 0.0795}]",2
+vf:match:1404287256,Manchester Blue,Crystal Palace,,,3.14,3.14,,[],"[{'scoreline': '1:1', 'p': 0.1065}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:2', 'p': 0.0803}]",3
+vf:match:1404287255,Wolverhampton,Chelsea,,,3.117,3.117,,[],"[{'scoreline': '1:1', 'p': 0.1074}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:2', 'p': 0.0803}]",4
+vf:match:1404287254,Aston Villa,Manchester Red,,,2.163,2.163,,[],"[{'scoreline': '1:1', 'p': 0.1343}, {'scoreline': '1:0', 'p': 0.1293}, {'scoreline': '0:1', 'p': 0.1194}]",2
+vf:match:1404287253,West Ham,Liverpool,,,2.612,2.612,,[],"[{'scoreline': '1:1', 'p': 0.125}, {'scoreline': '1:0', 'p': 0.0997}, {'scoreline': '0:1', 'p': 0.092}]",3
+vf:match:1404287252,Tottenham,Everton,,,2.424,2.424,,[],"[{'scoreline': '1:1', 'p': 0.1299}, {'scoreline': '1:0', 'p': 0.1116}, {'scoreline': '0:1', 'p': 0.103}]",2
+vf:match:1404287251,Leeds,Fulham,,,1.716,1.716,,[],"[{'scoreline': '0:0', 'p': 0.1798}, {'scoreline': '1:0', 'p': 0.1604}, {'scoreline': '0:1', 'p': 0.1481}]",2
+vf:match:1404287250,Bournemouth,Brighton,,,2.12,2.12,,[],"[{'scoreline': '1:1', 'p': 0.1347}, {'scoreline': '1:0', 'p': 0.1323}, {'scoreline': '0:1', 'p': 0.1221}]",1
+vf:match:1404287249,Newcastle,London Guns,,,2.87,2.87,,[],"[{'scoreline': '1:1', 'p': 0.1166}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0846}]",3
+vf:match:1404287248,Chelsea,West Ham,,,3.047,3.047,,[],"[{'scoreline': '1:1', 'p': 0.1101}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",1
+vf:match:1404287247,Crystal Palace,Newcastle,,,2.498,2.498,,[],"[{'scoreline': '1:1', 'p': 0.1281}, {'scoreline': '1:0', 'p': 0.1068}, {'scoreline': '0:1', 'p': 0.0986}]",2
+vf:match:1404287246,Everton,Aston Villa,,,1.923,1.923,,[],"[{'scoreline': '0:0', 'p': 0.1462}, {'scoreline': '1:0', 'p': 0.1462}, {'scoreline': '0:1', 'p': 0.1349}]",3
+vf:match:1404287245,Fulham,Brighton,,,2.036,2.036,,[],"[{'scoreline': '1:0', 'p': 0.1382}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1305}]",4
+vf:match:1404287244,Manchester Red,Manchester Blue,,,2.676,2.676,,[],"[{'scoreline': '1:1', 'p': 0.123}, {'scoreline': '1:0', 'p': 0.0958}, {'scoreline': '0:1', 'p': 0.0884}]",2
+vf:match:1404287243,London Guns,Wolverhampton,,,3.028,3.028,,[],"[{'scoreline': '1:1', 'p': 0.1108}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",5
+vf:match:1404287242,Tottenham,Bournemouth,,,2.498,2.498,,[],"[{'scoreline': '1:1', 'p': 0.1281}, {'scoreline': '1:0', 'p': 0.1068}, {'scoreline': '0:1', 'p': 0.0986}]",1
+vf:match:1404287241,Liverpool,Leeds,,,2.201,2.201,,[],"[{'scoreline': '1:1', 'p': 0.1338}, {'scoreline': '1:0', 'p': 0.1267}, {'scoreline': '0:1', 'p': 0.1169}]",2
+vf:match:1404287240,Newcastle,Manchester Red,,,2.759,2.759,,[],"[{'scoreline': '1:1', 'p': 0.1204}, {'scoreline': '1:0', 'p': 0.0909}, {'scoreline': '2:1', 'p': 0.0863}]",3
+vf:match:1404287239,Brighton,Liverpool,,,2.628,2.628,,[],"[{'scoreline': '1:1', 'p': 0.1245}, {'scoreline': '1:0', 'p': 0.0987}, {'scoreline': '0:1', 'p': 0.0911}]",1
+vf:match:1404287238,Bournemouth,Fulham,,,2.004,2.004,,[],"[{'scoreline': '1:0', 'p': 0.1405}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1348}]",3
+vf:match:1404287237,Aston Villa,Tottenham,,,2.29,2.29,,[],"[{'scoreline': '1:1', 'p': 0.1326}, {'scoreline': '1:0', 'p': 0.1206}, {'scoreline': '0:1', 'p': 0.1113}]",2
+vf:match:1404287236,Leeds,Chelsea,,,2.411,2.411,,[],"[{'scoreline': '1:1', 'p': 0.1302}, {'scoreline': '1:0', 'p': 0.1125}, {'scoreline': '0:1', 'p': 0.1038}]",1
+vf:match:1404287235,Wolverhampton,Crystal Palace,,,2.915,2.915,,[],"[{'scoreline': '1:1', 'p': 0.115}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:0', 'p': 0.0822}]",2
+vf:match:1404287234,West Ham,London Guns,,,2.948,2.948,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404287233,Manchester Blue,Everton,,,2.537,2.537,,[],"[{'scoreline': '1:1', 'p': 0.1271}, {'scoreline': '1:0', 'p': 0.1044}, {'scoreline': '0:1', 'p': 0.0963}]",4
+vf:match:1404287232,Wolverhampton,Manchester Red,,,3.061,3.061,,[],"[{'scoreline': '1:1', 'p': 0.1095}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404287231,Aston Villa,Bournemouth,,,2.331,2.331,,[],"[{'scoreline': '1:1', 'p': 0.1318}, {'scoreline': '1:0', 'p': 0.1178}, {'scoreline': '0:1', 'p': 0.1088}]",1
+vf:match:1404287230,Fulham,Liverpool,,,2.307,2.307,,[],"[{'scoreline': '1:1', 'p': 0.1323}, {'scoreline': '1:0', 'p': 0.1194}, {'scoreline': '0:1', 'p': 0.1102}]",0
+vf:match:1404287229,Leeds,London Guns,,,2.318,2.318,,[],"[{'scoreline': '1:1', 'p': 0.1321}, {'scoreline': '1:0', 'p': 0.1187}, {'scoreline': '0:1', 'p': 0.1096}]",2
+vf:match:1404287228,West Ham,Crystal Palace,,,2.735,2.735,,[],"[{'scoreline': '1:1', 'p': 0.1212}, {'scoreline': '1:0', 'p': 0.0923}, {'scoreline': '2:1', 'p': 0.0862}]",4
+vf:match:1404287227,Newcastle,Everton,,,2.013,2.013,,[],"[{'scoreline': '1:0', 'p': 0.1398}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1336}]",2
+vf:match:1404287226,Brighton,Chelsea,,,2.796,2.796,,[],"[{'scoreline': '1:1', 'p': 0.1191}, {'scoreline': '1:0', 'p': 0.0888}, {'scoreline': '2:1', 'p': 0.0866}]",3
+vf:match:1404287225,Manchester Blue,Tottenham,,,3.208,3.208,,[],"[{'scoreline': '1:1', 'p': 0.1039}, {'scoreline': '2:1', 'p': 0.0866}, {'scoreline': '1:2', 'p': 0.08}]",5
+vf:match:1404287224,Crystal Palace,Leeds,,,2.106,2.106,,[],"[{'scoreline': '1:1', 'p': 0.1348}, {'scoreline': '1:0', 'p': 0.1333}, {'scoreline': '0:1', 'p': 0.123}]",0
+vf:match:1404287223,Chelsea,Fulham,,,2.637,2.637,,[],"[{'scoreline': '1:1', 'p': 0.1242}, {'scoreline': '1:0', 'p': 0.0981}, {'scoreline': '0:1', 'p': 0.0906}]",3
+vf:match:1404287222,Everton,Wolverhampton,,,2.384,2.384,,[],"[{'scoreline': '1:1', 'p': 0.1308}, {'scoreline': '1:0', 'p': 0.1143}, {'scoreline': '0:1', 'p': 0.1055}]",2
+vf:match:1404287221,Aston Villa,Manchester Blue,,,2.749,2.749,,[],"[{'scoreline': '1:1', 'p': 0.1207}, {'scoreline': '1:0', 'p': 0.0915}, {'scoreline': '2:1', 'p': 0.0863}]",2
+vf:match:1404287220,Bournemouth,Liverpool,,,2.779,2.779,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",4
+vf:match:1404287219,London Guns,Brighton,,,2.561,2.561,,[],"[{'scoreline': '1:1', 'p': 0.1264}, {'scoreline': '1:0', 'p': 0.1028}, {'scoreline': '0:1', 'p': 0.0949}]",6
+vf:match:1404287218,Tottenham,Newcastle,,,2.559,2.559,,[],"[{'scoreline': '1:1', 'p': 0.1265}, {'scoreline': '1:0', 'p': 0.103}, {'scoreline': '0:1', 'p': 0.095}]",2
+vf:match:1404287217,Manchester Red,West Ham,,,2.702,2.702,,[],"[{'scoreline': '1:1', 'p': 0.1222}, {'scoreline': '1:0', 'p': 0.0942}, {'scoreline': '0:1', 'p': 0.087}]",4
+vf:match:1404287216,Brighton,Crystal Palace,,,2.779,2.779,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",2
+vf:match:1404287215,Newcastle,Aston Villa,,,2.405,2.405,,[],"[{'scoreline': '1:1', 'p': 0.1303}, {'scoreline': '1:0', 'p': 0.1129}, {'scoreline': '0:1', 'p': 0.1042}]",5
+vf:match:1404287214,West Ham,Everton,,,2.331,2.331,,[],"[{'scoreline': '1:1', 'p': 0.1318}, {'scoreline': '1:0', 'p': 0.1178}, {'scoreline': '0:1', 'p': 0.1088}]",3
+vf:match:1404287213,Liverpool,Chelsea,,,2.742,2.742,,[],"[{'scoreline': '1:1', 'p': 0.1209}, {'scoreline': '1:0', 'p': 0.0919}, {'scoreline': '2:1', 'p': 0.0862}]",2
+vf:match:1404287212,Manchester Blue,Bournemouth,,,2.947,2.947,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404287211,Leeds,Manchester Red,,,2.308,2.308,,[],"[{'scoreline': '1:1', 'p': 0.1322}, {'scoreline': '1:0', 'p': 0.1194}, {'scoreline': '0:1', 'p': 0.1102}]",1
+vf:match:1404287210,Wolverhampton,Tottenham,,,2.987,2.987,,[],"[{'scoreline': '1:1', 'p': 0.1123}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404287209,Fulham,London Guns,,,2.571,2.571,,[],"[{'scoreline': '1:1', 'p': 0.1261}, {'scoreline': '1:0', 'p': 0.1022}, {'scoreline': '0:1', 'p': 0.0944}]",1
+vf:match:1404287208,Tottenham,West Ham,,,2.727,2.727,,[],"[{'scoreline': '1:1', 'p': 0.1214}, {'scoreline': '1:0', 'p': 0.0928}, {'scoreline': '2:1', 'p': 0.0861}]",2
+vf:match:1404287207,Bournemouth,Chelsea,,,2.558,2.558,,[],"[{'scoreline': '1:1', 'p': 0.1265}, {'scoreline': '1:0', 'p': 0.103}, {'scoreline': '0:1', 'p': 0.0951}]",2
+vf:match:1404287206,Everton,Leeds,,,1.642,1.642,,[],"[{'scoreline': '0:0', 'p': 0.1936}, {'scoreline': '1:0', 'p': 0.1653}, {'scoreline': '0:1', 'p': 0.1526}]",1
+vf:match:1404287205,Crystal Palace,Fulham,,,2.106,2.106,,[],"[{'scoreline': '1:1', 'p': 0.1348}, {'scoreline': '1:0', 'p': 0.1333}, {'scoreline': '0:1', 'p': 0.123}]",2
+vf:match:1404287204,Manchester Red,Brighton,,,2.595,2.595,,[],"[{'scoreline': '1:1', 'p': 0.1255}, {'scoreline': '1:0', 'p': 0.1007}, {'scoreline': '0:1', 'p': 0.093}]",5
+vf:match:1404287203,Aston Villa,Wolverhampton,,,2.794,2.794,,[],"[{'scoreline': '1:1', 'p': 0.1192}, {'scoreline': '1:0', 'p': 0.0889}, {'scoreline': '2:1', 'p': 0.0866}]",6
+vf:match:1404287202,Manchester Blue,Newcastle,,,3.073,3.073,,[],"[{'scoreline': '1:1', 'p': 0.1091}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404287201,London Guns,Liverpool,,,2.988,2.988,,[],"[{'scoreline': '1:1', 'p': 0.1123}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",5
+vf:match:1404287200,Leeds,Tottenham,,,2.042,2.042,,[],"[{'scoreline': '1:0', 'p': 0.1378}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1298}]",0
+vf:match:1404287199,Chelsea,London Guns,,,3.039,3.039,,[],"[{'scoreline': '1:1', 'p': 0.1104}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",1
+vf:match:1404287198,Wolverhampton,Manchester Blue,,,3.378,3.378,,[],"[{'scoreline': '1:1', 'p': 0.0972}, {'scoreline': '2:1', 'p': 0.0853}, {'scoreline': '1:2', 'p': 0.0788}]",4
+vf:match:1404287197,West Ham,Aston Villa,,,2.437,2.437,,[],"[{'scoreline': '1:1', 'p': 0.1296}, {'scoreline': '1:0', 'p': 0.1108}, {'scoreline': '0:1', 'p': 0.1023}]",0
+vf:match:1404287196,Newcastle,Bournemouth,,,2.269,2.269,,[],"[{'scoreline': '1:1', 'p': 0.1329}, {'scoreline': '1:0', 'p': 0.122}, {'scoreline': '0:1', 'p': 0.1126}]",2
+vf:match:1404287195,Liverpool,Crystal Palace,,,2.831,2.831,,[],"[{'scoreline': '1:1', 'p': 0.1179}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:0', 'p': 0.0868}]",3
+vf:match:1404287194,Brighton,Everton,,,2.064,2.064,,[],"[{'scoreline': '1:0', 'p': 0.1362}, {'scoreline': '1:1', 'p': 0.135}, {'scoreline': '0:0', 'p': 0.1269}]",0
+vf:match:1404287193,Fulham,Manchester Red,,,2.319,2.319,,[],"[{'scoreline': '1:1', 'p': 0.132}, {'scoreline': '1:0', 'p': 0.1186}, {'scoreline': '0:1', 'p': 0.1095}]",3
+vf:match:1404287192,Everton,Fulham,,,1.974,1.974,,[],"[{'scoreline': '1:0', 'p': 0.1426}, {'scoreline': '0:0', 'p': 0.1389}, {'scoreline': '1:1', 'p': 0.1351}]",5
+vf:match:1404287191,Manchester Blue,West Ham,,,3.321,3.321,,[],"[{'scoreline': '1:1', 'p': 0.0994}, {'scoreline': '2:1', 'p': 0.0858}, {'scoreline': '1:2', 'p': 0.0792}]",3
+vf:match:1404287190,Bournemouth,London Guns,,,2.687,2.687,,[],"[{'scoreline': '1:1', 'p': 0.1227}, {'scoreline': '1:0', 'p': 0.0951}, {'scoreline': '0:1', 'p': 0.0878}]",1
+vf:match:1404287189,Tottenham,Brighton,,,2.43,2.43,,[],"[{'scoreline': '1:1', 'p': 0.1298}, {'scoreline': '1:0', 'p': 0.1112}, {'scoreline': '0:1', 'p': 0.1027}]",2
+vf:match:1404287188,Aston Villa,Leeds,,,2.04,2.04,,[],"[{'scoreline': '1:0', 'p': 0.1379}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.13}]",2
+vf:match:1404287187,Newcastle,Wolverhampton,,,3.021,3.021,,[],"[{'scoreline': '1:1', 'p': 0.1111}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404287186,Manchester Red,Liverpool,,,2.724,2.724,,[],"[{'scoreline': '1:1', 'p': 0.1215}, {'scoreline': '1:0', 'p': 0.0929}, {'scoreline': '2:1', 'p': 0.0861}]",3
+vf:match:1404287185,Crystal Palace,Chelsea,,,2.78,2.78,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",0
+vf:match:1404287184,Liverpool,Everton,,,2.168,2.168,,[],"[{'scoreline': '1:1', 'p': 0.1342}, {'scoreline': '1:0', 'p': 0.129}, {'scoreline': '0:1', 'p': 0.1191}]",1
+vf:match:1404287183,Chelsea,Manchester Red,,,2.827,2.827,,[],"[{'scoreline': '1:1', 'p': 0.1181}, {'scoreline': '1:0', 'p': 0.087}, {'scoreline': '2:1', 'p': 0.0868}]",3
+vf:match:1404287182,Brighton,Aston Villa,,,2.345,2.345,,[],"[{'scoreline': '1:1', 'p': 0.1316}, {'scoreline': '1:0', 'p': 0.1169}, {'scoreline': '0:1', 'p': 0.1079}]",1
+vf:match:1404287181,London Guns,Crystal Palace,,,3.039,3.039,,[],"[{'scoreline': '1:1', 'p': 0.1104}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404287180,Wolverhampton,Bournemouth,,,3.03,3.03,,[],"[{'scoreline': '1:1', 'p': 0.1107}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",5
+vf:match:1404287179,West Ham,Newcastle,,,2.888,2.888,,[],"[{'scoreline': '1:1', 'p': 0.1159}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0836}]",3
+vf:match:1404287178,Fulham,Tottenham,,,2.359,2.359,,[],"[{'scoreline': '1:1', 'p': 0.1313}, {'scoreline': '1:0', 'p': 0.1159}, {'scoreline': '0:1', 'p': 0.107}]",2
+vf:match:1404287177,Leeds,Manchester Blue,,,2.473,2.473,,[],"[{'scoreline': '1:1', 'p': 0.1287}, {'scoreline': '1:0', 'p': 0.1084}, {'scoreline': '0:1', 'p': 0.1001}]",2
+vf:match:1404287176,Manchester Blue,Brighton,,,2.922,2.922,,[],"[{'scoreline': '1:1', 'p': 0.1147}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:0', 'p': 0.0818}]",2
+vf:match:1404287175,Manchester Red,London Guns,,,2.946,2.946,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:0', 'p': 0.0805}]",1
+vf:match:1404287174,Aston Villa,Fulham,,,2.279,2.279,,[],"[{'scoreline': '1:1', 'p': 0.1327}, {'scoreline': '1:0', 'p': 0.1213}, {'scoreline': '0:1', 'p': 0.112}]",3
+vf:match:1404287173,Newcastle,Leeds,,,2.284,2.284,,[],"[{'scoreline': '1:1', 'p': 0.1327}, {'scoreline': '1:0', 'p': 0.121}, {'scoreline': '0:1', 'p': 0.1117}]",1
+vf:match:1404287172,Wolverhampton,West Ham,,,3.177,3.177,,[],"[{'scoreline': '1:1', 'p': 0.1051}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:2', 'p': 0.0801}]",5
+vf:match:1404287171,Everton,Chelsea,,,2.456,2.456,,[],"[{'scoreline': '1:1', 'p': 0.1291}, {'scoreline': '1:0', 'p': 0.1095}, {'scoreline': '0:1', 'p': 0.1011}]",3
+vf:match:1404287170,Tottenham,Liverpool,,,2.859,2.859,,[],"[{'scoreline': '1:1', 'p': 0.117}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0852}]",2
+vf:match:1404287169,Bournemouth,Crystal Palace,,,2.496,2.496,,[],"[{'scoreline': '1:1', 'p': 0.1282}, {'scoreline': '1:0', 'p': 0.107}, {'scoreline': '0:1', 'p': 0.0987}]",0
+vf:match:1404287168,Chelsea,Tottenham,,,2.794,2.794,,[],"[{'scoreline': '1:1', 'p': 0.1192}, {'scoreline': '1:0', 'p': 0.0889}, {'scoreline': '2:1', 'p': 0.0866}]",3
+vf:match:1404287167,Liverpool,Aston Villa,,,2.477,2.477,,[],"[{'scoreline': '1:1', 'p': 0.1286}, {'scoreline': '1:0', 'p': 0.1082}, {'scoreline': '0:1', 'p': 0.0999}]",7
+vf:match:1404287166,Leeds,Wolverhampton,,,2.391,2.391,,[],"[{'scoreline': '1:1', 'p': 0.1306}, {'scoreline': '1:0', 'p': 0.1138}, {'scoreline': '0:1', 'p': 0.1051}]",4
+vf:match:1404287165,Fulham,Manchester Blue,,,2.403,2.403,,[],"[{'scoreline': '1:1', 'p': 0.1304}, {'scoreline': '1:0', 'p': 0.113}, {'scoreline': '0:1', 'p': 0.1043}]",1
+vf:match:1404287164,Crystal Palace,Manchester Red,,,2.835,2.835,,[],"[{'scoreline': '1:1', 'p': 0.1178}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:0', 'p': 0.0866}]",6
+vf:match:1404287163,London Guns,Everton,,,2.366,2.366,,[],"[{'scoreline': '1:1', 'p': 0.1311}, {'scoreline': '1:0', 'p': 0.1155}, {'scoreline': '0:1', 'p': 0.1066}]",6
+vf:match:1404287162,Brighton,Newcastle,,,2.15,2.15,,[],"[{'scoreline': '1:1', 'p': 0.1344}, {'scoreline': '1:0', 'p': 0.1302}, {'scoreline': '0:1', 'p': 0.1202}]",1
+vf:match:1404287161,West Ham,Bournemouth,,,2.603,2.603,,[],"[{'scoreline': '1:1', 'p': 0.1252}, {'scoreline': '1:0', 'p': 0.1002}, {'scoreline': '0:1', 'p': 0.0925}]",2
+vf:match:1404287160,Newcastle,Fulham,,,2.086,2.086,,[],"[{'scoreline': '1:1', 'p': 0.1349}, {'scoreline': '1:0', 'p': 0.1347}, {'scoreline': '0:1', 'p': 0.1243}]",4
+vf:match:1404287159,Aston Villa,Chelsea,,,2.434,2.434,,[],"[{'scoreline': '1:1', 'p': 0.1297}, {'scoreline': '1:0', 'p': 0.111}, {'scoreline': '0:1', 'p': 0.1024}]",1
+vf:match:1404287158,West Ham,Leeds,,,2.26,2.26,,[],"[{'scoreline': '1:1', 'p': 0.133}, {'scoreline': '1:0', 'p': 0.1226}, {'scoreline': '0:1', 'p': 0.1132}]",1
+vf:match:1404287157,Manchester Blue,Liverpool,,,2.967,2.967,,[],"[{'scoreline': '1:1', 'p': 0.1131}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404287156,Tottenham,London Guns,,,2.764,2.764,,[],"[{'scoreline': '1:1', 'p': 0.1202}, {'scoreline': '1:0', 'p': 0.0906}, {'scoreline': '2:1', 'p': 0.0864}]",2
+vf:match:1404287155,Bournemouth,Manchester Red,,,2.645,2.645,,[],"[{'scoreline': '1:1', 'p': 0.124}, {'scoreline': '1:0', 'p': 0.0977}, {'scoreline': '0:1', 'p': 0.0901}]",1
+vf:match:1404287154,Wolverhampton,Brighton,,,2.846,2.846,,[],"[{'scoreline': '1:1', 'p': 0.1174}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0859}]",5
+vf:match:1404287153,Everton,Crystal Palace,,,2.144,2.144,,[],"[{'scoreline': '1:1', 'p': 0.1345}, {'scoreline': '1:0', 'p': 0.1306}, {'scoreline': '0:1', 'p': 0.1206}]",2
+vf:match:1404287152,London Guns,Aston Villa,,,2.255,2.255,,[],"[{'scoreline': '1:1', 'p': 0.1331}, {'scoreline': '1:0', 'p': 0.123}, {'scoreline': '0:1', 'p': 0.1135}]",5
+vf:match:1404287151,Manchester Red,Everton,,,2.412,2.412,,[],"[{'scoreline': '1:1', 'p': 0.1302}, {'scoreline': '1:0', 'p': 0.1124}, {'scoreline': '0:1', 'p': 0.1038}]",2
+vf:match:1404287150,Chelsea,Manchester Blue,,,3.098,3.098,,[],"[{'scoreline': '1:1', 'p': 0.1081}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:2', 'p': 0.0804}]",3
+vf:match:1404287149,Crystal Palace,Tottenham,,,2.85,2.85,,[],"[{'scoreline': '1:1', 'p': 0.1173}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0857}]",2
+vf:match:1404287148,Liverpool,Newcastle,,,2.765,2.765,,[],"[{'scoreline': '1:1', 'p': 0.1202}, {'scoreline': '1:0', 'p': 0.0905}, {'scoreline': '2:1', 'p': 0.0864}]",3
+vf:match:1404287147,Leeds,Bournemouth,,,1.987,1.987,,[],"[{'scoreline': '1:0', 'p': 0.1417}, {'scoreline': '0:0', 'p': 0.1371}, {'scoreline': '1:1', 'p': 0.1351}]",1
+vf:match:1404287146,Fulham,Wolverhampton,,,2.516,2.516,,[],"[{'scoreline': '1:1', 'p': 0.1276}, {'scoreline': '1:0', 'p': 0.1057}, {'scoreline': '0:1', 'p': 0.0976}]",3
+vf:match:1404287145,Brighton,West Ham,,,2.532,2.532,,[],"[{'scoreline': '1:1', 'p': 0.1272}, {'scoreline': '1:0', 'p': 0.1047}, {'scoreline': '0:1', 'p': 0.0966}]",1
+vf:match:1404287144,Wolverhampton,Liverpool,,,2.87,2.87,,[],"[{'scoreline': '1:1', 'p': 0.1166}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0846}]",3
+vf:match:1404287143,West Ham,Fulham,,,2.44,2.44,,[],"[{'scoreline': '1:1', 'p': 0.1295}, {'scoreline': '1:0', 'p': 0.1106}, {'scoreline': '0:1', 'p': 0.1021}]",4
+vf:match:1404287142,Bournemouth,Everton,,,1.99,1.99,,[],"[{'scoreline': '1:0', 'p': 0.1415}, {'scoreline': '0:0', 'p': 0.1367}, {'scoreline': '1:1', 'p': 0.1351}]",1
+vf:match:1404287141,Newcastle,Chelsea,,,3.154,3.154,,[],"[{'scoreline': '1:1', 'p': 0.106}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:2', 'p': 0.0802}]",4
+vf:match:1404287140,Leeds,Brighton,,,1.887,1.887,,[],"[{'scoreline': '0:0', 'p': 0.1515}, {'scoreline': '1:0', 'p': 0.1487}, {'scoreline': '0:1', 'p': 0.1372}]",2
+vf:match:1404287139,Aston Villa,Crystal Palace,,,2.655,2.655,,[],"[{'scoreline': '1:1', 'p': 0.1237}, {'scoreline': '1:0', 'p': 0.0971}, {'scoreline': '0:1', 'p': 0.0896}]",2
+vf:match:1404287138,Tottenham,Manchester Red,,,2.685,2.685,,[],"[{'scoreline': '1:1', 'p': 0.1228}, {'scoreline': '1:0', 'p': 0.0953}, {'scoreline': '0:1', 'p': 0.0879}]",3
+vf:match:1404287137,Manchester Blue,London Guns,,,3.288,3.288,,[],"[{'scoreline': '1:1', 'p': 0.1007}, {'scoreline': '2:1', 'p': 0.0861}, {'scoreline': '1:2', 'p': 0.0795}]",3
+vf:match:1404287136,Crystal Palace,Manchester Blue,,,3.14,3.14,,[],"[{'scoreline': '1:1', 'p': 0.1065}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:2', 'p': 0.0803}]",2
+vf:match:1404287135,Chelsea,Wolverhampton,,,3.117,3.117,,[],"[{'scoreline': '1:1', 'p': 0.1074}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:2', 'p': 0.0803}]",3
+vf:match:1404287134,Manchester Red,Aston Villa,,,2.163,2.163,,[],"[{'scoreline': '1:1', 'p': 0.1343}, {'scoreline': '1:0', 'p': 0.1293}, {'scoreline': '0:1', 'p': 0.1194}]",2
+vf:match:1404287133,Liverpool,West Ham,,,2.612,2.612,,[],"[{'scoreline': '1:1', 'p': 0.125}, {'scoreline': '1:0', 'p': 0.0997}, {'scoreline': '0:1', 'p': 0.092}]",4
+vf:match:1404287132,Everton,Tottenham,,,2.424,2.424,,[],"[{'scoreline': '1:1', 'p': 0.1299}, {'scoreline': '1:0', 'p': 0.1116}, {'scoreline': '0:1', 'p': 0.103}]",4
+vf:match:1404287131,Fulham,Leeds,,,1.716,1.716,,[],"[{'scoreline': '0:0', 'p': 0.1798}, {'scoreline': '1:0', 'p': 0.1604}, {'scoreline': '0:1', 'p': 0.1481}]",4
+vf:match:1404287130,Brighton,Bournemouth,,,2.12,2.12,,[],"[{'scoreline': '1:1', 'p': 0.1347}, {'scoreline': '1:0', 'p': 0.1323}, {'scoreline': '0:1', 'p': 0.1221}]",3
+vf:match:1404287129,London Guns,Newcastle,,,2.87,2.87,,[],"[{'scoreline': '1:1', 'p': 0.1166}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0846}]",2
+vf:match:1404287128,West Ham,Chelsea,,,3.047,3.047,,[],"[{'scoreline': '1:1', 'p': 0.1101}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",5
+vf:match:1404287127,Newcastle,Crystal Palace,,,2.498,2.498,,[],"[{'scoreline': '1:1', 'p': 0.1281}, {'scoreline': '1:0', 'p': 0.1068}, {'scoreline': '0:1', 'p': 0.0986}]",2
+vf:match:1404287126,Aston Villa,Everton,,,1.923,1.923,,[],"[{'scoreline': '0:0', 'p': 0.1462}, {'scoreline': '1:0', 'p': 0.1462}, {'scoreline': '0:1', 'p': 0.1349}]",1
+vf:match:1404287125,Brighton,Fulham,,,2.036,2.036,,[],"[{'scoreline': '1:0', 'p': 0.1382}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1305}]",2
+vf:match:1404287124,Manchester Blue,Manchester Red,,,2.676,2.676,,[],"[{'scoreline': '1:1', 'p': 0.123}, {'scoreline': '1:0', 'p': 0.0958}, {'scoreline': '0:1', 'p': 0.0884}]",1
+vf:match:1404287123,Wolverhampton,London Guns,,,3.028,3.028,,[],"[{'scoreline': '1:1', 'p': 0.1108}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",1
+vf:match:1404287122,Bournemouth,Tottenham,,,2.498,2.498,,[],"[{'scoreline': '1:1', 'p': 0.1281}, {'scoreline': '1:0', 'p': 0.1068}, {'scoreline': '0:1', 'p': 0.0986}]",2
+vf:match:1404287121,Leeds,Liverpool,,,2.201,2.201,,[],"[{'scoreline': '1:1', 'p': 0.1338}, {'scoreline': '1:0', 'p': 0.1267}, {'scoreline': '0:1', 'p': 0.1169}]",4
+vf:match:1404287120,Manchester Red,Newcastle,,,2.759,2.759,,[],"[{'scoreline': '1:1', 'p': 0.1204}, {'scoreline': '1:0', 'p': 0.0909}, {'scoreline': '2:1', 'p': 0.0863}]",1
+vf:match:1404287119,Liverpool,Brighton,,,2.628,2.628,,[],"[{'scoreline': '1:1', 'p': 0.1245}, {'scoreline': '1:0', 'p': 0.0987}, {'scoreline': '0:1', 'p': 0.0911}]",3
+vf:match:1404287118,Fulham,Bournemouth,,,2.004,2.004,,[],"[{'scoreline': '1:0', 'p': 0.1405}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1348}]",0
+vf:match:1404287117,Tottenham,Aston Villa,,,2.29,2.29,,[],"[{'scoreline': '1:1', 'p': 0.1326}, {'scoreline': '1:0', 'p': 0.1206}, {'scoreline': '0:1', 'p': 0.1113}]",2
+vf:match:1404287116,Chelsea,Leeds,,,2.411,2.411,,[],"[{'scoreline': '1:1', 'p': 0.1302}, {'scoreline': '1:0', 'p': 0.1125}, {'scoreline': '0:1', 'p': 0.1038}]",1
+vf:match:1404287115,Crystal Palace,Wolverhampton,,,2.915,2.915,,[],"[{'scoreline': '1:1', 'p': 0.115}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:0', 'p': 0.0822}]",4
+vf:match:1404287114,London Guns,West Ham,,,2.948,2.948,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404287113,Everton,Manchester Blue,,,2.537,2.537,,[],"[{'scoreline': '1:1', 'p': 0.1271}, {'scoreline': '1:0', 'p': 0.1044}, {'scoreline': '0:1', 'p': 0.0963}]",2
+vf:match:1404281978,Newcastle,Chelsea,,,3.154,3.154,,[],"[{'scoreline': '1:1', 'p': 0.106}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:2', 'p': 0.0802}]",6
+vf:match:1404281977,Manchester Blue,West Ham,,,3.321,3.321,,[],"[{'scoreline': '1:1', 'p': 0.0994}, {'scoreline': '2:1', 'p': 0.0858}, {'scoreline': '1:2', 'p': 0.0792}]",5
+vf:match:1404281976,Liverpool,Everton,,,2.168,2.168,,[],"[{'scoreline': '1:1', 'p': 0.1342}, {'scoreline': '1:0', 'p': 0.129}, {'scoreline': '0:1', 'p': 0.1191}]",2
+vf:match:1404281975,Wolverhampton,Aston Villa,,,2.794,2.794,,[],"[{'scoreline': '1:1', 'p': 0.1192}, {'scoreline': '1:0', 'p': 0.0889}, {'scoreline': '2:1', 'p': 0.0866}]",1
+vf:match:1404281974,Crystal Palace,Bournemouth,,,2.496,2.496,,[],"[{'scoreline': '1:1', 'p': 0.1282}, {'scoreline': '1:0', 'p': 0.107}, {'scoreline': '0:1', 'p': 0.0987}]",3
+vf:match:1404281973,Brighton,London Guns,,,2.561,2.561,,[],"[{'scoreline': '1:1', 'p': 0.1264}, {'scoreline': '1:0', 'p': 0.1028}, {'scoreline': '0:1', 'p': 0.0949}]",1
+vf:match:1404281972,Manchester Red,Tottenham,,,2.685,2.685,,[],"[{'scoreline': '1:1', 'p': 0.1228}, {'scoreline': '1:0', 'p': 0.0953}, {'scoreline': '0:1', 'p': 0.0879}]",2
+vf:match:1404281971,Fulham,Leeds,,,1.716,1.716,,[],"[{'scoreline': '0:0', 'p': 0.1798}, {'scoreline': '1:0', 'p': 0.1604}, {'scoreline': '0:1', 'p': 0.1481}]",3
+vf:match:1404281970,Aston Villa,Crystal Palace,,,2.655,2.655,,[],"[{'scoreline': '1:1', 'p': 0.1237}, {'scoreline': '1:0', 'p': 0.0971}, {'scoreline': '0:1', 'p': 0.0896}]",6
+vf:match:1404281969,Everton,Manchester Red,,,2.412,2.412,,[],"[{'scoreline': '1:1', 'p': 0.1302}, {'scoreline': '1:0', 'p': 0.1124}, {'scoreline': '0:1', 'p': 0.1038}]",1
+vf:match:1404281968,Chelsea,Brighton,,,2.796,2.796,,[],"[{'scoreline': '1:1', 'p': 0.1191}, {'scoreline': '1:0', 'p': 0.0888}, {'scoreline': '2:1', 'p': 0.0866}]",6
+vf:match:1404281967,Leeds,West Ham,,,2.26,2.26,,[],"[{'scoreline': '1:1', 'p': 0.133}, {'scoreline': '1:0', 'p': 0.1226}, {'scoreline': '0:1', 'p': 0.1132}]",2
+vf:match:1404281966,Liverpool,Manchester Blue,,,2.967,2.967,,[],"[{'scoreline': '1:1', 'p': 0.1131}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404281965,Tottenham,Wolverhampton,,,2.987,2.987,,[],"[{'scoreline': '1:1', 'p': 0.1123}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404281964,London Guns,Fulham,,,2.571,2.571,,[],"[{'scoreline': '1:1', 'p': 0.1261}, {'scoreline': '1:0', 'p': 0.1022}, {'scoreline': '0:1', 'p': 0.0944}]",2
+vf:match:1404281963,Bournemouth,Newcastle,,,2.269,2.269,,[],"[{'scoreline': '1:1', 'p': 0.1329}, {'scoreline': '1:0', 'p': 0.122}, {'scoreline': '0:1', 'p': 0.1126}]",4
+vf:match:1404281962,Crystal Palace,Tottenham,,,2.85,2.85,,[],"[{'scoreline': '1:1', 'p': 0.1173}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0857}]",4
+vf:match:1404281961,West Ham,London Guns,,,2.948,2.948,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404281960,Brighton,Bournemouth,,,2.12,2.12,,[],"[{'scoreline': '1:1', 'p': 0.1347}, {'scoreline': '1:0', 'p': 0.1323}, {'scoreline': '0:1', 'p': 0.1221}]",2
+vf:match:1404281959,Manchester Red,Liverpool,,,2.724,2.724,,[],"[{'scoreline': '1:1', 'p': 0.1215}, {'scoreline': '1:0', 'p': 0.0929}, {'scoreline': '2:1', 'p': 0.0861}]",2
+vf:match:1404281958,Manchester Blue,Leeds,,,2.473,2.473,,[],"[{'scoreline': '1:1', 'p': 0.1287}, {'scoreline': '1:0', 'p': 0.1084}, {'scoreline': '0:1', 'p': 0.1001}]",2
+vf:match:1404281957,Newcastle,Aston Villa,,,2.405,2.405,,[],"[{'scoreline': '1:1', 'p': 0.1303}, {'scoreline': '1:0', 'p': 0.1129}, {'scoreline': '0:1', 'p': 0.1042}]",4
+vf:match:1404281956,Fulham,Chelsea,,,2.637,2.637,,[],"[{'scoreline': '1:1', 'p': 0.1242}, {'scoreline': '1:0', 'p': 0.0981}, {'scoreline': '0:1', 'p': 0.0906}]",6
+vf:match:1404281955,Wolverhampton,Everton,,,2.384,2.384,,[],"[{'scoreline': '1:1', 'p': 0.1308}, {'scoreline': '1:0', 'p': 0.1143}, {'scoreline': '0:1', 'p': 0.1055}]",5
+vf:match:1404281954,Bournemouth,Fulham,,,2.004,2.004,,[],"[{'scoreline': '1:0', 'p': 0.1405}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1348}]",1
+vf:match:1404281953,Manchester Red,Manchester Blue,,,2.676,2.676,,[],"[{'scoreline': '1:1', 'p': 0.123}, {'scoreline': '1:0', 'p': 0.0958}, {'scoreline': '0:1', 'p': 0.0884}]",3
+vf:match:1404281952,Aston Villa,Brighton,,,2.345,2.345,,[],"[{'scoreline': '1:1', 'p': 0.1316}, {'scoreline': '1:0', 'p': 0.1169}, {'scoreline': '0:1', 'p': 0.1079}]",5
+vf:match:1404281951,Everton,Crystal Palace,,,2.144,2.144,,[],"[{'scoreline': '1:1', 'p': 0.1345}, {'scoreline': '1:0', 'p': 0.1306}, {'scoreline': '0:1', 'p': 0.1206}]",3
+vf:match:1404281950,Tottenham,Newcastle,,,2.559,2.559,,[],"[{'scoreline': '1:1', 'p': 0.1265}, {'scoreline': '1:0', 'p': 0.103}, {'scoreline': '0:1', 'p': 0.095}]",4
+vf:match:1404281949,Chelsea,West Ham,,,3.047,3.047,,[],"[{'scoreline': '1:1', 'p': 0.1101}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",5
+vf:match:1404281948,London Guns,Leeds,,,2.318,2.318,,[],"[{'scoreline': '1:1', 'p': 0.1321}, {'scoreline': '1:0', 'p': 0.1187}, {'scoreline': '0:1', 'p': 0.1096}]",1
+vf:match:1404281947,Liverpool,Wolverhampton,,,2.87,2.87,,[],"[{'scoreline': '1:1', 'p': 0.1166}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0846}]",0
+vf:match:1404281946,Fulham,Aston Villa,,,2.279,2.279,,[],"[{'scoreline': '1:1', 'p': 0.1327}, {'scoreline': '1:0', 'p': 0.1213}, {'scoreline': '0:1', 'p': 0.112}]",5
+vf:match:1404281945,Wolverhampton,Manchester Red,,,3.061,3.061,,[],"[{'scoreline': '1:1', 'p': 0.1095}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404281944,Leeds,Chelsea,,,2.411,2.411,,[],"[{'scoreline': '1:1', 'p': 0.1302}, {'scoreline': '1:0', 'p': 0.1125}, {'scoreline': '0:1', 'p': 0.1038}]",4
+vf:match:1404281943,West Ham,Bournemouth,,,2.603,2.603,,[],"[{'scoreline': '1:1', 'p': 0.1252}, {'scoreline': '1:0', 'p': 0.1002}, {'scoreline': '0:1', 'p': 0.0925}]",2
+vf:match:1404281942,Manchester Blue,London Guns,,,3.288,3.288,,[],"[{'scoreline': '1:1', 'p': 0.1007}, {'scoreline': '2:1', 'p': 0.0861}, {'scoreline': '1:2', 'p': 0.0795}]",3
+vf:match:1404281941,Crystal Palace,Liverpool,,,2.831,2.831,,[],"[{'scoreline': '1:1', 'p': 0.1179}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:0', 'p': 0.0868}]",5
+vf:match:1404281940,Brighton,Tottenham,,,2.43,2.43,,[],"[{'scoreline': '1:1', 'p': 0.1298}, {'scoreline': '1:0', 'p': 0.1112}, {'scoreline': '0:1', 'p': 0.1027}]",0
+vf:match:1404281939,Newcastle,Everton,,,2.013,2.013,,[],"[{'scoreline': '1:0', 'p': 0.1398}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1336}]",2
+vf:match:1404281938,Everton,Brighton,,,2.064,2.064,,[],"[{'scoreline': '1:0', 'p': 0.1362}, {'scoreline': '1:1', 'p': 0.135}, {'scoreline': '0:0', 'p': 0.1269}]",0
+vf:match:1404281937,Bournemouth,Leeds,,,1.987,1.987,,[],"[{'scoreline': '1:0', 'p': 0.1417}, {'scoreline': '0:0', 'p': 0.1371}, {'scoreline': '1:1', 'p': 0.1351}]",1
+vf:match:1404281936,Wolverhampton,Manchester Blue,,,3.378,3.378,,[],"[{'scoreline': '1:1', 'p': 0.0972}, {'scoreline': '2:1', 'p': 0.0853}, {'scoreline': '1:2', 'p': 0.0788}]",2
+vf:match:1404281935,Tottenham,Fulham,,,2.359,2.359,,[],"[{'scoreline': '1:1', 'p': 0.1313}, {'scoreline': '1:0', 'p': 0.1159}, {'scoreline': '0:1', 'p': 0.107}]",3
+vf:match:1404281934,Aston Villa,West Ham,,,2.437,2.437,,[],"[{'scoreline': '1:1', 'p': 0.1296}, {'scoreline': '1:0', 'p': 0.1108}, {'scoreline': '0:1', 'p': 0.1023}]",5
+vf:match:1404281933,Chelsea,London Guns,,,3.039,3.039,,[],"[{'scoreline': '1:1', 'p': 0.1104}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",1
+vf:match:1404281932,Liverpool,Newcastle,,,2.765,2.765,,[],"[{'scoreline': '1:1', 'p': 0.1202}, {'scoreline': '1:0', 'p': 0.0905}, {'scoreline': '2:1', 'p': 0.0864}]",3
+vf:match:1404281931,Manchester Red,Crystal Palace,,,2.835,2.835,,[],"[{'scoreline': '1:1', 'p': 0.1178}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:0', 'p': 0.0866}]",2
+vf:match:1404281930,Brighton,Liverpool,,,2.628,2.628,,[],"[{'scoreline': '1:1', 'p': 0.1245}, {'scoreline': '1:0', 'p': 0.0987}, {'scoreline': '0:1', 'p': 0.0911}]",3
+vf:match:1404281929,Newcastle,Manchester Red,,,2.759,2.759,,[],"[{'scoreline': '1:1', 'p': 0.1204}, {'scoreline': '1:0', 'p': 0.0909}, {'scoreline': '2:1', 'p': 0.0863}]",5
+vf:match:1404281928,West Ham,Tottenham,,,2.727,2.727,,[],"[{'scoreline': '1:1', 'p': 0.1214}, {'scoreline': '1:0', 'p': 0.0928}, {'scoreline': '2:1', 'p': 0.0861}]",5
+vf:match:1404281927,Crystal Palace,Wolverhampton,,,2.915,2.915,,[],"[{'scoreline': '1:1', 'p': 0.115}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:0', 'p': 0.0822}]",4
+vf:match:1404281926,Manchester Blue,Chelsea,,,3.098,3.098,,[],"[{'scoreline': '1:1', 'p': 0.1081}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:2', 'p': 0.0804}]",2
+vf:match:1404281925,London Guns,Bournemouth,,,2.687,2.687,,[],"[{'scoreline': '1:1', 'p': 0.1227}, {'scoreline': '1:0', 'p': 0.0951}, {'scoreline': '0:1', 'p': 0.0878}]",2
+vf:match:1404281924,Fulham,Everton,,,1.974,1.974,,[],"[{'scoreline': '1:0', 'p': 0.1426}, {'scoreline': '0:0', 'p': 0.1389}, {'scoreline': '1:1', 'p': 0.1351}]",1
+vf:match:1404281923,Leeds,Aston Villa,,,2.04,2.04,,[],"[{'scoreline': '1:0', 'p': 0.1379}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.13}]",2
+vf:match:1404281922,Tottenham,Leeds,,,2.042,2.042,,[],"[{'scoreline': '1:0', 'p': 0.1378}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1298}]",2
+vf:match:1404281921,Wolverhampton,Newcastle,,,3.021,3.021,,[],"[{'scoreline': '1:1', 'p': 0.1111}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404281920,Everton,West Ham,,,2.331,2.331,,[],"[{'scoreline': '1:1', 'p': 0.1318}, {'scoreline': '1:0', 'p': 0.1178}, {'scoreline': '0:1', 'p': 0.1088}]",0
+vf:match:1404281919,Aston Villa,London Guns,,,2.255,2.255,,[],"[{'scoreline': '1:1', 'p': 0.1331}, {'scoreline': '1:0', 'p': 0.123}, {'scoreline': '0:1', 'p': 0.1135}]",4
+vf:match:1404281918,Bournemouth,Chelsea,,,2.558,2.558,,[],"[{'scoreline': '1:1', 'p': 0.1265}, {'scoreline': '1:0', 'p': 0.103}, {'scoreline': '0:1', 'p': 0.0951}]",3
+vf:match:1404281917,Manchester Red,Brighton,,,2.595,2.595,,[],"[{'scoreline': '1:1', 'p': 0.1255}, {'scoreline': '1:0', 'p': 0.1007}, {'scoreline': '0:1', 'p': 0.093}]",4
+vf:match:1404281916,Liverpool,Fulham,,,2.307,2.307,,[],"[{'scoreline': '1:1', 'p': 0.1323}, {'scoreline': '1:0', 'p': 0.1194}, {'scoreline': '0:1', 'p': 0.1102}]",1
+vf:match:1404281915,Crystal Palace,Manchester Blue,,,3.14,3.14,,[],"[{'scoreline': '1:1', 'p': 0.1065}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:2', 'p': 0.0803}]",0
+vf:match:1404281914,Fulham,Manchester Red,,,2.319,2.319,,[],"[{'scoreline': '1:1', 'p': 0.132}, {'scoreline': '1:0', 'p': 0.1186}, {'scoreline': '0:1', 'p': 0.1095}]",0
+vf:match:1404281913,West Ham,Liverpool,,,2.612,2.612,,[],"[{'scoreline': '1:1', 'p': 0.125}, {'scoreline': '1:0', 'p': 0.0997}, {'scoreline': '0:1', 'p': 0.092}]",3
+vf:match:1404281912,Chelsea,Aston Villa,,,2.434,2.434,,[],"[{'scoreline': '1:1', 'p': 0.1297}, {'scoreline': '1:0', 'p': 0.111}, {'scoreline': '0:1', 'p': 0.1024}]",3
+vf:match:1404281911,Leeds,Everton,,,1.642,1.642,,[],"[{'scoreline': '0:0', 'p': 0.1936}, {'scoreline': '1:0', 'p': 0.1653}, {'scoreline': '0:1', 'p': 0.1526}]",1
+vf:match:1404281910,Newcastle,Crystal Palace,,,2.498,2.498,,[],"[{'scoreline': '1:1', 'p': 0.1281}, {'scoreline': '1:0', 'p': 0.1068}, {'scoreline': '0:1', 'p': 0.0986}]",4
+vf:match:1404281909,Brighton,Wolverhampton,,,2.846,2.846,,[],"[{'scoreline': '1:1', 'p': 0.1174}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0859}]",3
+vf:match:1404281908,London Guns,Tottenham,,,2.764,2.764,,[],"[{'scoreline': '1:1', 'p': 0.1202}, {'scoreline': '1:0', 'p': 0.0906}, {'scoreline': '2:1', 'p': 0.0864}]",1
+vf:match:1404281907,Manchester Blue,Bournemouth,,,2.947,2.947,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404281906,Everton,London Guns,,,2.366,2.366,,[],"[{'scoreline': '1:1', 'p': 0.1311}, {'scoreline': '1:0', 'p': 0.1155}, {'scoreline': '0:1', 'p': 0.1066}]",1
+vf:match:1404281905,Manchester Red,West Ham,,,2.702,2.702,,[],"[{'scoreline': '1:1', 'p': 0.1222}, {'scoreline': '1:0', 'p': 0.0942}, {'scoreline': '0:1', 'p': 0.087}]",4
+vf:match:1404281904,Aston Villa,Bournemouth,,,2.331,2.331,,[],"[{'scoreline': '1:1', 'p': 0.1318}, {'scoreline': '1:0', 'p': 0.1178}, {'scoreline': '0:1', 'p': 0.1088}]",0
+vf:match:1404281903,Liverpool,Leeds,,,2.201,2.201,,[],"[{'scoreline': '1:1', 'p': 0.1338}, {'scoreline': '1:0', 'p': 0.1267}, {'scoreline': '0:1', 'p': 0.1169}]",0
+vf:match:1404281902,Wolverhampton,Fulham,,,2.516,2.516,,[],"[{'scoreline': '1:1', 'p': 0.1276}, {'scoreline': '1:0', 'p': 0.1057}, {'scoreline': '0:1', 'p': 0.0976}]",5
+vf:match:1404281901,Newcastle,Manchester Blue,,,3.073,3.073,,[],"[{'scoreline': '1:1', 'p': 0.1091}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",5
+vf:match:1404281900,Tottenham,Chelsea,,,2.794,2.794,,[],"[{'scoreline': '1:1', 'p': 0.1192}, {'scoreline': '1:0', 'p': 0.0889}, {'scoreline': '2:1', 'p': 0.0866}]",2
+vf:match:1404281899,Crystal Palace,Brighton,,,2.779,2.779,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",1
+vf:match:1404281898,West Ham,Wolverhampton,,,3.177,3.177,,[],"[{'scoreline': '1:1', 'p': 0.1051}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:2', 'p': 0.0801}]",5
+vf:match:1404281897,Brighton,Newcastle,,,2.15,2.15,,[],"[{'scoreline': '1:1', 'p': 0.1344}, {'scoreline': '1:0', 'p': 0.1302}, {'scoreline': '0:1', 'p': 0.1202}]",2
+vf:match:1404281896,Leeds,Manchester Red,,,2.308,2.308,,[],"[{'scoreline': '1:1', 'p': 0.1322}, {'scoreline': '1:0', 'p': 0.1194}, {'scoreline': '0:1', 'p': 0.1102}]",0
+vf:match:1404281895,Fulham,Crystal Palace,,,2.106,2.106,,[],"[{'scoreline': '1:1', 'p': 0.1348}, {'scoreline': '1:0', 'p': 0.1333}, {'scoreline': '0:1', 'p': 0.123}]",4
+vf:match:1404281894,London Guns,Liverpool,,,2.988,2.988,,[],"[{'scoreline': '1:1', 'p': 0.1123}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",6
+vf:match:1404281893,Manchester Blue,Aston Villa,,,2.749,2.749,,[],"[{'scoreline': '1:1', 'p': 0.1207}, {'scoreline': '1:0', 'p': 0.0915}, {'scoreline': '2:1', 'p': 0.0863}]",2
+vf:match:1404281892,Chelsea,Everton,,,2.456,2.456,,[],"[{'scoreline': '1:1', 'p': 0.1291}, {'scoreline': '1:0', 'p': 0.1095}, {'scoreline': '0:1', 'p': 0.1011}]",1
+vf:match:1404281891,Bournemouth,Tottenham,,,2.498,2.498,,[],"[{'scoreline': '1:1', 'p': 0.1281}, {'scoreline': '1:0', 'p': 0.1068}, {'scoreline': '0:1', 'p': 0.0986}]",2
+vf:match:1404281890,Liverpool,Chelsea,,,2.742,2.742,,[],"[{'scoreline': '1:1', 'p': 0.1209}, {'scoreline': '1:0', 'p': 0.0919}, {'scoreline': '2:1', 'p': 0.0862}]",5
+vf:match:1404281889,Everton,Bournemouth,,,1.99,1.99,,[],"[{'scoreline': '1:0', 'p': 0.1415}, {'scoreline': '0:0', 'p': 0.1367}, {'scoreline': '1:1', 'p': 0.1351}]",2
+vf:match:1404281888,Brighton,Manchester Blue,,,2.922,2.922,,[],"[{'scoreline': '1:1', 'p': 0.1147}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:0', 'p': 0.0818}]",6
+vf:match:1404281887,Manchester Red,London Guns,,,2.946,2.946,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:0', 'p': 0.0805}]",0
+vf:match:1404281886,Tottenham,Aston Villa,,,2.29,2.29,,[],"[{'scoreline': '1:1', 'p': 0.1326}, {'scoreline': '1:0', 'p': 0.1206}, {'scoreline': '0:1', 'p': 0.1113}]",2
+vf:match:1404281885,Crystal Palace,West Ham,,,2.735,2.735,,[],"[{'scoreline': '1:1', 'p': 0.1212}, {'scoreline': '1:0', 'p': 0.0923}, {'scoreline': '2:1', 'p': 0.0862}]",4
+vf:match:1404281884,Newcastle,Fulham,,,2.086,2.086,,[],"[{'scoreline': '1:1', 'p': 0.1349}, {'scoreline': '1:0', 'p': 0.1347}, {'scoreline': '0:1', 'p': 0.1243}]",1
+vf:match:1404281883,Wolverhampton,Leeds,,,2.391,2.391,,[],"[{'scoreline': '1:1', 'p': 0.1306}, {'scoreline': '1:0', 'p': 0.1138}, {'scoreline': '0:1', 'p': 0.1051}]",3
+vf:match:1404281882,Leeds,Crystal Palace,,,2.106,2.106,,[],"[{'scoreline': '1:1', 'p': 0.1348}, {'scoreline': '1:0', 'p': 0.1333}, {'scoreline': '0:1', 'p': 0.123}]",7
+vf:match:1404281881,Chelsea,Manchester Red,,,2.827,2.827,,[],"[{'scoreline': '1:1', 'p': 0.1181}, {'scoreline': '1:0', 'p': 0.087}, {'scoreline': '2:1', 'p': 0.0868}]",1
+vf:match:1404281880,West Ham,Newcastle,,,2.888,2.888,,[],"[{'scoreline': '1:1', 'p': 0.1159}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0836}]",1
+vf:match:1404281879,Bournemouth,Liverpool,,,2.779,2.779,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",4
+vf:match:1404281878,Fulham,Brighton,,,2.036,2.036,,[],"[{'scoreline': '1:0', 'p': 0.1382}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1305}]",1
+vf:match:1404281877,Aston Villa,Everton,,,1.923,1.923,,[],"[{'scoreline': '0:0', 'p': 0.1462}, {'scoreline': '1:0', 'p': 0.1462}, {'scoreline': '0:1', 'p': 0.1349}]",3
+vf:match:1404281876,Manchester Blue,Tottenham,,,3.208,3.208,,[],"[{'scoreline': '1:1', 'p': 0.1039}, {'scoreline': '2:1', 'p': 0.0866}, {'scoreline': '1:2', 'p': 0.08}]",2
+vf:match:1404281875,London Guns,Wolverhampton,,,3.028,3.028,,[],"[{'scoreline': '1:1', 'p': 0.1108}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404281874,Manchester Red,Bournemouth,,,2.645,2.645,,[],"[{'scoreline': '1:1', 'p': 0.124}, {'scoreline': '1:0', 'p': 0.0977}, {'scoreline': '0:1', 'p': 0.0901}]",2
+vf:match:1404281873,Crystal Palace,London Guns,,,3.039,3.039,,[],"[{'scoreline': '1:1', 'p': 0.1104}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404281872,Brighton,West Ham,,,2.532,2.532,,[],"[{'scoreline': '1:1', 'p': 0.1272}, {'scoreline': '1:0', 'p': 0.1047}, {'scoreline': '0:1', 'p': 0.0966}]",6
+vf:match:1404281871,Everton,Tottenham,,,2.424,2.424,,[],"[{'scoreline': '1:1', 'p': 0.1299}, {'scoreline': '1:0', 'p': 0.1116}, {'scoreline': '0:1', 'p': 0.103}]",4
+vf:match:1404281870,Newcastle,Leeds,,,2.284,2.284,,[],"[{'scoreline': '1:1', 'p': 0.1327}, {'scoreline': '1:0', 'p': 0.121}, {'scoreline': '0:1', 'p': 0.1117}]",0
+vf:match:1404281869,Wolverhampton,Chelsea,,,3.117,3.117,,[],"[{'scoreline': '1:1', 'p': 0.1074}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:2', 'p': 0.0803}]",3
+vf:match:1404281868,Fulham,Manchester Blue,,,2.403,2.403,,[],"[{'scoreline': '1:1', 'p': 0.1304}, {'scoreline': '1:0', 'p': 0.113}, {'scoreline': '0:1', 'p': 0.1043}]",1
+vf:match:1404281867,Liverpool,Aston Villa,,,2.477,2.477,,[],"[{'scoreline': '1:1', 'p': 0.1286}, {'scoreline': '1:0', 'p': 0.1082}, {'scoreline': '0:1', 'p': 0.0999}]",3
+vf:match:1404281866,London Guns,Newcastle,,,2.87,2.87,,[],"[{'scoreline': '1:1', 'p': 0.1166}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0846}]",3
+vf:match:1404281865,Tottenham,Liverpool,,,2.859,2.859,,[],"[{'scoreline': '1:1', 'p': 0.117}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0852}]",1
+vf:match:1404281864,Manchester Blue,Everton,,,2.537,2.537,,[],"[{'scoreline': '1:1', 'p': 0.1271}, {'scoreline': '1:0', 'p': 0.1044}, {'scoreline': '0:1', 'p': 0.0963}]",6
+vf:match:1404281863,West Ham,Fulham,,,2.44,2.44,,[],"[{'scoreline': '1:1', 'p': 0.1295}, {'scoreline': '1:0', 'p': 0.1106}, {'scoreline': '0:1', 'p': 0.1021}]",3
+vf:match:1404281862,Aston Villa,Manchester Red,,,2.163,2.163,,[],"[{'scoreline': '1:1', 'p': 0.1343}, {'scoreline': '1:0', 'p': 0.1293}, {'scoreline': '0:1', 'p': 0.1194}]",3
+vf:match:1404281861,Chelsea,Crystal Palace,,,2.78,2.78,,[],"[{'scoreline': '1:1', 'p': 0.1197}, {'scoreline': '1:0', 'p': 0.0897}, {'scoreline': '2:1', 'p': 0.0865}]",1
+vf:match:1404281860,Bournemouth,Wolverhampton,,,3.03,3.03,,[],"[{'scoreline': '1:1', 'p': 0.1107}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404281859,Leeds,Brighton,,,1.887,1.887,,[],"[{'scoreline': '0:0', 'p': 0.1515}, {'scoreline': '1:0', 'p': 0.1487}, {'scoreline': '0:1', 'p': 0.1372}]",2
+vf:match:1404281858,Chelsea,Newcastle,,,3.154,3.154,,[],"[{'scoreline': '1:1', 'p': 0.106}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:2', 'p': 0.0802}]",3
+vf:match:1404281857,West Ham,Manchester Blue,,,3.321,3.321,,[],"[{'scoreline': '1:1', 'p': 0.0994}, {'scoreline': '2:1', 'p': 0.0858}, {'scoreline': '1:2', 'p': 0.0792}]",0
+vf:match:1404281856,Everton,Liverpool,,,2.168,2.168,,[],"[{'scoreline': '1:1', 'p': 0.1342}, {'scoreline': '1:0', 'p': 0.129}, {'scoreline': '0:1', 'p': 0.1191}]",2
+vf:match:1404281855,Aston Villa,Wolverhampton,,,2.794,2.794,,[],"[{'scoreline': '1:1', 'p': 0.1192}, {'scoreline': '1:0', 'p': 0.0889}, {'scoreline': '2:1', 'p': 0.0866}]",0
+vf:match:1404281854,Bournemouth,Crystal Palace,,,2.496,2.496,,[],"[{'scoreline': '1:1', 'p': 0.1282}, {'scoreline': '1:0', 'p': 0.107}, {'scoreline': '0:1', 'p': 0.0987}]",1
+vf:match:1404281853,London Guns,Brighton,,,2.561,2.561,,[],"[{'scoreline': '1:1', 'p': 0.1264}, {'scoreline': '1:0', 'p': 0.1028}, {'scoreline': '0:1', 'p': 0.0949}]",1
+vf:match:1404281852,Tottenham,Manchester Red,,,2.685,2.685,,[],"[{'scoreline': '1:1', 'p': 0.1228}, {'scoreline': '1:0', 'p': 0.0953}, {'scoreline': '0:1', 'p': 0.0879}]",2
+vf:match:1404281851,Leeds,Fulham,,,1.716,1.716,,[],"[{'scoreline': '0:0', 'p': 0.1798}, {'scoreline': '1:0', 'p': 0.1604}, {'scoreline': '0:1', 'p': 0.1481}]",1
+vf:match:1404281850,Crystal Palace,Aston Villa,,,2.655,2.655,,[],"[{'scoreline': '1:1', 'p': 0.1237}, {'scoreline': '1:0', 'p': 0.0971}, {'scoreline': '0:1', 'p': 0.0896}]",4
+vf:match:1404281849,Manchester Red,Everton,,,2.412,2.412,,[],"[{'scoreline': '1:1', 'p': 0.1302}, {'scoreline': '1:0', 'p': 0.1124}, {'scoreline': '0:1', 'p': 0.1038}]",2
+vf:match:1404281848,Brighton,Chelsea,,,2.796,2.796,,[],"[{'scoreline': '1:1', 'p': 0.1191}, {'scoreline': '1:0', 'p': 0.0888}, {'scoreline': '2:1', 'p': 0.0866}]",1
+vf:match:1404281847,West Ham,Leeds,,,2.26,2.26,,[],"[{'scoreline': '1:1', 'p': 0.133}, {'scoreline': '1:0', 'p': 0.1226}, {'scoreline': '0:1', 'p': 0.1132}]",5
+vf:match:1404281846,Manchester Blue,Liverpool,,,2.967,2.967,,[],"[{'scoreline': '1:1', 'p': 0.1131}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",3
+vf:match:1404281845,Wolverhampton,Tottenham,,,2.987,2.987,,[],"[{'scoreline': '1:1', 'p': 0.1123}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",1
+vf:match:1404281844,Fulham,London Guns,,,2.571,2.571,,[],"[{'scoreline': '1:1', 'p': 0.1261}, {'scoreline': '1:0', 'p': 0.1022}, {'scoreline': '0:1', 'p': 0.0944}]",1
+vf:match:1404281843,Newcastle,Bournemouth,,,2.269,2.269,,[],"[{'scoreline': '1:1', 'p': 0.1329}, {'scoreline': '1:0', 'p': 0.122}, {'scoreline': '0:1', 'p': 0.1126}]",1
+vf:match:1404281842,Tottenham,Crystal Palace,,,2.85,2.85,,[],"[{'scoreline': '1:1', 'p': 0.1173}, {'scoreline': '2:1', 'p': 0.0869}, {'scoreline': '1:0', 'p': 0.0857}]",5
+vf:match:1404281841,London Guns,West Ham,,,2.948,2.948,,[],"[{'scoreline': '1:1', 'p': 0.1138}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404281840,Bournemouth,Brighton,,,2.12,2.12,,[],"[{'scoreline': '1:1', 'p': 0.1347}, {'scoreline': '1:0', 'p': 0.1323}, {'scoreline': '0:1', 'p': 0.1221}]",0
+vf:match:1404281839,Liverpool,Manchester Red,,,2.724,2.724,,[],"[{'scoreline': '1:1', 'p': 0.1215}, {'scoreline': '1:0', 'p': 0.0929}, {'scoreline': '2:1', 'p': 0.0861}]",1
+vf:match:1404281838,Leeds,Manchester Blue,,,2.473,2.473,,[],"[{'scoreline': '1:1', 'p': 0.1287}, {'scoreline': '1:0', 'p': 0.1084}, {'scoreline': '0:1', 'p': 0.1001}]",1
+vf:match:1404281837,Aston Villa,Newcastle,,,2.405,2.405,,[],"[{'scoreline': '1:1', 'p': 0.1303}, {'scoreline': '1:0', 'p': 0.1129}, {'scoreline': '0:1', 'p': 0.1042}]",1
+vf:match:1404281836,Chelsea,Fulham,,,2.637,2.637,,[],"[{'scoreline': '1:1', 'p': 0.1242}, {'scoreline': '1:0', 'p': 0.0981}, {'scoreline': '0:1', 'p': 0.0906}]",2
+vf:match:1404281835,Everton,Wolverhampton,,,2.384,2.384,,[],"[{'scoreline': '1:1', 'p': 0.1308}, {'scoreline': '1:0', 'p': 0.1143}, {'scoreline': '0:1', 'p': 0.1055}]",4
+vf:match:1404281834,Fulham,Bournemouth,,,2.004,2.004,,[],"[{'scoreline': '1:0', 'p': 0.1405}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1348}]",2
+vf:match:1404281833,Manchester Blue,Manchester Red,,,2.676,2.676,,[],"[{'scoreline': '1:1', 'p': 0.123}, {'scoreline': '1:0', 'p': 0.0958}, {'scoreline': '0:1', 'p': 0.0884}]",3
+vf:match:1404281832,Brighton,Aston Villa,,,2.345,2.345,,[],"[{'scoreline': '1:1', 'p': 0.1316}, {'scoreline': '1:0', 'p': 0.1169}, {'scoreline': '0:1', 'p': 0.1079}]",3
+vf:match:1404281831,Crystal Palace,Everton,,,2.144,2.144,,[],"[{'scoreline': '1:1', 'p': 0.1345}, {'scoreline': '1:0', 'p': 0.1306}, {'scoreline': '0:1', 'p': 0.1206}]",2
+vf:match:1404281830,Newcastle,Tottenham,,,2.559,2.559,,[],"[{'scoreline': '1:1', 'p': 0.1265}, {'scoreline': '1:0', 'p': 0.103}, {'scoreline': '0:1', 'p': 0.095}]",3
+vf:match:1404281829,West Ham,Chelsea,,,3.047,3.047,,[],"[{'scoreline': '1:1', 'p': 0.1101}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",1
+vf:match:1404281828,Leeds,London Guns,,,2.318,2.318,,[],"[{'scoreline': '1:1', 'p': 0.1321}, {'scoreline': '1:0', 'p': 0.1187}, {'scoreline': '0:1', 'p': 0.1096}]",2
+vf:match:1404281827,Wolverhampton,Liverpool,,,2.87,2.87,,[],"[{'scoreline': '1:1', 'p': 0.1166}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:0', 'p': 0.0846}]",2
+vf:match:1404281826,Aston Villa,Fulham,,,2.279,2.279,,[],"[{'scoreline': '1:1', 'p': 0.1327}, {'scoreline': '1:0', 'p': 0.1213}, {'scoreline': '0:1', 'p': 0.112}]",6
+vf:match:1404281825,Manchester Red,Wolverhampton,,,3.061,3.061,,[],"[{'scoreline': '1:1', 'p': 0.1095}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",2
+vf:match:1404281824,Chelsea,Leeds,,,2.411,2.411,,[],"[{'scoreline': '1:1', 'p': 0.1302}, {'scoreline': '1:0', 'p': 0.1125}, {'scoreline': '0:1', 'p': 0.1038}]",4
+vf:match:1404281823,Bournemouth,West Ham,,,2.603,2.603,,[],"[{'scoreline': '1:1', 'p': 0.1252}, {'scoreline': '1:0', 'p': 0.1002}, {'scoreline': '0:1', 'p': 0.0925}]",3
+vf:match:1404281822,London Guns,Manchester Blue,,,3.288,3.288,,[],"[{'scoreline': '1:1', 'p': 0.1007}, {'scoreline': '2:1', 'p': 0.0861}, {'scoreline': '1:2', 'p': 0.0795}]",3
+vf:match:1404281821,Liverpool,Crystal Palace,,,2.831,2.831,,[],"[{'scoreline': '1:1', 'p': 0.1179}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:0', 'p': 0.0868}]",1
+vf:match:1404281820,Tottenham,Brighton,,,2.43,2.43,,[],"[{'scoreline': '1:1', 'p': 0.1298}, {'scoreline': '1:0', 'p': 0.1112}, {'scoreline': '0:1', 'p': 0.1027}]",3
+vf:match:1404281819,Everton,Newcastle,,,2.013,2.013,,[],"[{'scoreline': '1:0', 'p': 0.1398}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1336}]",2
+vf:match:1404281818,Brighton,Everton,,,2.064,2.064,,[],"[{'scoreline': '1:0', 'p': 0.1362}, {'scoreline': '1:1', 'p': 0.135}, {'scoreline': '0:0', 'p': 0.1269}]",1
+vf:match:1404281817,Leeds,Bournemouth,,,1.987,1.987,,[],"[{'scoreline': '1:0', 'p': 0.1417}, {'scoreline': '0:0', 'p': 0.1371}, {'scoreline': '1:1', 'p': 0.1351}]",1
+vf:match:1404281816,Manchester Blue,Wolverhampton,,,3.378,3.378,,[],"[{'scoreline': '1:1', 'p': 0.0972}, {'scoreline': '2:1', 'p': 0.0853}, {'scoreline': '1:2', 'p': 0.0788}]",4
+vf:match:1404281815,Fulham,Tottenham,,,2.359,2.359,,[],"[{'scoreline': '1:1', 'p': 0.1313}, {'scoreline': '1:0', 'p': 0.1159}, {'scoreline': '0:1', 'p': 0.107}]",3
+vf:match:1404281814,West Ham,Aston Villa,,,2.437,2.437,,[],"[{'scoreline': '1:1', 'p': 0.1296}, {'scoreline': '1:0', 'p': 0.1108}, {'scoreline': '0:1', 'p': 0.1023}]",3
+vf:match:1404281813,London Guns,Chelsea,,,3.039,3.039,,[],"[{'scoreline': '1:1', 'p': 0.1104}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",4
+vf:match:1404281812,Newcastle,Liverpool,,,2.765,2.765,,[],"[{'scoreline': '1:1', 'p': 0.1202}, {'scoreline': '1:0', 'p': 0.0905}, {'scoreline': '2:1', 'p': 0.0864}]",3
+vf:match:1404281811,Crystal Palace,Manchester Red,,,2.835,2.835,,[],"[{'scoreline': '1:1', 'p': 0.1178}, {'scoreline': '2:1', 'p': 0.0868}, {'scoreline': '1:0', 'p': 0.0866}]",2
+vf:match:1404281810,Liverpool,Brighton,,,2.628,2.628,,[],"[{'scoreline': '1:1', 'p': 0.1245}, {'scoreline': '1:0', 'p': 0.0987}, {'scoreline': '0:1', 'p': 0.0911}]",2
+vf:match:1404281809,Manchester Red,Newcastle,,,2.759,2.759,,[],"[{'scoreline': '1:1', 'p': 0.1204}, {'scoreline': '1:0', 'p': 0.0909}, {'scoreline': '2:1', 'p': 0.0863}]",4
+vf:match:1404281808,Tottenham,West Ham,,,2.727,2.727,,[],"[{'scoreline': '1:1', 'p': 0.1214}, {'scoreline': '1:0', 'p': 0.0928}, {'scoreline': '2:1', 'p': 0.0861}]",3
+vf:match:1404281807,Wolverhampton,Crystal Palace,,,2.915,2.915,,[],"[{'scoreline': '1:1', 'p': 0.115}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:0', 'p': 0.0822}]",3
+vf:match:1404281806,Chelsea,Manchester Blue,,,3.098,3.098,,[],"[{'scoreline': '1:1', 'p': 0.1081}, {'scoreline': '2:1', 'p': 0.0871}, {'scoreline': '1:2', 'p': 0.0804}]",5
+vf:match:1404281805,Bournemouth,London Guns,,,2.687,2.687,,[],"[{'scoreline': '1:1', 'p': 0.1227}, {'scoreline': '1:0', 'p': 0.0951}, {'scoreline': '0:1', 'p': 0.0878}]",5
+vf:match:1404281804,Everton,Fulham,,,1.974,1.974,,[],"[{'scoreline': '1:0', 'p': 0.1426}, {'scoreline': '0:0', 'p': 0.1389}, {'scoreline': '1:1', 'p': 0.1351}]",4
+vf:match:1404281803,Aston Villa,Leeds,,,2.04,2.04,,[],"[{'scoreline': '1:0', 'p': 0.1379}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.13}]",4
+vf:match:1404281802,Leeds,Tottenham,,,2.042,2.042,,[],"[{'scoreline': '1:0', 'p': 0.1378}, {'scoreline': '1:1', 'p': 0.1351}, {'scoreline': '0:0', 'p': 0.1298}]",3
+vf:match:1404281801,Newcastle,Wolverhampton,,,3.021,3.021,,[],"[{'scoreline': '1:1', 'p': 0.1111}, {'scoreline': '2:1', 'p': 0.0872}, {'scoreline': '1:2', 'p': 0.0805}]",1
+vf:match:1404281800,West Ham,Everton,,,2.331,2.331,,[],"[{'scoreline': '1:1', 'p': 0.1318}, {'scoreline': '1:0', 'p': 0.1178}, {'scoreline': '0:1', 'p': 0.1088}]",2
+vf:match:1404281799,London Guns,Aston Villa,,,2.255,2.255,,[],"[{'scoreline': '1:1', 'p': 0.1331}, {'scoreline': '1:0', 'p': 0.123}, {'scoreline': '0:1', 'p': 0.1135}]",3
+vf:match:1404281798,Chelsea,Bournemouth,,,2.558,2.558,,[],"[{'scoreline': '1:1', 'p': 0.1265}, {'scoreline': '1:0', 'p': 0.103}, {'scoreline': '0:1', 'p': 0.0951}]",5
+vf:match:1404281797,Brighton,Manchester Red,,,2.595,2.595,,[],"[{'scoreline': '1:1', 'p': 0.1255}, {'scoreline': '1:0', 'p': 0.1007}, {'scoreline': '0:1', 'p': 0.093}]",2
+vf:match:1404281796,Fulham,Liverpool,,,2.307,2.307,,[],"[{'scoreline': '1:1', 'p': 0.1323}, {'scoreline': '1:0', 'p': 0.1194}, {'scoreline': '0:1', 'p': 0.1102}]",5
+vf:match:1404281795,Manchester Blue,Crystal Palace,,,3.14,3.14,,[],"[{'scoreline': '1:1', 'p': 0.1065}, {'scoreline': '2:1', 'p': 0.087}, {'scoreline': '1:2', 'p': 0.0803}]",1
+vf:match:1404281794,Manchester Red,Fulham,,,2.319,2.319,,[],"[{'scoreline': '1:1', 'p': 0.132}, {'scoreline': '1:0', 'p': 0.1186}, {'scoreline': '0:1', 'p': 0.1095}]",4
+vf:match:1404281793,Liverpool,West Ham,,,2.612,2.612,,[],"[{'scoreline': '1:1', 'p': 0.125}, {'scoreline': '1:0', 'p': 0.0997}, {'scoreline': '0:1', 'p': 0.092}]",5
+vf:match:1404281792,Aston Villa,Chelsea,,,2.434,2.434,,[],"[{'scoreline': '1:1', 'p': 0.1297}, {'scoreline': '1:0', 'p': 0.111}, {'scoreline': '0:1', 'p': 0.1024}]",3
+vf:match:1404281791,Everton,Leeds,,,1.642,1.642,,[],"[{'scoreline': '0:0', 'p': 0.1936}, {'scoreline': '1:0', 'p': 0.1653}, {'scoreline': '0:1', 'p': 0.1526}]",0

@@ -108,6 +108,46 @@ def get_betting_matchdays():
             if m: mds.append(int(m.group(1)))
         return mds
 
+def ensure_standard_betslip_mode(page):
+    """Single bets use Standard mode; All multiples leaves the slip empty for singles."""
+    try:
+        standard = page.locator('.m-mode-option').filter(has_text='Standard mode').first
+        if standard.count() > 0 and 'active' not in (standard.get_attribute('class') or ''):
+            standard.click()
+            time.sleep(0.8)
+            log.info("Switched betslip to Standard mode.")
+    except Exception as e:
+        log.warning(f"Could not switch betslip mode: {e}")
+
+def betslip_has_selection(page):
+    empty = page.locator('text="There is no selection in your betslip"')
+    if empty.count() > 0 and empty.first.is_visible():
+        return False
+    return page.locator('.virtual-betslip .bet-slip-list, .virtual-betslip .m-bet-slip-item, .virtual-main-betslip2 .bet-item').count() > 0
+
+def find_confirm_button(page, timeout_ms=8000):
+    """Wait for MSport confirm/tax dialogs and return a clickable confirm button."""
+    selectors = [
+        '.ui-dialog--wrap button.btn--cancel',
+        '.ui-dialog--footer button.btn--cancel',
+        'button.btn--cancel:has-text("Confirm Bet")',
+        'button:has-text("Confirm Bet")',
+        'button:has-text("Confirm")',
+    ]
+    deadline = time.time() + (timeout_ms / 1000)
+    while time.time() < deadline:
+        for selector in selectors:
+            try:
+                btn = page.locator(selector).first
+                if btn.count() > 0 and btn.is_visible():
+                    text = btn.inner_text(timeout=500).strip()
+                    if 'confirm' in text.lower():
+                        return btn
+            except Exception:
+                pass
+        time.sleep(0.4)
+    return None
+
 def select_matchday_tab(page, target_md):
     log.info(f"Selecting Match Day {target_md}...")
     tabs = page.locator('.match-day-bar').all()
@@ -153,6 +193,7 @@ def place_parlay(legs, stake, target_md=None):
             page.goto("https://www.msport.com/ng/web/virtual")
             time.sleep(5)
         login_if_needed(page)
+        ensure_standard_betslip_mode(page)
         log.info(f"Placing {len(legs)}-leg parlay (stake: ₦{stake}) on MD{target_md}")
         
         # Read initial balance
@@ -170,7 +211,10 @@ def place_parlay(legs, stake, target_md=None):
             '.virtual-push-dialog [class*="close"]',
             '.ui-dialog-btn-close',
             '.ui-dialog--wrap button:has-text("OK")',
-            'button:has-text("OK")'
+            'button:has-text("OK")',
+            '.popup-giveaway-close',
+            'button.popup-giveaway-close',
+            '.new-version-popup button.btn--ok'
         ]:
             try:
                 els = page.locator(selector).all()
@@ -263,8 +307,16 @@ def place_parlay(legs, stake, target_md=None):
                             elif market == "2": idx = 2
                             if idx >= 0 and len(outcomes) > idx:
                                 log.info(f"Clicking outcome {idx} for {home} vs {away}")
-                                outcomes[idx].click()
-                                time.sleep(1)
+                                target_el = outcomes[idx].locator('.odds, span').first
+                                if target_el.count() == 0:
+                                    target_el = outcomes[idx]
+                                target_el.scroll_into_view_if_needed()
+                                time.sleep(0.5)
+                                try:
+                                    target_el.click(timeout=3000)
+                                except Exception:
+                                    target_el.click(force=True)
+                                time.sleep(1.5)
                             else:
                                 log.error(f"Could not find outcome {idx} for {home} vs {away}. Found {len(outcomes)} outcomes.")
                             break
@@ -279,16 +331,37 @@ def place_parlay(legs, stake, target_md=None):
                 
                 market_col = 0 if is_over else 1
                 events = page.locator('.virtual-event').all()
+                found_match = False
                 for ev in events:
-                    teams = ev.locator('.m-teams')
+                    teams = ev.locator('.m-teams, .teams')
                     if teams.count() > 0 and home.lower() in teams.inner_text().lower() and away.lower() in teams.inner_text().lower():
-                        second_market = ev.locator('.second-market')
+                        second_market = ev.locator('.second-market, .m-market:nth-child(2)')
                         if second_market.count() > 0:
-                            outcomes = second_market.locator('a.virtual-outcome').all()
+                            outcomes = second_market.locator('a.virtual-outcome, a.m-outcome').all()
                             if len(outcomes) > market_col:
-                                outcomes[market_col].click()
-                                time.sleep(1)
+                                log.info(f"Clicking Over/Under outcome {market_col} for {home} vs {away}")
+                                target_el = outcomes[market_col].locator('.odds, span').first
+                                if target_el.count() == 0:
+                                    target_el = outcomes[market_col]
+                                    
+                                target_el.scroll_into_view_if_needed()
+                                time.sleep(0.5)
+                                # Try clicking via JS to bypass overlays
+                                try:
+                                    target_el.evaluate("el => el.click()")
+                                except Exception as e:
+                                    log.warning(f"JS click failed, falling back: {e}")
+                                    target_el.click(force=True)
+                                time.sleep(1.5)
+                                found_match = True
+                            else:
+                                log.error(f"Found second market but only {len(outcomes)} outcomes.")
+                        else:
+                            log.error(f"Could not find second-market block for {home} vs {away}")
                         break
+                        
+                if not found_match:
+                    log.error(f"Could not find match event or click Over/Under for {home} vs {away}")
 
         # Open floating betslip if present (mobile/responsive mode)
         try:
@@ -300,15 +373,12 @@ def place_parlay(legs, stake, target_md=None):
             pass
 
         # Enter stake
-        is_multi = len(legs) > 1
+        # Force standard/single mode per user request
+        is_multi = False
         tabs = page.locator('.m-mode-option, .m-bet-slip-tabs .tab, .bet-slip-tabs .tab, [class*="bet-slip-tabs"] [class*="tab"]').all()
         for t in tabs:
             txt = t.inner_text().lower()
-            if is_multi and ("multiple" in txt or "multiples" in txt):
-                t.click()
-                time.sleep(1)
-                break
-            elif not is_multi and ("single" in txt or "standard" in txt):
+            if "single" in txt or "standard" in txt:
                 t.click()
                 time.sleep(1)
                 break
@@ -362,7 +432,7 @@ def place_parlay(legs, stake, target_md=None):
         # Fallback 2: Default standard input locator
         if not stake_input:
             log.info("Using fallback standard stake inputs selector...")
-            stake_inputs = page.locator('aside .v-input--inner, aside .v-input input, .m-virtual-multiple-stake-input input, aside .m-virtual-mutiple-edit .bet-input input, aside input, .bet-slip input, input[placeholder*="Stake"], input[placeholder*="stake"], input[type="tel"]').all()
+            stake_inputs = page.locator('.virtual-main-betslip2 input, .m-bet-slip input, .bet-slip-list input, .bet-input input, input[placeholder*="Stake"], input[placeholder*="stake"], input[placeholder*="min."]').all()
             if stake_inputs:
                 stake_input = stake_inputs[-1]
                 log.info("Selected last input element from general list")
@@ -391,15 +461,24 @@ def place_parlay(legs, stake, target_md=None):
                 pass
             return {"success": False, "error": "Stake input not found"}
 
+        if not betslip_has_selection(page):
+            log.warning("Betslip selection check returned false, but proceeding anyway just in case...")
+
         time.sleep(1)
-        place_btn = page.locator('text="Place Bet", text="Place bet", button.place-btn, button:has-text("Place Bet")').first
+        place_btn = page.locator('button.m-place-btn:not([disabled]), button.place-btn:not([disabled])').first
+        if place_btn.count() == 0:
+            place_btn = page.locator('button.m-place-btn, button.place-btn, button:has-text("Place Bet"), .m-place-btn').first
         placed = False
         error_msg = "Unknown placement failure"
-        
+
         if place_btn.count() > 0:
+            try:
+                place_btn.wait_for(state="visible", timeout=5000)
+            except Exception:
+                pass
             place_btn.click(force=True)
             time.sleep(2)
-            
+
             # Check if success modal appeared immediately (no confirmation dialog needed)
             success_modal = page.locator('text="Bet Successful!"').first
             if success_modal.count() > 0 and success_modal.is_visible():
@@ -410,41 +489,26 @@ def place_parlay(legs, stake, target_md=None):
                     ok_btn.click(force=True)
                     time.sleep(1)
             else:
-                confirm_btn = None
-                for selector in [
-                    'button:has-text("Confirm Bet")',
-                    'button:has-text("Confirm")',
-                    'text="Confirm Bet"',
-                    'text="Confirm"'
-                ]:
-                    try:
-                        btn = page.locator(selector).first
-                        if btn.count() > 0 and btn.is_visible():
-                            confirm_btn = btn
-                            break
-                    except Exception:
-                        pass
-                
+                confirm_btn = find_confirm_button(page)
                 if confirm_btn:
                     confirm_btn.click(force=True)
                     time.sleep(3)
-                    
+
                     # Check for "Balance insufficient"
                     try:
                         insufficient_modal = page.locator('text="Balance insufficient"').first
                         if insufficient_modal.count() > 0 and insufficient_modal.is_visible(timeout=2000):
                             log.error("Insufficient balance popup detected!")
                             return {"success": False, "error": "Balance insufficient"}
-                    except:
+                    except Exception:
                         pass
-                    
+
                     # Check for "Bet Successful!"
                     try:
                         success_modal = page.locator('text="Bet Successful!"').first
                         if success_modal.count() > 0 and success_modal.is_visible(timeout=5000):
                             placed = True
                             log.info("Bet Successful popup detected!")
-                            # Click the OK button to close the popup
                             ok_btn = page.locator('button:has-text("OK"), .ui-dialog-btn-ok, .m-btn:has-text("OK")').first
                             if ok_btn.count() > 0:
                                 ok_btn.click(force=True)

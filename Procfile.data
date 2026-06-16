@@ -1,0 +1,34 @@
+# VFL Data Pipeline - Separate Honcho instance for continuous data collection
+# This is INDEPENDENT from the Hermes AI gateway (don't mix them).
+# Purpose: Timely, lapse-free updates to central Postgres (vfl_empire).
+# High-frequency live data (odds, live scores, settlement) runs tight loops ~every 30-60s.
+# Results comber runs frequently with small steps to keep history complete without overload.
+# Deduplication via DB unique constraints (event_id + matchday).
+#
+# Start with: honcho -f Procfile.data start
+# Or in background: nohup honcho -f Procfile.data start > /dev/null 2>&1 &
+#
+# Tune intervals via environment or edit the scripts.
+# Run this in its own terminal/session - completely separate honcho process from Hermes.
+
+# High-frequency live data (poll current MD, odds, live scores, quick settlement checks)
+# Runs internally every ~30-60s for fast-moving 4-min MDs.
+live-data: ./venv_betting/bin/python scripts/data_pipeline_daemon.py --interval 30 --live-only
+
+# Results page comber - frequent small combs (8-10 MDs back) to prevent any historical lapses.
+# Runs every ~2-3 minutes. Gets "a lot of results at once" via UI walk.
+# Uses resume + dedup.
+results-comber: ./venv_betting/bin/python scripts/results_page_comber.py --steps 10 --loop --interval 150 --resume
+
+# Full odds + details collector (current fixtures, all markets, rich panel if enabled).
+# Runs every ~60s for fresh per-fixture data.
+odds-details: ./venv_betting/bin/python scripts/full_odds_and_details_collector.py --loop --interval 60
+
+# Settlement mirror (if not already running elsewhere) - critical for no lapses in bet resolution.
+# settlement-mirror: python3 scripts/msport_settlement_mirror.py --interval 60
+
+# Optional: rapid live betting daemon (if you want it in this data group; it already polls fast).
+# rapid: python3 scripts/vfl_rapid_daemon.py
+
+# Optional deep historical (less frequent, for big backfills).
+# historical: python3 scripts/industrial_data_collector.py --loop --interval 14400

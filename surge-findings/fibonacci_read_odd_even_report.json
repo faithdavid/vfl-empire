@@ -1,0 +1,110 @@
+{
+  "phi": 1.618034,
+  "fib_positions_1based": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    13,
+    21,
+    34,
+    55,
+    89,
+    144,
+    233
+  ],
+  "alpha_order": {
+    "label": "alpha_home_sort",
+    "fib_indices_1based": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      13,
+      21,
+      34,
+      55,
+      89,
+      144,
+      233
+    ],
+    "n_fib_positions": 12,
+    "p_odd_at_fib_positions": 0.48244,
+    "p_odd_at_non_fib": 0.49123,
+    "delta_fib_minus_non_pp": -0.879,
+    "golden_split_index": 148,
+    "p_odd_first_phi_segment": 0.49085,
+    "p_odd_rest_segment": 0.49071,
+    "delta_golden_pp": 0.014,
+    "global_p_odd": 0.49079
+  },
+  "wc_order": {
+    "label": "wc_top8_clash",
+    "fib_indices_1based": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      13,
+      21,
+      34,
+      55,
+      89,
+      144,
+      233
+    ],
+    "n_fib_positions": 12,
+    "p_odd_at_fib_positions": 0.49613,
+    "p_odd_at_non_fib": 0.49051,
+    "delta_fib_minus_non_pp": 0.562,
+    "golden_split_index": 148,
+    "p_odd_first_phi_segment": 0.49096,
+    "p_odd_rest_segment": 0.49053,
+    "delta_golden_pp": 0.043,
+    "global_p_odd": 0.49079
+  },
+  "md_odd_count_fib_recurrence": {
+    "residual_counts": {
+      "-13": 2,
+      "-12": 7,
+      "-11": 70,
+      "-10": 158,
+      "-9": 497,
+      "-8": 921,
+      "-7": 1740,
+      "-6": 2965,
+      "-5": 3346,
+      "-4": 3486,
+      "-3": 3580,
+      "-2": 2805,
+      "-1": 2042,
+      "0": 1117,
+      "1": 534,
+      "2": 205,
+      "3": 26,
+      "4": 18,
+      "5": 1
+    },
+    "mean_abs_residual": 4.0151,
+    "pct_residual_zero": 4.75
+  },
+  "zeckendorf_digit_usage_on_counts_0_8": {
+    "3": 12509,
+    "1": 10261,
+    "5": 8656,
+    "2": 3666,
+    "0": 91,
+    "8": 68
+  },
+  "fib_walk_last_season": {
+    "season": "VFLM 5404",
+    "length": 72,
+    "p_odd": 0.625,
+    "bitstring_prefix": "010101011000111111101111110101011100101011001111011111011001100010100111"
+  },
+  "academy_note": "Fibonacci is a fixed index set (low Kolmogorov complexity); test is whether P(odd) at those indices differs from marginal. MD-count recurrence tests if slate parity follows additive memory \u2014 expect ~high residual variance if iid.",
+  "plot": "/home/ubuntu/faith-workspace/vfl-empire/models/odd_even/plots/fibonacci_read_odd_even.png"
+}

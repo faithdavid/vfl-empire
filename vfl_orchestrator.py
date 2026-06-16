@@ -84,6 +84,27 @@ def run_prediction_and_bet_cycle(md_num):
             logger.info("Discord C-States Forecast sent successfully.")
         except Exception as e:
             logger.error(f"Discord C-States Forecast failed: {e}")
+            
+        # 5. Notify Tier-Routing Locks instantly
+        try:
+            subprocess.run(["python3", "/home/ubuntu/faith-workspace/vfl-empire/scripts/vfl_tier_routing_daemon.py"], check=True)
+            logger.info("Discord Tier-Routing Locks sent successfully.")
+        except Exception as e:
+            logger.error(f"Discord Tier-Routing Locks failed: {e}")
+            
+        # 6. Notify Over-Quota Sabotage Traps instantly
+        try:
+            subprocess.run(["python3", "/home/ubuntu/faith-workspace/vfl-empire/scripts/vfl_overquota_daemon.py"], check=True)
+            logger.info("Discord Over-Quota Locks sent successfully.")
+        except Exception as e:
+            logger.error(f"Discord Over-Quota Locks failed: {e}")
+            
+        # 7. Notify 100% Deterministic Locks instantly
+        try:
+            subprocess.run(["python3", "/home/ubuntu/faith-workspace/vfl-empire/scripts/vfl_100pct_daemon.py"], check=True)
+            logger.info("Discord 100% Deterministic Locks sent successfully.")
+        except Exception as e:
+            logger.error(f"Discord 100% Deterministic Locks failed: {e}")
         
         last_processed_md = md_num
     except Exception as e:

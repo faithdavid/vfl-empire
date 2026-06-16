@@ -1,0 +1,66 @@
+{
+  "n_fixtures_with_ou": 22231,
+  "n_matchdays_8_fixtures": 2776,
+  "fixture_accuracy_poisson_from_o25": 0.5061,
+  "fixture_baseline_always_even": 0.5111,
+  "fixture_odd_even_odds_accuracy": 0.5135,
+  "matchday_slate_odd_accuracy": 0.4928,
+  "matchday_avg_abs_error_n_odd": 1.1034,
+  "calibration_bins": [
+    {
+      "bin": "0.45-0.50",
+      "n": 13689,
+      "pred_p_odd": 0.49629081591828766,
+      "actual_p_odd": 0.4860837168529476
+    },
+    {
+      "bin": "0.50-0.55",
+      "n": 8542,
+      "pred_p_odd": 0.5018895389308774,
+      "actual_p_odd": 0.4934441582767502
+    }
+  ],
+  "matchday_quintiles_by_mean_o25": [
+    {
+      "quintile": 1,
+      "mean_p_over25": 0.469,
+      "pct_slate_odd": 48.47,
+      "avg_n_odd_fixtures": 3.84,
+      "n_md": 555
+    },
+    {
+      "quintile": 2,
+      "mean_p_over25": 0.4779,
+      "pct_slate_odd": 49.19,
+      "avg_n_odd_fixtures": 3.92,
+      "n_md": 555
+    },
+    {
+      "quintile": 3,
+      "mean_p_over25": 0.4839,
+      "pct_slate_odd": 53.15,
+      "avg_n_odd_fixtures": 3.94,
+      "n_md": 555
+    },
+    {
+      "quintile": 4,
+      "mean_p_over25": 0.4897,
+      "pct_slate_odd": 52.43,
+      "avg_n_odd_fixtures": 3.96,
+      "n_md": 555
+    },
+    {
+      "quintile": 5,
+      "mean_p_over25": 0.5001,
+      "pct_slate_odd": 50.18,
+      "avg_n_odd_fixtures": 3.9,
+      "n_md": 556
+    }
+  ],
+  "verdict": [
+    "O/U\u2192Poisson\u2192P(odd) does NOT beat coin at fixture level (~50%).",
+    "Summing P(odd) across MD does NOT reliably predict slate odd/even sum.",
+    "Proper use: O/U sets \u03bb and total-goal cage; combine with WC clash for P(T) then odd partition \u2014 not O/U alone."
+  ],
+  "plot": "/home/ubuntu/faith-workspace/vfl-empire/models/odd_even/plots/ou_prematch_vs_odd_even.png"
+}
